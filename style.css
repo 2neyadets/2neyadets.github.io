@@ -1,0 +1,44 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.head-image {
+	padding: 0px 0px;
+}
+
+.navbar {
+	padding: 0px 100px;
+	transition: all 5s;
+}
+
+.navbar-brand {
+	margin: 0px 0px;
+}
+
+.logo {
+	transition: all 5s;
+	transform: rotate(1800deg);
+}
+
+main.startup {
+  background-position: center;
+  background-image: url("main.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1.3em;
+}
