@@ -1,44 +1,549 @@
-body,
-html {
-  width: 100%;
-  height: 100%;
-}
-
 body {
-  font-family: 'Montserrat', sans-serif;
+    margin: 1rem auto;
+    font-family: 'Neucha', cursive;
+/*    font-size: 16px;*/
+    background-color: rgba(224,224,224,0.5);
 }
 
-.head-image {
-	padding: 0px 0px;
+
+::-moz-selection { 
+	background: rgba(224,224,224,0.5); text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
+}
+::selection { 
+	background: rgba(224,224,224,0.5); text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
 }
 
-.navbar {
-	padding: 0px 100px;
-	transition: all 5s;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.navbar-brand {
-	margin: 0px 0px;
+.flex-center {
+ 	display: flex;    
+    align-items: center;
+    justify-content: center;
+
 }
 
-.logo {
-	transition: all 5s;
-	transform: rotate(1800deg);
+.flex-left {
+ 	display: flex;    
+    align-items: center;
+    justify-content: left;
+
 }
 
-main.startup {
-  background-position: center;
-  background-image: url("main.jpg");
-  background-size: cover;
-  height: 100%;
+.text-center {
+    text-align: center;
+    vertical-align: middle;	
 }
 
+.text-left {
+    text-align: left;
+    vertical-align: middle;	
+}
 
 h1 {
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 2.5rem;
+	margin: 1.3rem 0rem 0.2rem 0rem;
+}
+
+h4 {
+    margin: 0px;
+	font-size: 1.5rem;	    
 }
 
 p {
-	font-size: 1.3em;
+	margin: 0rem 0rem 0rem 0rem;
+
+}
+}
+
+
+
+.zone {
+    cursor: auto;
+    font-size:1rem;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+
+.zone-nav {
+    cursor:auto;
+    color:#FFF;
+    font-size:2rem;
+    border-radius:1px;
+    transition: all 0.3s linear;
+}
+
+.zone-nav:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0.3rem 0.3rem;
+    font-size: 0.7rem;
+    justify-content: flex-end;
+}
+
+
+.logo {
+    padding: 0.1rem 0.1rem;
+    margin: 0.1rem 0.1rem;
+}
+
+.logo:hover {
+  animation-duration: 1s;
+/*  animation-delay: 1s;*/
+  animation-iteration-count: infinite;
+  border-radius: 64px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+
+/***********************************************************************
+ *  Header
+ **********************************************************************/
+
+.main-header {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.zone-header {
+    background-image: url(./img/head-image.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+
+.grid-wrapper {
+    margin: 0px 5px;
+    display: grid;
+    grid-template-columns: repeat(1fr, minmax(350px, 1fr));
+
+}
+
+.box {
+    background-color: #fafafa;
+    padding: 1rem 1rem;
+/*    padding: 0.1rem 0.1rem;*/
+    margin: 5px 5px;
+}
+
+.box > img {
+    width: 100%;
+    height: auto;
+}
+
+/*******************
+ *  About me
+ *******************/
+
+.grid-about-me-section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;  
+    margin: 0rem 0rem 1rem 0rem;  
+}
+
+.grid-about-me-section2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /*не меняй 260!!!*/
+}
+
+.photo-about-me-section2 {
+
+}
+
+.text-about-me-section2 {
+ 	padding: 0rem 1rem;
+}
+
+.photo {
+    max-width: 250px;
+    border-radius:4px;
+    border:1px solid #bbb;
+}
+
+/*******************
+ *  About this website
+ *******************/
+
+.zone-about-site {
+	border-radius: 1rem;
+/*    border:1px solid #bbb;*/
+    transition: all 0.3s linear;
+}
+
+.zone-about-site:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box-about-site {
+    background-color: #fafafa;
+    padding: 1rem 1rem;
+    margin: 0rem 0rem;
+}
+
+
+.box-about-site > img {
+    width: 100%;
+    height: auto;
+}
+
+
+.grid-about-site-section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;  
+    margin: 0rem 0rem 1rem 0rem; 
+}
+
+.grid-about-site-section2 {
+    display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.small-image {
+	background-color: rgba(0,0,0,0.1);
+    max-width: 128px;
+
+	padding: 0rem, 0rem;
+	margin: 0rem, 0rem;
+    border-radius: 1.5rem;
+	border: 0px;
+}
+
+.rotateable-left:hover {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.rotateable-right:hover {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.text-about-site-section2 {
+ 	padding: 0rem 0.3rem;	
+ 	grid-column: span 2;
+}
+
+.bootstrap-logo:hover {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+/*******************
+ *  Work
+ *******************/
+
+.grid-work-section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;  
+    margin: 0rem 0rem 1rem 0rem; 
+}
+
+.grid-work-section2 {
+    display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 2fr;
+}
+
+/*******************
+ *  Skills
+ *******************/
+
+.zone-skills {
+	border-radius: 1rem;
+/*    border:1px solid #bbb;*/
+    transition: all 0.3s linear;
+}
+
+.zone-skills:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box-skills {
+    background-color: #fafafa;
+    padding: 0.5rem 0.5rem;
+    margin: 0rem 0rem;
+}
+
+
+.box-skills > img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-skills-section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;  
+    margin: 0rem 0rem 1rem 0rem; 
+}
+
+.grid-skills-section2 {
+    display: grid;
+	grid-gap: 0.3rem;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+/*	grid-area: 2 / 2 / 6 / 6;*/
+}
+
+.green-sector {
+	grid-area: 1 / 2 / 2 / 3;	
+}
+
+.yellow-sector {
+	grid-area: 2 / 2 / 3 / 3;	
+}
+
+
+.text-for-green-sector {
+	grid-area: 1 / 3 / 2 / 6;
+}
+
+.text-for-yellow-sector {
+	grid-area: 2 / 3 / 3 / 6;
+}
+
+
+.img1 {
+	grid-area: 3 / 2 / 4 / 3;
+}
+
+.img2 {
+	grid-area: 3 / 3 / 4 / 4;
+}
+
+.img3 {
+	grid-area: 3 / 4 / 4 / 5;
+}
+
+.img4 {
+	grid-area: 3 / 5 / 4 / 6;
+}
+
+.img5 {
+	grid-area: 4 / 2 / 5 / 3;
+}
+
+.img6 {
+	grid-area: 4 / 3 / 5 / 4;
+}
+
+.img7 {
+	grid-area: 4 / 4 / 5 / 5;
+}
+
+.img8 {
+	grid-area: 4 / 5 / 5 / 6;
+}
+
+.img9 {
+	grid-area: 5 / 2 / 6 / 3;
+}
+
+.img10 {
+	grid-area: 5 / 3 / 6 / 4;
+}
+
+.img11 {
+	grid-area: 5 / 4 / 6 / 5;
+}
+
+.img12 {
+	grid-area: 5 / 5 / 6 / 6;
+}
+
+.img13 {
+	grid-area: 6 / 2 / 7 / 3;
+}
+
+.img14 {
+	grid-area: 6 / 3 / 7 / 4;
+}
+
+.img15 {
+	grid-area: 6 / 4 / 7 / 5;
+}
+
+.img16 {
+	grid-area: 6 / 5 / 7 / 6;
+}
+
+
+.very-small-image {
+	background-color: rgba(0,0,0,0);
+    max-width: 56px;
+
+	padding: 0rem, 0rem;
+	margin: 0rem, 0rem;
+    border-radius: 0.3rem;
+	border: 0px;
+}
+}
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    background-color: #444;
+}
+
+ /*******************
+ *  @media
+ *******************/
+
+@media only screen and (max-width: 319px) {
+
+  .font-size-depends-on-screen-width {
+ 	font-size: 0.7rem;
+}
+}
+
+@media only screen and (min-width: 320px) {
+  .font-size-depends-on-screen-width {
+ 	font-size: 0.8rem;
+}
+}
+
+@media only screen and (min-width: 480px) {
+  .font-size-depends-on-screen-width {
+ 	font-size: 0.9rem;
+}
+}
+
+@media only screen and (min-width: 780px) {
+  .font-size-depends-on-screen-width {
+ 	font-size: 1.25rem;
+}
+
+ .bootstrap-logo {
+	width: 2rem; 
+	height: 2rem;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+  .font-size-depends-on-screen-width {
+ 	font-size: 1.5rem;
+}
+}
+
+@media only screen and (min-width: 588px) { 
+.grid-about-me-section2 { 
+display: grid; 
+grid-template-columns: 1fr 2fr; 
+} 
+
+.grid-about-site-section2 {
+    display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.html-logo {
+ 	grid-column: 1/2;
+ 	grid-row: 1/2;
+}
+
+.text-about-site-section2 {
+ 	grid-column: 2/3;
+ 	grid-row: 1/2;
+}
+
+.css-logo {
+ 	grid-column: 3/4;
+ 	grid-row: 1/2;
+}
+
+.bootstrap-logo {
+ 	grid-column: span 3;
+/* 	grid-row: ;*/
+ }
+
+.box-about-site > img {
+    width: 60%;
+}
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green {
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow {
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Gray Background
+ **********************************************************************/
+.gray {
+    background: #BCBCBC; /* Old browsers */
+    background: -moz-linear-gradient(top, #BCBCBC 0%, #D9D9D9 44%, #E0E0E0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#BCBCBC), color-stop(44%,#D9D9D9), color-stop(100%,#E0E0E0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #BCBCBC 0%,#D9D9D9 44%,#E0E0E0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #BCBCBC 0%,#D9D9D9 44%,#E0E0E0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #BCBCBC 0%,#D9D9D9 44%,#E0E0E0 100%); /* IE10+ */
+    background: linear-gradient(top, #BCBCBC 0%,#D9D9D9 44%,#E0E0E0 100%); /* W3C */
 }
