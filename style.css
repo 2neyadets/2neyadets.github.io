@@ -1,5 +1,5 @@
 body {
-    margin: 1rem auto;
+    margin: auto auto;
     font-family: 'Neucha', cursive;
 /*    font-size: 16px;*/
     background-color: rgba(224,224,224,0.5);
@@ -428,7 +428,7 @@ p {
  **********************************************************************/
 footer {
     text-align: center;
-    background-color: #444;
+    background-color: rgba(224,224,224,0.5);
 }
 
  /*******************
