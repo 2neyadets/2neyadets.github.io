@@ -1,15 +1,20 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: auto auto;
     font-family: 'Neucha', cursive;
 /*    font-size: 16px;*/
     background-color: rgba(224,224,224,0.5);
+    height: 100%;
 }
 
 
-::-moz-selection { 
+::-moz-selection {
 	background: rgba(224,224,224,0.5); text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
 }
-::selection { 
+::selection {
 	background: rgba(224,224,224,0.5); text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
 }
 
@@ -20,14 +25,14 @@ body {
 }
 
 .flex-center {
- 	display: flex;    
+ 	display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
 .flex-left {
- 	display: flex;    
+ 	display: flex;
     align-items: center;
     justify-content: left;
 
@@ -35,12 +40,12 @@ body {
 
 .text-center {
     text-align: center;
-    vertical-align: middle;	
+    vertical-align: middle;
 }
 
 .text-left {
     text-align: left;
-    vertical-align: middle;	
+    vertical-align: middle;
 }
 
 h1 {
@@ -50,21 +55,26 @@ h1 {
 
 h4 {
     margin: 0px;
-	font-size: 1.5rem;	    
+	font-size: 1.5rem;
 }
 
 p {
 	margin: 0rem 0rem 0rem 0rem;
 
 }
+
+.title {
+    font-size: 3rem;
 }
 
-
+.subtitle {
+    font-size: 1.5rem;
+}
 
 .zone {
     cursor: auto;
     font-size:1rem;
-    border-radius:4px;
+    border-radius: .2rem;
     border:1px solid #bbb;
     transition: all .3s ease-in-out;
 }
@@ -73,7 +83,7 @@ p {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.2) 0px 5px 15px;
 }
 
 /***********************************************************************
@@ -123,17 +133,18 @@ p {
  **********************************************************************/
 
 .main-header {
-    height: 50vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 .zone-header {
     background-image: url(./img/head-image.jpg);
     background-size: cover;
 	background-position: center;
+    height: 100%;
 }
 
 /***********************************************************************
@@ -149,10 +160,11 @@ p {
 
 .box {
     background-color: #fafafa;
-    padding: 1rem 1rem;
-/*    padding: 0.1rem 0.1rem;*/
+    padding: 2rem 4rem;
     margin: 1rem 1.5rem;
     border-radius:4px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 
 .box > img {
@@ -167,8 +179,8 @@ p {
 .grid-about-me-section1 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;  
-    margin: 0rem 0rem 1rem 0rem;  
+    grid-template-rows: 1fr;
+    margin: 0rem 0rem 1rem 0rem;
 }
 
 .grid-about-me-section2 {
@@ -186,7 +198,7 @@ p {
 
 .photo {
     max-width: 250px;
-    border-radius:4px;
+    border-radius: 50%;
     border:1px solid #bbb;
 }
 
@@ -223,8 +235,8 @@ p {
 .grid-about-site-section1 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;  
-    margin: 0rem 0rem 1rem 0rem; 
+    grid-template-rows: 1fr;
+    margin: 0rem 0rem 1rem 0rem;
 }
 
 .grid-about-site-section2 {
@@ -245,21 +257,21 @@ p {
 }
 
 .rotateable-left:hover {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    transform: rotate(-8deg);
 }
 
 .rotateable-right:hover {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    transform: rotate(8deg);
 }
 
 .text-about-site-section2 {
- 	padding: 0rem 0.3rem;	
+ 	padding: 0rem 0.3rem;
  	grid-column: span 2;
 }
 
@@ -275,8 +287,8 @@ p {
 .grid-work-section1 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;  
-    margin: 0rem 0rem 1rem 0rem; 
+    grid-template-rows: 1fr;
+    margin: 0rem 0rem 1rem 0rem;
 }
 
 .grid-work-section2 {
@@ -318,8 +330,8 @@ p {
 .grid-skills-section1 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;  
-    margin: 0rem 0rem 1rem 0rem; 
+    grid-template-rows: 1fr;
+    margin: 0rem 0rem 1rem 0rem;
 }
 
 .grid-skills-section2 {
@@ -331,11 +343,11 @@ p {
 }
 
 .green-sector {
-	grid-area: 1 / 2 / 2 / 3;	
+	grid-area: 1 / 2 / 2 / 3;
 }
 
 .yellow-sector {
-	grid-area: 2 / 2 / 3 / 3;	
+	grid-area: 2 / 2 / 3 / 3;
 }
 
 
@@ -429,7 +441,7 @@ p {
 
 .footer-wrapper {
     padding: 1.5rem 0rem 1.5rem 0rem;
-    margin: 1rem 0rem 0rem 0rem; 
+    margin: 1rem 0rem 0rem 0rem;
 }
 
  /*******************
@@ -461,7 +473,7 @@ p {
 }
 
  .bootstrap-logo {
-	width: 2rem; 
+	width: 2rem;
 	height: 2rem;
 }
 }
@@ -472,11 +484,11 @@ p {
 }
 }
 
-@media only screen and (min-width: 588px) { 
-.grid-about-me-section2 { 
-display: grid; 
-grid-template-columns: 1fr 2fr; 
-} 
+@media only screen and (min-width: 588px) {
+.grid-about-me-section2 {
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
 
 .grid-about-site-section2 {
     display: grid;
@@ -514,26 +526,26 @@ grid-template-columns: 1fr 2fr;
  *  Green Background
  **********************************************************************/
 .green {
-    background: #56B870; /* Old browsers */
-    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
-    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+    background: #66bb6a; /* Old browsers */
+    /*background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); !* FF3.6+ *!*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); !* Chrome,Safari4+ *!*/
+    /*background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); !* Chrome10+,Safari5.1+ *!*/
+    /*background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); !* Opera 11.10+ *!*/
+    /*background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); !* IE10+ *!*/
+    /*background: linear-gradient(top, #56B870 0%,#a5c956 100%); !* W3C *!*/
 }
 
 /***********************************************************************
  *  Yellow Background
  **********************************************************************/
 .yellow {
-    background: #F3AAAA; /* Old browsers */
-    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
-    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+    background: #ffb74d; /* Old browsers */
+    /*background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); !* FF3.6+ *!*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); !* Chrome,Safari4+ *!*/
+    /*background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* Chrome10+,Safari5.1+ *!*/
+    /*background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* Opera 11.10+ *!*/
+    /*background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* IE10+ *!*/
+    /*background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* W3C *!*/
 }
 
 /***********************************************************************
