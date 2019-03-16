@@ -1,16 +1,30 @@
+
+html: {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     margin: auto auto;
     font-family: 'Neucha', cursive;
-/*    font-size: 16px;*/
     background-color: rgba(224,224,224,0.5);
 }
 
 
-::-moz-selection { 
+/*::-moz-selection { 
 	background: rgba(224,224,224,0.5); text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
-}
+}*/
 ::selection { 
 	background: rgba(224,224,224,0.5); text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
+}
+
+
+.margin-1-rem {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.padding-1-rem {
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .sticky {
@@ -43,27 +57,27 @@ body {
     vertical-align: middle;	
 }
 
-h1 {
-	font-size: 2.2rem;
-	margin: 1.3rem 0.3rem 0.3rem 0.3rem;
-}
+/*h1 {
+
+	margin: 2rem 0.3rem 2rem 0.3rem;
+}*/
 
 h4 {
     margin: 0px;
-	font-size: 1.5rem;	    
+/*	font-size: 1.5rem;*/	    
 }
-
+/*
 p {
 	margin: 0rem 0rem 0rem 0rem;
 
-}
-}
+}*/
+
 
 
 
 .zone {
     cursor: auto;
-    font-size:1rem;
+/*    font-size:1rem;*/
     border-radius:4px;
     border:1px solid #bbb;
     transition: all .3s ease-in-out;
@@ -83,7 +97,7 @@ p {
 .zone-nav {
     cursor:auto;
     color:#FFF;
-    font-size:2rem;
+/*    font-size:2rem;*/
     border-radius:1px;
     transition: all .3s ease-in-out;
 }
@@ -99,7 +113,7 @@ p {
     display: flex;
     list-style: none;
     margin: 0.3rem 0.3rem;
-    font-size: 0.7rem;
+/*    font-size: 0.7rem;*/
     justify-content: flex-end;
 }
 
@@ -123,7 +137,8 @@ p {
  **********************************************************************/
 
 .main-header {
-    height: 50vh;
+    height: 100%;
+/*    height: 50vh;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,6 +146,7 @@ p {
 }
 
 .zone-header {
+    height: 100%;
     background-image: url(./img/head-image.jpg);
     background-size: cover;
 	background-position: center;
@@ -423,6 +439,24 @@ p {
 	border: 0px;
 }
 
+
+/*******************
+ *  Contact
+ *******************/
+
+.grid-contact-section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;  
+    margin: 0rem 0rem 1rem 0rem;  
+}
+
+.grid-contact-section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr;
+}
+
 /***********************************************************************
  *  Footer
  **********************************************************************/
@@ -473,9 +507,10 @@ p {
 }
 
 @media only screen and (min-width: 588px) { 
+
 .grid-about-me-section2 { 
-display: grid; 
-grid-template-columns: 1fr 2fr; 
+    display: grid; 
+    grid-template-columns: 1fr 2fr; 
 } 
 
 .grid-about-site-section2 {
