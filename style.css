@@ -547,16 +547,3 @@ grid-template-columns: 1fr 2fr;
     /*background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* IE10+ *!*/
     /*background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* W3C *!*/
 }
-
-/***********************************************************************
- *  Gray Background
- **********************************************************************/
-.gray {
-    background: #BCBCBC; /* Old browsers */
-    background: -moz-linear-gradient(top, #BCBCBC 0%, #D9D9D9 44%, #E0E0E0 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#BCBCBC), color-stop(44%,#D9D9D9), color-stop(100%,#E0E0E0)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #BCBCBC 0%,#D9D9D9 44%,#E0E0E0 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #BCBCBC 0%,#D9D9D9 44%,#E0E0E0 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #BCBCBC 0%,#D9D9D9 44%,#E0E0E0 100%); /* IE10+ */
-    background: linear-gradient(top, #BCBCBC 0%,#D9D9D9 44%,#E0E0E0 100%); /* W3C */
-}
