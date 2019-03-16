@@ -282,7 +282,7 @@ p {
     display: grid;
 	grid-gap: 0.5rem;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 2fr;
+	grid-template-rows: 1fr 2fr 3fr;
 }
 
 /*******************
