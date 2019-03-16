@@ -66,7 +66,7 @@ p {
     font-size:1rem;
     border-radius:4px;
     border:1px solid #bbb;
-    transition: all 0.3s linear;
+    transition: all .3s ease-in-out;
 }
 
 .zone:hover {
@@ -85,7 +85,7 @@ p {
     color:#FFF;
     font-size:2rem;
     border-radius:1px;
-    transition: all 0.3s linear;
+    transition: all .3s ease-in-out;
 }
 
 .zone-nav:hover {
@@ -197,7 +197,7 @@ p {
 .zone-about-site {
 	border-radius: 1rem;
 /*    border:1px solid #bbb;*/
-    transition: all 0.3s linear;
+    transition: all .3s ease-in-out;
 }
 
 .zone-about-site:hover {
@@ -293,7 +293,7 @@ p {
 .zone-skills {
 	border-radius: 1rem;
 /*    border:1px solid #bbb;*/
-    transition: all 0.3s linear;
+    transition: all .3s ease-in-out;
 }
 
 .zone-skills:hover {
@@ -428,7 +428,7 @@ p {
  **********************************************************************/
 
 .footer-wrapper {
-    padding: 0.5rem 0rem 0.5rem 0rem;
+    padding: 1.5rem 0rem 1.5rem 0rem;
     margin: 1rem 0rem 0rem 0rem; 
 }
 
