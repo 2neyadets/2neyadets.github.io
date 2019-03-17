@@ -6,7 +6,7 @@ body {
     height: 100%;
     margin: auto auto;
     font-family: 'Neucha', cursive;
-    background-color: rgba(224,224,224,0.5);   
+    background-color: rgba(224,224,224,.5);   
 }
 
 
@@ -15,8 +15,8 @@ body {
     text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
 }*/
 ::selection {
-	background: rgba(224,224,224,0.5); 
-    text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
+	background: rgba(224,224,224,.5); 
+    text-shadow: .1rem .1rem .2rem rgba(128,128,128,.6);
 }
 
 /*.sticky {
@@ -73,10 +73,10 @@ body {
 }
 
 .zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.2) 0px 5px 15px;
+    -webkit-box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,.2) 0px 5px 15px;
 }
 
 /*h1 {
@@ -138,7 +138,7 @@ body {
  **********************************************************************/
 
 .grid-wrapper {
-    margin: 0rem 0.1rem;
+    margin: 0rem .1rem;
     display: grid;
 /*    grid-template-columns: repeat(1fr, minmax(350px, 1fr));*/
     grid-template-columns: 1fr;
@@ -172,7 +172,8 @@ body {
 
 .grid-about-me-section2 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /*не меняй 260!!!*/
+/*    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));*/
+    grid-template-columns: 1fr;
 }
 
 .photo-about-me-section2 {
@@ -204,9 +205,9 @@ body {
 
 .grid-about-site-section2 {
     display: grid;
-    grid-gap: 0.4rem;
+    grid-gap: .4rem;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
 
 .logo-html-css > img {
@@ -215,8 +216,8 @@ body {
 }
 
 .zone-around-small-image {
-    background-color: rgba(0,0,0,0.1);
-	padding: 0.5rem 0.5rem;
+    background-color: rgba(0,0,0,.1);
+	padding: .5rem .5rem;
     margin: 0rem 0rem;
     border-radius: 1rem;
 /*    border:1px solid #bbb;*/
@@ -225,10 +226,10 @@ body {
 }
 
 .zone-around-small-image:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -webkit-box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
 }
 
 .small-image {
@@ -254,13 +255,13 @@ body {
 }
 
 .text-about-site-section2 {
- 	padding: 0rem 0.3rem;
-    margin: 0.2rem;
+ 	padding: 0rem .3rem;
+    margin: .2rem;
  	grid-column: span 2;
 }
 
 .text-about-site-section2 > p {
-    margin: 0.2rem;
+    margin: .2rem;
 }
 /*.bootstrap-logo:hover {
   animation-duration: 1s;
@@ -280,7 +281,7 @@ body {
 
 .grid-work-section2 {
     display: grid;
-	grid-gap: 0.1rem;
+	grid-gap: .1rem;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 2fr 3fr;
 }
@@ -301,15 +302,15 @@ body {
 }
 
 .zone-skills:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -webkit-box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,.8) 0px 5px 15px, inset rgba(0,0,0,.15) 0px -10px 20px;
 }
 
 .box-skills {
     background-color: #fafafa;
-    padding: 0.5rem 0.5rem;
+    padding: .5rem .5rem;
     margin: 0rem 0rem;
 }
 
@@ -328,7 +329,7 @@ body {
 
 .grid-skills-section2 {
     display: grid;
-	grid-gap: 0.3rem;
+	grid-gap: .3rem;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 /*	grid-area: 2 / 2 / 6 / 6;*/
@@ -424,7 +425,7 @@ body {
 
 	padding: 0rem, 0rem;
 	margin: 0rem, 0rem;
-    border-radius: 0.3rem;
+    border-radius: .3rem;
 	border: 0px;
 }
 
@@ -447,8 +448,8 @@ body {
 }
 
 .logo {
-    padding: 0.1rem 0.1rem;
-    margin: 0.1rem 0.5rem;
+    padding: .1rem .1rem;
+    margin: .1rem .5rem;
 }
 
 .logo:hover {
@@ -456,7 +457,7 @@ body {
   animation-delay: 1s;
   animation-iteration-count: infinite;
   border-radius: 64px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,.5);
 }
 
 /***********************************************************************
@@ -475,25 +476,25 @@ body {
 @media only screen and (max-width: 319px) {
 
   .font-size-depends-on-screen-width {
- 	font-size: .4rem;
+ 	font-size: .7rem;
 }
 }
 
 @media only screen and (min-width: 320px) {
   .font-size-depends-on-screen-width {
- 	font-size: .5rem;
+ 	font-size: .8rem;
 }
 }
 
 @media only screen and (min-width: 480px) {
   .font-size-depends-on-screen-width {
- 	font-size: .6rem;
+ 	font-size: .9rem;
 }
 }
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 768px) {
   .font-size-depends-on-screen-width {
- 	font-size: .9rem;
+ 	font-size: .1.2rem;
 }
 
  .bootstrap-logo {
@@ -504,7 +505,7 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .font-size-depends-on-screen-width {
- 	font-size: 1.2rem;
+ 	font-size: 1.9rem;
 }
 }
 
@@ -516,11 +517,11 @@ body {
 
 
 /*For wide screen*//*For wide screen*//*For wide screen*//*For wide screen*/
-@media only screen and (min-width: 588px) {
+@media only screen and (min-width: 768px) {
 
 .box {
     padding: 1rem 2rem;
-    margin: 0.5rem 1rem;
+    margin: .5rem 1rem;
 }
 
 .grid-wrapper {
@@ -534,7 +535,7 @@ body {
    
 .grid-about-site-section2 {
     display: grid;
-    grid-gap: 0.2fr;
+    grid-gap: .2fr;
 	grid-template-columns: 1fr 8fr 1fr;
     grid-template-rows: 1fr;
 }
