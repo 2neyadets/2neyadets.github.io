@@ -6,32 +6,24 @@ body {
     height: 100%;
     margin: auto auto;
     font-family: 'Neucha', cursive;
-    background-color: rgba(224,224,224,0.5);
-    height: 100%;
+    background-color: rgba(224,224,224,0.5);   
 }
 
 
 /*::-moz-selection {
-	background: rgba(224,224,224,0.5); text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
+	background: rgba(224,224,224,0.5); 
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
 }*/
 ::selection {
-	background: rgba(224,224,224,0.5); text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
+	background: rgba(224,224,224,0.5); 
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(128,128,128,0.6);
 }
 
-
-.margin-1-rem {
-    margin: 1rem 1rem 1rem 1rem;
-}
-
-.padding-1-rem {
-    padding: 1rem 1rem 1rem 1rem;
-}
-
-.sticky {
+/*.sticky {
   position: fixed;
   top: 0;
   width: 100%;
-}
+}*/
 
 .flex-center {
  	display: flex;
@@ -57,27 +49,16 @@ body {
     vertical-align: middle;
 }
 
-/*h1 {
-
-	margin: 2rem 0.3rem 2rem 0.3rem;
-}*/
-
-h4 {
-    margin: 0px;
+.margin-1-rem {
+    margin: 1rem 1rem 1rem 1rem;
 }
-/*
-p {
-	margin: 0rem 0rem 0rem 0rem;
 
-<<<<<<< HEAD
+.padding-1-rem {
+    padding: 1rem 1rem 1rem 1rem;
 }
-=======
-}*/
-
->>>>>>> master
 
 .title {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .subtitle {
@@ -86,8 +67,6 @@ p {
 
 .zone {
     cursor: auto;
-    font-size:1rem;
-/*    font-size:1rem;*/
     border-radius: .2rem;
     border:1px solid #bbb;
     transition: all .3s ease-in-out;
@@ -100,14 +79,23 @@ p {
     box-shadow:rgba(0,0,0,0.2) 0px 5px 15px;
 }
 
+/*h1 {
+
+    margin: 2rem 0.3rem 2rem 0.3rem;
+}*/
+
+/*h4 {
+    margin: 0px;
+}*/
+
+
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
 
-.zone-nav {
+/*.zone-nav {
     cursor:auto;
     color:#FFF;
-/*    font-size:2rem;*/
     border-radius:1px;
     transition: all .3s ease-in-out;
 }
@@ -123,30 +111,14 @@ p {
     display: flex;
     list-style: none;
     margin: 0.3rem 0.3rem;
-/*    font-size: 0.7rem;*/
     justify-content: flex-end;
-}
-
-
-.logo {
-    padding: 0.1rem 0.1rem;
-    margin: 0.1rem 0.5rem;
-}
-
-.logo:hover {
-  animation-duration: 1s;
-/*  animation-delay: 1s;*/
-  animation-iteration-count: infinite;
-  border-radius: 64px;
-  background-color: rgba(255,255,255,0.5);
-}
-
+}*/
 
 /***********************************************************************
  *  Header
  **********************************************************************/
 
-.main-header {
+.header-wrapper {
     height: 100%;
     display: flex;
     align-items: center;
@@ -166,7 +138,7 @@ p {
  **********************************************************************/
 
 .grid-wrapper {
-    margin: 0rem 2rem;
+    margin: 0rem 0.5rem;
     display: grid;
     grid-template-columns: repeat(1fr, minmax(350px, 1fr));
     border-radius:4px;
@@ -174,8 +146,8 @@ p {
 
 .box {
     background-color: #fafafa;
-    padding: 2rem 4rem;
-    margin: 1rem 1.5rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem 1rem;
     border-radius:4px;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -206,12 +178,14 @@ p {
 
 }
 
-.text-about-me-section2 {
+.text-about-me-section2 > p {
  	padding: 0rem 1rem;
+    margin: 0rem 0rem;
 }
 
 .photo {
-    max-width: 250px;
+    min-width: 100px;
+    max-width: 200px;
     border-radius: 50%;
     border:1px solid #bbb;
 }
@@ -234,14 +208,12 @@ p {
 }
 
 .box-about-site {
-    background-color: #fafafa;
     padding: 1rem 1rem;
     margin: 0rem 0rem;
 }
 
-
-.box-about-site > img {
-    width: 100%;
+.logo-html-css > img {
+    max-width: 30%;
     height: auto;
 }
 
@@ -255,7 +227,7 @@ p {
 
 .grid-about-site-section2 {
     display: grid;
-	grid-gap: 0.5rem;
+	grid-gap: 0.4rem;
 	grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
@@ -286,9 +258,13 @@ p {
 
 .text-about-site-section2 {
  	padding: 0rem 0.3rem;
+    margin: 0.2rem;
  	grid-column: span 2;
 }
 
+.text-about-site-section2 > p {
+    margin: 0.2rem;
+}
 /*.bootstrap-logo:hover {
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -307,9 +283,14 @@ p {
 
 .grid-work-section2 {
     display: grid;
-	grid-gap: 0.5rem;
+	grid-gap: 0.1rem;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 2fr 3fr;
+}
+
+.text-work-section2 > p {
+    padding: 0rem 1rem;
+    margin: 0rem 0rem;
 }
 
 /*******************
@@ -356,6 +337,7 @@ p {
 /*	grid-area: 2 / 2 / 6 / 6;*/
 }
 
+/*Positioning*/
 .green-sector {
 	grid-area: 1 / 2 / 2 / 3;
 }
@@ -437,7 +419,7 @@ p {
 .img16 {
 	grid-area: 6 / 5 / 7 / 6;
 }
-
+/*Positioning*/
 
 .very-small-image {
 	background-color: rgba(0,0,0,0);
@@ -467,6 +449,19 @@ p {
     grid-template-rows: 1fr;
 }
 
+.logo {
+    padding: 0.1rem 0.1rem;
+    margin: 0.1rem 0.5rem;
+}
+
+.logo:hover {
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 64px;
+  background-color: rgba(255,255,255,0.5);
+}
+
 /***********************************************************************
  *  Footer
  **********************************************************************/
@@ -483,52 +478,76 @@ p {
 @media only screen and (max-width: 319px) {
 
   .font-size-depends-on-screen-width {
- 	font-size: 0.7rem;
+ 	font-size: .4rem;
 }
 }
 
 @media only screen and (min-width: 320px) {
   .font-size-depends-on-screen-width {
- 	font-size: 0.8rem;
+ 	font-size: .5rem;
 }
 }
 
 @media only screen and (min-width: 480px) {
   .font-size-depends-on-screen-width {
- 	font-size: 0.9rem;
+ 	font-size: .6rem;
 }
 }
 
 @media only screen and (min-width: 780px) {
   .font-size-depends-on-screen-width {
- 	font-size: 1.25rem;
+ 	font-size: .9rem;
 }
 
  .bootstrap-logo {
-	width: 2rem;
-	height: 2rem;
+	width: 1.5rem;
+	height: 1.5rem;
 }
 }
 
 @media only screen and (min-width: 1024px) {
   .font-size-depends-on-screen-width {
- 	font-size: 1.5rem;
+ 	font-size: 1.2rem;
 }
 }
 
+
+
+
+
+
+
+
+/*For wide screen*//*For wide screen*//*For wide screen*//*For wide screen*/
 @media only screen and (min-width: 588px) {
+
+.box {
+    padding: 1rem 2rem;
+    margin: 0.5rem 1rem;
+}
+
+.grid-wrapper {
+    margin: 0rem 2rem;
+}
 
 .grid-about-me-section2 {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
 }
-s   
+   
 .grid-about-site-section2 {
     display: grid;
-	grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 0.2fr;
+	grid-template-columns: 1fr 8fr 1fr;
     grid-template-rows: 1fr;
 }
 
+.logo-html-css > img {
+    width: 100%;
+}
+
+
+/*Positioning*/
 .html-logo {
  	grid-column: 1/2;
  	grid-row: 1/2;
@@ -543,40 +562,22 @@ s
  	grid-column: 3/4;
  	grid-row: 1/2;
 }
+/*Positioning*/
 
-.bootstrap-logo {
- 	grid-column: span 3;
-/* 	grid-row: ;*/
- }
+}
+/*For wide screen*//*For wide screen*//*For wide screen*//*For wide screen*/
 
-.box-about-site > img {
-    width: 60%;
-}
-}
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
  **********************************************************************/
 .green {
-    background: #66bb6a; /* Old browsers */
-    /*background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); !* FF3.6+ *!*/
-    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); !* Chrome,Safari4+ *!*/
-    /*background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); !* Chrome10+,Safari5.1+ *!*/
-    /*background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); !* Opera 11.10+ *!*/
-    /*background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); !* IE10+ *!*/
-    /*background: linear-gradient(top, #56B870 0%,#a5c956 100%); !* W3C *!*/
+    background: #56B870;
 }
-
 /***********************************************************************
  *  Yellow Background
  **********************************************************************/
 .yellow {
-    background: #ffb74d; /* Old browsers */
-    /*background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); !* FF3.6+ *!*/
-    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); !* Chrome,Safari4+ *!*/
-    /*background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* Chrome10+,Safari5.1+ *!*/
-    /*background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* Opera 11.10+ *!*/
-    /*background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* IE10+ *!*/
-    /*background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); !* W3C *!*/
+    background: #FF6F00;
 }
