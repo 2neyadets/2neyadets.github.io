@@ -476,27 +476,28 @@ body {
 @media only screen and (max-width: 319px) {
 
   .font-size-depends-on-screen-width {
- 	font-size: .7rem;
+ 	font-size: .8rem;
 }
 }
 
 @media only screen and (min-width: 320px) {
   .font-size-depends-on-screen-width {
- 	font-size: .8rem;
+ 	font-size: .9rem;
+    line-height: 1.2rem;
 }
 }
 
 @media only screen and (min-width: 480px) {
   .font-size-depends-on-screen-width {
- 	font-size: .9rem;
+ 	font-size: 1rem;
+    line-height: 1.5rem;
 }
 }
 
 @media only screen and (min-width: 768px) {
   .font-size-depends-on-screen-width {
- 	font-size: .1.2rem;
+ 	font-size: 1.2rem;
 }
-
  .bootstrap-logo {
 	width: 1.5rem;
 	height: 1.5rem;
@@ -505,19 +506,30 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .font-size-depends-on-screen-width {
- 	font-size: 1.9rem;
+ 	font-size: 1.4rem;
+    line-height: 2rem;
 }
 }
 
+@media only screen and (min-width: 1440px) {
+  .font-size-depends-on-screen-width {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+}
 
-
-
+@media only screen and (min-width: 2048px) {
+  .font-size-depends-on-screen-width {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+}
 
 
 
 
 /*For wide screen*//*For wide screen*//*For wide screen*//*For wide screen*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
 
 .box {
     padding: 1rem 2rem;
