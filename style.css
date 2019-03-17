@@ -49,6 +49,10 @@ body {
     vertical-align: middle;
 }
 
+.no-margin {
+    margin: 0rem 0rem 0rem 0rem;    
+}
+
 .margin-1-rem {
     margin: 1rem 1rem 1rem 1rem;
 }
@@ -301,16 +305,17 @@ body {
 }
 
 .box-skills {
-    background-color: #fafafa;
+/*    background-color: #fafafa;*/
     padding: .5rem .5rem;
     margin: 0rem 0rem;
 }
-
 
 .box-skills > img {
     width: 100%;
     height: auto;
 }
+
+
 
 .grid-skills-section1 {
     display: grid;
@@ -321,105 +326,129 @@ body {
 
 .grid-skills-section2 {
     display: grid;
+    grid-gap: .3rem;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0rem 0rem .5rem 0rem;
+/*  grid-area: 2 / 2 / 6 / 6;*/
+}
+
+.grid-skills-section3 {
+    display: grid;
 	grid-gap: .3rem;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
 /*	grid-area: 2 / 2 / 6 / 6;*/
 }
 
+.zone-around-very-small-image {
+    background-color: rgba(0,0,0,.1);
+    padding: .11rem .11rem;
+    margin: 0rem 0rem;
+    border-radius: 1rem;
+/*    border:1px solid #bbb;*/
+    transition: all .3s ease-in-out;
+
+}
+
+.very-small-image {
+/*  background-color: rgba(0,0,0,0);*/
+    width: 100%;
+    height: auto;
+    max-width: 56px;
+
+    padding: 0rem, 0rem;
+    margin: 0rem, 0rem;
+    border-radius: .3rem;
+    border: 0px;
+}
+
+
 /*Positioning*/
 .green-sector {
-	grid-area: 1 / 2 / 2 / 3;
+	grid-area: 1 / 1 / 2 / 2;
 }
 
 .yellow-sector {
-	grid-area: 2 / 2 / 3 / 3;
+	grid-area: 2 / 1 / 3 / 2;
 }
 
 
 .text-for-green-sector {
-	grid-area: 1 / 3 / 2 / 6;
+	grid-area: 1 / 2 / 2 / 3;
 }
 
 .text-for-yellow-sector {
-	grid-area: 2 / 3 / 3 / 6;
+	grid-area: 2 / 2 / 3 / 3;
 }
 
 
 .img1 {
-	grid-area: 3 / 2 / 4 / 3;
+	grid-area: 1 / 2 / 2 / 3;
 }
 
 .img2 {
-	grid-area: 3 / 3 / 4 / 4;
+	grid-area: 1 / 3 / 2 / 4;
 }
 
 .img3 {
-	grid-area: 3 / 4 / 4 / 5;
+	grid-area: 1 / 4 / 2 / 5;
 }
 
 .img4 {
-	grid-area: 3 / 5 / 4 / 6;
+	grid-area: 1 / 5 / 2 / 6;
 }
 
 .img5 {
-	grid-area: 4 / 2 / 5 / 3;
+	grid-area: 2 / 2 / 3 / 3;
 }
 
 .img6 {
-	grid-area: 4 / 3 / 5 / 4;
+	grid-area: 2 / 3 / 3 / 4;
 }
 
 .img7 {
-	grid-area: 4 / 4 / 5 / 5;
+	grid-area: 2 / 4 / 3 / 5;
 }
 
 .img8 {
-	grid-area: 4 / 5 / 5 / 6;
+	grid-area: 2 / 5 / 3 / 6;
 }
 
 .img9 {
-	grid-area: 5 / 2 / 6 / 3;
+	grid-area: 3 / 2 / 4 / 3;
 }
 
 .img10 {
-	grid-area: 5 / 3 / 6 / 4;
+	grid-area: 3 / 3 / 4 / 4;
 }
 
 .img11 {
-	grid-area: 5 / 4 / 6 / 5;
+	grid-area: 3 / 4 / 4 / 5;
 }
 
 .img12 {
-	grid-area: 5 / 5 / 6 / 6;
+	grid-area: 3 / 5 / 4 / 6;
 }
 
 .img13 {
-	grid-area: 6 / 2 / 7 / 3;
+	grid-area: 4 / 2 / 5 / 3;
 }
 
 .img14 {
-	grid-area: 6 / 3 / 7 / 4;
+	grid-area: 4 / 3 / 5 / 4;
 }
 
 .img15 {
-	grid-area: 6 / 4 / 7 / 5;
+	grid-area: 4 / 4 / 5 / 5;
 }
 
 .img16 {
-	grid-area: 6 / 5 / 7 / 6;
+	grid-area: 4 / 5 / 5 / 6;
 }
 /*Positioning*/
 
-.very-small-image {
-	background-color: rgba(0,0,0,0);
-    max-width: 56px;
 
-	padding: 0rem, 0rem;
-	margin: 0rem, 0rem;
-    border-radius: .3rem;
-	border: 0px;
-}
 
 
 /*******************
@@ -445,9 +474,9 @@ body {
 }
 
 .logo:hover {
-  animation-duration: 1s;
+/*  animation-duration: 1s;
   animation-delay: 1s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 3;*/
   border-radius: 64px;
   background-color: rgba(255,255,255,.5);
 }
@@ -548,15 +577,14 @@ body {
     padding: 0rem 0rem;
 }*/
 
-
-
-
-
 .logo-html-css > img {
     max-width: 100%;
 /*    height: auto;*/
 }
 
+.grid-skills-section3 {
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
+}
 
 /*Positioning*/
 .html-logo {
@@ -584,11 +612,11 @@ body {
  *  Green Background
  **********************************************************************/
 .green {
-    background: #56B870;
+    background: rgba(0,255,0,.65);
 }
 /***********************************************************************
  *  Yellow Background
  **********************************************************************/
 .yellow {
-    background: #FF6F00;
+    background: rgba(255,111,0,.65);
 }
