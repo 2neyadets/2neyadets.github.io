@@ -259,6 +259,13 @@ body {
 .text-about-site-section2 > p {
     margin: .2rem;
 }
+
+
+.link-to-other-page {
+
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+}
 /*.bootstrap-logo:hover {
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -520,8 +527,8 @@ body {
  	font-size: 1.2rem;
 }
  .bootstrap-logo {
-	width: 1.5rem;
-	height: 1.5rem;
+	width: 2.0rem;
+	height: 2.0rem;
 }
 }
 
@@ -618,5 +625,5 @@ body {
  *  Yellow Background
  **********************************************************************/
 .yellow {
-    background: rgba(255,111,0,.65);
+    background: rgba(255, 102, 0, 0.65);
 }
