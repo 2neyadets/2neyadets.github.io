@@ -1,0 +1,40 @@
+
+body
+  //font-family: 'Roboto-light', '-apple-system', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  color $dark
+  background $grey-1
+  font-weight 300
+
+.screen--xs &
+  font-size .75rem
+  line-height 1.2
+.screen--sm &
+  font-size .9rem
+  line-height 1.2
+  @media (max-height 400px)
+    font-size .7rem
+    line-height 1.1
+  //@media (max-width 568px)
+    //font-size .7rem
+    //line-height 1.1
+.screen--md &
+  font-size 1.25rem
+  line-height 1.2
+  @media (max-height 420px)
+    font-size .9rem
+    line-height 1.1
+.screen--lg &
+  font-size 1.35rem
+.screen--xl &
+  font-size 1.5rem
+
+a
+  color inherit
+  font-weight bold
+
+p
+  text-indent 2em
+  margin-bottom 0
+
+.intersection-item
+  height calc(100vh - 50px)
