@@ -7,17 +7,14 @@ Demonstration of my projects
 yarn
 ```
 
-### install quasar cli
+### Install quasar cli
 ```bash
 yarn global add @quasar/cli
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
-quasar dev
+quasar d
 ```
 
-### Open App
-```bash
-[Open](http://localhost:8080)
-```
+### [Open](http://localhost:8080) App
