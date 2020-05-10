@@ -31,6 +31,7 @@ export default {
   computed: {
     obj () {
       return {
+        title: this.$t('layout.drawer.heroes'),
         employees: [
           {
             type: this.$t('heroes.text.team.frontend'),
@@ -45,6 +46,7 @@ export default {
             number: 1,
           },
         ],
+        technologies: 'SPA, Vue.js, Quasar Framework, Electron',
         description: this.$t('heroes.text.description'),
         time: '11.2019 - 01.2020',
       }

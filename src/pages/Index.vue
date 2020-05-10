@@ -10,12 +10,13 @@
       once
     )
       //Start
-      Heroes
+      //Heroes
+      Webbankir
 
     q-page-sticky(
       v-if="$app.layout.scroll.position.current + 5 >= $app.layout.getCurrentHeight()"
       position="top"
-      :offset="[0, 2]"
+      :offset="[0, $q.platform.is.mobile ? 0 : 2]"
     )
       q-btn.full-width(
         @click="goToSection(false)"
@@ -31,7 +32,7 @@
     q-page-sticky(
       v-if="$app.layout.scroll.position.current - 5 <= $app.layout.scroll.position.max - $app.layout.getCurrentHeight()"
       position="bottom"
-      :offset="[0, 2]"
+      :offset="[0, $q.platform.is.mobile ? 0 : 2]"
     )
       q-btn.full-width(
         @click="goToSection(true)"
@@ -49,10 +50,11 @@
 <script>
 import Start from '../components/Start/index'
 import Heroes from '../components/Heroes/index'
+import Webbankir from '../components/Webbankir/index'
 
 export default {
   name: 'PageIndex',
-  components: { Heroes, Start },
+  components: { Webbankir, Heroes, Start },
   data () {
     return {
       bounce: {

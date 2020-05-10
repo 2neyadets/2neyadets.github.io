@@ -4,6 +4,7 @@ import lang from './lang'
 import start from './start'
 import project from './project'
 import heroes from './heroes'
+import webbankir from './webbankir'
 
 export default {
   layout,
@@ -12,4 +13,5 @@ export default {
   start,
   project,
   heroes,
+  webbankir,
 }

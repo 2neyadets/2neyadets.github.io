@@ -20,9 +20,12 @@ body
 .screen--md &
   font-size 1.25rem
   line-height 1.2
-  @media (max-height 420px)
+  @media (max-height 420px) // для длинных и узких телефонов, повёрнутых горизонтально
     font-size .9rem
     line-height 1.1
+    @media (min-width 800px) // iphone 10
+      font-size .75rem
+      line-height 1.05
 .screen--lg &
   font-size 1.35rem
 .screen--xl &
