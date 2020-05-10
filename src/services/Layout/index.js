@@ -1,3 +1,5 @@
+import { Platform } from 'quasar'
+
 export default {
   name: 'LayoutService',
   data () {
@@ -32,6 +34,17 @@ export default {
     activeTextColor () {
       return this.$q.dark.isActive ? 'dark' : 'white'
     },
+    getOS () {
+      return Platform && Platform.is && Platform.is.platform
+    },
+    thumbStyle () {
+      return {
+        right: '2px',
+        backgroundColor: 'white',
+        width: '8px',
+        opacity: 0.5
+      }
+    }
   },
   methods: {
     windowResized (v) {
@@ -99,7 +112,7 @@ export default {
       this.touches.fingersLength = event.touches.length
     },
     touchMove (event) {
-      if (event.changedTouches.length >= 2 || this.touches.fingersLength >= 2) return false // если зумят, не надо переопределять поведение
+      if (event.changedTouches.length >= 2 || this.touches.fingersLength >= 2) return false
       event.preventDefault()
       if (this.touches.idOfMoved === null) {
         this.touches.idOfMoved = event.changedTouches['0'].identifier

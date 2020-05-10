@@ -1,0 +1,611 @@
+.heroes__project
+  font-family "Navigo", sans-serif
+  overflow hidden
+  .desktop &
+    width 1024px
+    height 768px
+
+  .heroes-page
+    min-width 1024px
+    min-height 768px
+    overflow hidden
+    padding 30px 30px 36px
+    &.start
+      padding 0
+
+  .video, .picture
+    width 100%
+    height 100%
+    display flex
+    justify-content center
+    align-items center
+    background rgba(black, .75)
+    z-index 5
+
+  & video
+    width 100%
+
+
+  & img
+    max-width 100%
+    max-height 100%
+
+  .bg
+    width 100%
+    height 100%
+    background-position top center
+    background-size cover
+
+    &-papers
+      background-image url("../statics/heroes/bg/papers/1.jpg")
+
+    sections = {
+        culture: 'blue'
+      }
+
+    categories = {
+        persons: 'bg/persons/bg-person-',
+        events: 'bg/events/bg-events-',
+        maps: 'bg/maps/bg-map-',
+        terms: 'bg/terms/bg-termin-',
+        chronic: 'bg/chronic/bg-media-'
+      }
+
+    for section, color in sections
+      &-{section}
+        background-image url('../statics/heroes/bg/main/' + color + '.jpg')
+        for category, path in categories
+          &-{category}
+            background-image url('../statics/heroes/' + path + color + '.jpg')
+
+  .no-x-padding-page
+    padding-left 0 !important
+    padding-right 0 !important
+
+  .top-padding-for-header
+    padding-top 20px
+
+  .left-padding
+    padding-left 30px
+
+  .right-padding
+    padding-right 30px
+
+  .inline
+    display inline-block
+
+  .header-top
+    text-transform uppercase
+    font-weight 900
+    color rgba(255, 255, 255, 0.9)
+    font-size 61px
+    line-height 59px
+
+    & > div
+      position relative
+      .app-win &
+        top 10%
+
+  $small ?= {
+    height: 90px,
+    width: 18px,
+    top: 20px,
+    out: -30px
+  }
+
+  .nav-big
+
+    &__arrows
+      position absolute
+      top $small.top
+
+    &__arrow-left
+      left $small.out
+
+    &__arrow-right
+      right $small.out
+      transform rotate(180deg)
+
+    .q-icon
+      height $small.height
+      width $small.width
+
+  $normal ?= 120px
+
+  .nav-big
+    position relative
+    margin auto
+    margin-top 10px
+    padding 0 20px
+    color white
+
+    &__content
+      height $normal
+      width 100%
+      display inline-block
+      position relative
+      overflow hidden
+      .app-win &
+        top 20px
+
+    &__content-wrapper
+      position absolute
+      height $normal
+      width 500%
+      left 0
+
+      .q-btn
+        font-size $normal
+        height $normal
+        letter-spacing -0.04em
+        text-transform uppercase
+        font-weight 900
+        opacity .5
+        line-height 1
+
+        &.active
+          opacity 1
+          cursor default
+
+        &__wrapper, &__content
+          height $normal
+          min-height $normal
+
+        &__content > div
+          position relative
+          .app-win
+            top 20px
+
+  .nav-small
+    margin-top 30px
+
+    &__button
+      height 44px
+      line-height 44px
+      font-size 21px
+      font-weight bold
+      &-back
+        width 44px
+        margin-right 26px
+      .q-btn
+        &__wrapper
+          min-height 44px
+          padding 0 13px
+        &__content > div
+          position relative
+          .app-win &
+            top 2px
+
+      &_right-margin
+        margin-right 10px
+
+      &_right-margin:last-child
+        margin-right 0
+
+  .nav-neighbors
+
+    .neighbors
+      color white
+      font-weight normal !important
+
+      .empty
+        width auto
+        min-width 0
+        max-width 100%
+        flex 10000 1 0
+
+      .q-btn-group
+        .q-btn__content
+          padding 8px 0
+
+      .q-btn-group > .q-btn-item
+        border-radius 8px
+
+      .q-btn__wrapper
+        padding 0 16px
+
+      .q-separator
+        &--dark
+          background rgba(255, 255, 255, 0.8)
+        &--vertical
+          width 2px
+
+      .active-item
+        background rgba(255, 255, 255, 0.3)
+
+      .q-btn
+        font-size 24px
+        line-height 20px
+        /*line-height 26px*/
+        &__wrapper
+          min-height 44px
+        &__content > div
+          text-shadow 0 0 10px black
+          position relative
+          .app-win &
+            top 0
+
+        &.big-title
+          font-size 19px
+
+  .gutter
+    margin-left -12px
+
+    .q-btn
+      margin-left 12px !important
+
+  .events
+    color white
+
+    .border-for-scroll
+      border-top 2px rgba(0, 0, 0, 0.5) solid
+      border-bottom 2px rgba(0, 0, 0, 0.5) solid
+
+    .scroll-control
+      padding-right 26px
+
+      .q-btn .q-icon, .q-btn .q-spinner
+        font-size 44px
+
+    .q-timeline--comfortable .q-timeline__dot
+      min-width 0
+
+    .q-timeline__dot
+      top 0
+
+    .q-timeline__dot:before
+      height 15px
+      width 15px
+      top 8px
+      left 0
+
+    .q-timeline__dot:after
+      color rgba(0, 0, 0, 0.5)
+      border-left 3px white dashed
+      top 32px
+
+    .q-timeline--comfortable--right .q-timeline__content
+      padding-right 10px
+      padding-left 10px
+      padding-bottom 35px
+
+    .q-timeline--comfortable--right .q-timeline__subtitle
+      padding-right 10px
+
+    .q-timeline--comfortable .q-timeline__subtitle
+      width 30%
+
+    .q-timeline__subtitle
+      opacity 1
+      font-size 28px
+      font-style normal
+      font-weight bold
+      line-height 146.9%
+      padding-bottom 35px
+      text-transform none
+    h6
+      margin-bottom 0
+      font-size 28px
+      font-style normal
+      font-weight normal
+      line-height 146.9%
+
+    .changing-size-md
+
+      .q-timeline__subtitle
+        font-size 28px
+      h6
+        font-size 28px
+
+    .changing-size-xl
+
+      .q-timeline__subtitle
+        font-size 46px
+      h6
+        font-size 46px
+
+  .chronicle-list
+
+    .scroll-control
+
+      .q-btn .q-icon, .q-btn .q-spinner
+        font-size 44px
+
+    .media__container
+
+      .media__block:first-child
+        margin-left 0
+
+      .media__block
+
+        .caption
+          height 97px
+          font-weight bold
+          line-height 100%
+          text-transform uppercase
+          font-size 21px
+
+        .q-img__content > div
+          background linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)
+
+        .media__block_type
+          position absolute
+          top 0
+          left 0
+
+          .media__block_helper
+            background rgba(0, 0, 0, 0.5)
+            height 94px
+            width 94px
+
+            .q-icon
+              font-size 57px
+
+  .chronic__item
+    font-weight bold
+    font-size 30px
+    line-height 45px
+
+    .q-btn
+      font-weight bold
+      font-size 21px
+
+      .q-btn__wrapper
+        padding 0
+
+    .close-btn
+      line-height 1
+
+      .q-btn__wrapper
+        min-height 44px
+        min-width 44px
+
+  .persons-list
+    padding-top 28px
+
+    .btns
+      .q-btn .q-icon, .q-btn .q-spinner
+        font-size 44px
+
+    .q-dark
+      background transparent
+
+  .person-item
+    color white
+    padding-top 30px
+
+    .q-img__image
+      width 100%
+      height 100%
+      background-position top center !important
+      background-size cover !important
+
+    .name
+      font-weight bold
+      font-size 33px
+      margin-bottom 15px
+      line-height 1
+
+    .main-info
+      font-size 20px
+      line-height 1.3
+
+    .q-separator--horizontal
+      height 3px
+
+    .q-separator--dark
+      background white
+
+    .dates-and-places
+      font-size 16px
+      margin-bottom 20px
+      line-height 1.35
+
+    .quote
+      font-weight bold
+      font-size 24px
+      line-height 1.3
+
+  .item-person
+
+    .link
+      text-decoration none
+      color white
+      padding 15px 4px 22px
+      .screen--md &
+        @media (min-height 899px)
+          padding 20px 4px 25px
+
+    .q-item
+      font-weight bold
+      font-size 23px
+      line-height 1
+
+  .img-btn
+
+    .q-btn__wrapper
+      padding 0 !important
+      min-height 44px
+      min-width 44px
+
+  .text-btn
+
+    .q-btn__wrapper
+      padding 0 13px !important
+
+      .q-btn__content
+        i
+          font-size 0
+          margin-right 0
+
+  .term
+    color white
+    padding-top 50px
+    line-height 140%
+    font-size 30px
+
+    .border-for-scroll
+      border-top 2px rgba(0, 0, 0, 0.5) solid
+      border-bottom 2px rgba(0, 0, 0, 0.5) solid
+
+    .scroll-control
+      padding-right 26px
+
+      .q-btn .q-icon, .q-btn .q-spinner
+        font-size 44px
+
+  .terms-list
+    padding-top 28px
+
+    .btns
+      .q-btn .q-icon, .q-btn .q-spinner
+        font-size 44px
+
+    .q-dark
+      background transparent
+
+  .item-term
+
+    .link
+      text-decoration none
+      color white
+      padding 10px 5px 20px
+
+    .q-item
+      font-weight bold
+      font-size 40px
+      line-height 1
+
+  .maps
+
+    .map__container
+      img
+        max-width 100%
+        object-fit contain
+
+    .q-btn
+      font-weight bold
+      font-size 21px
+
+    .maps-nav__column
+      padding-right 26px
+
+      .map-nav-btn
+
+        .q-btn__wrapper
+          min-height 44px
+          min-width 44px
+
+    .clickable-area
+      transition left .2s ease, top .2s ease
+      position absolute
+      min-height 44px
+      min-width 44px
+
+    .clickable-area__legend
+      min-height 10px !important
+
+    .clickable-area:hover
+      box-shadow 0 0 10px rgba(black, 0.5)
+
+    .small-padding-area
+      padding 15px 30px
+
+    .big-padding-area
+      padding 30px 60px
+
+    .my-btn
+      color white
+      border 3px rgba(0, 0, 0, 0.5) solid
+
+      .q-btn__wrapper
+        line-height 1
+        padding 0
+        margin 2px
+        width inherit
+        background-color rgba(0, 0, 0, 0.75)
+        min-height 34px
+        min-width 34px
+
+      .q-btn__content > div
+        position relative
+        .app-win &
+          top 2px
+
+    .nav-btn
+      .q-btn__wrapper
+        padding 0
+
+.heroes__dialog
+
+  .dialog-maps
+
+    img
+      max-width 100%
+      object-fit contain
+
+    .map-nav__column
+      padding-right 26px
+
+    .q-btn
+      font-weight bold
+      font-size 21px
+
+      .q-btn__wrapper
+        padding 0
+
+    .map-nav-btn
+
+      .q-btn__wrapper
+        min-height 44px
+        min-width 44px
+
+    .nav-btn
+      .q-btn__wrapper
+        padding 0
+    .nav-btn:last-child
+      margin-bottom 0
+
+    .margin-for-nav
+      margin-top 30px
+
+  .chronic__item
+    font-weight bold
+    font-size 30px
+    line-height 45px
+
+    .q-btn
+      font-weight bold
+      font-size 21px
+
+      .q-btn__wrapper
+        padding 0
+
+    .close-btn
+      line-height 1
+
+      .q-btn__wrapper
+        min-height 44px
+        min-width 44px
+
+  .copyright
+    background rgba(#F9D9AF, .7)
+    padding 0.5rem 1rem
+    span
+      color rgba(black, .5)
+      font-weight bold
+      font-size 1rem
+
+.heroes__project, .heroes__dialog
+  .q-carousel
+    background transparent
+  -webkit-touch-callout none
+  -webkit-user-select none
+  -khtml-user-select none
+  -moz-user-select none
+  -ms-user-select none
+  user-select none
+  .q-btn--rectangle
+    border-radius 0
+  .q-btn--outline .q-btn__wrapper:before
+    border-width 2px

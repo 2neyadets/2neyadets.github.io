@@ -24,12 +24,7 @@
 
 <script>
 export default {
-  name: 'Start',
-  data () {
-    return {
-      dialog: false
-    }
-  }
+  name: 'Start'
 }
 </script>
 

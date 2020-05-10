@@ -1,0 +1,52 @@
+{
+  "culture": [
+    {
+      "prev": "cut-cult-kalinin.jpg",
+      "content": "cult-audio-01-kalinin.mp4",
+      "caption": "Калинин о коммунистах",
+      "type": "headset"
+    },
+    {
+      "prev": "cut-cult-video-03.jpg",
+      "content": "cult-video-03.mp4",
+      "caption": "Собрание пионеров",
+      "type": "videocam"
+    },
+    {
+      "prev": "cut-cult-photo-01.jpg",
+      "content": "cult-photo-01.jpg",
+      "caption": "Фотография неизвестных",
+      "type": "photo"
+    },
+    {
+      "prev": "cut-cult-lunacharski.jpg",
+      "content": "cult-audio-02-lunacharski.mp4",
+      "caption": "Луначарский о театре",
+      "type": "headset"
+    },
+    {
+      "prev": "cut-cult-photo-02.jpg",
+      "content": "cult-photo-02.jpg",
+      "caption": "Народ",
+      "type": "photo"
+    },
+    {
+      "prev": "cut-cult-video-01.jpg",
+      "content": "cult-video-01.mp4",
+      "caption": "Детский сад",
+      "type": "videocam"
+    },
+    {
+      "prev": "cut-cult-video-02.jpg",
+      "content": "cult-video-02.mp4",
+      "caption": "Мороженщик",
+      "type": "videocam"
+    },
+    {
+      "prev": "cut-cult-video-04.jpg",
+      "content": "cult-video-04.mp4",
+      "caption": "Чаепитие в саду",
+      "type": "videocam"
+    }
+  ]
+}

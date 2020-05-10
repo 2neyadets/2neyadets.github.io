@@ -9,7 +9,8 @@
       class="intersection-item"
       once
     )
-      Start
+      //Start
+      Heroes
 
     q-page-sticky(
       v-if="$app.layout.scroll.position.current + 5 >= $app.layout.getCurrentHeight()"
@@ -47,10 +48,11 @@
 
 <script>
 import Start from '../components/Start/index'
+import Heroes from '../components/Heroes/index'
 
 export default {
   name: 'PageIndex',
-  components: { Start },
+  components: { Heroes, Start },
   data () {
     return {
       bounce: {

@@ -71,11 +71,10 @@
 
           .q-px-md.flex.items-center
             a.drawer-footer-link(
-              href="mailto:avsintsov91@mail.ru"
+              href="mailto:avsintsov91@gmail.com"
             )
               q-icon(name="mail")
-              span.q-px-sm avsintsov91@mail.ru
-              q-icon(name="mail")
+              span.q-px-sm avsintsov91@gmail.com
               //q-tooltip {{$t('layout.drawer.mailMe')}}
     q-page-container
       q-scroll-area(
@@ -152,15 +151,15 @@ export default {
     projects () {
       return [
         {
-          icon: 'directions_run',
+          icon: 'forward',
           text: this.$t('layout.drawer.start')
         },
         {
-          icon: 'assignment_ind',
+          icon: 'group',
           text: this.$t('layout.drawer.heroes')
         },
         {
-          icon: 'attach_money',
+          icon: 'local_atm',
           text: this.$t('layout.drawer.wb')
         },
         {

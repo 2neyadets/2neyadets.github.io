@@ -1,0 +1,20 @@
+{
+  "culture": [
+    {
+      "firstname": "Патриарх ",
+      "lastname": "Тихон",
+      "life": "1865-1925 гг",
+      "photo": "cult-1.png",
+      "video_hero": null,
+      "video_questions": null
+    },
+    {
+      "firstname": "Владимир",
+      "lastname": "Шухов",
+      "life": "1853-1939 гг",
+      "photo": "cult-2.png",
+      "video_hero": null,
+      "video_questions": null
+    }
+  ]
+}
