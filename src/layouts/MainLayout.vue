@@ -41,6 +41,7 @@
             outlined
             style="min-width: 120px"
             :color="$app.layout.activeColor"
+            :popup-content-class="`text-${$q.dark.isActive ? 'white' : 'dark' }`"
           )
 
     q-drawer(
@@ -96,8 +97,8 @@
 <script>
 import { LocalStorage } from 'quasar'
 import { geolocationFailure, geolocationSuccess } from '../utils/geoCallback'
-import { notify } from '../utils/helpers'
-import { i18n } from '../boot/i18n'
+import { notify } from 'src/utils/helpers'
+import { i18n } from 'src/boot/i18n'
 
 export default {
   name: 'MyLayout',

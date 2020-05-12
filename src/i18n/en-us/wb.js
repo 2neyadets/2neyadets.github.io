@@ -18,6 +18,7 @@ export default {
   },
   notify: {
     onlyHardRole: 'The role "Hard collector" is available for viewing.',
-    resolution: 'The project is presented in resolution 1366x969 px.',
+    resolution: 'The project is presented in resolution {width}х{height}‬ px.',
+    dblClick: 'To interact with the list line, double-click.',
   }
 }

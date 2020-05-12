@@ -16,7 +16,7 @@
 
 <script>
 import { dom, LocalStorage } from 'quasar'
-import { notify } from '../../../../utils/helpers'
+import { notify } from 'src/utils/helpers'
 const { css } = dom
 
 export default {

@@ -1,9 +1,9 @@
 import axios from 'axios'
-import { notify } from '../../utils/helpers'
+import { notify } from 'src/utils/helpers'
 import { i18n } from 'boot/i18n'
 
 const instance = axios.create({
-  baseURL: 'https://nominatim.openstreetmap.org/',
+  baseURL: 'https://bankir.com/',
   timeout: 30000
 })
 

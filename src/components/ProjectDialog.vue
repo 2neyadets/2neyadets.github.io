@@ -2,7 +2,7 @@
   q-dialog(
     @hide="$emit('hide')"
     :value="show"
-    content-class="heroes__dialog"
+    :content-class="`${name}__dialog`"
     persistent
     maximized
     transition-show="slide-up"
@@ -23,6 +23,10 @@ export default {
   props: {
     show: {
       type: Boolean,
+      required: true,
+    },
+    name: {
+      type: String,
       required: true,
     }
   }

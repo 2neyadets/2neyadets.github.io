@@ -26,7 +26,7 @@ import HeroesProjectPapersPage from './pages/papers'
 import HeroesProjectSectionPage from './pages/section'
 import HeroesProjectCategoryPage from './pages/category'
 import HeroesProjectItemPage from './pages/item'
-import { notify } from '../../../utils/helpers'
+import { notify } from 'src/utils/helpers'
 import { LocalStorage } from 'quasar'
 
 export default {

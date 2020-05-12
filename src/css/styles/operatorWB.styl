@@ -1,0 +1,1575 @@
+.operatorWB__card-dialog
+  z-index 6001
+  .q-dialog__inner
+    align-items flex-end !important
+  .q-dialog__backdrop
+    opacity 0
+    pointer-events none
+  .q-layout-container > div > div
+    max-height none
+
+.operatorWB__stat-dialog
+  z-index 7001
+
+.operatorWB__project, .operatorWB__dialog
+  line-height 1.25
+  font-family 'HelveticaNeueCyr', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  overflow hidden
+  color black
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button
+    -webkit-appearance none
+    margin 0
+
+  p
+    text-indent 0 !important
+
+  .q-dark &
+    color black
+
+  .body--dark &
+    color black
+
+  .desktop &
+    width 100vw
+    height calc(100vh - 32px)
+
+  .operatorWB-page
+    min-width 100vw
+    min-height calc(100vh - 32px)
+    overflow hidden
+
+  h1, h2, h3, h4, h5, h6
+    margin: 0
+    padding: 0
+    line-height: 1.4
+
+  p
+    margin: 0
+
+  ul
+    margin: 0
+    padding: 0
+
+  li
+    list-style: none
+
+  a, .link
+    color: $WB-link-color
+    text-decoration: none
+    border-bottom: 1px dotted @color
+    cursor: pointer
+
+  .q-field__append
+    padding-left 0 !important
+
+  .main-toolbar
+    min-width: 1280px
+    z-index: 6002
+    box-shadow: 0 1px 8px rgba(0,0,0,.2), 0 3px 4px rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12);
+
+  .btn
+    color: $WB-info-color !important
+    border: 1px solid @WB-color
+    min-height: 0 !important
+    padding: 0 !important
+    .q-btn__wrapper
+      padding: 0 !important
+
+  .btn_disabled
+    color: $WB-disabled-color !important
+    border: 1px solid @color
+    min-height: 0 !important
+    padding: 0 !important
+
+  .active-btn
+    color: $WB-text-active-color
+
+    .comments__action-btn
+      border: 1px solid @color !important
+      color: @color !important
+
+  .active-btn-red
+    color: $WB-negative
+
+    .comments__action-btn
+      border: 1px solid @color !important
+      color: @color !important
+
+  .active-btn_email
+    color: $WB-warning-color
+
+    .comments__action-btn
+      border: 1px solid @color !important
+      color: @color !important
+
+  .active-btn_sms
+    color: $WB-link-color
+
+    .comments__action-btn
+      border: 1px solid @color !important
+      color: @color !important
+
+  .active-bg
+    background: $WB-bg-active-color
+
+  .active-text
+    color: $WB-text-active-color
+
+  .bold
+    font-weight: bold
+
+  .danger
+    color: $WB-danger-color
+
+  .info
+    color: $WB-info-color !important
+
+  .warning
+    color: $WB-warning-color
+
+  .legend
+    &.red
+      background-color: $WB-legend-color-danger
+    &.orange
+      background-color: $WB-legend-color-warning
+    &.green
+      background-color: $WB-legend-color-info
+
+  .white
+    color: #fff
+
+  .mh40
+    min-height: 40px
+
+  .w100p
+    width: 100%
+
+  .bg-profile
+    background: $WB-bg-profile-color
+
+  .text-profile
+    color: $WB-text-profile-color
+
+  .brs2
+    border-radius: 2px
+
+  .brs3
+    border-radius: 3px
+
+  .brs5
+    border-radius: 5px
+
+  .brs6
+    border-radius: 6px
+
+  .ovh
+    overflow: hidden
+
+  {$WB-background-white}
+    background: #fff
+
+  {$WB-color-white}
+    color: #fff
+
+  .hard
+    background: #3c3b3c
+    padding: 5px
+
+  .soft
+    display: flex
+    justify-content: center
+    align-items: center
+
+  .stat
+    z-index 7001
+    font-size 12px
+    color white
+    background $WB-primary-color
+    .title
+      background $WB-table-first-cell-color
+
+    .title
+      font-size 14px
+      font-weight 400
+      letter-spacing normal
+      line-height 1
+
+    .title + .q-card-section
+      padding-top: 16px
+
+    .q-list
+      border: none
+      padding: 0
+
+      .q-item
+        padding: 0
+        font-size: 12px
+        min-height: 30px
+
+      .q-item-section
+        min-width: 18px
+        color: white
+      .q-item__section--side
+        color: #ffdf42
+
+      .q-item-icon
+        font-size: 16px
+
+      &.header .q-item__label
+        font-weight: 600
+
+    .q-card-actions
+      justify-content: center
+      padding-bottom: 32px
+
+    &.short-stat
+      width: 330px
+
+      .q-card-container
+        padding 16px
+
+      .title
+        padding 13px 16px
+
+      .q-list
+        border: none
+        margin-top: 16px
+
+    &.full-stat
+      min-width 946px
+
+      .q-card-container
+        padding 16px
+
+      .title
+        padding 0 16px
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+      .main
+        display: flex
+        padding-left 0
+
+        .keys
+          width: 580px
+          border-right 1px solid white
+          margin-right: 20px
+        .total
+          width: 330px
+
+      .tiles
+        display: flex
+        flex-wrap wrap
+        justify-content flex-start
+        .tile
+          width: 50%
+          padding: 16px
+          border-bottom: 1px solid grey
+
+        &.soft .tile
+
+          &:hover, &.active
+            background #4a4a4a
+
+          &:nth-child(1)
+            border-top: 1px solid grey
+
+          &:nth-child(n+1)
+            border-right: 1px solid grey
+
+        .q-radio-unchecked, .q-radio-checked, .q-radio .q-option-inner
+          font-size: 15px
+          width: 15px
+          height: 15px
+          min-width: 15px
+
+  .select__group
+
+    .q-field__control, .q-field__append, .q-field__native
+      line-height: 12px
+      font-size 12px
+      min-height 24px !important
+      height 24px
+
+  .main
+    width: 100%
+
+  .card
+    color: #000
+
+    .card__header
+      font-size: $font-size-md
+      min-height 32px
+
+      .info
+        font-weight: bold
+
+      &-text
+        span
+          margin-left: 4px
+
+      .card__header-text_bordered
+        height: 32px
+        line-height: 32px
+        border-right: 1px solid $WB-border-title-color
+
+      .card__header-text_pad
+        padding-left: 12px
+
+    .card__row
+      border: 1px solid $WB-border-color
+      padding: 6px
+
+    .card__row-left
+      color: $WB-text-profile-color
+
+    .card__row-left_w60p
+      width: 60%
+
+    .card__row-right_w40p
+      width: 40%
+
+    .card__title
+      background: $WB-secondary-color
+      padding: 0 15px
+      height: 32px
+      font-size: $font-size-small
+
+      .card__title-loaner
+        margin-right: 40px
+
+      .card__title-entered
+        margin-right: 13px
+
+      .card__title-time
+        border-bottom: 1px dotted $WB-warning-color
+        height: 25px
+        cursor: pointer
+
+    .card__content
+      font-size: $font-size-small
+      height: calc(100% - 33px)
+
+      .card__profile
+        font-size: $font-size-small
+        height: 100%
+
+        .card__profile-left
+          width: 45%
+          border-right: 1px solid $WB-border-color
+
+          .card__row
+            padding: 6px
+
+          .card__row-left
+            width: 90px
+
+          .card__row-right
+            width: calc(100% - 100px)
+        .name
+          display: flex
+          span
+            margin-left: 5px
+            font-weight: bold
+
+        .card__profile-right
+          width: 55%
+
+        .card__phone
+          display: flex
+          justify-content space-between
+          align-items flex-start
+
+        .card__phone-item
+          margin-bottom: 7px
+
+        .card__phone-type
+          color: $WB-text-profile-color
+          display: inline-flex
+          min-width: 30px
+
+        .card__phone-home
+          margin-bottom: 30px
+
+        .card__phones-all
+          margin-right: 13px
+
+        .card__phone-numbers
+          margin-top: 0
+
+        .q-btn .q-icon
+          font-size: $font-size-normal
+
+        .card__row-children
+          max-height: 40px
+
+        .card__children
+          padding-left: 10px
+          border-left: 1px solid $WB-border-color
+          height: 27px
+          line-height: 27px
+          color: $WB-text-profile-color
+
+        .card__socials
+          border-bottom: none
+
+        .card__secret-question
+          color: $WB-text-profile-color
+          display: inline-flex
+
+        .card__right-block
+          flex-wrap: nowrap
+
+        .card__right-info
+          width: 100%
+
+          .card__row
+            padding: 8px
+
+          .card__row-left
+            min-width: 100px
+
+          .card__row-right
+            margin-left: 10px
+
+        .card__right-loan
+          min-width: 215px
+
+        .card__loan-left
+        .card__reliability-left
+          width: 60%
+
+        .card__loan-right
+        .card__reliability-right
+          width: 40%
+
+        .card__loan-text
+        .card__reliability-text
+          color: #000
+
+        .card__right-product
+          border: none
+
+        .card__reliability
+          margin-top: -2px
+
+          .card__row
+            padding: 7px
+
+        .card__reliability-block
+          background: $WB-secondary-color
+
+        .card__reliability-amount
+          margin-left: 13px
+
+        .card__reliability-give
+          margin-right: 50px
+
+        .card__reliability-give
+        .card__reliability-done
+          color: $WB-text-profile-color
+
+        .card__reliability-amount
+          margin-left: 13px
+
+        .card__reliability-legends
+          border-bottom: none
+          padding 4px 7px !important
+
+          .card__reliability-left_w80p
+            width: 80%
+
+          .card__reliability-right_w20p
+            width: 20%
+
+        .card__reliability-color
+          width: 6px
+          height: 10px
+          display: inline-flex
+          margin-right: 3px
+          &:last-child
+            margin-right: 0
+
+        .card__reliability-days
+          height: 12px
+          margin-top: 5px
+          color: #000
+          font-size: $font-size-s
+
+        .card__reliability-item + .card__reliability-item
+          margin-left: 6px
+
+  .history
+    margin: 8px 8px
+    height: 195px
+    &.full
+      height: 408px
+
+  .q-table__top
+    background: $WB-secondary-color
+    min-height: 0
+    padding: 0
+
+    .q-table__control
+      min-height: 0
+      padding: 0 10px
+      height: auto
+    .q-date
+      font-size 12px
+
+  .q-table__title
+    font-size: $font-size-small
+
+  .q-table-horizontal-separator
+    tbody
+      td
+        border-width: 1px
+
+  .credit-history-table, .relations-table
+
+    .filter-row_td
+      padding-left 8px
+
+    .filter-row_td-span
+      margin-left: 0
+
+  .relations-table
+
+    .filter-row_td.sortable .q-icon
+      top 8px
+
+  .history-longs
+    tbody
+      for row in 1 2
+        tr:nth-child({row})
+          for row in 8 10
+            td:nth-child({row})
+              font-weight: bold
+          for row in 10
+            td:nth-child({row})
+              color: $WB-danger-color
+
+  .history-promises
+    tbody
+      for row in 2 7
+        tr:nth-child({row})
+          td:nth-child(4)
+            font-weight: bold
+            color: $WB-warning-color
+      for row in 3 5 6
+        tr:nth-child({row})
+          td:nth-child(4)
+            font-weight: bold
+            color: $WB-danger-color
+
+  .history-bundles
+    tbody
+      tr
+        td:nth-child(6)
+        td:last-child
+          color: $WB-link-color
+          text-decoration: underline
+          cursor: pointer
+      tr:nth-child(4)
+        td:nth-child(6)
+          text-decoration: none
+          color: #000
+          cursor: auto
+
+  .history-delays
+    tbody
+      for row in 1 2
+        tr:nth-child({row})
+          for row in 8 10
+            td:nth-child({row})
+              font-weight: bold
+      tr:nth-child(1)
+        td:nth-child(10)
+          color: $WB-danger-color
+      tr:nth-child(2)
+        td:nth-child(10)
+          color: $WB-warning-color
+
+  .history-loans
+    span.circle
+      display: inline-block
+      width: 25px
+      height: 25px
+      line-height: 27px
+      border-radius: 50%
+      font-size: $font-size-small
+      color: #fff
+      &.green
+        background: $WB-info-color
+      &.orange
+        background: $WB-warning-color
+      &.red
+        background: $WB-danger-color
+
+  .history-credits
+    tbody
+      tr
+        td:nth-child(8)
+          color: #fff
+      for row in 1 2 6 7
+        tr:nth-child({row})
+          td:nth-child(8)
+            background: $WB-info-color
+      for row in 6 7
+        tr:nth-child({row})
+          td:nth-child(8)
+            color: #000
+      for row in 3 4 5
+        tr:nth-child({row})
+          td:nth-child(8)
+            background: $WB-danger-color
+            font-weight: bold
+
+  .accruals__date
+    font-size: $font-size-small
+
+    .q-field__control, .q-field__append
+      height 20px
+      font-size 12px
+
+    .accruals__date-title
+      margin-right: 41px
+
+    .accruals__date-text
+      margin-right: 9px
+
+    .accruals__date-from
+      max-width 100px
+
+    .accruals__date-to
+      max-width 100px
+      margin-right: 16px
+
+    .q-if
+      min-height: 0 !important
+      min-width: 100px
+      padding-bottom: 0
+      height: 20px
+
+      &:before
+      &:after
+        display: none
+
+      &-inner
+        min-height: 0 !important
+
+      &-control
+        font-size: $font-size-large
+
+
+    .q-input-target
+      min-height: 16px
+      padding-left: 10px
+
+  .comments__filter
+    font-size: $font-size-small
+
+    &-title
+      margin-right: 15px
+
+    &-checkbox
+      margin-right: 29px
+
+    .q-option-inner + .q-option-label
+      margin-left: 5px
+
+  .pretty-table
+    background: #575657
+    margin-top: 0
+    max-height inherit
+    &__wrapper
+      background: #575657
+      margin-top: 0
+      .q-table__top
+        border-radius: 5px 5px 0 0
+        min-height: 42px
+        padding: 0 10px
+
+      .table__top-title
+        flex-wrap: nowrap
+        font-size: 12px
+        margin-right: 15px
+
+        &__btn.active
+          background: #2099C0
+          color: white
+
+    &__row.opened
+      background-color rgba(green, .5)
+    &__row.last-opened
+      background-color rgba(blue, .5) !important
+    &__row:hover
+      background-color: rgba(126, 211, 33, .38)
+
+    &__tabs-title p
+      margin-left: 13px
+
+  .notifications-table
+    position relative
+    top -18px
+    left 0
+
+    table
+      overflow hidden
+
+    thead
+      border 0 solid $WB-table-header-border !important
+
+    tr
+      height 16px !important
+
+    th
+      padding 2px 4px
+
+    th:last-child
+      border-right: 0 solid $WB-table-header-border !important
+
+    .q-table tr td
+      height 16px !important
+      padding 0 !important
+
+    .q-table tbody tr:hover
+      background white
+
+    .q-table__title
+      padding 2px 4px
+      text-align center
+
+  .my-sticky-header-table
+    .q-table__middle
+      max-height 755px
+
+    thead tr:first-child th
+      position sticky
+      top 0
+      opacity 1
+      z-index 1
+
+
+  .main-card
+    background: $WB-bg-color
+    padding: 5px
+    min-height: calc(100vh - 82px)
+    min-width: 1280px
+    overflow: auto
+    position: relative
+    .q-card-container
+      padding: 0
+
+  .client-card-modal .modal-content
+    height: calc(100vh - 82px)
+    max-height: calc(100vh - 82px)
+    width 100vw
+    align-self flex-end
+
+  .client-card
+    border: 1px solid $WB-disabled-color
+    height: 100%
+
+    &__title
+      padding: 0 7px
+
+    &__main
+      padding: 4px
+      padding-top: 0
+      height: calc(100% - 33px)
+
+  .card-block
+    height: 415px
+
+  .comm-block
+    height: 25%
+
+  .profile-block
+    height: 415px
+
+  .modal.fullstat
+    z-index: 7000
+
+  .modal-content
+    border-radius: 6px
+    background: $WB-modal-bg-color
+    color white
+
+    .modal-message
+      color white
+
+    .modal-email
+      padding: 8px 20px 9px 10px
+
+    .modal-social,   .modal-phone
+      padding: 8px 10px
+
+    .modal__title
+      font-size: $font-size-md
+
+    .modal__input
+      border-radius: 3px
+      font-size: $font-size-md
+      min-height: 0
+      padding: 4px 7px
+
+      .q-if::before, .q-if::after
+        content: none
+
+    .modal__buttons > .modal__btn
+      border-radius: 5px
+
+    .modal__buttons
+      box-shadow: none
+      margin-top: 10px
+
+      .modal__btn
+        font-size: $font-size-md
+        width: 75px
+        text-transform: inherit
+
+      .modal__btn + .modal__btn
+        margin-left: 36px
+
+      .modal__btn:last-child
+        background-color: $WB-link-color
+
+  .debt
+    height: 100%
+
+    .debt__title-days
+      display: inline-block
+      width: 25px
+      height: 25px
+      line-height: 27px
+      margin-left: 5px
+      border-radius: 50%
+      background: $WB-warning-color
+
+    .debt__accruals
+
+    .debt__longs
+      padding-left: 9px
+
+    .debt__promises
+      padding: 9px
+      margin-top: 0
+      padding-bottom: 0
+
+    .debt__payments
+      padding: 9px 9px 6px
+
+    .debt__promises-pay
+    .debt__promises-sum
+    .debt__promises-status
+    .debt__promises-history
+    .deb__payments-date
+    .debt__payments-sum
+    .debt__payments-payed
+    .debt__payments-history
+      margin-bottom: 5px
+
+  .socials
+
+    .socials__list_modal
+      font-size: $font-size-small
+      margin-bottom: 13px
+
+    .socials__link
+      border: none
+
+    .socials__item
+      margin-right: 9px
+      min-height: 0
+
+    .socials__item_modal
+      margin-right: 27px
+      flex-direction: column
+
+    .socials__item_modal:first-child
+      margin-left: 15px
+
+    .socials__item_modal:last-child
+      margin-right: 0
+
+    .socials__icon
+      display: inline-flex
+
+    .socials__link_modal
+      display: block
+
+  .comments
+    color: #000
+    font-size: $font-size-small
+    margin: 8px 8px 0
+    height: 205px
+
+    .comments__buttons
+      margin: 2px 10px 0 0
+      &.updated
+        background: rgba($WB-border-title-color, .5)
+      .comments__link
+        font-size: $font-size-small
+        margin-right: 30px
+        text-transform: none
+
+      .comments__btn
+        background: $WB-link-color
+        min-width: 110px
+        text-transform: none
+        font-size: $font-size-small
+
+    .comments__header-link
+      height: 16px
+
+    .comments__content
+      padding-top: 0
+
+      .comments__contact-main
+        min-height: 85px
+
+      .comments__contact
+        width: 230px
+        height: 174px
+        padding-top: 10px
+        padding-right: 15px
+
+        .comments__contact-title
+        .comments__send-title
+          padding-left: 11px
+          margin-bottom: 8px
+
+        .comments__contact-phone
+        .comments__send-user
+          margin-bottom: 8px
+          padding: 5px 11px
+          border-top-right-radius: 5px
+          border-bottom-right-radius: 5px
+
+        .comments__contact-type
+        .comments__send-type
+          color: $WB-text-profile-color
+
+        .comments__contact-comm
+        .comments__send-comm
+          padding-left: 11px
+          margin-bottom: 8px
+
+        .comments__contact-established
+        .comments__send-date
+          color: $WB-text-profile-color
+
+        .comments__contact-conversation
+        .comments__send-initiator
+          padding-left: 11px
+          margin-bottom: 8px
+
+        .comments__send-sender
+          color: $WB-text-profile-color
+
+        .comments__contact-contracts
+        .comments__send-contracts
+          padding-left: 11px
+
+        .comments__contact-mic
+          margin-right: 5px
+          font-size: $font-size-large
+
+        .q-btn .q-icon
+          font-size: $font-size-normal
+
+      .comments__action
+        width: 320px
+        height: 174px
+        padding-top: 10px
+
+        .comments__action-title
+          margin-bottom: 9px
+
+        .comments__action-list
+          color: $WB-text-profile-color
+
+        .comments__action-right
+          width: 50%
+
+        .comments__action-row_last
+          margin-top: 15px
+
+        .comments__action-btn
+          width: 24px
+          height: 24px
+
+        .comments__action-limit
+          font-size: $font-size-xs
+
+        .q-btn__content
+          max-height 24px
+
+      .comments__result
+        padding-top: 10px
+        width: calc(100% - 550px)
+
+        .comments__result-main
+          width: calc(100% - 230px)
+          height: 125px
+
+        .comments__result-main_full-width
+          width: 100%
+          padding-right: 10px
+
+        .comments_result-content_mb20
+          margin-bottom: 20px
+
+        .comments__result-fields
+          height: 30px
+
+        .comments__result-title
+          margin-bottom: 0
+
+        .comments__result-blacklist
+          width: 100%
+          padding-top: 5px
+
+        .comments__result-blacklist_short-width
+          width: 150px
+
+        .comments__result-checkbox
+          margin-right: 5px
+
+        .comments__result-icon
+          font-size: $font-size-normal
+
+        .comments__result-area
+          min-height: 0
+          padding-bottom: 0
+          .q-field__control
+            height 24px
+            font-size: 12px
+          &::before, &::after
+            content: none
+
+        .comments__result-area_comment
+          height 28px
+
+      .comments__calc
+        width: 230px
+
+        .q-field__bottom
+          padding 1px 0
+
+        .q-field--with-bottom
+          padding-bottom 12px
+
+        &-content
+          padding: 0 10px
+
+        &-title
+          padding-bottom: 9px
+
+        .q-input + .q-date-input
+        .q-input + .q-input
+          margin-top: 5px
+
+        &-days
+        &-date
+
+          .q-field__control
+            padding 0 6px
+
+        .q-field__control, .q-field__append
+          line-height: 19px
+          font-size 12px
+          min-height 24px
+          height 24px
+
+        .q-field__native
+          min-height: 0
+          padding-bottom: 0
+          padding-top: 0
+          height: 24px
+
+        .q-input-target
+          line-height: 19px
+          font-size 12px
+
+        .q-field__suffix
+          padding 0
+          line-height: 24px
+
+        &:before, &:after
+          content: none
+        .q-if-inner
+          min-height: 0 !important
+        .q-if-control
+          font-size: $font-size-large
+
+        &-sum
+          margin-top: 15px
+
+        &-payments
+          margin-top: 14px
+
+    .comments__select
+      min-width: 160px
+      margin-right: 15px
+
+      .q-field__control
+        padding 0 6px
+
+      .q-field__control, .q-field__append
+        line-height: 19px
+        font-size 12px
+        min-height 24px
+        height 24px
+      .q-field__native
+        min-height: 0
+        padding-bottom: 0
+        padding-top: 0
+        height: 24px
+        &::before, &::after
+          content: none
+        &-inner
+          min-height: 0 !important
+          padding-bottom: 0
+          padding-left: 7px
+        &-control
+          font-size: $font-size-large
+
+      .q-field__suffix
+        line-height 24px
+        height 24px
+        flex-wrap nowrap
+
+    .comments__file
+      width: 32%
+      .q-if
+        min-height: 0
+        padding-bottom: 0
+
+    .comments__info
+      margin-top: 2px
+      margin-right: 20px
+      color: $negative
+
+  .form__send-template
+    padding-top 10px
+    width: calc(100% - 550px)
+
+    .send__template
+      width: 100%
+      padding: 0 10px 0 0
+
+      .textarea-for-templates
+        max-height 55px
+
+      .send__template-title
+        padding-bottom: 6px
+
+      .send__template-select
+        color: #000
+        font-size: $font-size-small
+
+        .q-field__control
+          padding 0 6px
+
+        .q-field__control, .q-field__append
+          line-height: 19px
+          font-size 12px
+          min-height 24px
+          height 24px
+        .q-field__native
+          min-height: 0
+          padding-bottom: 0
+          padding-top: 0
+          height: 24px
+          &::before, &::after
+            content: none
+          &-inner
+            min-height: 0 !important
+            padding-bottom: 0
+            padding-left: 7px
+          &-control
+            font-size: $font-size-large
+
+      .min-w-60
+        min-width: 60%
+
+      .min-w-30
+        min-width: 30%
+
+      .send__template-text
+        margin-bottom: 3px
+
+      .send__template-area
+        min-height: 0
+        padding-bottom: 0
+        .q-input-target
+          font-size: 12px
+        &::before, &::after
+          content: none
+
+        .q-field__native
+          max-height 51px
+
+      .send__template-submit
+        margin-right: 0
+
+  .operator-scores
+    border 1px solid white
+    border-radius 4px
+    width 250px
+    height 38px
+    font-size 12px
+    display: flex
+    margin-left: 20px
+    position: relative
+
+    &__label
+      width: 90px
+      display: flex
+      justify-content: center
+      align-items: center
+      border-right: 1px solid #979797
+      flex: 0 auto
+
+    &__line
+      height 18px
+      display: flex
+      justify-content: space-between
+      align-items: center
+      border-bottom 1px solid #979797
+      &:last-child
+        border-bottom none
+
+    &__value
+      display: flex
+      justify-content: space-around
+      align-items: center
+      font-size: 14px
+      border-right 1px solid #979797
+      width 50px
+      &:last-child
+        border-right none
+
+    &__value.premium
+      justify-content: flex-start
+      .q-icon
+        margin-left: 2px
+        margin-right: 7px
+
+.q-table
+  .q-table__progress
+    height 2px !important
+
+  thead
+    tr:not(.q-table__progress)
+      background: $WB-accent-color
+      height: 30px
+      td
+        border: 1px solid $WB-table-cell-border
+  th
+    text-align: center
+    padding: 3px 0
+  tr:not(.q-table__progress) td
+    padding: 2px 10px !important
+    height: 22px !important
+  tr.q-table__progress .q-progress
+    position relative
+  tr.total
+    background $grey-3
+    td
+      font-weight: bold
+      &:not(:first-child)
+        text-align right
+  tbody
+    td
+      font-size: $font-size-sm
+    td:before
+      background $WB-table-hover-background
+  .filter-row_td
+    text-align: center
+    height: 0
+    min-width: 100px
+    position: relative
+    padding-right 8px
+
+  .filter-row_td-inner
+    display: flex
+    align-items: center
+    justify-content: center
+
+  .filter-row_td-span
+    margin: 0 0 0 1.8rem
+    flex: 1
+    text-align: center
+    font-size: .7rem
+
+  .filter-row_td-btn
+    flex: 1/4
+    margin: 0 -7px 0 0
+    right:0
+    font-size: .8rem
+
+  .filter-row_td.sortable .q-icon
+    position absolute
+    top 10px
+    left 5px
+  .q-btn__content .q-icon
+    position inherit !important
+  .components-hard-table__filter-inputs,
+  .components-hard-table__filter-inputs .q-input-target
+    font-size 0.875rem
+
+.tooltip-rates
+  padding: 4px
+  font-size: $font-size-sm
+
+  .tooltip-rates__row
+    margin-bottom: 10px
+
+  .tooltip-rates__type
+    width: 50px
+
+  .tooltip-rates__amount
+    margin-left: 10px
+    color $WB-tooltip-title-color !important
+
+.tooltip-schedule
+  font-size: $font-size-small
+
+.tooltip-phones
+  font-size: $font-size-small
+
+  .tooltip-phones__row
+    margin-bottom: 10px
+    &:last-child
+      margin-bottom: 0
+
+  .tooltip-phones__type
+    width: 30px
+
+  .tooltip-phones__number, .tooltip-phones__owner
+    margin-left: 10px
+
+.tooltip-stats
+  padding: 9px 10px 12px
+  font-size: $font-size-small
+  width: 333px
+
+  .tooltip-stats__header
+    margin-bottom: 20px
+    color: $WB-tooltip-title-color
+
+  .tooltip-stats__btn
+    width: 12px
+    height: 12px
+    font-size: $font-size-s
+    cursor: pointer
+
+  .tooltip-stats__row
+    margin-bottom: 15px
+
+  .tooltip-stats__date
+    width: 20%
+
+  .tooltip-stats__time
+    width: 20%
+
+  .tooltip-stats__ip
+    width: 40%
+
+  .tooltip-stats__region
+    width: 20%
+
+.phone-manager
+  width: 1060px
+  padding-top: 7px
+  font-size: $font-size-small
+  border-radius: 6px
+  background: $WB-modal-bg-color
+  color: white
+
+  &__content
+    border-bottom: 1px solid $WB-border-comments-color
+    padding: 10px 0
+    .q-table-container
+      box-shadow none
+    .close-button
+      position: absolute
+      right: 0
+      top: 0
+      z-index: 2
+
+  &__color-grey
+    color: $WB-disabled-color
+
+  &__number-type
+    display: inline-block
+    width: 28px
+
+  &__source
+    width: 8%
+
+  &__number
+    width: 14%
+    span:first-child
+      color: $WB-disabled-color
+
+  &__name
+    width: 20%
+
+  &__status
+    width: 12%
+
+  &__calls, &__call
+    width: 7%
+
+  &__comment, &__field
+    max-width: 18%
+
+  &__comment
+    overflow: hidden
+    .item
+      display: flex
+      justify-content: space-between
+      align-items: center
+      &.view
+        width: inherit
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+        margin: 0
+        resize: horizontal
+    .button
+      cursor: pointer
+      padding: 8px
+
+  &__input
+    width: 80%
+    border: none
+
+  &__operator, &__user
+    width: 13%
+
+  &__blocked
+    width: 5%
+
+  &__row
+    min-height: 35px
+    padding: 0 40px 0 20px
+    .view .button
+      display: none
+    &:hover .view .button
+      display: block
+
+    &:hover
+      background #d8d8d8
+      color black
+
+  &__footer
+    padding: 10px 20px 18px
+
+  &__footer-type
+    width: 115px
+
+  &__footer-number
+    width: 115px
+
+  &__footer-name
+    width: 171px
+
+  &__footer-comment
+    width: 171px
+
+  &__footer-input
+    margin-right: 27px
+
+  &__footer-btn
+    background: $WB-link-color
+    height: 10px
+
+  &__btn-save
+    width: 10px
+    height: 10px
+
+  &__btn-icon
+    font-size: $font-size-s
+
+  &__btn-icon_save
+    margin-right: 5px
+
+  .q-table-container
+    background: transparent
+  .q-table
+    thead
+      th
+        color: black
+    tr
+      padding: 0 40px 0 20px
+      color: white
+      &:hover
+        background #d8d8d8
+        color black
+    td, th
+      border: none
+      height: 35px
+      font-size: 12px
+      padding: 0 10px
+      &:first-child
+        padding-left: 20px
+      &:last-child
+        padding-right: 20px
+
+.phone-type
+  margin-right: 8px
+
+.modal.fullstat
+  z-index: 7000
+
+.modal-content
+  border-radius: 6px
+  background: $WB-modal-bg-color
+  color white
+
+  .modal-message
+    color white
+
+  .modal-email
+    padding: 8px 20px 9px 10px
+
+  .modal-social,   .modal-phone
+    padding: 8px 10px
+
+  .modal__title
+    font-size: $font-size-md
+
+  .modal__input
+    border-radius: 3px
+    font-size: $font-size-md
+    min-height: 0
+    padding: 4px 7px
+
+    .q-if::before, .q-if::after
+      content: none
+
+  .modal__buttons > .modal__btn
+    border-radius: 5px
+
+  .modal__buttons
+    box-shadow: none
+    margin-top: 10px
+
+    .modal__btn
+      font-size: $font-size-md
+      width: 75px
+      text-transform: inherit
+
+    .modal__btn + .modal__btn
+      margin-left: 36px
+
+    .modal__btn:last-child
+      background-color: $WB-link-color

@@ -11,7 +11,7 @@
           icon="group"
           icon-right="group"
         )
-    ProjectDialog(@hide="heroesDialog = false" :show="heroesDialog")
+    ProjectDialog(@hide="heroesDialog = false" :show="heroesDialog" name="heroes")
       div(:class="{'app-win': $app.layout.getOS === 'win', 'app-macos': $app.layout.getOS === 'mac', 'desktop': $q.platform.is.desktop}")
         HeroesProject
 </template>

@@ -1,10 +1,10 @@
 <template lang="pug">
-  .webbankir__block
+  .wb__block
     ProjectCard(:projectObj="obj")
       template(#actions)
         q-btn(
-          @click="webbankirOperatorDialog = true"
-          :label="$t('webbankir.text.btns.operator')"
+          @click="wbOperatorDialog = true"
+          :label="$t('wb.text.btns.operator')"
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"
           :size="btnsSize"
@@ -12,30 +12,31 @@
           icon-right="group"
         )
         q-btn(
-          @click="webbankirManagerDialog = true"
-          :label="$t('webbankir.text.btns.manager')"
+          @click="wbManagerDialog = true"
+          :label="$t('wb.text.btns.manager')"
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"
           :size="btnsSize"
           icon="group"
           icon-right="group"
         )
-    ProjectDialog(@hide="webbankirOperatorDialog = false" :show="webbankirOperatorDialog")
-      div webbankirOperatorDialog
-    ProjectDialog(@hide="webbankirManagerDialog = false" :show="webbankirManagerDialog")
-      div webbankirManagerDialog
+    ProjectDialog(@hide="wbOperatorDialog = false" :show="wbOperatorDialog" name="operatorWB")
+      WBOperatorProject
+    ProjectDialog(@hide="wbManagerDialog = false" :show="wbManagerDialog" name="managerWB")
+      div wbManagerDialog
 </template>
 
 <script>
 import ProjectCard from '../ProjectCard/index'
 import ProjectDialog from '../ProjectDialog'
+import WBOperatorProject from './ProjectOperator/index'
 export default {
   name: 'Webbankir',
-  components: { ProjectDialog, ProjectCard },
+  components: { WBOperatorProject, ProjectDialog, ProjectCard },
   data () {
     return {
-      webbankirOperatorDialog: false,
-      webbankirManagerDialog: false,
+      wbOperatorDialog: false,
+      wbManagerDialog: false,
     }
   },
   computed: {
@@ -53,25 +54,25 @@ export default {
         title: this.$t('layout.drawer.wb'),
         employees: [
           {
-            type: this.$t('webbankir.text.team.frontend'),
+            type: this.$t('wb.text.team.frontend'),
             number: 2,
           },
           {
-            type: this.$t('webbankir.text.team.backend'),
+            type: this.$t('wb.text.team.backend'),
             number: 3,
           },
           {
-            type: this.$t('webbankir.text.team.design'),
+            type: this.$t('wb.text.team.design'),
             number: 1,
           },
           {
-            type: this.$t('webbankir.text.team.manager'),
+            type: this.$t('wb.text.team.manager'),
             number: 1,
           },
         ],
         technologies: 'SPA, Vue.js, Quasar Framework, WebSocket, JWT, REST API, Agile, Kanban',
-        description: this.$t('webbankir.text.description'),
-        time: this.$t('webbankir.text.time'),
+        description: this.$t('wb.text.description'),
+        time: this.$t('wb.text.time'),
       }
     }
   }
