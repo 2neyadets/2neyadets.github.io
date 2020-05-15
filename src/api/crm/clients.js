@@ -5123,3 +5123,94 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
     }
   }
 }
+
+export const getPayments = async (payload) => {
+  return {
+    data: {
+      clientId: 11840223,
+      login: '190679010',
+      payments: [
+        {
+          id: 102503787,
+          productId: 5475393,
+          contract: '190679010',
+          paidAt: '2019-08-11T13:49:54+03:00',
+          amount: 6000,
+          paymentSystem: 'qiwipay',
+          agreementId: null,
+          dealId: null
+        },
+        {
+          id: 102534469,
+          productId: 5497760,
+          contract: '190679010/2',
+          paidAt: '2019-08-20T08:50:01+03:00',
+          amount: 6420,
+          paymentSystem: 'tkb',
+          agreementId: null,
+          dealId: null
+        },
+        {
+          id: 1025824002019,
+          productId: 5529675,
+          contract: '190679010/3',
+          paidAt: '2019-09-04T18:36:19+03:00',
+          amount: 11500,
+          paymentSystem: 'qiwipay',
+          agreementId: null,
+          dealId: null
+        },
+        {
+          id: 1026722182019,
+          productId: 5594642,
+          contract: '190679010/4',
+          paidAt: '2019-10-01T14:29:38+03:00',
+          amount: 19050,
+          paymentSystem: 'qiwipay',
+          agreementId: null,
+          dealId: null
+        },
+        {
+          id: 1027736152019,
+          productId: 5709858,
+          contract: '190679010/5',
+          paidAt: '2019-10-31T08:10:44+03:00',
+          amount: 6200,
+          paymentSystem: 'qiwipay',
+          agreementId: 1151639,
+          dealId: null
+        },
+        {
+          id: 1027836282019,
+          productId: 5709858,
+          contract: '190679010/5',
+          paidAt: '2019-11-03T09:51:54+03:00',
+          amount: 20188,
+          paymentSystem: 'qiwipay',
+          agreementId: 1151639,
+          dealId: null
+        },
+        {
+          id: 1029160602019,
+          productId: 5861481,
+          contract: '190679010/6',
+          paidAt: '2019-12-10T14:07:27+03:00',
+          amount: 7200,
+          paymentSystem: 'qiwipay',
+          agreementId: 1208198,
+          dealId: null
+        },
+        {
+          id: 1029978842019,
+          productId: 5861481,
+          contract: '190679010/6',
+          paidAt: '2019-12-30T07:55:26+03:00',
+          amount: 4000,
+          paymentSystem: 'qiwipay',
+          agreementId: 1238376,
+          dealId: null
+        }
+      ]
+    }
+  }
+}

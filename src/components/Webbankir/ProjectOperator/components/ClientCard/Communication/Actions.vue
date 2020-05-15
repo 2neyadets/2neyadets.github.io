@@ -148,10 +148,7 @@ export default {
       return arr
     },
     isDisabledManualCalls () {
-      return this.$operatorWB.dialer.phoneForManualDial === 'blank' ||
-        this.$operatorWB.calls.currentCall !== null ||
-        this.$operatorWB.clients.isDisabledCallsAndSMSByTimeAndRole ||
-        this.$operatorWB.loans.isDisabledCallsAndSMSByDelay
+      return this.$operatorWB.dialer.phoneForManualDial === 'blank'
     },
     isDisabledMessages () {
       return this.$operatorWB.user.isUserHaveRoles(['operatorUnderwriting', 'supervisorUnderwriting', 'leaderUnderwriting'])

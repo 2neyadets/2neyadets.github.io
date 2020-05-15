@@ -118,7 +118,7 @@
               template(v-if="currentCard && currentCard.isEditing")
                 .flex.justify-between.items-center.full-width.full-height
                   .q-pa-none
-                    .text-text-profile-color.font-size-sm.q-pb-xs Серия и номер
+                    .text-WB-text-profile-color.font-size-sm.q-pb-xs Серия и номер
                     q-input.input-for-profile(
                       type="number"
                       v-model="client.passport.number"
@@ -126,7 +126,7 @@
                       color="WB-warning-color"
                     )
                   .q-pa-none
-                    .text-text-profile-color.font-size-sm.q-pb-xs Дата выдачи
+                    .text-WB-text-profile-color.font-size-sm.q-pb-xs Дата выдачи
                     q-input.date-picker.input-for-profile(
                       v-model="issuedAt"
                       :format="'DD.MM.YYYY'"
@@ -147,7 +147,7 @@
                               :mask="'DD.MM.YYYY'"
                             )
                   .q-pa-none
-                    .text-text-profile-color.font-size-sm.q-pb-xs Код подразделения
+                    .text-WB-text-profile-color.font-size-sm.q-pb-xs Код подразделения
                     q-input.input-for-profile(
                       v-model="client.passport.dept"
                       outlined

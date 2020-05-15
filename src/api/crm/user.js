@@ -59,23 +59,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 696792.2,
+                amount: 69692.2,
                 rating: 5
               },
               [currentMonthDateMinusThree]: {
-                amount: 790703.08,
+                amount: 79003.08,
                 rating: 6
               },
               [currentMonthDateMinusTwo]: {
-                amount: 720742.13,
+                amount: 72042.13,
                 rating: 4
               },
               [currentMonthDateMinusOne]: {
-                amount: 610718.06,
+                amount: 61018.06,
                 rating: 9
               },
               [currentMonthDate]: {
-                amount: 161666.33,
+                amount: 16166.33,
                 rating: 20
               }
             }
@@ -97,23 +97,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 690025.67,
+                amount: 69025.67,
                 rating: 6
               },
               [currentMonthDateMinusThree]: {
-                amount: 842275.58,
+                amount: 84275.58,
                 rating: 4
               },
               [currentMonthDateMinusTwo]: {
-                amount: 413540.75,
+                amount: 41340.75,
                 rating: 41
               },
               [currentMonthDateMinusOne]: {
-                amount: 426280.41,
+                amount: 42680.41,
                 rating: 27
               },
               [currentMonthDate]: {
-                amount: 230218.47,
+                amount: 23018.47,
                 rating: 6
               }
             }
@@ -135,23 +135,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 661120.57,
+                amount: 66110.57,
                 rating: 13
               },
               [currentMonthDateMinusThree]: {
-                amount: 763384.25,
+                amount: 76384.25,
                 rating: 9
               },
               [currentMonthDateMinusTwo]: {
-                amount: 603548.5,
+                amount: 60348.5,
                 rating: 15
               },
               [currentMonthDateMinusOne]: {
-                amount: 740089.24,
+                amount: 74089.24,
                 rating: 2
               },
               [currentMonthDate]: {
-                amount: 128491.26,
+                amount: 12491.26,
                 rating: 28
               }
             }
@@ -173,23 +173,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 556545.72,
+                amount: 55645.72,
                 rating: 23
               },
               [currentMonthDateMinusThree]: {
-                amount: 621737.66,
+                amount: 62137.66,
                 rating: 24
               },
               [currentMonthDateMinusTwo]: {
-                amount: 600121.52,
+                amount: 60021.52,
                 rating: 17
               },
               [currentMonthDateMinusOne]: {
-                amount: 491042.71,
+                amount: 49142.71,
                 rating: 18
               },
               [currentMonthDate]: {
-                amount: 225923.89,
+                amount: 22523.89,
                 rating: 7
               }
             }
@@ -211,23 +211,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 428269.24,
+                amount: 42269.24,
                 rating: 37
               },
               [currentMonthDateMinusThree]: {
-                amount: 681654.38,
+                amount: 68154.38,
                 rating: 18
               },
               [currentMonthDateMinusTwo]: {
-                amount: 455810.64,
+                amount: 45510.64,
                 rating: 36
               },
               [currentMonthDateMinusOne]: {
-                amount: 404181.59,
+                amount: 44181.59,
                 rating: 30
               },
               [currentMonthDate]: {
-                amount: 119915.75,
+                amount: 11915.75,
                 rating: 32
               }
             }
@@ -249,23 +249,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 504089.79,
+                amount: 50489.79,
                 rating: 32
               },
               [currentMonthDateMinusThree]: {
-                amount: 642991.29,
+                amount: 64291.29,
                 rating: 22
               },
               [currentMonthDateMinusTwo]: {
-                amount: 216493.57,
+                amount: 21693.57,
                 rating: 45
               },
               [currentMonthDateMinusOne]: {
-                amount: 98831.37,
+                amount: 9831.37,
                 rating: 45
               },
               [currentMonthDate]: {
-                amount: 106625.88,
+                amount: 10625.88,
                 rating: 37
               }
             }
@@ -287,23 +287,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 1036920.5,
+                amount: 103920.5,
                 rating: 1
               },
               [currentMonthDateMinusThree]: {
-                amount: 777447.9,
+                amount: 77747.9,
                 rating: 8
               },
               [currentMonthDateMinusTwo]: {
-                amount: 633755.49,
+                amount: 63355.49,
                 rating: 11
               },
               [currentMonthDateMinusOne]: {
-                amount: 655219.29,
+                amount: 65219.29,
                 rating: 5
               },
               [currentMonthDate]: {
-                amount: 159467.37,
+                amount: 15467.37,
                 rating: 21
               }
             }
@@ -325,23 +325,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 678621.8,
+                amount: 67821.8,
                 rating: 11
               },
               [currentMonthDateMinusThree]: {
-                amount: 720220.27,
+                amount: 72220.27,
                 rating: 10
               },
               [currentMonthDateMinusTwo]: {
-                amount: 611768.21,
+                amount: 61178.21,
                 rating: 13
               },
               [currentMonthDateMinusOne]: {
-                amount: 510471.24,
+                amount: 51071.24,
                 rating: 16
               },
               [currentMonthDate]: {
-                amount: 81899.22,
+                amount: 8199.22,
                 rating: 41
               }
             }
@@ -363,23 +363,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 576635.24,
+                amount: 57635.24,
                 rating: 21
               },
               [currentMonthDateMinusThree]: {
-                amount: 858303.56,
+                amount: 85803.56,
                 rating: 3
               },
               [currentMonthDateMinusTwo]: {
-                amount: 515214.35,
+                amount: 51524.35,
                 rating: 25
               },
               [currentMonthDateMinusOne]: {
-                amount: 744450.07,
+                amount: 74450.07,
                 rating: 1
               },
               [currentMonthDate]: {
-                amount: 172339.21,
+                amount: 17339.21,
                 rating: 18
               }
             }
@@ -401,23 +401,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 517847.88,
+                amount: 51747.88,
                 rating: 30
               },
               [currentMonthDateMinusThree]: {
-                amount: 469010.56,
+                amount: 46910.56,
                 rating: 41
               },
               [currentMonthDateMinusTwo]: {
-                amount: 683887.22,
+                amount: 68387.22,
                 rating: 8
               },
               [currentMonthDateMinusOne]: {
-                amount: 505657.51,
+                amount: 50657.51,
                 rating: 17
               },
               [currentMonthDate]: {
-                amount: 199940.33,
+                amount: 19940.33,
                 rating: 13
               }
             }
@@ -439,23 +439,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 611682.95,
+                amount: 61682.95,
                 rating: 18
               },
               [currentMonthDateMinusThree]: {
-                amount: 547630.82,
+                amount: 54630.82,
                 rating: 37
               },
               [currentMonthDateMinusTwo]: {
-                amount: 620403.2,
+                amount: 62003.2,
                 rating: 12
               },
               [currentMonthDateMinusOne]: {
-                amount: 709235.77,
+                amount: 70235.77,
                 rating: 3
               },
               [currentMonthDate]: {
-                amount: 306316.73,
+                amount: 30316.73,
                 rating: 1
               }
             }
@@ -477,23 +477,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 657390.62,
+                amount: 65390.62,
                 rating: 14
               },
               [currentMonthDateMinusThree]: {
-                amount: 707425.49,
+                amount: 70725.49,
                 rating: 11
               },
               [currentMonthDateMinusTwo]: {
-                amount: 931938.6,
+                amount: 93138.6,
                 rating: 1
               },
               [currentMonthDateMinusOne]: {
-                amount: 646441.89,
+                amount: 64641.89,
                 rating: 6
               },
               [currentMonthDate]: {
-                amount: 268471.81,
+                amount: 26471.81,
                 rating: 2
               }
             }
@@ -515,23 +515,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 688088.09,
+                amount: 68888.09,
                 rating: 7
               },
               [currentMonthDateMinusThree]: {
-                amount: 1099928.3,
+                amount: 109928.3,
                 rating: 1
               },
               [currentMonthDateMinusTwo]: {
-                amount: 483696.34,
+                amount: 48396.34,
                 rating: 30
               },
               [currentMonthDateMinusOne]: {
-                amount: 407048.39,
+                amount: 40048.39,
                 rating: 28
               },
               [currentMonthDate]: {
-                amount: 120781.22,
+                amount: 12781.22,
                 rating: 30
               }
             }
@@ -553,23 +553,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 532340.21,
+                amount: 53240.21,
                 rating: 26
               },
               [currentMonthDateMinusThree]: {
-                amount: 607377.28,
+                amount: 60777.28,
                 rating: 27
               },
               [currentMonthDateMinusTwo]: {
-                amount: 462868.73,
+                amount: 46268.73,
                 rating: 35
               },
               [currentMonthDateMinusOne]: {
-                amount: 364707.76,
+                amount: 36707.76,
                 rating: 36
               },
               [currentMonthDate]: {
-                amount: 134906.69,
+                amount: 13406.69,
                 rating: 25
               }
             }
@@ -591,23 +591,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 687344.37,
+                amount: 68744.37,
                 rating: 8
               },
               [currentMonthDateMinusThree]: {
-                amount: 535933.51,
+                amount: 53533.51,
                 rating: 38
               },
               [currentMonthDateMinusTwo]: {
-                amount: 714982.4,
+                amount: 71982.4,
                 rating: 5
               },
               [currentMonthDateMinusOne]: {
-                amount: 433792.77,
+                amount: 43392.77,
                 rating: 25
               },
               [currentMonthDate]: {
-                amount: 241787.89,
+                amount: 24787.89,
                 rating: 5
               }
             }
@@ -629,23 +629,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 458771.8,
+                amount: 45871.8,
                 rating: 36
               },
               [currentMonthDateMinusThree]: {
-                amount: 556654.73,
+                amount: 55654.73,
                 rating: 35
               },
               [currentMonthDateMinusTwo]: {
-                amount: 497594.52,
+                amount: 49794.52,
                 rating: 29
               },
               [currentMonthDateMinusOne]: {
-                amount: 165172.36,
+                amount: 16572.36,
                 rating: 44
               },
               [currentMonthDate]: {
-                amount: 92978.82,
+                amount: 9278.82,
                 rating: 38
               }
             }
@@ -667,23 +667,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 607240.56,
+                amount: 60240.56,
                 rating: 19
               },
               [currentMonthDateMinusThree]: {
-                amount: 874005.13,
+                amount: 87405.13,
                 rating: 2
               },
               [currentMonthDateMinusTwo]: {
-                amount: 575867.45,
+                amount: 57867.45,
                 rating: 20
               },
               [currentMonthDateMinusOne]: {
-                amount: 643716.49,
+                amount: 64316.49,
                 rating: 7
               },
               [currentMonthDate]: {
-                amount: 154484.11,
+                amount: 15484.11,
                 rating: 22
               }
             }
@@ -705,23 +705,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 633808.11,
+                amount: 63308.11,
                 rating: 17
               },
               [currentMonthDateMinusThree]: {
-                amount: 804132.83,
+                amount: 80432.83,
                 rating: 5
               },
               [currentMonthDateMinusTwo]: {
-                amount: 435167.83,
+                amount: 43567.83,
                 rating: 39
               },
               [currentMonthDateMinusOne]: {
-                amount: 467733.32,
+                amount: 46733.32,
                 rating: 20
               },
               [currentMonthDate]: {
-                amount: 222622.33,
+                amount: 22222.33,
                 rating: 8
               }
             }
@@ -743,23 +743,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 481391.74,
+                amount: 48191.74,
                 rating: 34
               },
               [currentMonthDateMinusThree]: {
-                amount: 698871.28,
+                amount: 69871.28,
                 rating: 15
               },
               [currentMonthDateMinusTwo]: {
-                amount: 724157.61,
+                amount: 72457.61,
                 rating: 3
               },
               [currentMonthDateMinusOne]: {
-                amount: 589755.29,
+                amount: 58955.29,
                 rating: 12
               },
               [currentMonthDate]: {
-                amount: 153674.26,
+                amount: 15374.26,
                 rating: 23
               }
             }
@@ -781,23 +781,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 393433.42,
+                amount: 39433.42,
                 rating: 41
               },
               [currentMonthDateMinusThree]: {
-                amount: 513793.45,
+                amount: 51393.45,
                 rating: 40
               },
               [currentMonthDateMinusTwo]: {
-                amount: 468371.29,
+                amount: 46871.29,
                 rating: 32
               },
               [currentMonthDateMinusOne]: {
-                amount: 327046.83,
+                amount: 32746.83,
                 rating: 38
               },
               [currentMonthDate]: {
-                amount: 216432.56,
+                amount: 21432.56,
                 rating: 9
               }
             }
@@ -819,23 +819,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 420688.21,
+                amount: 42088.21,
                 rating: 40
               },
               [currentMonthDateMinusThree]: {
-                amount: 667373.01,
+                amount: 66773.01,
                 rating: 19
               },
               [currentMonthDateMinusTwo]: {
-                amount: 445506.3,
+                amount: 44556.3,
                 rating: 37
               },
               [currentMonthDateMinusOne]: {
-                amount: 374698.15,
+                amount: 37498.15,
                 rating: 34
               },
               [currentMonthDate]: {
-                amount: 59856.62,
+                amount: 5986.62,
                 rating: 42
               }
             }
@@ -857,23 +857,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 426786.17,
+                amount: 42676.17,
                 rating: 39
               },
               [currentMonthDateMinusThree]: {
-                amount: 700560.86,
+                amount: 70060.86,
                 rating: 14
               },
               [currentMonthDateMinusTwo]: {
-                amount: 600045.75,
+                amount: 60045.75,
                 rating: 18
               },
               [currentMonthDateMinusOne]: {
-                amount: 356735.95,
+                amount: 35635.95,
                 rating: 37
               },
               [currentMonthDate]: {
-                amount: 214549.34,
+                amount: 21459.34,
                 rating: 10
               }
             }
@@ -895,23 +895,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 680337.34,
+                amount: 68037.34,
                 rating: 10
               },
               [currentMonthDateMinusThree]: {
-                amount: 784023.25,
+                amount: 78423.25,
                 rating: 7
               },
               [currentMonthDateMinusTwo]: {
-                amount: 712828.26,
+                amount: 71228.26,
                 rating: 6
               },
               [currentMonthDateMinusOne]: {
-                amount: 703319.04,
+                amount: 70319.04,
                 rating: 4
               },
               [currentMonthDate]: {
-                amount: 244606.44,
+                amount: 24406.44,
                 rating: 4
               }
             }
@@ -933,23 +933,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 518196.2,
+                amount: 51896.2,
                 rating: 29
               },
               [currentMonthDateMinusThree]: {
-                amount: 413920.37,
+                amount: 41320.37,
                 rating: 42
               },
               [currentMonthDateMinusTwo]: {
-                amount: 611076.19,
+                amount: 61106.19,
                 rating: 14
               },
               [currentMonthDateMinusOne]: {
-                amount: 382702.94,
+                amount: 38202.94,
                 rating: 32
               },
               [currentMonthDate]: {
-                amount: 118077.25,
+                amount: 11877.25,
                 rating: 33
               }
             }
@@ -971,23 +971,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 797463.13,
+                amount: 79763.13,
                 rating: 2
               },
               [currentMonthDateMinusThree]: {
-                amount: 683507.62,
+                amount: 68507.62,
                 rating: 17
               },
               [currentMonthDateMinusTwo]: {
-                amount: 600760.7,
+                amount: 60060.7,
                 rating: 16
               },
               [currentMonthDateMinusOne]: {
-                amount: 319268.88,
+                amount: 31928.88,
                 rating: 40
               },
               [currentMonthDate]: {
-                amount: 199395.05,
+                amount: 19935.05,
                 rating: 14
               }
             }
@@ -1009,23 +1009,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 656103.24,
+                amount: 65603.24,
                 rating: 15
               },
               [currentMonthDateMinusThree]: {
-                amount: 603549.85,
+                amount: 60349.85,
                 rating: 28
               },
               [currentMonthDateMinusTwo]: {
-                amount: 380827.09,
+                amount: 38087.09,
                 rating: 44
               },
               [currentMonthDateMinusOne]: {
-                amount: 458176.7,
+                amount: 45876.7,
                 rating: 22
               },
               [currentMonthDate]: {
-                amount: 120289.98,
+                amount: 12089.98,
                 rating: 31
               }
             }
@@ -1047,23 +1047,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 379786.35,
+                amount: 37986.35,
                 rating: 44
               },
               [currentMonthDateMinusThree]: {
-                amount: 600036.12,
+                amount: 60036.12,
                 rating: 30
               },
               [currentMonthDateMinusTwo]: {
-                amount: 685627.06,
+                amount: 68627.06,
                 rating: 7
               },
               [currentMonthDateMinusOne]: {
-                amount: 313274.27,
+                amount: 31374.27,
                 rating: 41
               },
               [currentMonthDate]: {
-                amount: 263305.67,
+                amount: 26305.67,
                 rating: 3
               }
             }
@@ -1085,23 +1085,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 427843.64,
+                amount: 42743.64,
                 rating: 38
               },
               [currentMonthDateMinusThree]: {
-                amount: 564397.98,
+                amount: 56397.98,
                 rating: 33
               },
               [currentMonthDateMinusTwo]: {
-                amount: 541209.37,
+                amount: 54129.37,
                 rating: 22
               },
               [currentMonthDateMinusOne]: {
-                amount: 515169.17,
+                amount: 51569.17,
                 rating: 15
               },
               [currentMonthDate]: {
-                amount: 173592.99,
+                amount: 17392.99,
                 rating: 17
               }
             }
@@ -1123,23 +1123,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 476981.62,
+                amount: 47691.62,
                 rating: 35
               },
               [currentMonthDateMinusThree]: {
-                amount: 647222.3,
+                amount: 64722.3,
                 rating: 21
               },
               [currentMonthDateMinusTwo]: {
-                amount: 467755.27,
+                amount: 46775.27,
                 rating: 33
               },
               [currentMonthDateMinusOne]: {
-                amount: 553987.83,
+                amount: 55387.83,
                 rating: 13
               },
               [currentMonthDate]: {
-                amount: 171032,
+                amount: 17132,
                 rating: 19
               }
             }
@@ -1161,23 +1161,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 561259.84,
+                amount: 56129.84,
                 rating: 22
               },
               [currentMonthDateMinusThree]: {
-                amount: 620057.53,
+                amount: 62057.53,
                 rating: 26
               },
               [currentMonthDateMinusTwo]: {
-                amount: 500405.58,
+                amount: 50005.58,
                 rating: 28
               },
               [currentMonthDateMinusOne]: {
-                amount: 604164.67,
+                amount: 60464.67,
                 rating: 11
               },
               [currentMonthDate]: {
-                amount: 109858.83,
+                amount: 10988.83,
                 rating: 35
               }
             }
@@ -1199,23 +1199,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 539151.98,
+                amount: 53911.98,
                 rating: 25
               },
               [currentMonthDateMinusThree]: {
-                amount: 661862.05,
+                amount: 66162.05,
                 rating: 20
               },
               [currentMonthDateMinusTwo]: {
-                amount: 600000.04,
+                amount: 60000.04,
                 rating: 19
               },
               [currentMonthDateMinusOne]: {
-                amount: 620713.98,
+                amount: 62073.98,
                 rating: 8
               },
               [currentMonthDate]: {
-                amount: 181774.28,
+                amount: 18174.28,
                 rating: 16
               }
             }
@@ -1237,23 +1237,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 522563.92,
+                amount: 52263.92,
                 rating: 28
               },
               [currentMonthDateMinusThree]: {
-                amount: 555776.54,
+                amount: 55576.54,
                 rating: 36
               },
               [currentMonthDateMinusTwo]: {
-                amount: 466661.58,
+                amount: 46661.58,
                 rating: 34
               },
               [currentMonthDateMinusOne]: {
-                amount: 442772.29,
+                amount: 44272.29,
                 rating: 23
               },
               [currentMonthDate]: {
-                amount: 201502.83,
+                amount: 20102.83,
                 rating: 12
               }
             }
@@ -1275,23 +1275,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 602228.5,
+                amount: 60228.5,
                 rating: 20
               },
               [currentMonthDateMinusThree]: {
-                amount: 357146.64,
+                amount: 35746.64,
                 rating: 44
               },
               [currentMonthDateMinusTwo]: {
-                amount: 506861.02,
+                amount: 50661.02,
                 rating: 26
               },
               [currentMonthDateMinusOne]: {
-                amount: 290086.86,
+                amount: 29086.86,
                 rating: 43
               },
               [currentMonthDate]: {
-                amount: 112384.2,
+                amount: 11284.2,
                 rating: 34
               }
             }
@@ -1313,23 +1313,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 510963.97,
+                amount: 51063.97,
                 rating: 31
               },
               [currentMonthDateMinusThree]: {
-                amount: 600905.98,
+                amount: 60005.98,
                 rating: 29
               },
               [currentMonthDateMinusTwo]: {
-                amount: 638992.76,
+                amount: 63992.76,
                 rating: 10
               },
               [currentMonthDateMinusOne]: {
-                amount: 607731.14,
+                amount: 60771.14,
                 rating: 10
               },
               [currentMonthDate]: {
-                amount: 149963.74,
+                amount: 14963.74,
                 rating: 24
               }
             }
@@ -1351,23 +1351,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 527836.87,
+                amount: 52786.87,
                 rating: 27
               },
               [currentMonthDateMinusThree]: {
-                amount: 705669.19,
+                amount: 70569.19,
                 rating: 12
               },
               [currentMonthDateMinusTwo]: {
-                amount: 552139.75,
+                amount: 55239.75,
                 rating: 21
               },
               [currentMonthDateMinusOne]: {
-                amount: 311787.65,
+                amount: 31187.65,
                 rating: 42
               },
               [currentMonthDate]: {
-                amount: 132876.56,
+                amount: 13286.56,
                 rating: 27
               }
             }
@@ -1389,23 +1389,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 716794.33,
+                amount: 71674.33,
                 rating: 3
               },
               [currentMonthDateMinusThree]: {
-                amount: 696148.96,
+                amount: 69648.96,
                 rating: 16
               },
               [currentMonthDateMinusTwo]: {
-                amount: 502248.69,
+                amount: 50228.69,
                 rating: 27
               },
               [currentMonthDateMinusOne]: {
-                amount: 483117.36,
+                amount: 48317.36,
                 rating: 19
               },
               [currentMonthDate]: {
-                amount: 107682.79,
+                amount: 10762.79,
                 rating: 36
               }
             }
@@ -1427,23 +1427,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 225014.2,
+                amount: 22504.2,
                 rating: 45
               },
               [currentMonthDateMinusThree]: {
-                amount: 249321.65,
+                amount: 24931.65,
                 rating: 45
               },
               [currentMonthDateMinusTwo]: {
-                amount: 411618.04,
+                amount: 41118.04,
                 rating: 42
               },
               [currentMonthDateMinusOne]: {
-                amount: 463097.14,
+                amount: 46307.14,
                 rating: 21
               },
               [currentMonthDate]: {
-                amount: 84062.67,
+                amount: 8402.67,
                 rating: 40
               }
             }
@@ -1465,23 +1465,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 680911.18,
+                amount: 68091.18,
                 rating: 9
               },
               [currentMonthDateMinusThree]: {
-                amount: 621067.58,
+                amount: 62107.58,
                 rating: 25
               },
               [currentMonthDateMinusTwo]: {
-                amount: 428593.58,
+                amount: 42853.58,
                 rating: 40
               },
               [currentMonthDateMinusOne]: {
-                amount: 405174.58,
+                amount: 40514.58,
                 rating: 29
               },
               [currentMonthDate]: {
-                amount: 207655.03,
+                amount: 20765.03,
                 rating: 11
               }
             }
@@ -1503,19 +1503,19 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 389167.3,
+                amount: 38917.3,
                 rating: 42
               },
               [currentMonthDateMinusThree]: {
-                amount: 701097.69,
+                amount: 70107.69,
                 rating: 13
               },
               [currentMonthDateMinusTwo]: {
-                amount: 386002.14,
+                amount: 38602.14,
                 rating: 43
               },
               [currentMonthDateMinusOne]: {
-                amount: 432089.25,
+                amount: 43209.25,
                 rating: 26
               },
               [currentMonthDate]: {
@@ -1541,23 +1541,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 387852.54,
+                amount: 38782.54,
                 rating: 43
               },
               [currentMonthDateMinusThree]: {
-                amount: 403821.09,
+                amount: 40381.09,
                 rating: 43
               },
               [currentMonthDateMinusTwo]: {
-                amount: 479983.67,
+                amount: 47993.67,
                 rating: 31
               },
               [currentMonthDateMinusOne]: {
-                amount: 368323.97,
+                amount: 36833.97,
                 rating: 35
               },
               [currentMonthDate]: {
-                amount: 134396.55,
+                amount: 13496.55,
                 rating: 26
               }
             }
@@ -1579,23 +1579,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 671936.49,
+                amount: 67196.49,
                 rating: 12
               },
               [currentMonthDateMinusThree]: {
-                amount: 641336.22,
+                amount: 64136.22,
                 rating: 23
               },
               [currentMonthDateMinusTwo]: {
-                amount: 759943.08,
+                amount: 75943.08,
                 rating: 2
               },
               [currentMonthDateMinusOne]: {
-                amount: 389666.44,
+                amount: 38966.44,
                 rating: 31
               },
               [currentMonthDate]: {
-                amount: 188260.63,
+                amount: 18860.63,
                 rating: 15
               }
             }
@@ -1617,19 +1617,19 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 492793.67,
+                amount: 49273.67,
                 rating: 33
               },
               [currentMonthDateMinusThree]: {
-                amount: 573620.37,
+                amount: 57360.37,
                 rating: 31
               },
               [currentMonthDateMinusTwo]: {
-                amount: 529812.62,
+                amount: 52982.62,
                 rating: 23
               },
               [currentMonthDateMinusOne]: {
-                amount: 378843.26,
+                amount: 37843.26,
                 rating: 33
               },
               [currentMonthDate]: {
@@ -1655,23 +1655,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 703353.9,
+                amount: 70353.9,
                 rating: 4
               },
               [currentMonthDateMinusThree]: {
-                amount: 530011.09,
+                amount: 53011.09,
                 rating: 39
               },
               [currentMonthDateMinusTwo]: {
-                amount: 683521.11,
+                amount: 68321.11,
                 rating: 9
               },
               [currentMonthDateMinusOne]: {
-                amount: 522298.25,
+                amount: 52298.25,
                 rating: 14
               },
               [currentMonthDate]: {
-                amount: 59837.43,
+                amount: 5937.43,
                 rating: 43
               }
             }
@@ -1693,23 +1693,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 555470.02,
+                amount: 55540.02,
                 rating: 24
               },
               [currentMonthDateMinusThree]: {
-                amount: 557923.21,
+                amount: 55723.21,
                 rating: 34
               },
               [currentMonthDateMinusTwo]: {
-                amount: 523063.87,
+                amount: 52363.87,
                 rating: 24
               },
               [currentMonthDateMinusOne]: {
-                amount: 439091.03,
+                amount: 43901.03,
                 rating: 24
               },
               [currentMonthDate]: {
-                amount: 84083.59,
+                amount: 8403.59,
                 rating: 39
               }
             }
@@ -1731,23 +1731,23 @@ export const userRatingsHard = async () => {
             },
             monthly: {
               [currentMonthDateMinusFour]: {
-                amount: 635704.21,
+                amount: 63574.21,
                 rating: 16
               },
               [currentMonthDateMinusThree]: {
-                amount: 570363.79,
+                amount: 57063.79,
                 rating: 32
               },
               [currentMonthDateMinusTwo]: {
-                amount: 436521.47,
+                amount: 43621.47,
                 rating: 38
               },
               [currentMonthDateMinusOne]: {
-                amount: 322327.4,
+                amount: 32227.4,
                 rating: 39
               },
               [currentMonthDate]: {
-                amount: 123548.21,
+                amount: 12348.21,
                 rating: 29
               }
             }

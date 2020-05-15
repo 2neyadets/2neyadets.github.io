@@ -11,14 +11,10 @@
           aria-label="Menu"
           icon="menu"
         )
-        <!--        q-btn.q-ml-xs(flat no-caps no-wrap v-if="$q.screen.gt.xs")-->
-        <!--          q-icon(name="home" size="28px" :color="$app.layout.activeColor")-->
-        <!--          q-toolbar-title.text-weight-bold(shrink) {{$t('layout.header.home')}}-->
+
         q-space
 
         .q-gutter-sm-md.q-gutter-xs-sm.row.items-center.no-wrap
-          //q-btn(round dense flat color="grey-8" icon="video_call" v-if="$q.screen.gt.sm")
-            q-tooltip Create a video or post
           q-toggle(
             v-model="darkMode"
             @input="layoutNotChanged"
@@ -76,7 +72,6 @@
             )
               q-icon(name="mail")
               span.q-px-sm avsintsov91@gmail.com
-              //q-tooltip {{$t('layout.drawer.mailMe')}}
     q-page-container
       q-scroll-area(
         @scroll="$app.layout.scrollHandler"

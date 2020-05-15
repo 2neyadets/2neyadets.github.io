@@ -34,7 +34,7 @@ import PaymentsButton from './RouteBtns/PaymentsButton'
 import ContractsButton from './RouteBtns/ContractsButton'
 
 export default {
-  name: 'Toolbar',
+  name: 'WBOperatorToolbar',
   components: {
     ContractsButton,
     PaymentsButton,

@@ -18,6 +18,11 @@ import paymentsOperator from 'src/services/WB/operator/Payments'
 import dialerOperator from 'src/services/WB/operator/Dialer'
 import callsOperator from 'src/services/WB/operator/Calls'
 import messagesOperator from 'src/services/WB/operator/Messages'
+import layoutManager from 'src/services/WB/manager/layout'
+import userManager from 'src/services/WB/manager/user'
+import loanRedistributionManager from 'src/services/WB/manager/loanRedistribution'
+import mailingManager from 'src/services/WB/manager/mailing'
+import scheduleManager from 'src/services/WB/manager/schedule'
 
 export default {
   name: 'App',
@@ -35,12 +40,21 @@ export default {
       calls: new Vue(callsOperator),
       messages: new Vue(messagesOperator),
     }
+    Vue.prototype.$managerWB = {
+      layout: new Vue(layoutManager),
+      user: new Vue(userManager),
+      loanRedistribution: new Vue(loanRedistributionManager),
+      mailing: new Vue(mailingManager),
+      schedule: new Vue(scheduleManager),
+    }
   },
   data () {
     return {
       layout: new Vue(layout),
       heroes: new Vue(heroes),
     }
-  }
+  },
+  mounted () {
+  },
 }
 </script>

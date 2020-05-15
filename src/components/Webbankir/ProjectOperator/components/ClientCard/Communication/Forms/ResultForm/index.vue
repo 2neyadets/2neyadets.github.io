@@ -78,7 +78,7 @@
       q-btn.comments__link(
         v-if="!$operatorWB.calls.currentCall"
         :disable="$operatorWB.communication.loading.saveCommunication"
-        flat
+        color="negative"
         @click.prevent="close"
       ) {{$t('communications.labels.closeBtn')}}
 

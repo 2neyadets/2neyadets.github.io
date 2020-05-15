@@ -8,7 +8,6 @@
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"
           :size="$q.screen.gt.md ? 'md' : 'sm'"
-          icon="group"
           icon-right="group"
         )
     ProjectDialog(@hide="heroesDialog = false" :show="heroesDialog" name="heroes")

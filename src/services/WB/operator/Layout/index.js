@@ -157,7 +157,7 @@ export default {
       this.$operatorWB.communication.updateCommunicationScheme()
     },
     'route.path' (v) {
-      console.log('WB route.path: ', v)
+      console.log('operatorWB route.path: ', v)
     }
   }
 }

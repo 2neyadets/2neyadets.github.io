@@ -36,6 +36,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'ProjectCard',
   props: {
@@ -43,7 +44,9 @@ export default {
       type: Object,
       required: true,
     }
-  }
+  },
+  mounted () {
+  },
 }
 </script>
 

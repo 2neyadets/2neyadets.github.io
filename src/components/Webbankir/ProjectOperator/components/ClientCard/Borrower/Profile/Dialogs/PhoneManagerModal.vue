@@ -1,5 +1,5 @@
 <template lang="pug">
-  q-dialog(v-model="$operatorWB.layout.phoneModalOpened" content-style="z-index: 6100;")
+  q-dialog(v-model="$operatorWB.layout.phoneModalOpened" content-class="operatorWB__dialog" content-style="z-index: 6100;")
     q-card.phone-manager__card.modal-content.phone-manager.brs6.ovh
       q-card-section.phone-manager__content
         q-btn.close-button.q-mr-sm(

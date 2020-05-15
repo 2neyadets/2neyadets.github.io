@@ -45,9 +45,8 @@
                   template(v-if="isHoveredRow(props.row.id) && props.row.channel && props.row.channel.phone && props.row.channel.phone.number")
                     q-btn.child(
                       @click="callStart(props.row.channel.phone.number)"
-                      :disable="$operatorWB.clients.isDisabledCallsAndSMSByTimeAndRole || $operatorWB.loans.isDisabledCallsAndSMSByDelay"
                       icon="call"
-                      :color="$operatorWB.clients.isDisabledCallsAndSMSByTimeAndRole || $operatorWB.loans.isDisabledCallsAndSMSByDelay ? 'grey' : 'positive'"
+                      :color="'positive'"
                       size="7px"
                       round
                       dense

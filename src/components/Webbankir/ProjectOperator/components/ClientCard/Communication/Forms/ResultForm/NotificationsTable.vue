@@ -1,7 +1,6 @@
 <template lang="pug">
   .notifications-table
     q-table.my-sticky-header-table(
-      :title="$t('communications.notificationsTable.title')"
       :data="[currentMessages]"
       :columns="columns"
       row-key="name"
@@ -9,9 +8,11 @@
       hide-bottom
       :dark="false"
     )
+      template(slot="top" slot-scope="props")
+        .full-width.flex.flex-center {{$t('communications.notificationsTable.title')}}
       template(slot="body" slot-scope="props")
         q-tr(:props="props")
-          q-td(v-for="col in props.cols" :key="col.name" :props="props")
+          q-td.q-px-xs(v-for="col in props.cols" :key="col.name" :props="props")
             template(v-if="col.name === 'today'")
               span(:class="col.value === '-' || col.value >= 1 ? 'text-negative' : ''") {{col.value}}
             template(v-else-if="col.name === 'thisWeek'")

@@ -8,8 +8,7 @@
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"
           :size="btnsSize"
-          icon="group"
-          icon-right="group"
+          icon-right="headset_mic"
         )
         q-btn(
           @click="wbManagerDialog = true"
@@ -17,22 +16,23 @@
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"
           :size="btnsSize"
-          icon="group"
-          icon-right="group"
+          icon-right="record_voice_over"
         )
     ProjectDialog(@hide="wbOperatorDialog = false" :show="wbOperatorDialog" name="operatorWB")
       WBOperatorProject
     ProjectDialog(@hide="wbManagerDialog = false" :show="wbManagerDialog" name="managerWB")
-      div wbManagerDialog
+      WBManagerProject
 </template>
 
 <script>
 import ProjectCard from '../ProjectCard/index'
 import ProjectDialog from '../ProjectDialog'
 import WBOperatorProject from './ProjectOperator/index'
+import WBManagerProject from './ProjectManager/index'
+
 export default {
   name: 'Webbankir',
-  components: { WBOperatorProject, ProjectDialog, ProjectCard },
+  components: { WBManagerProject, WBOperatorProject, ProjectDialog, ProjectCard },
   data () {
     return {
       wbOperatorDialog: false,

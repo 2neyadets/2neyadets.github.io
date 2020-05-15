@@ -2,7 +2,7 @@
 
   form.modal-phone(@submit.prevent="addPhone")
     .row.gutter-sm.items-center
-      q-input.col.modal__input(
+      q-input.col.q-px-xs.q-py-sm(
         v-model="formated"
         type="tel"
         maxlength="11"
@@ -16,7 +16,7 @@
         :dark="false"
         color="WB-primary"
       )
-      q-input.col.modal__input(
+      q-input.col.q-px-xs.q-py-sm(
         v-model="form.owner"
         type="text"
         :placeholder="$t('clients.phoneForm.owner')"
@@ -28,7 +28,7 @@
         :dark="false"
         color="WB-primary"
       )
-      q-input.col.modal__input(
+      q-input.col.q-px-xs.q-py-sm(
         v-model="form.comment"
         type="text"
         :placeholder="$t('clients.phoneForm.comment')"

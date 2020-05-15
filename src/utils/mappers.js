@@ -253,15 +253,6 @@ export const smsScheme = ({ isHard, isSoft, isCall, isUnder, isSuper }) => {
       'blank',
     ]
   }
-  scheme.push(
-    'smsCreditHolidaysWhenGracePeriodIsGranted',
-    'smsCreditHolidaysWhenGracePeriodIsNotConfirmed',
-    'smsCreditHolidaysWhenNonDocumentsHaveBeenProvided',
-    'smsCreditHolidaysWhenEarlyExpirationIsRequested',
-    'smsCreditHolidaysWhenGracePeriodIsOver',
-    'autoSmsCreditHolidaysAcceptanceNotice',
-    'autoSmsCreditHolidaysRejectionNotice'
-  )
   return scheme
 }
 
@@ -288,12 +279,6 @@ export const emailScheme = ({ isHard, isSoft, isCall, isUnder, isSuper }) => {
       'blank',
     ]
   }
-  scheme.push(
-    'emailCreditHolidaysDocumentsAreInOrder',
-    'emailCreditHolidaysDocumentsDoNotComply',
-    'emailCreditHolidaysDocumentsHaveNotBeenProvided',
-    'autoEmailCreditHolidaysAcceptanceNotice'
-  )
   return scheme
 }
 

@@ -39,7 +39,7 @@
 
 <script>
 import api from 'src/api'
-import { changeDateFormat } from '../../../../../utils/helpers'
+import { changeDateFormat } from 'src/utils/helpers'
 
 export default {
   name: 'Search',
@@ -77,7 +77,7 @@ export default {
     },
     async filterFn (val, update, abort) {
       this.query = val
-      if (!val || val.length < 6) {
+      if (!val || val.length < 1) {
         this.options = []
         abort()
         return

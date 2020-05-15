@@ -17,7 +17,7 @@
       template(v-else)
         q-layout(view="hHh Lpr lFf" container style="height: calc(100vh - 32px); width: 100vw")
           q-header.main-toolbar
-            Toolbar
+            WBOperatorToolbar
 
           q-page-container
             Modals
@@ -29,7 +29,7 @@
 <script>
 import { notify } from 'src/utils/helpers'
 import { LocalStorage } from 'quasar'
-import Toolbar from './components/Toolbar/index'
+import WBOperatorToolbar from './components/Toolbar/index'
 import WBOperatorProjectLogin from './components/Login/index'
 import jwtDecode from 'jwt-decode'
 import Hard from './components/Main/Hard/index'
@@ -38,7 +38,7 @@ import Modals from './components/Modals/index'
 
 export default {
   name: 'WBOperatorProject',
-  components: { Modals, PaymentsReport, Hard, WBOperatorProjectLogin, Toolbar },
+  components: { WBOperatorToolbar, Modals, PaymentsReport, Hard, WBOperatorProjectLogin },
   created () {
     const token = LocalStorage.getItem('user-token') || null
     let jwt = null,

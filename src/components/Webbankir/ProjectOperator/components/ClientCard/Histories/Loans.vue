@@ -35,6 +35,7 @@
       maximized
       position="top"
       seamless
+      content-class="operatorWB__dialog"
       content-style="z-index: 6100;"
       :dark="false"
     )
