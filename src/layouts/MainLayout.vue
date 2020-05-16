@@ -197,7 +197,7 @@ export default {
       setTimeout(() => {
         this.canChangeVarsInUpdatedHook = false
         this.$app.layout.isBanByToolbar = false
-      }, this.$app.layout.scrollingTimeMS)
+      }, this.$app.layout.scrollingPreventDefaultTimeMS)
     },
     layoutNotChanged () {
       this.canChangeVarsInUpdatedHook = false
