@@ -1,7 +1,7 @@
 <template lang="pug">
   q-intersection(
     transition="fade"
-    class="full-height-item"
+    :style="`height: ${$q.screen.height - 50}px;`"
   )
     slot
 </template>
@@ -13,8 +13,3 @@ export default {
 }
 
 </script>
-
-<style lang="stylus" scoped>
-  .full-height-item
-    height calc(100vh - 50px)
-</style>

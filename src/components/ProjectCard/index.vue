@@ -1,5 +1,5 @@
 <template lang="pug">
-  .project__card.q-pa-xs-xs.q-pa-sm-sm.q-pa-md-md.flex.flex-center(style="height: calc(100vh - 50px)")
+  .project__card.q-pa-xs-xs.q-pa-sm-sm.q-pa-md-md.flex.flex-center(:style="`height: ${$q.screen.height - 50}px;`")
     q-card.shadow-12(style="text-align: justify")
       q-card-section.q-pb-none.q-px-xs-xs.q-px-md-sm.q-px-lg-md.q-pt-xs-xs.q-pt-md-sm.q-pt-lg-sm(align="center")
         strong(:class="`text-${$app.layout.activeColor}`") {{projectObj.title}}

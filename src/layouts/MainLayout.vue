@@ -84,7 +84,7 @@
         @touchcancel.native="$app.layout.endOrCancelTouchAction"
         ref="scroll"
         id="scroll"
-        style="height: calc(100vh - 50px)"
+        :style="`height: ${$q.screen.height - 50}px;`"
         :bar-style="{ 'pointer-events': 'none', opacity: 0 }"
         :thumb-style="{ 'pointer-events': 'none', opacity: 0 }"
       )
