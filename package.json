@@ -13,7 +13,7 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar d",
     "build": "quasar b",
-    "deploy": "gh-pages -d dist/spa"
+    "deploy": "push-dir --dir=dist/spa --remote=gh-pages --branch=master"
   },
   "dependencies": {
     "@quasar/extras": "^1.8.1",
@@ -40,6 +40,7 @@
     "gh-pages": "^2.2.0",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
+    "push-dir": "^0.4.1",
     "vue-the-mask": "^0.11.1"
   },
   "engines": {
