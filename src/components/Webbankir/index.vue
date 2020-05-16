@@ -7,7 +7,7 @@
           :label="$t('wb.text.btns.operator')"
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"
-          :size="btnsSize"
+          :size="$app.layout.btnsSizeForProjectCard"
           icon-right="headset_mic"
         )
         q-btn(
@@ -15,7 +15,7 @@
           :label="$t('wb.text.btns.manager')"
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"
-          :size="btnsSize"
+          :size="$app.layout.btnsSizeForProjectCard"
           icon-right="record_voice_over"
         )
     ProjectDialog(@hide="wbOperatorDialog = false" :show="wbOperatorDialog" name="operatorWB")
@@ -26,7 +26,7 @@
 
 <script>
 import ProjectCard from '../ProjectCard/index'
-import ProjectDialog from '../ProjectDialog'
+import ProjectDialog from '../ProjectDialog/index'
 import WBOperatorProject from './ProjectOperator/index'
 import WBManagerProject from './ProjectManager/index'
 
@@ -40,15 +40,6 @@ export default {
     }
   },
   computed: {
-    btnsSize () {
-      return this.$q.screen.gt.md
-        ? 'md'
-        : this.$q.screen.gt.sm
-          ? 'sm'
-          : this.$q.screen.gt.xs
-            ? '9px'
-            : '7px'
-    },
     obj () {
       return {
         title: this.$t('layout.drawer.wb'),
@@ -70,7 +61,7 @@ export default {
             number: 1,
           },
         ],
-        technologies: 'SPA, Vue.js, Quasar Framework, WebSocket, JWT, REST API, Agile, Kanban',
+        technologies: 'SPA, Vue.js, WebSocket, JWT, REST API, Agile, Kanban',
         description: this.$t('wb.text.description'),
         time: this.$t('wb.text.time'),
       }

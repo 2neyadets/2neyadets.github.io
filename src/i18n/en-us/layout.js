@@ -11,7 +11,7 @@ export default {
     start: 'Start',
     heroes: 'Heroes XX',
     wb: 'Webbankir',
-    rosettes: 'Rozetki-Shop',
+    rozetki: 'Rozetki-Shop',
     mailMe: 'Mail me 😊',
   },
 

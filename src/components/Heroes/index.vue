@@ -7,7 +7,7 @@
           :label="$t('layout.try')"
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"
-          :size="$q.screen.gt.md ? 'md' : 'sm'"
+          :size="$app.layout.btnsSizeForProjectCard"
           icon-right="group"
         )
     ProjectDialog(@hide="heroesDialog = false" :show="heroesDialog" name="heroes")
@@ -18,7 +18,7 @@
 <script>
 import ProjectCard from '../ProjectCard/index'
 import HeroesProject from './Project/index'
-import ProjectDialog from '../ProjectDialog'
+import ProjectDialog from '../ProjectDialog/index'
 export default {
   name: 'Heroes',
   components: { ProjectDialog, HeroesProject, ProjectCard },
@@ -45,7 +45,7 @@ export default {
             number: 1,
           },
         ],
-        technologies: 'SPA, Vue.js, Quasar Framework, Electron',
+        technologies: 'SPA, Vue.js, Electron',
         description: this.$t('heroes.text.description'),
         time: '11.2019 - 01.2020',
       }

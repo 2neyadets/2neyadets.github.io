@@ -1,17 +1,13 @@
 <template lang="pug">
   q-page
-    q-intersection(
-      v-for="index in 4"
-      :key="index"
-      :ref="'intersection' + index"
-      :id="'intersection' + index"
-      transition="fade"
-      class="intersection-item"
-      once
-    )
-      //Start
-      //Heroes
+    FullHeightIntersection
+      Start
+    FullHeightIntersection
+      Heroes
+    FullHeightIntersection
       Webbankir
+    FullHeightIntersection
+      Rozetki
 
     q-page-sticky(
       v-if="$app.layout.scroll.position.current + 5 >= $app.layout.getCurrentHeight()"
@@ -51,10 +47,12 @@
 import Start from '../components/Start/index'
 import Heroes from '../components/Heroes/index'
 import Webbankir from '../components/Webbankir/index'
+import Rozetki from '../components/Rozetki/index'
+import FullHeightIntersection from '../components/Intersections/FullHeightIntersection/index'
 
 export default {
   name: 'PageIndex',
-  components: { Webbankir, Heroes, Start },
+  components: { FullHeightIntersection, Rozetki, Webbankir, Heroes, Start },
   data () {
     return {
       bounce: {

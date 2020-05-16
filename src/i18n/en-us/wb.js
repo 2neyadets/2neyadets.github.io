@@ -13,7 +13,7 @@ export default {
     description: '<p>Finalization of the CRM system for underwriting, call-center, collectors.</p>' +
       '<p>Implemented management of calls from CRM, sending SMS, separation of rights and access levels to services. Translated from legacy Quasar (v0.17) to release (> v1).</p>' +
       '<p>Development of interface managers.</p>' +
-      '<p>Implemented load management and employee timesheets, bulk SMS sending.</p>',
+      '<p>Implemented load management, employee timesheets, bulk SMS sending.</p>',
     time: '04.2019 - until now',
   },
   notify: {

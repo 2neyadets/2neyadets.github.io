@@ -22,7 +22,7 @@ export default {
         idOfMoved: null,
         isMoving: false,
         moves: [],
-      }
+      },
     }
   },
   created () {
@@ -44,6 +44,15 @@ export default {
         width: '8px',
         opacity: 0.5
       }
+    },
+    btnsSizeForProjectCard () {
+      return this.$q.screen.gt.md
+        ? '16px'
+        : this.$q.screen.gt.sm
+          ? '12px'
+          : this.$q.screen.gt.xs
+            ? '9px'
+            : '8px'
     }
   },
   methods: {

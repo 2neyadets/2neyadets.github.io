@@ -6,7 +6,7 @@
       q-card-section.q-pa-xs-xs.q-pa-md-sm.q-pa-lg-md
         q-card.shadow-6(bordered)
           q-card-section(horizontal)
-            q-card-section.col-xl-4.q-pa-none(:class="projectObj.title === 'Webbankir' ? 'col-xs-4 col-sm-5' : 'col-xs-3'")
+            q-card-section.col-xl-4.q-pa-none(:class="projectObj.title === 'Webbankir' ? 'col-xs-4 col-sm-5' : 'col-xs-3 col-sm-4'")
               q-card-section.q-pa-xs-xs.q-pa-md-sm.q-pa-lg-md.text-center
                 strong {{$t('project.team')}}
               q-separator
@@ -21,7 +21,7 @@
               q-separator
               q-card-section.q-pa-xs-xs.q-pa-md-sm.q-pa-lg-md.md-opacity {{projectObj.technologies}}
             q-separator(vertical)
-            q-card-section.col-xl-8.q-pa-none(:class="projectObj.title === 'Webbankir' ? 'col-xs-8 col-sm-7' : 'col-xs-9'")
+            q-card-section.col-xl-8.q-pa-none(:class="projectObj.title === 'Webbankir' ? 'col-xs-8 col-sm-7' : 'col-xs-9 col-sm-8'")
               q-card-section.q-pa-xs-xs.q-pa-md-sm.q-pa-lg-md.text-center
                 strong {{$t('project.description')}}
               q-separator
@@ -50,5 +50,5 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
 </style>

@@ -160,7 +160,7 @@ export default {
         },
         {
           icon: 'emoji_objects',
-          text: this.$t('layout.drawer.rosettes')
+          text: this.$t('layout.drawer.rozetki')
         },
       ]
     },

@@ -6,6 +6,7 @@ import start from './start'
 import project from './project'
 import heroes from './heroes'
 import wb from './wb'
+import rozetki from './rozetki'
 import hard from '../WB/operator/hard'
 import clients from '../WB/operator/clients'
 import loans from '../WB/operator/loans'
@@ -31,6 +32,7 @@ export default {
   project,
   heroes,
   wb,
+  rozetki,
   hard,
   clients,
   loans,
