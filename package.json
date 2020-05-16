@@ -7,9 +7,13 @@
   "capacitorId": "",
   "author": "Alexander Sintsov <avsintsov91@gmail.com>",
   "private": true,
+  "homepage": "https://2neyadets.github.io",
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar d",
+    "build": "quasar b",
+    "deploy": "gh-pages -d dist/spa"
   },
   "dependencies": {
     "@quasar/extras": "^1.8.1",
@@ -33,6 +37,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.1.2",
+    "gh-pages": "^2.2.0",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
     "vue-the-mask": "^0.11.1"
