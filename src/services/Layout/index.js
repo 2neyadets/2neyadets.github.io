@@ -52,7 +52,7 @@ export default {
           ? '12px'
           : this.$q.screen.gt.xs
             ? '9px'
-            : '8px'
+            : '7px'
     }
   },
   methods: {

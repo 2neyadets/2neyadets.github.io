@@ -1,7 +1,7 @@
 export default {
   text: {
     btns: {
-      heroes: 'Попробовать "Герои XX"',
+      heroes: 'Открыть "Герои XX"',
     },
     team: {
       frontend: 'Фронтенд',
