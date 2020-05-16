@@ -47,7 +47,7 @@ export default {
     },
     btnsSizeForProjectCard () {
       return this.$q.screen.gt.md
-        ? '16px'
+        ? '14px'
         : this.$q.screen.gt.sm
           ? '12px'
           : this.$q.screen.gt.xs

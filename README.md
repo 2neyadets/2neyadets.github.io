@@ -17,4 +17,4 @@ yarn global add @quasar/cli
 quasar d
 ```
 
-### [Open](http://localhost:8080) App
+### [Open](http://localhost:8080) App on `localhost:8080`

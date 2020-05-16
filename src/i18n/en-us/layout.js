@@ -3,7 +3,7 @@ export default {
   desktopOnly: 'Content is available only for desktops, because the application was developed as strictly desktop.',
   try: 'Try',
   header: {
-    home: 'Home',
+    title: 'Portfolio Vue.js + Quasar',
     darkTheme: 'Dark theme',
     language: 'Language',
   },

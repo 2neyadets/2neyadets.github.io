@@ -1,5 +1,8 @@
 export default {
   text: {
+    btns: {
+      heroes: 'Попробовать "Герои XX"',
+    },
     team: {
       frontend: 'Фронтенд',
       content: 'Контент',

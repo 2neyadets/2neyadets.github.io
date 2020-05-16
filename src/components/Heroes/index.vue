@@ -4,7 +4,7 @@
       template(#actions)
         q-btn(
           @click="heroesDialog = true"
-          :label="$t('layout.try')"
+          :label="$t('heroes.text.btns.heroes')"
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"
           :size="$app.layout.btnsSizeForProjectCard"

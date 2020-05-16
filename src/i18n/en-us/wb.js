@@ -1,8 +1,8 @@
 export default {
   text: {
     btns: {
-      operator: 'Operator interface',
-      manager: 'Manager Interface',
+      operator: 'TRY operator interface',
+      manager: 'TRY manager Interface',
     },
     team: {
       frontend: 'FrontEnd',

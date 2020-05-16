@@ -1,6 +1,6 @@
 <template lang="pug">
   q-layout.my-layout(view="hHh lpR fFf")
-    q-header(:class="$q.dark.isActive ? 'bg-grey-8 text-white' : 'bg-grey-2 text-grey-8'" elevated)
+    q-header(:class="$q.dark.isActive ? 'bg-grey-8' : 'bg-grey-2 text-grey-8'" elevated)
       q-toolbar(ref="toolbar")
         q-btn(
           flat
@@ -11,6 +11,9 @@
           aria-label="Menu"
           icon="menu"
         )
+        template(v-if="$q.screen.gt.sm")
+          h5.q-my-none.q-ml-md(:class="`text-${$app.layout.activeColor}`")
+            strong {{$t('layout.header.title')}}
 
         q-space
 
@@ -94,9 +97,11 @@ import { LocalStorage } from 'quasar'
 import { geolocationFailure, geolocationSuccess } from '../utils/geoCallback'
 import { notify } from 'src/utils/helpers'
 import { i18n } from 'src/boot/i18n'
+import TermsList from '../components/Heroes/Project/components/Terms/index'
 
 export default {
   name: 'MyLayout',
+  components: { TermsList },
   data () {
     return {
       leftDrawerOpen: true,

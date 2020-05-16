@@ -1,6 +1,6 @@
 <template lang="pug">
   q-page.bg-blue-grey-10.row.justify-center.items-center
-    q-form.col-xs-12.col-sm-8.col-md-6.col-lg-4.col-xl-2(@submit.prevent="doLogin")
+    q-form.col-xs-12.col-sm-8.col-md-6.col-lg-3(@submit.prevent="doLogin")
       q-card.bg-white.text-black(:dark="false")
         q-card-section
           h5.q-my-none Вход в систему
