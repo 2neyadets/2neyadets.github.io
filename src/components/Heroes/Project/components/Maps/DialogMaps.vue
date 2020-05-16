@@ -61,7 +61,6 @@ export default {
   data () {
     return {
       current: this.mapIndex,
-      // height: 0,
       designations: false
     }
   },

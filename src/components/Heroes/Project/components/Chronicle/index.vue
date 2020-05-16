@@ -72,7 +72,6 @@ export default {
     scrollStyle () {
       return {
         height: `${this.sideSize}px`,
-        // width: `${this.$q.screen.width * 0.916}px`
       }
     },
     containerStyle () {

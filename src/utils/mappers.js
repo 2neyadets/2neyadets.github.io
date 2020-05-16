@@ -363,7 +363,6 @@ export const isHardPromise = (result) => {
 export const isPromiseAgreement = (result) => {
   return [
     'promiseOfRenewal',
-    // 'promiseOfInstallment'
   ].includes(result)
 }
 export const isAction = (result) => {
@@ -404,13 +403,13 @@ export const getQuarterMonth = (current = false) => {
 }
 
 export const getQuarter = (d) => {
-  d = d || new Date() // If no date supplied, use today
+  d = d || new Date()
   const q = [4, 1, 2, 3]
   return q[Math.floor(d.getMonth() / 3)]
 }
 
 export const getBeforeQuarterStart = (d) => {
-  d = d || new Date() // If no date supplied, use today
+  d = d || new Date()
   const q = [4, 1, 2, 3]
   const curIndex = Math.floor(d.getMonth() / 3) - 1
   const beforeIndex = curIndex === -1 ? 3 : curIndex

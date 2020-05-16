@@ -302,7 +302,6 @@ export default {
         if (this.$operatorWB.loans.current) this.$operatorWB.loans.getData(this.$operatorWB.loans.current)
       }
       if (res && (res.errors || res.error)) {
-        console.error('Communication save error', (res.errors || res.error))
         this.start = false
       }
     },

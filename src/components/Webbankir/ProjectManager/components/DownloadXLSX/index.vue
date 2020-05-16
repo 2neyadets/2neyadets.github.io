@@ -34,11 +34,9 @@ export default {
       const newXlsHeader = []
       const vm = this
       if (vm.columns.length === 0) {
-        console.warn('Add columns!')
         return
       }
       if (vm.data.length === 0) {
-        console.warn('Add data!')
         return
       }
       vm.columns.forEach(value => {

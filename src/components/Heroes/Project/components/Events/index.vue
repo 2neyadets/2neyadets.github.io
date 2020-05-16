@@ -58,7 +58,6 @@ export default {
   methods: {
     animateScroll (topDirection = true) {
       const el = this.$refs.scrollAreaEvents
-      // const scrollSize = el.scrollSize
       const containerHeight = el.containerHeight
       this.scrollPosition = el.getScrollPosition()
       this.scrollPosition += topDirection ? -(containerHeight * 0.75) : containerHeight * 0.75

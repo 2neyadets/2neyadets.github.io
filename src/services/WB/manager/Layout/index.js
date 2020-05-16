@@ -42,7 +42,7 @@ export default {
   },
   watch: {
     'route.path' (v) {
-      console.log('managerWB route.path: ', v)
+      // console.log('managerWB route.path: ', v)
     }
   }
 

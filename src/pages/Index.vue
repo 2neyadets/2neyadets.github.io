@@ -48,7 +48,7 @@ import Start from '../components/Start/index'
 import Heroes from '../components/Heroes/index'
 import Webbankir from '../components/Webbankir/index'
 import Rozetki from '../components/Rozetki/index'
-import FullHeightIntersection from '../components/Intersections/FullHeightIntersection/index'
+import FullHeightIntersection from '../components/Intersections/FullHeightIntersection'
 
 export default {
   name: 'PageIndex',

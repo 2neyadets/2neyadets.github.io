@@ -210,7 +210,7 @@ export default {
     },
     '$app.layout.currentBlockIndex' (v) {
       this.layoutNotChanged()
-      console.log('$app.layout.currentBlockIndex: ', this.$app.layout.currentBlockIndex)
+      // console.log('$app.layout.currentBlockIndex: ', this.$app.layout.currentBlockIndex)
     },
   }
 }

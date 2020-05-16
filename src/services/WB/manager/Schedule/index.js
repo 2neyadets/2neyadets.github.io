@@ -130,7 +130,6 @@ export default {
     },
     todayDateDashedFormat () {
       return moment().format('YYYY-MM-DD')
-      // return moment().add({ months: -1 }).format('YYYY-MM-DD')
     },
     startOfCurrentMonthDashedFormat () {
       return moment().startOf('month').format('YYYY-MM-DD')
@@ -155,29 +154,6 @@ export default {
       // eslint-disable-next-line no-prototype-builtins
       return (this.currentTimesheetObj && this.currentTimesheetObj.hasOwnProperty('timesheet') && this.currentTimesheetObj.timesheet.period) || ''
     },
-    // portfoliosOfAllEmployees () {
-    //   if (this.$managerWB.user.groups.length) {
-    //     let arr = []
-    //     for (let i = 0; i < this.$managerWB.user.groups.length; i++) {
-    //       arr.push(this.$managerWB.user.groups[i].name)
-    //     }
-    //     return arr
-    //   } else {
-    //     return []
-    //   }
-    // },
-    // portfoliosOfEmployeesInCurrentTimesheet () {
-    //   let arr = []
-    //   for (let i = 0; i < this.tableData.length; i++) {
-    //     arr.push(this.tableData[i].employee.portfolios)
-    //   }
-    //   return arr
-    // },
-    // portfoliosOfEmployeesNotInCurrentTimesheet () {
-    //   return this.portfoliosOfAllEmployees.filter(portfolio => {
-    //     return !this.portfoliosOfEmployeesInCurrentTimesheet.includes(portfolio)
-    //   })
-    // },
     employeesInCurrentTimesheetForSelect () {
       if (this.tableData.length) {
         const arr = []
@@ -393,7 +369,6 @@ export default {
           position: 'bottom',
           icon: 'check_circle_outline'
         })
-        // await this.getOneTimesheet({ id: this.idOfThisMonthTimesheet })
       }
     },
     async deleteEmployee (payload) {
@@ -415,29 +390,11 @@ export default {
       this.schedulesForSend = []
       const thisMonthTimesheetObj = this.allTimesheets.find(timesheet => timesheet.period === date)
       if (thisMonthTimesheetObj) {
-        // const myTimesheetForThisMonth = arrayOfThisMonthTimesheets.find(timesheet => timesheet.creator.id === this.$managerWB.user.profile.userId)
-        // if (myTimesheetForThisMonth) {
         this.idOfThisMonthTimesheet = thisMonthTimesheetObj.id
         await this.getOneTimesheet({ id: thisMonthTimesheetObj.id })
-        // } else {
-        //   this.schedulesData = []
-        // }
       } else {
         this.schedulesData = []
       }
-      // this.schedulesForSend = []
-      // const arrayOfThisMonthTimesheets = this.allTimesheets.filter(timesheet => timesheet.period === date)
-      // if (arrayOfThisMonthTimesheets.length) {
-      //   const myTimesheetForThisMonth = arrayOfThisMonthTimesheets.find(timesheet => timesheet.creator.id === this.$managerWB.user.profile.userId)
-      //   if (myTimesheetForThisMonth) {
-      //     this.idOfThisMonthTimesheet = myTimesheetForThisMonth.id
-      //     await this.getOneTimesheet({ id: myTimesheetForThisMonth.id })
-      //   } else {
-      //     this.schedulesData = []
-      //   }
-      // } else {
-      //   this.schedulesData = []
-      // }
     },
     changeMonth (plus = true) {
       if (moment.isMoment(this.changingMoment)) {

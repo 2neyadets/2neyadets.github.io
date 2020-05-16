@@ -15,7 +15,6 @@
             autoplay
             controls
           )
-          // audio.full-width(:src="`statics/heroes/chronic/${$app.heroes.route.params.section}/${contentObj.content}.mp3`" autoplay controls)
       .col-auto.row
         .col-auto.flex.justify-start.items-end
           q-btn.close-btn(
