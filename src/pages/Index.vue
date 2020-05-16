@@ -1,11 +1,11 @@
 <template lang="pug">
   q-page
-    //pre.dev-hint
+    pre.dev-hint
       //| $q.screen.height - {{$q.screen.height}}
       //| window.innerHeight - {{$app.layout.debug.innerHeight}}
       //| $app.layout.getCurrentHeight() - {{$app.layout.getCurrentHeight()}}
       //| $app.layout.debug.startBlockHeight - {{$app.layout.debug.startBlockHeight}}
-      //| $app.layout.wasResized - {{$app.layout.wasResized}}
+      | $app.layout.touches - {{$app.layout.touches}}
     FullHeightIntersection
       Start
     FullHeightIntersection

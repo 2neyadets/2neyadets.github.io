@@ -59,7 +59,7 @@ export default {
             : '7px'
     },
     scrollingPreventDefaultTimeMS () {
-      return 500
+      return 550
     },
   },
   methods: {
@@ -84,11 +84,11 @@ export default {
     },
     updateVars (v) {
       this.scroll.position.current = v.verticalPosition
-      this.scroll.position.max = v.verticalSize - v.verticalContainerSize
+      if (v.verticalSize !== undefined && v.verticalContainerSize !== undefined) {
+        this.scroll.position.max = v.verticalSize - v.verticalContainerSize
+      }
     },
     scrollHandler (v, downDirection = null, index = null) {
-      // const timeStamp1 = Date.now()
-      // console.log(111, 'scrollHandler', timeStamp1)
       this.updateVars(v)
       const { ref, ...scroll } = v,
         isDownDirection = downDirection !== null
@@ -97,8 +97,6 @@ export default {
       if (this.scroll.ready) {
         this.scroll.ready = false
         setTimeout(() => {
-          // const timeStamp2 = Date.now()
-          // console.log(222, 'this.scroll.ready', timeStamp2 - timeStamp1)
           this.scroll.ready = true
           this.currentBlockIndex = Math.round(this.scroll.position.current / this.getCurrentHeight())
         }, this.scrollingPreventDefaultTimeMS)
@@ -109,7 +107,7 @@ export default {
     },
     changeScrollPosition (scrollEvent, wasResized, targetIndex) {
       const { ref, isDownDirection } = scrollEvent,
-        animationTimeMS = this.scrollingPreventDefaultTimeMS - 200,
+        animationTimeMS = this.scrollingPreventDefaultTimeMS - 250,
         offsetHeight = this.getCurrentHeight()
       if (wasResized) {
         ref.setScrollPosition(this.currentBlockIndex * offsetHeight, animationTimeMS)
@@ -158,14 +156,28 @@ export default {
         this.findTouchDirectionAndScroll()
       }
     },
+    clearTouches () {
+      this.touches.fingersLength = null
+      this.touches.idOfMoved = null
+      this.touches.isMoving = false
+      this.touches.moves = []
+    },
     findTouchDirectionAndScroll (diffInPxForScroll = 50) {
       if (this.touches.moves.length < 2) return false
       const moveArr = this.touches.moves,
         diff = moveArr[0].screenY - moveArr[moveArr.length - 1].screenY
-      if (Math.abs(diff) > diffInPxForScroll) this.goToSection(diff > 0)
-      this.touches.idOfMoved = null
-      this.touches.isMoving = false
-      this.touches.moves = []
+      if (Math.abs(diff) > diffInPxForScroll) {
+        if (diff > 0 && this.scroll.position.current === this.scroll.position.max) {
+          this.clearTouches()
+          return false
+        } else if (diff < 0 && this.scroll.position.current === 0) {
+          this.clearTouches()
+          return false
+        } else {
+          this.goToSection(diff > 0)
+          this.clearTouches()
+        }
+      }
     },
   },
   watch: {
