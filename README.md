@@ -1,6 +1,6 @@
 # Portfolio App (portfolio)
 
-Demonstration of my projects
+Demonstration of my Quasar projects
 
 ## Install the dependencies
 ```bash
