@@ -50,8 +50,8 @@ export default {
   data () {
     return {
       form: {
-        login: '',
-        password: ''
+        login: 'test@test.test',
+        password: '~Test123'
       },
       isPwd: true
     }
