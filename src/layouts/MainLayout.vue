@@ -76,19 +76,20 @@
               q-icon(name="mail")
               span.q-px-sm avsintsov91@gmail.com
     q-page-container
-      q-scroll-area(
-        @scroll="$app.layout.scrollHandler"
-        @touchstart.native="$app.layout.touchStart"
-        @touchmove.native="$app.layout.touchMove"
-        @touchend.native="$app.layout.endOrCancelTouchAction"
-        @touchcancel.native="$app.layout.endOrCancelTouchAction"
-        ref="scroll"
-        id="scroll"
-        :style="`height: ${$q.screen.height - 50}px;`"
-        :bar-style="{ 'pointer-events': 'none', opacity: 0 }"
-        :thumb-style="{ 'pointer-events': 'none', opacity: 0 }"
-      )
-        router-view
+      div
+        q-scroll-area(
+          @scroll="$app.layout.scrollHandler"
+          @touchstart.native="$app.layout.touchStart"
+          @touchmove.native="$app.layout.touchMove"
+          @touchend.native="$app.layout.endOrCancelTouchAction"
+          @touchcancel.native="$app.layout.endOrCancelTouchAction"
+          ref="scroll"
+          id="scroll"
+          :style="`height: ${$q.screen.height - 50}px;`"
+          :bar-style="{ 'pointer-events': 'none', opacity: 0 }"
+          :thumb-style="{ 'pointer-events': 'none', opacity: 0 }"
+        )
+          router-view
 
 </template>
 
@@ -196,7 +197,7 @@ export default {
       setTimeout(() => {
         this.canChangeVarsInUpdatedHook = false
         this.$app.layout.isBanByToolbar = false
-      }, 350)
+      }, this.$app.layout.scrollingTimeMS)
     },
     layoutNotChanged () {
       this.canChangeVarsInUpdatedHook = false
@@ -204,6 +205,10 @@ export default {
     mobileHide () {
       if (this.$q.platform.is.mobile) this.canChangeVarsInUpdatedHook = false
     },
+    test (event) {
+      console.log(111, event)
+      event.preventDefault()
+    }
   },
   watch: {
     leftDrawerOpen (v) {

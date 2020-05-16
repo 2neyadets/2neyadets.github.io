@@ -30,13 +30,6 @@
               :dark="false"
               color="WB-primary"
             )
-              <!--.socials-->
-              <!--q-list.socials__list.socials__list_modal.no-border.flex.items-center {{ $t('modals.socials.icon') }}-->
-              <!--q-item.socials__item.socials__item_modal(v-for="social in socials" :key="social.value")-->
-              <!--a.socials__link.socials__link_modal(:href="social.link" :title="social.value" target="_blank")-->
-              <!--svg.socials__icon(width="23" height="23")-->
-              <!--image(:href="social.path")-->
-              <!--q-radio(v-model="socialNetwork.icon" :val="social.value" color="WB-secondary")-->
           q-card-actions(align="right")
             q-btn-group.modal__buttons.w100p.flex.justify-end
               q-btn.modal__btn(:label="$t('modals.buttons.cancel')" v-close-popup)

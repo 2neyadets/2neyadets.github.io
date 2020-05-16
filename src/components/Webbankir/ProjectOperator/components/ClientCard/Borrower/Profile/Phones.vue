@@ -11,7 +11,6 @@
       .card__phone-numbers
         span.card__phones-all.link {{$t('clients.labels.allPhones')}} ({{$operatorWB.clients.currentPhones.length}})
           PhonesList(:phones="$operatorWB.clients.currentPhones")
-        <!--span.card__phones-excluded.danger {{ $t('clients.phones.excluded') }}-->
     q-btn(
       @click="$operatorWB.layout.phoneModalOpened = true"
       icon="add"

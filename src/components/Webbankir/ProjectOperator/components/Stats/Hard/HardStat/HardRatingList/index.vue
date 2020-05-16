@@ -24,7 +24,6 @@ div
             q-item-section(side)
               q-item-label(stamp)
                 span.label {{$t('stats.labels.yourRating')}}:&nbsp;
-                <!--              pre {{rating}}-->
                 span.value {{rating}}
                 span.switcher
                   q-btn(
@@ -45,7 +44,6 @@ div
           span {{$t('stats.labels.group')}}
           span {{$t('stats.labels.value')}}
         .main
-          <!--          pre {{staff}}-->
           q-scroll-area(style="width: 100%; height: 390px;")
             q-list(:class="showMyRating ? 'show' : ''")
               template(v-for="(user, index) in staff")

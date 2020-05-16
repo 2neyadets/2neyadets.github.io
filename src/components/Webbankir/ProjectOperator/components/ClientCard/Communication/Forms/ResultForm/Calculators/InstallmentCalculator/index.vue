@@ -3,7 +3,6 @@
   .comments__result-calc
     .comments__calc
       .comments__calc-content
-        <!--pre {{schedule}}-->
         .comments__calc-title {{ $t('communications.headings.calcInstallment') }}
         q-input.comments__calc-days(
           type="number"

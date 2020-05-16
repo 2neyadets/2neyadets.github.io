@@ -49,7 +49,6 @@
             :staff="staffList"
             :current="current"
           )
-          <!--          :rating="$operatorWB.user.ratings"-->
 
 </template>
 

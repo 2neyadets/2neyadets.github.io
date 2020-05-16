@@ -6,7 +6,6 @@
       .comments__content.flex
         CommunicationContact
         CommunicationActions
-        <!--CommunicationsResult(:closeCard="closeCard" :source="source")-->
         template(v-if="$operatorWB.communication.currentForm === 'result'")
           ResultForm
         SMSForm(v-if="$operatorWB.communication.currentForm === 'sms'")

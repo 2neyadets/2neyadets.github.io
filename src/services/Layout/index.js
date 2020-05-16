@@ -57,12 +57,15 @@ export default {
           : this.$q.screen.gt.xs
             ? '9px'
             : '7px'
-    }
+    },
+    scrollingTimeMS () {
+      return 400
+    },
   },
   methods: {
     windowResized (v) {
       this.wasResized = true
-      setTimeout(() => { this.wasResized = false }, 350)
+      setTimeout(() => { this.wasResized = false }, this.scrollingTimeMS)
       this.debug.innerHeight = window.innerHeight
     },
 
@@ -84,6 +87,8 @@ export default {
       this.scroll.position.max = v.verticalSize - v.verticalContainerSize
     },
     scrollHandler (v, downDirection = null, index = null) {
+      // const timeStamp1 = Date.now()
+      // console.log(111, 'scrollHandler', timeStamp1)
       this.updateVars(v)
       const { ref, ...scroll } = v,
         isDownDirection = downDirection !== null
@@ -92,9 +97,11 @@ export default {
       if (this.scroll.ready) {
         this.scroll.ready = false
         setTimeout(() => {
+          // const timeStamp2 = Date.now()
+          // console.log(222, 'this.scroll.ready', timeStamp2 - timeStamp1)
           this.scroll.ready = true
           this.currentBlockIndex = Math.round(this.scroll.position.current / this.getCurrentHeight())
-        }, 350)
+        }, this.scrollingTimeMS)
         this.changeScrollPosition({ ...v, isDownDirection }, this.wasResized, index)
         this.wasResized = false
       }
@@ -102,7 +109,7 @@ export default {
     },
     changeScrollPosition (scrollEvent, wasResized, targetIndex) {
       const { ref, isDownDirection } = scrollEvent,
-        animationTimeMS = 300,
+        animationTimeMS = this.scrollingTimeMS - 100,
         offsetHeight = this.getCurrentHeight()
       if (wasResized) {
         ref.setScrollPosition(this.currentBlockIndex * offsetHeight, animationTimeMS)

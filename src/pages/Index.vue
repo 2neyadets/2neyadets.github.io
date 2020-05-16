@@ -1,10 +1,11 @@
 <template lang="pug">
   q-page
-    pre.dev-hint
-      | $q.screen.height - {{$q.screen.height}}
-      | window.innerHeight - {{$app.layout.debug.innerHeight}}
-      | $app.layout.getCurrentHeight() - {{$app.layout.getCurrentHeight()}}
-      | $app.layout.debug.startBlockHeight - {{$app.layout.debug.startBlockHeight}}
+    //pre.dev-hint
+      //| $q.screen.height - {{$q.screen.height}}
+      //| window.innerHeight - {{$app.layout.debug.innerHeight}}
+      //| $app.layout.getCurrentHeight() - {{$app.layout.getCurrentHeight()}}
+      //| $app.layout.debug.startBlockHeight - {{$app.layout.debug.startBlockHeight}}
+      //| $app.layout.wasResized - {{$app.layout.wasResized}}
     FullHeightIntersection
       Start
     FullHeightIntersection
@@ -86,7 +87,7 @@ export default {
     background rgba(white, .8)
     color black
     padding 10px
-    top 50px
+    top 150px
     border 1px dashed red
 
   .bounce

@@ -240,9 +240,7 @@
 
             POS(v-if="loan && loan.product === 'pos'")
             Loan(v-else)
-              <!--(:loan="loan")-->
           Reliability(v-if="!isApplicationCard")
-            <!--  (:loan="loan")        -->
 </template>
 
 <script>

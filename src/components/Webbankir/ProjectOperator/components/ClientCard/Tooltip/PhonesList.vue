@@ -6,7 +6,6 @@
         .tooltip-phones__number {{phone.number}}
         .tooltip-phones__owner(v-html="phone.owner")
         .q-ml-sm.danger
-          <!--      {{ $t('tooltips.phones.inactive') }}-->
           q-icon.q-mx-sm(v-if="phone.blocked || !phone.autodial" name="not_interested" color="negative")
 </template>
 
