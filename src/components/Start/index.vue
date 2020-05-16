@@ -1,5 +1,5 @@
 <template lang="pug">
-  .start__block.q-pa-xs-xs.q-pa-sm-sm.q-pa-md-md.flex.flex-center(style="height: calc(100vh - 50px)")
+  .start__block.q-pa-xs-xs.q-pa-sm-sm.q-pa-md-md.flex.flex-center(ref="startBlock" style="height: calc(100vh - 50px)")
     q-card.shadow-12(style="text-align: justify")
       q-card-section.q-pa-xs-xs.q-pa-md-sm.q-py-lg-md.q-px-lg-lg
         p(v-html="$t('start.text.hello')")
@@ -25,7 +25,10 @@
 
 <script>
 export default {
-  name: 'Start'
+  name: 'Start',
+  mounted () {
+    this.$app.layout.debug.startBlockHeight = this.$refs.startBlock.clientHeight
+  }
 }
 </script>
 

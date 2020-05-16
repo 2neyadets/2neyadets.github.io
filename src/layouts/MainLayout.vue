@@ -104,7 +104,7 @@ export default {
   components: { TermsList },
   data () {
     return {
-      leftDrawerOpen: true,
+      leftDrawerOpen: this.$q.platform.is.desktop,
       lang: this.$i18n.locale,
       langOptions: [
         {
@@ -235,6 +235,9 @@ export default {
       font-weight: 500
       font-size: 14px
       line-height 14px
+
+      @media (max-width 768px)
+        font-size 12px
 
       &:hover
         color: #000

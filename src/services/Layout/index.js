@@ -23,6 +23,10 @@ export default {
         isMoving: false,
         moves: [],
       },
+      debug: {
+        innerHeight: window.innerHeight,
+        startBlockHeight: 0,
+      }
     }
   },
   created () {
@@ -59,6 +63,7 @@ export default {
     windowResized (v) {
       this.wasResized = true
       setTimeout(() => { this.wasResized = false }, 350)
+      this.debug.innerHeight = window.innerHeight
     },
 
     goToSection (downDirection) {

@@ -1,5 +1,10 @@
 <template lang="pug">
   q-page
+    pre.dev-hint
+      | $q.screen.height - {{$q.screen.height}}
+      | window.innerHeight - {{$app.layout.debug.innerHeight}}
+      | $app.layout.getCurrentHeight() - {{$app.layout.getCurrentHeight()}}
+      | $app.layout.debug.startBlockHeight - {{$app.layout.debug.startBlockHeight}}
     FullHeightIntersection
       Start
     FullHeightIntersection
@@ -75,6 +80,15 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  .dev-hint
+    position fixed
+    z-index 9000
+    background rgba(white, .8)
+    color black
+    padding 10px
+    top 50px
+    border 1px dashed red
+
   .bounce
     &-up
       animation bounceBtnUp .5s ease-in-out 0s 6
