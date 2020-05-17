@@ -57,7 +57,7 @@ export default {
             : '7px'
     },
     scrollingPreventDefaultTimeMS () {
-      return 700
+      return this.$q.platform.is.mobile ? 800 : 550
     },
   },
   methods: {
@@ -103,7 +103,7 @@ export default {
     },
     changeScrollPosition (scrollEvent, wasResized, targetIndex) {
       const { ref, isDownDirection } = scrollEvent,
-        animationTimeMS = this.scrollingPreventDefaultTimeMS - 350,
+        animationTimeMS = this.$q.platform.is.mobile ? 400 : 350,
         offsetHeight = this.getCurrentHeight()
       if (wasResized) {
         ref.setScrollPosition(this.currentBlockIndex * (window.innerHeight - 50), animationTimeMS)
