@@ -62,8 +62,10 @@ export default {
   },
   methods: {
     windowResized (v) {
+      console.log('windowResized')
       this.wasResized = true
       // setTimeout(() => { this.wasResized = false }, this.scrollingPreventDefaultTimeMS)
+      this.updateVars({ ref: this.scroll.el })
       this.goToSectionIndex(this.currentBlockIndex)
     },
 
@@ -90,9 +92,12 @@ export default {
       this.currentBlockIndex = Math.round(v.ref.scrollPosition / this.getCurrentHeight())
     },
     scrollHandler (v, downDirection = null, index = null) {
+      console.log('scrollHandler')
       if ((this.scroll.position.current < this.getCurrentHeight() && !downDirection) ||
         (this.scroll.position.current >= this.scroll.position.max && downDirection)) return false
+      console.log('scrollHandler, continue')
       if (this.scroll.ready) {
+        console.log('scrollHandler, ready')
         this.scroll.ready = false
         setTimeout(() => {
           this.scroll.ready = true
@@ -101,6 +106,7 @@ export default {
         this.changeScrollPosition({ ...v, isDownDirection: downDirection }, this.wasResized, index)
         this.wasResized = false
       } else {
+        console.log('scrollHandler, PreventDefault')
         this.strictPreventDefault()
       }
     },
@@ -109,7 +115,10 @@ export default {
         animationTimeMS = this.scrollingPreventDefaultTimeMS - 100,
         offsetHeight = this.getCurrentHeight()
       if (wasResized) {
-        ref.setScrollPosition(this.currentBlockIndex * offsetHeight, animationTimeMS)
+        console.log(1111111, this.currentBlockIndex)
+        console.log(4444444, this.$q.screen.height - 50)
+        console.log(4444444, window.innerHeight - 50)
+        ref.setScrollPosition(this.currentBlockIndex * (window.innerHeight - 50), animationTimeMS)
       } else {
         if (!this.isBanByToolbar) {
           if (targetIndex === null) {
@@ -202,7 +211,7 @@ export default {
       }
     },
     'scroll.ready' (v) {
-      // console.log(999, v)
+      console.log(999, 'scroll.ready', v)
     }
   }
 }
