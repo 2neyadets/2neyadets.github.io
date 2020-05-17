@@ -23,10 +23,6 @@ export default {
         isMoving: false,
         moves: [],
       },
-      debug: {
-        innerHeight: window.innerHeight,
-        startBlockHeight: 0,
-      }
     }
   },
   created () {
@@ -59,14 +55,13 @@ export default {
             : '7px'
     },
     scrollingPreventDefaultTimeMS () {
-      return 750
+      return 550
     },
   },
   methods: {
     windowResized (v) {
       this.wasResized = true
       setTimeout(() => { this.wasResized = false }, this.scrollingPreventDefaultTimeMS)
-      this.debug.innerHeight = window.innerHeight
     },
 
     goToSection (downDirection) {
@@ -107,7 +102,7 @@ export default {
     },
     changeScrollPosition (scrollEvent, wasResized, targetIndex) {
       const { ref, isDownDirection } = scrollEvent,
-        animationTimeMS = this.scrollingPreventDefaultTimeMS - 250,
+        animationTimeMS = this.scrollingPreventDefaultTimeMS - 200,
         offsetHeight = this.getCurrentHeight()
       if (wasResized) {
         ref.setScrollPosition(this.currentBlockIndex * offsetHeight, animationTimeMS)

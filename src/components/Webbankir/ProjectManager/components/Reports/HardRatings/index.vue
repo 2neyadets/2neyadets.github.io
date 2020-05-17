@@ -27,6 +27,8 @@ export default {
     }
   },
   created () {
+    if (this.$managerWB.user.isUserHaveRoles('operatorHard')) this.$managerWB.user.getEmployees()
+    this.$managerWB.user.getGroupsForSuper()
     if (!this.tableData.length) this.$managerWB.user.getRatings()
   },
   computed: {

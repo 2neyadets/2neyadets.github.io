@@ -57,8 +57,6 @@ export default {
     WBManagerToolbar
   },
   created () {
-    if (this.$managerWB.user.isUserHaveRoles('operatorHard')) this.$managerWB.user.getEmployees()
-    this.$managerWB.user.getGroupsForSuper()
     const token = LocalStorage.getItem('manager-user-token') || null
     let jwt = null,
       expired = true
