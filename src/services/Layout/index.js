@@ -53,13 +53,6 @@ export default {
             ? '8px'
             : '7px'
     },
-    scrollingPreventDefaultTimeMS () {
-      return this.$q.platform.is.mobile
-        ? this.$q.screen.width > 420
-          ? 900
-          : 800
-        : 550
-    },
   },
   methods: {
     windowResized (v) {
