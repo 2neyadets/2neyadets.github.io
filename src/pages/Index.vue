@@ -1,13 +1,16 @@
 <template lang="pug">
   q-page
-    pre.dev-hint
-      | $app.layout.scroll.containerHeight - {{$app.layout.scroll.containerHeight}}
-      | $app.layout.currentBlockIndex - {{$app.layout.currentBlockIndex}}
-      | $q.screen.height - {{$q.screen.height}}
-      | $app.layout.getCurrentHeight() - {{$app.layout.getCurrentHeight()}}
-      | $app.layout.scroll.position.last - {{$app.layout.scroll.position.last}}
-      | last + getCurrentHeight() - {{$app.layout.getCurrentHeight() + $app.layout.scroll.position.last}}
-      //| $app.layout.touches - {{$app.layout.touches}}
+    //pre.dev-hint
+      | $app.layout.scroll.position.current: {{$app.layout.scroll.position.current}}
+      | $app.layout.getCurrentHeight(): {{$app.layout.getCurrentHeight()}}
+      | $app.layout.scroll.position.max: {{$app.layout.scroll.position.max}}
+      //| $app.layout.scroll.containerHeight: {{$app.layout.scroll.containerHeight}}
+      //| $app.layout.currentBlockIndex: {{$app.layout.currentBlockIndex}}
+      //| $q.screen.height: {{$q.screen.height}}
+      //| $app.layout.getCurrentHeight(): {{$app.layout.getCurrentHeight()}}
+      //| $app.layout.scroll.position.current: {{$app.layout.scroll.position.current}}
+      //| current + getCurrentHeight(): {{$app.layout.getCurrentHeight() + $app.layout.scroll.position.current}}
+      //| $app.layout.touches: {{$app.layout.touches}}
     FullHeightIntersection
       Start
     FullHeightIntersection
@@ -34,7 +37,7 @@
         q-icon(name="keyboard_arrow_up" style="font-size: 28px;")
 
     q-page-sticky(
-      v-if="$app.layout.scroll.position.current < $app.layout.scroll.position.max"
+      v-if="$app.layout.scroll.position.current <= $app.layout.scroll.position.max - $app.layout.getCurrentHeight()"
       position="bottom"
       :offset="[0, $q.platform.is.mobile ? 0 : 2]"
     )

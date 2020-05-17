@@ -6,8 +6,7 @@
           flat
           dense
           round
-          @click="banByMenuBtn"
-          :disable="$app.layout.isBanByToolbar"
+          @click="leftDrawerOpen = !leftDrawerOpen"
           aria-label="Menu"
           icon="menu"
         )
@@ -20,17 +19,13 @@
         .q-gutter-sm-md.q-gutter-xs-sm.row.items-center.no-wrap
           q-toggle(
             v-model="darkMode"
-            @input="layoutNotChanged"
-            :disable="$app.layout.isBanByToolbar"
             :label="$t('layout.header.darkTheme')"
             color="grey-10"
             icon="nights_stay"
           )
           q-select(
             v-model="lang"
-            @input="layoutNotChanged"
             :options="langOptions"
-            :disable="$app.layout.isBanByToolbar"
             :label="$t('layout.header.language')"
             emit-value
             map-options
@@ -46,7 +41,6 @@
     q-drawer(
       ref="drawer"
       v-model="leftDrawerOpen"
-      @hide="mobileHide"
       :content-class="$q.dark.isActive ? 'bg-grey-8 text-white' : 'bg-grey-2 text-grey-8'"
       :width="$q.platform.is.mobile && $q.screen.lt.lg ? 200 : 240"
       bordered
@@ -77,6 +71,7 @@
               span.q-px-sm avsintsov91@gmail.com
     q-page-container
       div(
+        @click.middle="handleEvent"
         @scroll="handleEvent"
         @wheel="handleEvent"
         @keydown.up.down="handleEvent"
@@ -85,6 +80,7 @@
         style="outline: none;"
       )
         q-scroll-area(
+          @scroll="scrollObserver"
           @touchstart.native="$app.layout.touchStart"
           @touchmove.native="$app.layout.touchMove"
           @touchend.native="$app.layout.endOrCancelTouchAction"
@@ -123,7 +119,7 @@ export default {
           label: 'English'
         },
       ],
-      canChangeVarsInUpdatedHook: true,
+      scrollTimeoutId: null,
     }
   },
   created () {
@@ -135,12 +131,13 @@ export default {
   },
   mounted () {
     this.$app.layout.scroll.el = this.$refs.scroll
-    this.$app.layout.updateVars({ ref: this.$app.layout.scroll.el })
+    this.$app.layout.updateVars(this.$app.layout.scroll.el)
   },
   updated () {
   },
   beforeDestroy () {
     window.removeEventListener('resize', this.$app.layout.windowResized)
+    clearTimeout(this.scrollTimeoutId)
   },
   computed: {
     darkMode: {
@@ -193,19 +190,16 @@ export default {
         })
       }
     },
-    banByMenuBtn () {
-      this.leftDrawerOpen = !this.leftDrawerOpen
-      // this.$app.layout.isBanByToolbar = true
-      // setTimeout(() => {
-      //   this.canChangeVarsInUpdatedHook = false
-      //   this.$app.layout.isBanByToolbar = false
-      // }, this.$app.layout.scrollingPreventDefaultTimeMS)
-    },
-    layoutNotChanged () {
-      this.canChangeVarsInUpdatedHook = false
-    },
-    mobileHide () {
-      if (this.$q.platform.is.mobile) this.canChangeVarsInUpdatedHook = false
+    scrollObserver (v) {
+      // console.log('Scrolling', v)
+      clearTimeout(this.scrollTimeoutId)
+      this.$app.layout.scroll.ready = false
+      this.$app.layout.scroll.position.current = v.verticalPosition
+      this.scrollTimeoutId = setTimeout(() => {
+        // console.log('Scroll ended')
+        this.$app.layout.scroll.ready = true
+        this.$app.layout.updateVars(this.$app.layout.scroll.el)
+      }, 100)
     },
     handleEvent (event) {
       this.$app.layout.scrollEvent = event
@@ -218,9 +212,6 @@ export default {
     lang (v) {
       this.$i18n.locale = v
       LocalStorage.set('lang', v)
-    },
-    '$app.layout.currentBlockIndex' (v) {
-      this.layoutNotChanged()
     },
   }
 }

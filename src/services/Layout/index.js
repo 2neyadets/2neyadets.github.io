@@ -4,16 +4,13 @@ export default {
   name: 'LayoutService',
   data () {
     return {
-      isBlocked: false,
       currentBlockIndex: 0,
       wasResized: false,
-      isBanByToolbar: false,
       scrollEvent: null,
       scroll: {
         el: null,
         ready: true,
         position: {
-          last: 0,
           current: 0,
           max: 0,
         },
@@ -67,59 +64,49 @@ export default {
   methods: {
     windowResized (v) {
       this.wasResized = true
-      this.updateVars({ ref: this.scroll.el })
+      this.updateVars(this.scroll.el)
       this.goToSectionIndex(this.currentBlockIndex)
     },
 
-    goToSection (downDirection) {
-      this.scrollHandler({
-        ref: this.scroll.el,
-        verticalPosition: this.scroll.el.scrollPosition
-      }, downDirection)
+    goToSection (isDownDirection) {
+      this.scrollHandler({ ref: this.scroll.el }, isDownDirection)
     },
-    goToSectionIndex (index, downDirection = true) {
-      this.scrollHandler({
-        ref: this.scroll.el,
-        verticalPosition: this.scroll.el.scrollPosition
-      }, downDirection, index)
+    goToSectionIndex (index, isDownDirection = true) {
+      this.scrollHandler({ ref: this.scroll.el }, isDownDirection, index)
     },
-    updateVars (v) {
-      this.scroll.position.current = v.ref.scrollPosition
-      if (v.ref.scrollSize !== undefined && v.ref.containerHeight !== undefined) {
-        this.scroll.position.max = v.ref.scrollSize - v.ref.containerHeight
-        this.scroll.containerHeight = v.ref.containerHeight
+    updateVars (ref) {
+      if (ref.scrollSize !== undefined && ref.containerHeight !== undefined) {
+        this.scroll.position.max = ref.scrollSize - ref.containerHeight
+        this.scroll.containerHeight = ref.containerHeight
       }
-      this.scroll.position.last = Math.ceil(v.ref.scrollPosition)
-      this.currentBlockIndex = Math.round(v.ref.scrollPosition / this.getCurrentHeight())
+      this.currentBlockIndex = Math.round(ref.scrollPosition / this.getCurrentHeight())
     },
-    scrollHandler (v, downDirection = null, index = null) {
+    scrollHandler (v, isDownDirection = null, index = null) {
       if (this.scroll.ready) {
-        this.scroll.ready = false
-        setTimeout(() => {
-          this.scroll.ready = true
-          this.updateVars(v)
-        }, this.scrollingPreventDefaultTimeMS)
-        this.changeScrollPosition({ ...v, isDownDirection: downDirection }, this.wasResized, index)
+        this.changeScrollPosition({ ...v, isDownDirection }, this.wasResized, index)
         this.wasResized = false
       } else {
-        this.strictPreventDefault()
+        if (this.scrollEvent) this.scrollEvent.preventDefault()
       }
     },
-    changeScrollPosition (scrollEvent, wasResized, targetIndex) {
+    changeScrollPosition (scrollEvent, wasResized, targetIndexExternal) {
       const { ref, isDownDirection } = scrollEvent,
-        animationTimeMS = this.$q.platform.is.mobile ? 400 : 350,
-        offsetHeight = this.getCurrentHeight()
+        animationTimeMS = 350,
+        containerHeight = window.innerHeight - 50
+      // console.log(111, 'wasResized', wasResized)
+      // console.log(222, 'isDownDirection', isDownDirection)
+      // console.log(333, 'targetIndexExternal', targetIndexExternal)
       if (wasResized) {
-        ref.setScrollPosition(this.currentBlockIndex * (window.innerHeight - 50), animationTimeMS)
+        // 1.
+        // скрол, источником которого является изменение размеров экрана
+        // после ресайза нужно вернуться к тому блоку, с которого был ресайз
+        ref.setScrollPosition(this.currentBlockIndex * containerHeight, animationTimeMS)
       } else {
-        if (!this.isBanByToolbar) {
-          if (targetIndex === null) {
-            const offset = Math.ceil(isDownDirection ? offsetHeight : -offsetHeight)
-            ref.setScrollPosition(this.scroll.position.last + offset, animationTimeMS)
-          } else {
-            ref.setScrollPosition(targetIndex * offsetHeight, animationTimeMS)
-          }
-        }
+        // 2.
+        // скрол, c указанием индекса целевого блока, к которому необходимо доскролить
+        // если в функцию передан targetIndexExternal === null, вычисляем индекс блока по направлению
+        const targetIndexIntermal = isDownDirection ? this.currentBlockIndex + 1 : this.currentBlockIndex - 1
+        ref.setScrollPosition((targetIndexExternal !== null ? targetIndexExternal : targetIndexIntermal) * containerHeight, animationTimeMS)
       }
     },
     getCurrentHeight () {
@@ -187,9 +174,6 @@ export default {
       this.touches.isMoving = false
       this.touches.moves = []
     },
-    strictPreventDefault () {
-      if (this.scrollEvent) this.scrollEvent.preventDefault()
-    }
   },
   watch: {
     scrollEvent (event) {
@@ -198,9 +182,8 @@ export default {
         if (event.type === 'wheel') this.goToSection(event.deltaY > 0)
       }
     },
-    'scroll.el' (v) {
+    'currentBlockIndex' (v) {
+      // console.log('currentBlockIndex: ', v)
     },
-    'scroll.ready' (v) {
-    }
   }
 }
