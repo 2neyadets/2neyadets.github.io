@@ -57,7 +57,11 @@ export default {
             : '7px'
     },
     scrollingPreventDefaultTimeMS () {
-      return this.$q.platform.is.mobile ? 800 : 550
+      return this.$q.platform.is.mobile
+        ? this.$q.screen.width > 420
+          ? 900
+          : 800
+        : 550
     },
   },
   methods: {
