@@ -1,22 +1,12 @@
 <template lang="pug">
   .heroes__project
-    template(v-if="$q.platform.is.mobile")
-      .flex.flex-center.text-center.q-pa-sm
-        h4 {{$t('layout.desktopOnly')}}
-        q-btn(
-          :label="$t('layout.close')"
-          :color="$app.layout.activeColor"
-          :textColor="$app.layout.activeTextColor"
-          v-close-popup
-        )
-    template(v-else)
-      HeroesProjectIndexPage(v-if="$app.heroes.route.path === '/'")
-      HeroesProjectTitlePage(v-if="$app.heroes.route.path === '/title'")
-      .bg(v-if="$app.heroes.route.path !== '/' && $app.heroes.route.path !== '/title'" :class="classname")
-        HeroesProjectPapersPage(v-if="$app.heroes.route.path === '/section'")
-        HeroesProjectSectionPage(v-if="$app.heroes.route.path === '/section/culture'")
-        HeroesProjectCategoryPage(v-if="$app.heroes.route.params.category && $app.heroes.route.params.item === null")
-        HeroesProjectItemPage(v-if="$app.heroes.route.params.category && $app.heroes.route.params.item !== null")
+    HeroesProjectIndexPage(v-if="$app.heroes.route.path === '/'")
+    HeroesProjectTitlePage(v-if="$app.heroes.route.path === '/title'")
+    .bg(v-if="$app.heroes.route.path !== '/' && $app.heroes.route.path !== '/title'" :class="classname")
+      HeroesProjectPapersPage(v-if="$app.heroes.route.path === '/section'")
+      HeroesProjectSectionPage(v-if="$app.heroes.route.path === '/section/culture'")
+      HeroesProjectCategoryPage(v-if="$app.heroes.route.params.category && $app.heroes.route.params.item === null")
+      HeroesProjectItemPage(v-if="$app.heroes.route.params.category && $app.heroes.route.params.item !== null")
 </template>
 
 <script>

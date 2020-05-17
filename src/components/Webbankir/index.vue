@@ -18,10 +18,14 @@
           :size="$app.layout.btnsSizeForProjectCard"
           icon-right="record_voice_over"
         )
-    ProjectDialog(@hide="wbOperatorDialog = false" :show="wbOperatorDialog" name="operatorWB")
-      WBOperatorProject
-    ProjectDialog(@hide="wbManagerDialog = false" :show="wbManagerDialog" name="managerWB")
-      WBManagerProject
+    template(v-if="$q.platform.is.mobile")
+      DesktopOnlyDialog(@hide="wbOperatorDialog = false" :show="wbOperatorDialog")
+      DesktopOnlyDialog(@hide="wbManagerDialog = false" :show="wbManagerDialog")
+    template(v-else)
+      ProjectDialog(@hide="wbOperatorDialog = false" :show="wbOperatorDialog" name="operatorWB")
+        WBOperatorProject
+      ProjectDialog(@hide="wbManagerDialog = false" :show="wbManagerDialog" name="managerWB")
+        WBManagerProject
 </template>
 
 <script>
@@ -29,10 +33,11 @@ import ProjectCard from '../ProjectCard/index'
 import ProjectDialog from '../ProjectDialog/index'
 import WBOperatorProject from './ProjectOperator/index'
 import WBManagerProject from './ProjectManager/index'
+import DesktopOnlyDialog from '../ProjectDialog/DesktopOnlyDialog'
 
 export default {
   name: 'Webbankir',
-  components: { WBManagerProject, WBOperatorProject, ProjectDialog, ProjectCard },
+  components: { DesktopOnlyDialog, WBManagerProject, WBOperatorProject, ProjectDialog, ProjectCard },
   data () {
     return {
       wbOperatorDialog: false,

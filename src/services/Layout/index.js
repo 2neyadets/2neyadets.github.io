@@ -55,11 +55,11 @@ export default {
         : this.$q.screen.gt.sm
           ? '12px'
           : this.$q.screen.gt.xs
-            ? '9px'
+            ? '8px'
             : '7px'
     },
     scrollingPreventDefaultTimeMS () {
-      return 550
+      return 750
     },
   },
   methods: {
@@ -154,12 +154,10 @@ export default {
       this.touches.isMoving = true
     },
     endOrCancelTouchAction (event) {
-      console.log(123123, event)
       if (this.touches.isMoving && this.touches.fingersLength === 1) { // если палец один и последнее действие было движением
         event.preventDefault()
         this.findTouchDirectionAndScroll()
       } else {
-        event.preventDefault()
         this.clearTouches()
       }
     },

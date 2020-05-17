@@ -1,40 +1,30 @@
 <template lang="pug">
   .managerWB__project
-    template(v-if="$q.platform.is.mobile")
-      .flex.flex-center.text-center.q-pa-sm
-        h4 {{$t('layout.desktopOnly')}}
-        q-btn(
-          :label="$t('layout.close')"
-          :color="$app.layout.activeColor"
-          :textColor="$app.layout.activeTextColor"
-          v-close-popup
-        )
+    template(v-if="$managerWB.layout.route.path === '/login'")
+      q-layout
+        q-page-container
+          WBManagerProjectLogin
     template(v-else)
-      template(v-if="$managerWB.layout.route.path === '/login'")
-        q-layout
-          q-page-container
-            WBManagerProjectLogin
-      template(v-else)
-        q-layout(view="hHh lpR fFf" container style="height: calc(100vh - 32px); width: 100vw")
-          q-header(elevated)
-            WBManagerToolbar
+      q-layout(view="hHh lpR fFf" container style="height: calc(100vh - 32px); width: 100vw")
+        q-header(elevated)
+          WBManagerToolbar
 
-          WBManagerLeftMenu
+        WBManagerLeftMenu
 
-          q-page-container.bg-WB-bg-color.text-WB-bg-profile-color
-            q-scroll-area(
-              style="height: calc(100vh - 82px)"
-              :thumb-style="thumbStyle"
-              :dark="false"
-            )
-              q-page.q-px-md.q-pt-md.q-pb-none(padding)
-                HardRatings(v-if="$managerWB.layout.route.path === '/'")
-                Schedule(v-if="$managerWB.layout.route.path === '/schedule'")
-                WBManagerSettingsPage(v-if="$managerWB.layout.route.path === '/settings'")
-                WBManagerMailing(v-if="$managerWB.layout.route.path === '/settings/mailing'")
-                WBManagerLoanRedistribution(v-if="$managerWB.layout.route.path === '/settings/loanRedistribution'")
-                WBManagerCoefficients(v-if="$managerWB.layout.route.path === '/settings/coefficients'")
-                WBManagerPayments(v-if="$managerWB.layout.route.path === '/settings/payments'")
+        q-page-container.bg-WB-bg-color.text-WB-bg-profile-color
+          q-scroll-area(
+            style="height: calc(100vh - 82px)"
+            :thumb-style="thumbStyle"
+            :dark="false"
+          )
+            q-page.q-px-md.q-pt-md.q-pb-none(padding)
+              HardRatings(v-if="$managerWB.layout.route.path === '/'")
+              Schedule(v-if="$managerWB.layout.route.path === '/schedule'")
+              WBManagerSettingsPage(v-if="$managerWB.layout.route.path === '/settings'")
+              WBManagerMailing(v-if="$managerWB.layout.route.path === '/settings/mailing'")
+              WBManagerLoanRedistribution(v-if="$managerWB.layout.route.path === '/settings/loanRedistribution'")
+              WBManagerCoefficients(v-if="$managerWB.layout.route.path === '/settings/coefficients'")
+              WBManagerPayments(v-if="$managerWB.layout.route.path === '/settings/payments'")
 </template>
 
 <script>

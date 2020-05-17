@@ -10,18 +10,22 @@
           :size="$app.layout.btnsSizeForProjectCard"
           icon-right="group"
         )
-    ProjectDialog(@hide="heroesDialog = false" :show="heroesDialog" name="heroes")
-      div(:class="{'app-win': $app.layout.getOS === 'win', 'app-macos': $app.layout.getOS === 'mac', 'desktop': $q.platform.is.desktop}")
-        HeroesProject
+    template(v-if="$q.platform.is.mobile")
+      DesktopOnlyDialog(@hide="heroesDialog = false" :show="heroesDialog")
+    template(v-else)
+      ProjectDialog(@hide="heroesDialog = false" :show="heroesDialog" name="heroes")
+        div(:class="{'app-win': $app.layout.getOS === 'win', 'app-macos': $app.layout.getOS === 'mac', 'desktop': $q.platform.is.desktop}")
+          HeroesProject
 </template>
 
 <script>
 import ProjectCard from '../ProjectCard/index'
 import HeroesProject from './Project/index'
 import ProjectDialog from '../ProjectDialog/index'
+import DesktopOnlyDialog from '../ProjectDialog/DesktopOnlyDialog'
 export default {
   name: 'Heroes',
-  components: { ProjectDialog, HeroesProject, ProjectCard },
+  components: { DesktopOnlyDialog, ProjectDialog, HeroesProject, ProjectCard },
   data () {
     return {
       heroesDialog: false,

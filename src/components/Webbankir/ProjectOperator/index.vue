@@ -1,29 +1,19 @@
 <template lang="pug">
   .operatorWB__project
-    template(v-if="$q.platform.is.mobile")
-      .flex.flex-center.text-center.q-pa-sm
-        h4 {{$t('layout.desktopOnly')}}
-        q-btn(
-          :label="$t('layout.close')"
-          :color="$app.layout.activeColor"
-          :textColor="$app.layout.activeTextColor"
-          v-close-popup
-        )
+    template(v-if="$operatorWB.layout.route.path === '/login'")
+      q-layout
+        q-page-container
+          WBOperatorProjectLogin
     template(v-else)
-      template(v-if="$operatorWB.layout.route.path === '/login'")
-        q-layout
-          q-page-container
-            WBOperatorProjectLogin
-      template(v-else)
-        q-layout(view="hHh Lpr lFf" container style="height: calc(100vh - 32px); width: 100vw")
-          q-header.main-toolbar
-            WBOperatorToolbar
+      q-layout(view="hHh Lpr lFf" container style="height: calc(100vh - 32px); width: 100vw")
+        q-header.main-toolbar
+          WBOperatorToolbar
 
-          q-page-container
-            Modals
-            q-page.hard
-              Hard(v-if="$operatorWB.layout.route.path === '/'")
-              PaymentsReport(v-if="$operatorWB.layout.route.path === '/payments'")
+        q-page-container
+          Modals
+          q-page.hard
+            Hard(v-if="$operatorWB.layout.route.path === '/'")
+            PaymentsReport(v-if="$operatorWB.layout.route.path === '/payments'")
 </template>
 
 <script>
