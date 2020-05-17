@@ -131,7 +131,10 @@ export default {
       this.touches.fingersLength = event.touches.length
     },
     touchMove (event) {
-      if (event.changedTouches.length >= 2 || this.touches.fingersLength >= 2) return false
+      if (event.changedTouches.length >= 2 || this.touches.fingersLength >= 2) { // если перемещающихся тачей 2 или пальца 2 и больше
+        event.preventDefault()
+        return false
+      }
       event.preventDefault()
       if (this.touches.idOfMoved === null) {
         this.touches.idOfMoved = event.changedTouches['0'].identifier
@@ -151,19 +154,20 @@ export default {
       this.touches.isMoving = true
     },
     endOrCancelTouchAction (event) {
-      if (this.touches.isMoving && this.touches.fingersLength === 1) {
+      console.log(123123, event)
+      if (this.touches.isMoving && this.touches.fingersLength === 1) { // если палец один и последнее действие было движением
         event.preventDefault()
         this.findTouchDirectionAndScroll()
+      } else {
+        event.preventDefault()
+        this.clearTouches()
       }
     },
-    clearTouches () {
-      this.touches.fingersLength = null
-      this.touches.idOfMoved = null
-      this.touches.isMoving = false
-      this.touches.moves = []
-    },
     findTouchDirectionAndScroll (diffInPxForScroll = 50) {
-      if (this.touches.moves.length < 2) return false
+      if (this.touches.moves.length <= 2) {
+        this.clearTouches()
+        return false
+      }
       const moveArr = this.touches.moves,
         diff = moveArr[0].screenY - moveArr[moveArr.length - 1].screenY
       if (Math.abs(diff) > diffInPxForScroll) {
@@ -175,9 +179,15 @@ export default {
           return false
         } else {
           this.goToSection(diff > 0)
-          this.clearTouches()
         }
       }
+      this.clearTouches()
+    },
+    clearTouches () {
+      this.touches.fingersLength = null
+      this.touches.idOfMoved = null
+      this.touches.isMoving = false
+      this.touches.moves = []
     },
   },
   watch: {
