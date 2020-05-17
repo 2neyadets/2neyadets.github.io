@@ -115,14 +115,16 @@ export default {
         animationTimeMS = this.scrollingPreventDefaultTimeMS - 100,
         offsetHeight = this.getCurrentHeight()
       if (wasResized) {
-        console.log(1111111, this.currentBlockIndex)
-        console.log(4444444, this.$q.screen.height - 50)
-        console.log(4444444, window.innerHeight - 50)
+        // console.log(1111111, this.currentBlockIndex)
+        // console.log(4444444, this.$q.screen.height - 50)
+        // console.log(4444444, window.innerHeight - 50)
         ref.setScrollPosition(this.currentBlockIndex * (window.innerHeight - 50), animationTimeMS)
       } else {
         if (!this.isBanByToolbar) {
           if (targetIndex === null) {
             const offset = Math.ceil(isDownDirection ? offsetHeight : -offsetHeight)
+            console.log(1111, this.scroll.position.last)
+            console.log(2222, offset)
             ref.setScrollPosition(this.scroll.position.last + offset, animationTimeMS)
           } else {
             ref.setScrollPosition(targetIndex * offsetHeight, animationTimeMS)

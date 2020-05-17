@@ -1,9 +1,13 @@
 <template lang="pug">
   q-page
     pre.dev-hint
-      //| $q.screen.height - {{$q.screen.height}}
-      //| $app.layout.getCurrentHeight() - {{$app.layout.getCurrentHeight()}}
-      | $app.layout.touches - {{$app.layout.touches}}
+      | $app.layout.scroll.containerHeight - {{$app.layout.scroll.containerHeight}}
+      | $app.layout.currentBlockIndex - {{$app.layout.currentBlockIndex}}
+      | $q.screen.height - {{$q.screen.height}}
+      | $app.layout.getCurrentHeight() - {{$app.layout.getCurrentHeight()}}
+      | $app.layout.scroll.position.last - {{$app.layout.scroll.position.last}}
+      | last + getCurrentHeight() - {{$app.layout.getCurrentHeight() + $app.layout.scroll.position.last}}
+      //| $app.layout.touches - {{$app.layout.touches}}
     FullHeightIntersection
       Start
     FullHeightIntersection
