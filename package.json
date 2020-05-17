@@ -12,7 +12,8 @@
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar d",
-    "build": "quasar b"
+    "build": "quasar b",
+    "deploy": "push-dir --dir=dist/spa --branch=master"
   },
   "dependencies": {
     "@quasar/extras": "^1.8.1",
