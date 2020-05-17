@@ -138,9 +138,6 @@ export default {
     this.$app.layout.updateVars({ ref: this.$app.layout.scroll.el })
   },
   updated () {
-    // console.log('MyLayout, updated hook')
-    // this.$app.layout.wasResized = true
-    // this.$app.layout.goToSectionIndex(this.$app.layout.currentBlockIndex)
   },
   beforeDestroy () {
     window.removeEventListener('resize', this.$app.layout.windowResized)
