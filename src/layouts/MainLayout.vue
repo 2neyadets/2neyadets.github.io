@@ -55,7 +55,7 @@
         q-list(padding)
           template(v-for="(project, index) in projects")
             q-item(
-              @click="$app.layout.goToSectionIndex(index)"
+              @click="$app.layout.goToSectionIndex(index, index > $app.layout.currentBlockIndex)"
               :key="project.text"
               :active="index === $app.layout.currentBlockIndex"
               :active-class="`bg-${$app.layout.activeColor} text-${$app.layout.activeTextColor}`"
@@ -76,9 +76,15 @@
               q-icon(name="mail")
               span.q-px-sm avsintsov91@gmail.com
     q-page-container
-      div
+      div(
+        @scroll="handleEvent"
+        @wheel="handleEvent"
+        @keydown.up.down="handleEvent"
+        @keypress.up.down="handleEvent"
+        tabindex="-1"
+        style="outline: none;"
+      )
         q-scroll-area(
-          @scroll="$app.layout.scrollHandler"
           @touchstart.native="$app.layout.touchStart"
           @touchmove.native="$app.layout.touchMove"
           @touchend.native="$app.layout.endOrCancelTouchAction"
@@ -129,10 +135,12 @@ export default {
   },
   mounted () {
     this.$app.layout.scroll.el = this.$refs.scroll
+    this.$app.layout.updateVars({ ref: this.$app.layout.scroll.el })
   },
   updated () {
-    if (this.canChangeVarsInUpdatedHook && this.$app.layout.scroll.ready && !this.$q.platform.is.mobile) {
+    if (this.canChangeVarsInUpdatedHook && this.$app.layout.scroll.ready) {
       this.$app.layout.wasResized = true
+      this.$app.layout.goToSectionIndex(this.$app.layout.currentBlockIndex)
     } else {
       this.canChangeVarsInUpdatedHook = true
     }
@@ -193,11 +201,11 @@ export default {
     },
     banByMenuBtn () {
       this.leftDrawerOpen = !this.leftDrawerOpen
-      this.$app.layout.isBanByToolbar = true
-      setTimeout(() => {
-        this.canChangeVarsInUpdatedHook = false
-        this.$app.layout.isBanByToolbar = false
-      }, this.$app.layout.scrollingPreventDefaultTimeMS)
+      // this.$app.layout.isBanByToolbar = true
+      // setTimeout(() => {
+      //   this.canChangeVarsInUpdatedHook = false
+      //   this.$app.layout.isBanByToolbar = false
+      // }, this.$app.layout.scrollingPreventDefaultTimeMS)
     },
     layoutNotChanged () {
       this.canChangeVarsInUpdatedHook = false
@@ -205,9 +213,8 @@ export default {
     mobileHide () {
       if (this.$q.platform.is.mobile) this.canChangeVarsInUpdatedHook = false
     },
-    test (event) {
-      console.log(111, event)
-      event.preventDefault()
+    handleEvent (event) {
+      this.$app.layout.scrollEvent = event
     }
   },
   watch: {
@@ -220,7 +227,6 @@ export default {
     },
     '$app.layout.currentBlockIndex' (v) {
       this.layoutNotChanged()
-      // console.log('$app.layout.currentBlockIndex: ', this.$app.layout.currentBlockIndex)
     },
   }
 }

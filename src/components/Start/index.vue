@@ -26,9 +26,6 @@
 <script>
 export default {
   name: 'Start',
-  mounted () {
-    this.$app.layout.debug.startBlockHeight = this.$refs.startBlock.clientHeight
-  }
 }
 </script>
 

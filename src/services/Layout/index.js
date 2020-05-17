@@ -6,8 +6,9 @@ export default {
     return {
       isBlocked: false,
       currentBlockIndex: 0,
-      wasResized: true,
+      wasResized: false,
       isBanByToolbar: false,
+      scrollEvent: null,
       scroll: {
         el: null,
         ready: true,
@@ -16,6 +17,7 @@ export default {
           current: 0,
           max: 0,
         },
+        containerHeight: 0,
       },
       touches: {
         fingersLength: null,
@@ -55,13 +57,14 @@ export default {
             : '7px'
     },
     scrollingPreventDefaultTimeMS () {
-      return 550
+      return 600
     },
   },
   methods: {
     windowResized (v) {
       this.wasResized = true
-      setTimeout(() => { this.wasResized = false }, this.scrollingPreventDefaultTimeMS)
+      // setTimeout(() => { this.wasResized = false }, this.scrollingPreventDefaultTimeMS)
+      this.goToSectionIndex(this.currentBlockIndex)
     },
 
     goToSection (downDirection) {
@@ -70,39 +73,40 @@ export default {
         verticalPosition: this.scroll.el.scrollPosition
       }, downDirection)
     },
-    goToSectionIndex (index) {
-      if (index === this.currentBlockIndex) return false
+    goToSectionIndex (index, downDirection = true) {
+      // if (index === this.currentBlockIndex) return false
       this.scrollHandler({
         ref: this.scroll.el,
         verticalPosition: this.scroll.el.scrollPosition
-      }, null, index)
+      }, downDirection, index)
     },
     updateVars (v) {
-      this.scroll.position.current = v.verticalPosition
-      if (v.verticalSize !== undefined && v.verticalContainerSize !== undefined) {
-        this.scroll.position.max = v.verticalSize - v.verticalContainerSize
+      this.scroll.position.current = v.ref.scrollPosition
+      if (v.ref.scrollSize !== undefined && v.ref.containerHeight !== undefined) {
+        this.scroll.position.max = v.ref.scrollSize - v.ref.containerHeight
+        this.scroll.containerHeight = v.ref.containerHeight
       }
+      this.scroll.position.last = Math.ceil(v.ref.scrollPosition)
+      this.currentBlockIndex = Math.round(v.ref.scrollPosition / this.getCurrentHeight())
     },
     scrollHandler (v, downDirection = null, index = null) {
-      this.updateVars(v)
-      const { ref, ...scroll } = v,
-        isDownDirection = downDirection !== null
-          ? downDirection
-          : scroll.verticalPosition >= this.scroll.position.last
+      if ((this.scroll.position.current < this.getCurrentHeight() && !downDirection) ||
+        (this.scroll.position.current >= this.scroll.position.max && downDirection)) return false
       if (this.scroll.ready) {
         this.scroll.ready = false
         setTimeout(() => {
           this.scroll.ready = true
-          this.currentBlockIndex = Math.round(this.scroll.position.current / this.getCurrentHeight())
+          this.updateVars(v)
         }, this.scrollingPreventDefaultTimeMS)
-        this.changeScrollPosition({ ...v, isDownDirection }, this.wasResized, index)
+        this.changeScrollPosition({ ...v, isDownDirection: downDirection }, this.wasResized, index)
         this.wasResized = false
+      } else {
+        this.strictPreventDefault()
       }
-      this.scroll.position.last = Math.ceil(scroll.verticalPosition)
     },
     changeScrollPosition (scrollEvent, wasResized, targetIndex) {
       const { ref, isDownDirection } = scrollEvent,
-        animationTimeMS = this.scrollingPreventDefaultTimeMS - 200,
+        animationTimeMS = this.scrollingPreventDefaultTimeMS - 100,
         offsetHeight = this.getCurrentHeight()
       if (wasResized) {
         ref.setScrollPosition(this.currentBlockIndex * offsetHeight, animationTimeMS)
@@ -182,11 +186,23 @@ export default {
       this.touches.isMoving = false
       this.touches.moves = []
     },
+    strictPreventDefault () {
+      if (this.scrollEvent) this.scrollEvent.preventDefault()
+    }
   },
   watch: {
+    scrollEvent (event) {
+      if (event) {
+        event.preventDefault()
+        if (event.type === 'wheel') this.goToSection(event.deltaY > 0)
+      }
+    },
     'scroll.el' (v) {
       if (v) {
       }
+    },
+    'scroll.ready' (v) {
+      // console.log(999, v)
     }
   }
 }

@@ -14,7 +14,7 @@
       Rozetki
 
     q-page-sticky(
-      v-if="$app.layout.scroll.position.current + 5 >= $app.layout.getCurrentHeight()"
+      v-if="$app.layout.scroll.position.current >= $app.layout.getCurrentHeight()"
       position="top"
       :offset="[0, $q.platform.is.mobile ? 0 : 2]"
     )
@@ -30,7 +30,7 @@
         q-icon(name="keyboard_arrow_up" style="font-size: 28px;")
 
     q-page-sticky(
-      v-if="$app.layout.scroll.position.current - 5 <= $app.layout.scroll.position.max - $app.layout.getCurrentHeight()"
+      v-if="$app.layout.scroll.position.current < $app.layout.scroll.position.max"
       position="bottom"
       :offset="[0, $q.platform.is.mobile ? 0 : 2]"
     )
