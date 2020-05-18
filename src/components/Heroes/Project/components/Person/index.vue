@@ -175,7 +175,7 @@ export default {
           &__content
             font-weight bold
             font-size 21px
-            & > div
+            & > span
               .app-win &
                 position: relative
                 top 2px
