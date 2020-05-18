@@ -2,8 +2,7 @@
   q-page.bg-blue-grey-10.row.justify-center.items-center
     q-form.col-xs-12.col-sm-8.col-md-6.col-lg-3(@submit.prevent="doLogin")
       q-card.bg-white.text-black(:dark="false")
-        q-card-section
-          h5.q-my-none Вход в систему
+        q-card-section.font-size-large Вход в систему
         q-card-section
           .q-mb-md
             q-input(
@@ -13,6 +12,7 @@
               :rules="[ v => !!v || 'Введите логин' ]"
               lazy-rules
               :dark="false"
+              hint="Подойдёт любой логин"
             )
               template(#before)
                 q-icon(name="account_box")
@@ -24,6 +24,7 @@
               :rules="[ v => !!v || 'Введите пароль' ]"
               lazy-rules
               :dark="false"
+              hint="Подойдёт любой пароль"
             )
               template(#before)
                 q-icon(name="lock")
@@ -32,19 +33,18 @@
                   :name="isPwd ? 'visibility_off' : 'visibility'"
                   @click="isPwd = !isPwd"
                 )
-          .row.q-mb-md
-            q-btn.self-center.bg-WB-primary.text-white.full-width(
-              type="submit"
-              :loading="$managerWB.user.loading.user"
-            ) Войти
-              template(#loading)
-                q-spinner(size="20px")
-                span загрузка...
+        q-card-actions
+          q-btn.self-center.bg-WB-primary.text-white.full-width(
+            type="submit"
+            :loading="$managerWB.user.loading.user"
+            label="Войти"
+          )
+            template(#loading)
+              q-spinner(size="20px")
+              span загрузка...
 </template>
 
 <script>
-import { LocalStorage } from 'quasar'
-
 export default {
   name: 'WBManagerProjectLogin',
   data () {
@@ -56,11 +56,6 @@ export default {
       isPwd: true
     }
   },
-  computed: {
-    token () {
-      return this.$managerWB.user.token
-    },
-  },
   methods: {
     doLogin () {
       if (this.form.login && this.form.password) {
@@ -69,12 +64,6 @@ export default {
           password: this.form.password,
         })
       }
-    }
-  },
-  mounted () {
-    const user = LocalStorage.getItem('manager-user-data')
-    if (user) {
-      this.form.login = user.login
     }
   }
 }

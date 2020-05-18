@@ -1,6 +1,6 @@
 <template lang="pug">
   q-page.bg-blue-grey-2.flex.justify-center.items-center.row
-    form.col-xs-12.col-sm-8.col-md-6.col-lg-3(@submit.prevent="doLogin")
+    q-form.col-xs-12.col-sm-8.col-md-6.col-lg-3(@submit.prevent="doLogin")
       q-card.bg-white.text-black
         q-card-section.font-size-large Вход в систему
         q-card-section
@@ -13,6 +13,7 @@
             :error="$v.form.login.$error"
             error-message="Поле не может быть пустым"
             :dark="false"
+            hint="Подойдёт любой пароль"
           )
             template(slot="before")
               q-icon(name="account_box")
@@ -27,6 +28,7 @@
             :error="$v.form.password.$error"
             error-message="Поле не может быть пустым"
             :dark="false"
+            hint="Подойдёт любой пароль"
           )
             template(slot="before")
               q-icon(name="lock")
@@ -45,13 +47,13 @@
             label="Войти"
             :dark="false"
           )
-            q-spinner(slot="loading" size="20px")
-            span(slot="loading") загрузка...
+            template(#loading)
+              q-spinner(size="20px")
+              span загрузка...
 </template>
 
 <script>
 import { required } from 'vuelidate/lib/validators'
-import { LocalStorage } from 'quasar'
 
 export default {
   name: 'WBOperatorProjectLogin',
@@ -63,11 +65,6 @@ export default {
       },
       isPwd: true
     }
-  },
-  computed: {
-    token () {
-      return this.$operatorWB.user.token
-    },
   },
   validations: {
     form: {
@@ -84,12 +81,6 @@ export default {
           password: this.form.password,
         })
       }
-    }
-  },
-  mounted () {
-    const user = LocalStorage.getItem('user-data')
-    if (user) {
-      this.form.login = user.login
     }
   }
 }
