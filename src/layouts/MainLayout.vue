@@ -48,11 +48,14 @@
       q-scroll-area.fit
         q-list(padding)
           template(v-for="(project, index) in projects")
+            template(v-if="index === 1")
+              .q-pl-md.q-py-sm {{$t('layout.drawer.projects')}}
             q-item(
               @click="$app.layout.goToSectionIndex(index, index > $app.layout.currentBlockIndex)"
               :key="project.text"
               :active="index === $app.layout.currentBlockIndex"
               :active-class="`bg-${$app.layout.activeColor} text-${$app.layout.activeTextColor}`"
+              :inset-level="index > 0 ? 0.25 : 0"
               v-ripple
               clickable
             )
@@ -60,8 +63,10 @@
                 q-icon(:name="project.icon")
               q-item-section
                 q-item-label {{ project.text }}
+            template(v-if="index === 0")
+              q-separator.q-my-sm
 
-          q-separator.q-mt-md.q-mb-lg
+          q-separator.q-mt-sm.q-mb-lg
 
           .q-px-md.flex.items-center
             a.drawer-footer-link(

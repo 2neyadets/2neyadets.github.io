@@ -9,6 +9,7 @@ export default {
   },
   drawer: {
     start: 'Start',
+    projects: 'Projects:',
     heroes: 'Heroes XX',
     wb: 'Webbankir',
     rozetki: 'Rozetki-Shop',
