@@ -9,4 +9,6 @@ cp .gitignore dist/spa
 
 cp src/utils/README.md dist/spa
 
+yarn deploy
+
 $SHELL
