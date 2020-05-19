@@ -49,7 +49,8 @@
         q-list(padding)
           template(v-for="(project, index) in projects")
             template(v-if="index === 1")
-              .q-pl-md.q-py-sm {{$t('layout.drawer.projects')}}
+              .q-pl-md.q-py-sm.flex.items-center(style="height: 48px;")
+                div(style="line-height: 1.2em !important; max-width: 100%;") {{$t('layout.drawer.projects')}}
             q-item(
               @click="$app.layout.goToSectionIndex(index, index > $app.layout.currentBlockIndex)"
               :key="project.text"
