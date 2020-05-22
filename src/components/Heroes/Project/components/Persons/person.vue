@@ -2,7 +2,7 @@
   .person-item.row.content-between.full-width(:style="{ minHeight: `${768 * 0.65}px` }")
     .col-4.q-pr-md.flex.justify-center.items-center
       q-img.full-height(
-        :src="`statics/heroes/persons/${$app.heroes.route.params.section}/${person.photo}`"
+        :src="`statics/heroes/persons/${$heroes.route.params.section}/${person.photo}`"
         :style="{ maxHeight: `${768 * 0.65}px` }"
         contain
       )
@@ -31,7 +31,7 @@ export default {
   name: 'PersonItem',
   computed: {
     person () {
-      return data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section][this.$app.heroes.route.params.item]
+      return data[this.$heroes.route.params.category][this.$heroes.route.params.section][this.$heroes.route.params.item]
     },
     height () {
       return { height: `${768 * 0.68}px` }
@@ -46,7 +46,7 @@ export default {
     }
   },
   watch: {
-    '$app.heroes.route.params.item' (v) {
+    '$heroes.route.params.item' (v) {
       this.goToStartScroll()
     }
   }

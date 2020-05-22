@@ -37,7 +37,7 @@ export default {
   computed: {
     path () {
       const { type, heroIndex, questionsIndex } = this.item
-      const base = `statics/heroes/videos/persons/${this.$app.heroes.route.params.section}/${heroIndex}/`
+      const base = `statics/heroes/videos/persons/${this.$heroes.route.params.section}/${heroIndex}/`
       if (type === 'about') {
         return base + 'about.mp4'
       } else {

@@ -13,9 +13,9 @@ export default {
   name: 'NavSmallButtonBack',
   methods: {
     click () {
-      const arr = this.$app.heroes.route.path.split('/')
+      const arr = this.$heroes.route.path.split('/')
       arr.pop()
-      this.$app.heroes.route.path = arr.join('/')
+      this.$heroes.route.path = arr.join('/')
     }
   }
 }

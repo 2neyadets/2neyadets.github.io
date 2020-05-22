@@ -27,10 +27,10 @@ export default {
   },
   methods: {
     goToPerson (item) {
-      this.$app.heroes.route.path = this.$app.heroes.route.path + '/' + this.findIndexOfItem(item)
+      this.$heroes.route.path = this.$heroes.route.path + '/' + this.findIndexOfItem(item)
     },
     findIndexOfItem (obj) {
-      return data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section].findIndex(item => item.name === obj.name)
+      return data[this.$heroes.route.params.category][this.$heroes.route.params.section].findIndex(item => item.name === obj.name)
     }
   }
 }

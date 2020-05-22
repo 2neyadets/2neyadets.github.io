@@ -1,6 +1,6 @@
 <template lang="pug">
   .nav-small.full-width
-    template(v-if="!$app.heroes.route.params.category")
+    template(v-if="!$heroes.route.params.category")
       .row.items-center.justify-between
         .col
           NavSmallButtonBack
@@ -12,12 +12,12 @@
           NavSmallButtonBack
           template(v-for="tab in items")
             NavSmallButtonItem(:item="tab" :key="tab.name")
-        .col-auto(v-if="$app.heroes.route.params.category === 'chronic'")
+        .col-auto(v-if="$heroes.route.params.category === 'chronic'")
           FilterForChronic(
             @onFilterChange="changeFilter"
             :filter="filter"
           )
-        .col-auto(v-if="$app.heroes.route.params.category === 'maps'")
+        .col-auto(v-if="$heroes.route.params.category === 'maps'")
           q-btn.nav-small__button(
             @click="changeDesignations"
             label="Обозначения"
@@ -49,7 +49,7 @@ export default {
   },
   computed: {
     items () {
-      if (this.$app.heroes.route.params.category) {
+      if (this.$heroes.route.params.category) {
         return data.sections
       }
       return data.categories

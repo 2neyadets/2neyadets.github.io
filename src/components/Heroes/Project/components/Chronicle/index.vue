@@ -12,7 +12,7 @@
             template(v-if="item.type === filter || filter === 'ВСЕ'")
               .media__block.inline.q-ml-xl.relative-position(@click="openDialog(index)")
                 q-img.cursor-pointer(
-                  :src="`statics/heroes/chronic/${$app.heroes.route.params.section}/${item.prev}`"
+                  :src="`statics/heroes/chronic/${$heroes.route.params.section}/${item.prev}`"
                   :key="item.caption + index"
                   :style="{ height: `${sideSize}px`, width: `${sideSize}px` }"
                 )
@@ -81,7 +81,7 @@ export default {
       }
     },
     items () {
-      return data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section]
+      return data[this.$heroes.route.params.category][this.$heroes.route.params.section]
     }
   },
   methods: {
@@ -113,7 +113,7 @@ export default {
       this.updateItemsCount()
       this.goToStartScroll()
     },
-    '$app.heroes.route.params.section' (v) {
+    '$heroes.route.params.section' (v) {
       this.updateItemsCount()
       this.goToStartScroll()
     }

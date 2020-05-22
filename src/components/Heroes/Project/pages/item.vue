@@ -2,9 +2,9 @@
   .heroes-page.category-item.column.top-padding-for-header
     .col-auto
       .header-top(:class="isBigTitle ? 'big-header-title' : ''") {{header}}
-    .col(:class="$app.heroes.route.params.category === 'persons' ? 'items-start' : 'items-end'")
-      TermItem(v-if="$app.heroes.route.params.category === 'terms'")
-      PersonItem(v-if="$app.heroes.route.params.category === 'persons'")
+    .col(:class="$heroes.route.params.category === 'persons' ? 'items-start' : 'items-end'")
+      TermItem(v-if="$heroes.route.params.category === 'terms'")
+      PersonItem(v-if="$heroes.route.params.category === 'persons'")
     .col-auto.flex.items-end(:style="{ maxHeight: '68px' }")
       NavNeighbors(:neighbors="neighbors")
 </template>
@@ -21,23 +21,23 @@ export default {
   components: { PersonItem, NavNeighbors, TermItem },
   computed: {
     header () {
-      if (this.$app.heroes.route.params.category === 'terms') {
-        return data.terms[this.$app.heroes.route.params.section][this.$app.heroes.route.params.item].name
+      if (this.$heroes.route.params.category === 'terms') {
+        return data.terms[this.$heroes.route.params.section][this.$heroes.route.params.item].name
       } else {
-        return data.categories.find(i => i.name === this.$app.heroes.route.params.category).label
+        return data.categories.find(i => i.name === this.$heroes.route.params.category).label
       }
     },
     isBigTitle () {
-      if (this.$app.heroes.route.params.category === 'terms') {
+      if (this.$heroes.route.params.category === 'terms') {
         // eslint-disable-next-line no-prototype-builtins
-        return (data.terms[this.$app.heroes.route.params.section][this.$app.heroes.route.params.item].hasOwnProperty('big') &&
-          data.terms[this.$app.heroes.route.params.section][this.$app.heroes.route.params.item].big)
+        return (data.terms[this.$heroes.route.params.section][this.$heroes.route.params.item].hasOwnProperty('big') &&
+          data.terms[this.$heroes.route.params.section][this.$heroes.route.params.item].big)
       }
       return false
     },
     neighbors () {
-      const openedObjName = data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section][this.$app.heroes.route.params.item].name
-      const sortedArr = [...sortBy(data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section], ['name'])]
+      const openedObjName = data[this.$heroes.route.params.category][this.$heroes.route.params.section][this.$heroes.route.params.item].name
+      const sortedArr = [...sortBy(data[this.$heroes.route.params.category][this.$heroes.route.params.section], ['name'])]
       const indexOfOpenedInSortedArr = sortedArr.findIndex(item => item.name === openedObjName)
       let arrOfObj = []
       const result = []

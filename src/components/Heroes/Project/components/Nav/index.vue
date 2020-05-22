@@ -48,7 +48,7 @@ export default {
       return this.sections
     },
     current () {
-      return this.$app.heroes.route.params.section
+      return this.$heroes.route.params.section
     }
   },
   methods: {

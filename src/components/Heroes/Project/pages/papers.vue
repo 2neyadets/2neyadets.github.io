@@ -56,7 +56,7 @@ export default {
     }
   },
   created () {
-    if (!this.$app.heroes.cancelHeroesPapersNotify && this.$q.platform.is.desktop) {
+    if (!this.$heroes.cancelHeroesPapersNotify && this.$q.platform.is.desktop) {
       notify({
         message: this.$t('heroes.notify.onlyCultureSection'),
         color: this.$app.layout.activeColor,
@@ -68,7 +68,7 @@ export default {
         color: this.$app.layout.activeTextColor,
         handler: () => {
           LocalStorage.set('cancelHeroesPapersNotify', true)
-          this.$app.heroes.cancelHeroesPapersNotify = true
+          this.$heroes.cancelHeroesPapersNotify = true
         }
       })
     }
@@ -91,7 +91,7 @@ export default {
   },
   methods: {
     click (paperType) {
-      if (paperType === 'culture') this.$app.heroes.route.path = `/section/${paperType}`
+      if (paperType === 'culture') this.$heroes.route.path = `/section/${paperType}`
     },
     mouseOver (obj) {
       const el = this.$refs['ref__' + obj.type]

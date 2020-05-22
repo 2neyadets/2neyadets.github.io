@@ -7,7 +7,7 @@
       @click="openVideo('about', `0${ index + 1 }`, index)"
       v-ripple
     )
-      q-img.full-height(:src="`statics/heroes/face/${$app.heroes.route.params.section}/${hero.photo}`")
+      q-img.full-height(:src="`statics/heroes/face/${$heroes.route.params.section}/${hero.photo}`")
       .absolute-bottom-left
         .play.relative-position
           .play__img.absolute-left.flex.justify-center.items-center
@@ -74,15 +74,15 @@ export default {
       this.dialog = false
       this.arrayOfQuestions = []
       this.$nextTick(() => {
-        this.arrayOfQuestions = this.$app.heroes.culture[`0${this.index + 1}`]
+        this.arrayOfQuestions = this.$heroes.culture[`0${this.index + 1}`]
       })
     },
     address () {
-      return `$app.questions.${this.$app.heroes.route.params.section}`
+      return `$app.questions.${this.$heroes.route.params.section}`
     }
   },
   watch: {
-    '$app.heroes.route.params.section' (v) {
+    '$heroes.route.params.section' (v) {
       this.open = false
       this.update()
     }

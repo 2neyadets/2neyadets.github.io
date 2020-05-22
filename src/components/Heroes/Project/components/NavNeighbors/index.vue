@@ -9,7 +9,7 @@
             .empty.q-mx-xs
           template(v-else)
             q-btn.q-mx-xs(
-              :label="$app.heroes.route.params.category === 'persons' ? getAbbreviatedName(neighbor) : neighbor"
+              :label="$heroes.route.params.category === 'persons' ? getAbbreviatedName(neighbor) : neighbor"
               :class="className(neighbor)"
               :style="{ minHeight: '68px' }"
               no-caps
@@ -40,17 +40,17 @@ export default {
   },
   methods: {
     className (neighbor) {
-      const { big } = data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section].find(item => item.name === neighbor)
-      return (Number(this.$app.heroes.route.params.item) === this.findIndexOfItem(neighbor) ? 'active-item' : '') +
+      const { big } = data[this.$heroes.route.params.category][this.$heroes.route.params.section].find(item => item.name === neighbor)
+      return (Number(this.$heroes.route.params.item) === this.findIndexOfItem(neighbor) ? 'active-item' : '') +
         (big ? ' big-title' : '')
     },
     click (neighbor) {
-      const arr = this.$app.heroes.route.path.split('/')
+      const arr = this.$heroes.route.path.split('/')
       arr.pop()
-      this.$app.heroes.route.path = arr.join('/') + '/' + this.findIndexOfItem(neighbor)
+      this.$heroes.route.path = arr.join('/') + '/' + this.findIndexOfItem(neighbor)
     },
     findIndexOfItem (name) {
-      return data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section].findIndex(item => item.name === name)
+      return data[this.$heroes.route.params.category][this.$heroes.route.params.section].findIndex(item => item.name === name)
     },
     getAbbreviatedName (name) {
       if (name) {

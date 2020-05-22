@@ -28,7 +28,7 @@ export default {
   },
   computed: {
     heroes () {
-      const heroes = data.heroes[this.$app.heroes.route.params.section]
+      const heroes = data.heroes[this.$heroes.route.params.section]
       return heroes || []
     }
   },

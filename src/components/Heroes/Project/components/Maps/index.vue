@@ -17,7 +17,7 @@
           img.mainMap(
             ref="mainMap"
             id="mainMap"
-            :src="designationsProp ? `statics/heroes/maps/${$app.heroes.route.params.section}/legend.jpg` : imgSrc"
+            :src="designationsProp ? `statics/heroes/maps/${$heroes.route.params.section}/legend.jpg` : imgSrc"
             :style="{ maxHeight: height }"
           )
           .copyright.absolute-bottom-left.flex.justify-start.items-center.q-px-md.q-py-sm
@@ -34,7 +34,7 @@
         .clickable-area.clickable-area__legend.cursor-pointer(
           v-if="!designationsProp"
           @click="openDialog(1, true)"
-          :style="getLegendOffset($app.heroes.route.params.section)"
+          :style="getLegendOffset($heroes.route.params.section)"
           :class="'small-padding-area'"
         )
     q-dialog(v-model="dialog" content-class="heroes__dialog" full-width full-height persistent)
@@ -73,16 +73,16 @@ export default {
   },
   computed: {
     imgSrc () {
-      return `statics/heroes/maps/${this.$app.heroes.route.params.section}.jpg`
+      return `statics/heroes/maps/${this.$heroes.route.params.section}.jpg`
     },
     height () {
       return `${768 * 0.7}px`
     },
     offsetArr () {
-      return data.markersForMaps[this.$app.heroes.route.params.section].small
+      return data.markersForMaps[this.$heroes.route.params.section].small
     },
     copyright () {
-      return data.markersForMaps[this.$app.heroes.route.params.section].copyright
+      return data.markersForMaps[this.$heroes.route.params.section].copyright
     }
   },
   methods: {

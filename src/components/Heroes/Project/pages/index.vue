@@ -11,11 +11,11 @@
 export default {
   name: 'HeroesProjectIndexPage',
   created () {
-    this.$app.heroes.route.path = '/'
+    this.$heroes.route.path = '/'
   },
   methods: {
     onVideoEnded () {
-      this.$app.heroes.route.path = '/title'
+      this.$heroes.route.path = '/title'
     }
   }
 }

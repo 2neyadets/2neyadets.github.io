@@ -61,7 +61,7 @@ export default {
       return `${(768 * 0.63) - 1}px`
     },
     amountOfSlides () {
-      return Math.ceil(data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section].length / 12)
+      return Math.ceil(data[this.$heroes.route.params.category][this.$heroes.route.params.section].length / 12)
     },
     arrOfSlides () {
       const arr = []
@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     itemsForThisSlide (slideNumber) {
-      const arr = [...sortBy(data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section], ['name'])]
+      const arr = [...sortBy(data[this.$heroes.route.params.category][this.$heroes.route.params.section], ['name'])]
       return arr.splice(slideNumber * 12, 12)
     },
     goToStartSlide () {
@@ -104,7 +104,7 @@ export default {
     }
   },
   watch: {
-    '$app.heroes.route.params.section' (v) {
+    '$heroes.route.params.section' (v) {
       this.goToStartSlide()
     },
     slide (v) {

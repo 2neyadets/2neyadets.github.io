@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     handler () {
-      this.$app.heroes.route.path = '/section'
+      this.$heroes.route.path = '/section'
     }
   }
 }

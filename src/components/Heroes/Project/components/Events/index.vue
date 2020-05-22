@@ -30,7 +30,7 @@
           :thumb-style="$app.layout.thumbStyle"
           :style="height"
         )
-          template(v-for="(event, index) in data.events[$app.heroes.route.params.section]")
+          template(v-for="(event, index) in data.events[$heroes.route.params.section]")
             q-timeline-entry(
               :key="event.date + index"
               :title="event.event"
@@ -71,7 +71,7 @@ export default {
     },
   },
   watch: {
-    '$app.heroes.route.params.section' (v) {
+    '$heroes.route.params.section' (v) {
       this.goToStartScroll()
     }
   }

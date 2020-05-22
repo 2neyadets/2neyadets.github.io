@@ -29,7 +29,7 @@ export default {
   methods: {
     changeQuestionValue () {
       if (!this.questionValue) {
-        this.$app.heroes[this.$app.heroes.route.params.section][this.hero][this.label] = true
+        this.$heroes[this.$heroes.route.params.section][this.hero][this.label] = true
       }
       this.$emit('onClick')
     }

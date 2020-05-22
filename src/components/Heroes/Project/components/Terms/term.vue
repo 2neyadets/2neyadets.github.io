@@ -46,7 +46,7 @@ export default {
   },
   computed: {
     item () {
-      return data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section][this.$app.heroes.route.params.item]
+      return data[this.$heroes.route.params.category][this.$heroes.route.params.section][this.$heroes.route.params.item]
     },
     height () {
       return { height: `${768 * 0.68}px` }
@@ -70,7 +70,7 @@ export default {
     }
   },
   watch: {
-    '$app.heroes.route.params.item': {
+    '$heroes.route.params.item': {
       handler: function (v) {
         this.goToStartScroll()
       },

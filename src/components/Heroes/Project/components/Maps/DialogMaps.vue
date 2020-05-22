@@ -27,7 +27,7 @@
             .relative-position.flex.justify-center.items-end
               img(
                 :style="{ maxHeight: height }"
-                :src="designations ? `statics/heroes/maps/${$app.heroes.route.params.section}/legend.jpg` : `statics/heroes/maps/${$app.heroes.route.params.section}/${current}.jpg`"
+                :src="designations ? `statics/heroes/maps/${$heroes.route.params.section}/legend.jpg` : `statics/heroes/maps/${$heroes.route.params.section}/${current}.jpg`"
               )
               .copyright.absolute-bottom-left.flex.justify-start.items-center.q-px-md.q-py-sm
                 span &copy;&nbsp;
@@ -72,10 +72,10 @@ export default {
       return `${768 * 0.8}px`
     },
     offsetArr () {
-      return data.markersForMaps[this.$app.heroes.route.params.section].small
+      return data.markersForMaps[this.$heroes.route.params.section].small
     },
     copyright () {
-      return data.markersForMaps[this.$app.heroes.route.params.section].copyright
+      return data.markersForMaps[this.$heroes.route.params.section].copyright
     }
   },
   methods: {

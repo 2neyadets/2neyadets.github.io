@@ -4,13 +4,13 @@
       .col.flex.justify-center.items-center.chronic__item_media-container.q-mb-md(ref="chronicItemMediaContainer")
         template(v-if="contentObj.type === 'photo'")
           q-img(
-            :src="`statics/heroes/chronic/${$app.heroes.route.params.section}/${contentObj.content}`"
+            :src="`statics/heroes/chronic/${$heroes.route.params.section}/${contentObj.content}`"
             :style="{ maxHeight: `${height}px` }"
             contain
           )
         template(v-else)
           video.full-width(
-            :src="`statics/heroes/chronic/${$app.heroes.route.params.section}/${contentObj.content}`"
+            :src="`statics/heroes/chronic/${$heroes.route.params.section}/${contentObj.content}`"
             :style="{ maxHeight: `${height}px` }"
             autoplay
             controls
@@ -49,7 +49,7 @@ export default {
   },
   computed: {
     contentObj () {
-      return data[this.$app.heroes.route.params.category][this.$app.heroes.route.params.section][this.index]
+      return data[this.$heroes.route.params.category][this.$heroes.route.params.section][this.index]
     }
   },
   methods: {

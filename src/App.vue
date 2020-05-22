@@ -28,6 +28,7 @@ export default {
   name: 'App',
   created () {
     Vue.prototype.$app = this
+    Vue.prototype.$heroes = new Vue(heroes)
     Vue.prototype.$operatorWB = {
       layout: new Vue(layoutOperator),
       user: new Vue(userOperator),
@@ -51,7 +52,6 @@ export default {
   data () {
     return {
       layout: new Vue(layout),
-      heroes: new Vue(heroes),
     }
   },
   mounted () {
