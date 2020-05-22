@@ -2,7 +2,7 @@
   div
     .operator-scores-hard
       .row.items-center.full-height
-        .col-4.q-px-sm
+        .col-5.q-px-sm
           q-select.select__group(
             v-model="$operatorWB.user.currentGroup"
             :options="groups"
@@ -15,7 +15,7 @@
             options-dense
             standout
           )
-        .col-6
+        .col-5
           .row(@click="hardStat = !$operatorWB.user.loading.ratings && !hardStat")
             .full-width.flex.justify-between.text-bold.text-yellow-6
               span Ваш рейтинг:

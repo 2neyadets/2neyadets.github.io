@@ -67,6 +67,7 @@ export default {
         this.loadings.preview = true
         setTimeout(async () => {
           const res = await api.crm.getClientsForMailing(this.fillObjBeforeSend(this.filters))
+          res.forEach(item => { item.groupName = this.filters.groupsArrayOfObjects[0].label })
           this.loadings.preview = false
           if (res) {
             this.tableData = res

@@ -1,6 +1,6 @@
 export default {
   hide: 'Скрыть',
-  dontShowAgain: 'Больше не показывать',
+  dontShowAgain: 'Не показывать',
   networkError: 'Ошибка сети! Код ошибки: {status}.',
   geolocationFailure: 'Не удалось определить геопозицию!',
   geolocationFailureAccuracy: 'Не удалось корректно определить геопозицию!',

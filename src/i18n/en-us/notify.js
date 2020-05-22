@@ -1,6 +1,6 @@
 export default {
   hide: 'Hide',
-  dontShowAgain: "Don't show again",
+  dontShowAgain: "Don't show",
   networkError: 'Network Error! Error code: {status}.',
   geolocationFailure: 'Could not determine geolocation!',
   geolocationFailureAccuracy: 'Failed to correctly determine the geolocation!',

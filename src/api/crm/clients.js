@@ -154,7 +154,7 @@ export const getClientCommunications = async (clientId) => {
           },
           operator: {
             id: 234,
-            fullName: 'Фсьзцсмт Ноьдчф Цплеюхптфс',
+            fullName: 'Ащьф Лштшфум (Foma Kiniaev)',
             department: {
               id: 158,
               name: 'Отдел финансового консультирования'
@@ -385,7 +385,7 @@ export const getClientCommunications = async (clientId) => {
           promise: null,
           operator: {
             id: 274,
-            fullName: 'Шилыковский Владислав Павлович',
+            fullName: 'Шилыковский Владислав',
             department: {
               id: 158,
               name: 'Отдел финансового консультирования'
@@ -2694,7 +2694,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 178,
-                    fullName: 'Егорова Татьяна Валерьевна',
+                    fullName: 'Егорова Татьяна',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -2767,7 +2767,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'promiseToRepayInFullHard',
                   operator: {
                     id: 136,
-                    fullName: 'Королева Анжелика Руслановна',
+                    fullName: 'Королева Анжелика',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -2837,7 +2837,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'clientPaid',
                   operator: {
                     id: 187,
-                    fullName: 'Казакова Татьяна Николаевна',
+                    fullName: 'Казакова Татьяна',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -2983,7 +2983,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'clientPaid',
                   operator: {
                     id: 178,
-                    fullName: 'Егорова Татьяна Валерьевна',
+                    fullName: 'Егорова Татьяна',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -3056,7 +3056,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 91,
-                    fullName: 'Липкина Ксения Николаевна',
+                    fullName: 'Липкина Ксения',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -3129,7 +3129,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 89,
-                    fullName: 'Чумакова Анастасия Сергеевна',
+                    fullName: 'Чумакова Анастасия',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -3202,7 +3202,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 178,
-                    fullName: 'Егорова Татьяна Валерьевна',
+                    fullName: 'Егорова Татьяна',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -3275,7 +3275,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 172,
-                    fullName: 'Егорушков Алексей Павлинович',
+                    fullName: 'Егорушков Алексей',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -3348,7 +3348,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'needToCallback',
                   operator: {
                     id: 91,
-                    fullName: 'Липкина Ксения Николаевна',
+                    fullName: 'Липкина Ксения',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -3421,7 +3421,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 121,
-                    fullName: 'Гординский Александр Владимирович',
+                    fullName: 'Гординский Александр',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -3494,7 +3494,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 274,
-                    fullName: 'Шилыковский Владислав Павлович',
+                    fullName: 'Шилыковский Владислав',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -3567,7 +3567,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'failureToInteract',
                   operator: {
                     id: 121,
-                    fullName: 'Гординский Александр Владимирович',
+                    fullName: 'Гординский Александр',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -3640,7 +3640,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 121,
-                    fullName: 'Гординский Александр Владимирович',
+                    fullName: 'Гординский Александр',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -3713,7 +3713,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'promiseToRepayInFullHard',
                   operator: {
                     id: 125,
-                    fullName: 'Малков Алексей Александрович',
+                    fullName: 'Малков Алексей',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -3786,7 +3786,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'impossibleToProvideInfo',
                   operator: {
                     id: 53,
-                    fullName: 'Андреева Анастасия Дмитриевна',
+                    fullName: 'Андреева Анастасия',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -3892,11 +3892,11 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
         },
         {
           id: 919907,
-          fullName: 'Фсьзцсмт Ноьдчф Цплеюхптфс',
+          fullName: 'Ащьф Лштшфум (Foma Kiniaev)',
           mainProduct: {
             client: {
               timeZone: 5,
-              birthDate: '1989-01-05T00:00:00+03:00',
+              birthDate: '1969-08-21T00:00:00+03:00',
               homeAddress: '690876, Пермский край, Город, Улица, 14, 67',
               region: 'Пермский край',
               city: 'Город',
@@ -3932,7 +3932,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 157,
-                    fullName: 'Шигина Екатерина Михайловна',
+                    fullName: 'Шигина Екатерина',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -4005,7 +4005,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 59,
-                    fullName: 'Большакова Екатерина Александровна',
+                    fullName: 'Большакова Екатерина',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -4078,7 +4078,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 155,
-                    fullName: 'Бондар Валерия Алексеевна',
+                    fullName: 'Батлфилд Овервотч',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -4151,7 +4151,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 289,
-                    fullName: 'Левашева Мария Павловна',
+                    fullName: 'Левашева Мария',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -4224,7 +4224,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'restoreAccessSms',
                   operator: {
                     id: 203,
-                    fullName: 'Старцева Виктория Владимировна',
+                    fullName: 'Старцева Виктория',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -4297,7 +4297,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'other',
                   operator: {
                     id: 157,
-                    fullName: 'Шигина Екатерина Михайловна',
+                    fullName: 'Шигина Екатерина',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -4370,7 +4370,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 125,
-                    fullName: 'Малков Алексей Александрович',
+                    fullName: 'Малков Алексей',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -4443,7 +4443,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 53,
-                    fullName: 'Андреева Анастасия Дмитриевна',
+                    fullName: 'Андреева Анастасия',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -4516,7 +4516,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 250,
-                    fullName: 'Прелов Евгений Леонидович',
+                    fullName: 'Прелов Евгений',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -4662,7 +4662,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 91,
-                    fullName: 'Липкина Ксения Николаевна',
+                    fullName: 'Липкина Ксения',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -4735,7 +4735,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 218,
-                    fullName: 'Корнилов Александр Николаевич',
+                    fullName: 'Корнилов Александр',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -4808,7 +4808,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'clientPaid',
                   operator: {
                     id: 70,
-                    fullName: 'Антонова Елена Александровна',
+                    fullName: 'Антонова Елена',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'
@@ -4881,7 +4881,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'failureToInteract',
                   operator: {
                     id: 132,
-                    fullName: 'Зиновьева Любовь Викторовна',
+                    fullName: 'Зиновьева Любовь',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -4954,7 +4954,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 140,
-                    fullName: 'Гурченкова Юлия Юрьевна',
+                    fullName: 'Гурченкова Юлия',
                     department: {
                       id: 163,
                       name: 'Отдел взыскания'
@@ -5088,7 +5088,7 @@ export const getClientsList = async (list, page = 1, size = 10000) => {
                   result: 'withoutClientContact',
                   operator: {
                     id: 333,
-                    fullName: 'Петракова Юлия Александровна',
+                    fullName: 'Петракова Юлия',
                     department: {
                       id: 158,
                       name: 'Отдел финансового консультирования'

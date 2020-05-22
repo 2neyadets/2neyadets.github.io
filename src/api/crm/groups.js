@@ -5,9318 +5,9318 @@ export const getGroupsLoans = async (payload) => {
       id: 6322464,
       contract: '1612169634/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 51,
-      newGroupName: 'Хард Я14',
+      newGroupName: 'Хардец Ф14',
       delay: 67,
       debt: 7786.06,
-      client: 'Лазарева Александра Сергеевна'
+      client: 'Лазарева Александра'
     },
     {
       id: 5861481,
       contract: '190679010/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 48630,
-      client: 'Куприянова Елена Игоревна'
+      client: 'Куприянова Елена'
     },
     {
       id: 5904017,
       contract: '170988296/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 35197.5,
-      client: 'Новикова Елена Валерьевна'
+      client: 'Новикова Елена'
     },
     {
       id: 6086130,
       contract: '1912149720/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 51,
-      newGroupName: 'Хард Я14',
+      newGroupName: 'Хардец Ф14',
       delay: 116,
       debt: 15048,
-      client: 'Кривов Владимир Сергеевич'
+      client: 'Кривов Владимир'
     },
     {
       id: 6223005,
       contract: '1906147807/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 28424.16,
-      client: 'Держко Лариса Михайловна'
+      client: 'Держко Лариса'
     },
     {
       id: 6045801,
       contract: '191261745/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 52,
       debt: 19397.25,
-      client: 'Зорин Денис Александрович'
+      client: 'Зорин Денис'
     },
     {
       id: 6373527,
       contract: '1010309266/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 51,
-      newGroupName: 'Хард Я14',
+      newGroupName: 'Хардец Ф14',
       delay: 32,
       debt: 10808.08,
-      client: 'Кузьмина Ольга Николаевна'
+      client: 'Кузьмина Ольга'
     },
     {
       id: 6477263,
       contract: '200342847/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 33,
       debt: 6231.94,
-      client: 'Лобко Юлия Сергеевна'
+      client: 'Лобко Юлия'
     },
     {
       id: 6139588,
       contract: '190272047/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 27477.2,
-      client: 'Мокшанова Ирина Александровна'
+      client: 'Мокшанова Ирина'
     },
     {
       id: 5978125,
       contract: '150939972/64',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 51,
-      newGroupName: 'Хард Я14',
+      newGroupName: 'Хардец Ф14',
       delay: 78,
       debt: 30285,
-      client: 'Юдина Елена Владимировна'
+      client: 'Юдина Елена'
     },
     {
       id: 6037785,
       contract: '190764831/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 24984,
-      client: 'Шершнев Олег Геннадиевич'
+      client: 'Шершнев Олег'
     },
     {
       id: 6399798,
       contract: '200262342/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 6887.2,
-      client: 'Васильева Юлия Алексеевна'
+      client: 'Васильева Юлия'
     },
     {
       id: 5768180,
       contract: '1810163622/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 51,
-      newGroupName: 'Хард Я14',
+      newGroupName: 'Хардец Ф14',
       delay: 45,
       debt: 17000,
-      client: 'Климова Лейла Ашотовна'
+      client: 'Климова Лейла'
     },
     {
       id: 6211198,
       contract: '191180309/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 13205.94,
-      client: 'Капуста Константин Александрович'
+      client: 'Капуста Константин'
     },
     {
       id: 6171247,
       contract: '1907240487/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 104,
       debt: 11560,
-      client: 'Васильев Аркадий Евгеньевич'
+      client: 'Васильев Аркадий'
     },
     {
       id: 6056431,
       contract: '191352873/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 15363,
-      client: 'Быченок Сергей Николаевич'
+      client: 'Быченок Сергей'
     },
     {
       id: 6353198,
       contract: '181267105/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 53,
       debt: 16730.23,
-      client: 'Бузюрова Антонина Владимировна'
+      client: 'Бузюрова Антонина'
     },
     {
       id: 5516480,
       contract: '1907359518/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 97,
       debt: 20134.8,
-      client: 'Заплетаева Ольга Николаевна'
+      client: 'Заплетаева Ольга'
     },
     {
       id: 6176547,
       contract: '200130541/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 17956,
-      client: 'Беспалов Роман Олегович'
+      client: 'Беспалов Роман'
     },
     {
       id: 5782171,
       contract: '190574305/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 104,
       debt: 26674.2,
-      client: 'Лотарев Андрей Владимирович'
+      client: 'Лотарев Андрей'
     },
     {
       id: 5359570,
       contract: '190608433/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 4080,
-      client: 'Чепаченко Анастасия Константиновна'
+      client: 'Чепаченко Анастасия'
     },
     {
       id: 5638500,
       contract: '1904242148/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 24610,
-      client: 'Лазарева Анастасия Сергеевна'
+      client: 'Лазарева Анастасия'
     },
     {
       id: 6135408,
       contract: '191043475/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 83,
       debt: 27343.8,
-      client: 'Ханишвили Марина Николаевна'
+      client: 'Ханишвили Марина'
     },
     {
       id: 6270359,
       contract: '200180167/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 91,
       debt: 8358.38,
-      client: 'Кузьменко Александра Николаевна'
+      client: 'Кузьменко Александра'
     },
     {
       id: 6305292,
       contract: '1912175787/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 65,
       debt: 28789.8,
-      client: 'Домкина Ольга Алексеевна'
+      client: 'Домкина Ольга'
     },
     {
       id: 6417977,
       contract: '200269926/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 37,
       debt: 10141.36,
-      client: 'Толкунова Анастасия Алексеевна'
+      client: 'Толкунова Анастасия'
     },
     {
       id: 6204944,
       contract: '1704150838/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 86,
       debt: 8787.48,
-      client: 'Трапезников Сергей Александрович'
+      client: 'Трапезников Сергей'
     },
     {
       id: 5889309,
       contract: '1711268151/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 73,
       debt: 11643.87,
-      client: 'Кубрак Татьяна Александровна'
+      client: 'Кубрак Татьяна'
     },
     {
       id: 5689819,
       contract: '190963716/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 122,
       debt: 12720,
-      client: 'Ситалова Оксана Александровна'
+      client: 'Ситалова Оксана'
     },
     {
       id: 6013124,
       contract: '190676480/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 130,
       debt: 17436.9,
-      client: 'Валиев Денис Сосланович'
+      client: 'Валиев Денис'
     },
     {
       id: 6064446,
       contract: '191262192/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 15300,
-      client: 'Гонтарь Екатерина Николаевна'
+      client: 'Гонтарь Екатерина'
     },
     {
       id: 6126077,
       contract: '190994793/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 109,
       debt: 13547,
-      client: 'Егорова Мария Константиновна'
+      client: 'Егорова Мария'
     },
     {
       id: 6140187,
       contract: '1908278147/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 104,
       debt: 10719,
-      client: 'Федоренко Денис Евгеньевич'
+      client: 'Федоренко Денис'
     },
     {
       id: 6040359,
       contract: '1905293419/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 124,
       debt: 51840,
-      client: 'Нестеров Андрей Леонидович'
+      client: 'Нестеров Андрей'
     },
     {
       id: 6372087,
       contract: '200147683/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 48,
       debt: 19868.48,
-      client: 'Солопов Максим Николавич'
+      client: 'Солопов Максим'
     },
     {
       id: 6308728,
       contract: '1912122764/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 4501.65,
-      client: 'Себелев Алексей Сергеевич'
+      client: 'Себелев Алексей'
     },
     {
       id: 5605588,
       contract: '1808121432/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 72,
       debt: 28200,
-      client: 'Широкова Мария Николаевна'
+      client: 'Широкова Мария'
     },
     {
       id: 6274418,
       contract: '180722199/26',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 73,
       debt: 12419.44,
-      client: 'Мокрецова Елена Вячеславовна'
+      client: 'Мокрецова Елена'
     },
     {
       id: 6010930,
       contract: '191260836/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 16795.8,
-      client: 'Самотуга Эльмира Вилаятовна'
+      client: 'Самотуга Эльмира'
     },
     {
       id: 6439711,
       contract: '1704109408/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 18830.96,
-      client: 'Пугачёва Юлия Анатольевна'
+      client: 'Пугачёва Юлия'
     },
     {
       id: 6175230,
       contract: '1808131559/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 56,
       debt: 7152,
-      client: 'Снищенко Оксана Александровна'
+      client: 'Снищенко Оксана'
     },
     {
       id: 5757532,
       contract: '1905129459/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 104,
       debt: 41800,
-      client: 'Бондина Елена Валентиновна'
+      client: 'Бондина Елена'
     },
     {
       id: 6127746,
       contract: '191187911/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 22058.4,
-      client: 'Копаев Дмитрий Михайлович'
+      client: 'Копаев Дмитрий'
     },
     {
       id: 6037436,
       contract: '191314047/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 10410,
-      client: 'Юдичева Анна Алексеевна'
+      client: 'Юдичева Анна'
     },
     {
       id: 6174045,
       contract: '1810126869/20',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 45960,
-      client: 'Смирнова Вера Михайловна'
+      client: 'Смирнова Вера'
     },
     {
       id: 6049830,
       contract: '1905381382/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 20610,
-      client: 'Ондар Вика Максимовна'
+      client: 'Ондар Вика'
     },
     {
       id: 6106719,
       contract: '1912188459/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 14796,
-      client: 'Инкинжинова Эржена Викторовна'
+      client: 'Инкинжинова Эржена'
     },
     {
       id: 6243879,
       contract: '1703158101/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 17065.23,
-      client: 'Костырев Евгений Анатольевич'
+      client: 'Костырев Евгений'
     },
     {
       id: 6152429,
       contract: '1810286385/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 21624.6,
-      client: 'Шабалин Олег Сергеевич'
+      client: 'Шабалин Олег'
     },
     {
       id: 6403470,
       contract: '1907315777/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 25827.6,
-      client: 'Лопатина Ксения Александровна'
+      client: 'Лопатина Ксения'
     },
     {
       id: 6243735,
       contract: '200168716/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 100,
       debt: 8578,
-      client: 'Шерхов Аскер Аульбиевич'
+      client: 'Шерхов Аскер'
     },
     {
       id: 6191274,
       contract: '200148359/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 92,
       debt: 18082.04,
-      client: 'Москвин Игорь Александрович'
+      client: 'Москвин Игорь'
     },
     {
       id: 6066318,
       contract: '190999699/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 104,
       debt: 26128,
-      client: 'Гапак Максим Михайлович'
+      client: 'Гапак Максим'
     },
     {
       id: 5345041,
       contract: '1905416163/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 108,
       debt: 8998.01,
-      client: 'Козуб Станислав Александрович'
+      client: 'Козуб Станислав'
     },
     {
       id: 6001386,
       contract: '191156851/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 39222.9,
-      client: 'Казарян Дарья Арменовна'
+      client: 'Казарян Дарья'
     },
     {
       id: 6384091,
       contract: '1907303312/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 26460.36,
-      client: 'Крутилкина Ольга Николаевна'
+      client: 'Крутилкина Ольга'
     },
     {
       id: 6086799,
       contract: '1912150843/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 116,
       debt: 20064,
-      client: 'Самойленко Елена Юрьевна'
+      client: 'Самойленко Елена'
     },
     {
       id: 6019789,
       contract: '1903188643/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 129,
       debt: 10578,
-      client: 'Плаксин Владимир Александрович'
+      client: 'Плаксин Владимир'
     },
     {
       id: 6196404,
       contract: '1904161984/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 76,
       debt: 39029.92,
-      client: 'Павленко Игорь Львович'
+      client: 'Павленко Игорь'
     },
     {
       id: 6160331,
       contract: '1712185017/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 49,
       debt: 16158.6,
-      client: 'Богданова Анна Вадимовна'
+      client: 'Богданова Анна'
     },
     {
       id: 6312645,
       contract: '1907308800/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 7899.52,
-      client: 'Ворошило Дмитрий Олегович'
+      client: 'Ворошило Дмитрий'
     },
     {
       id: 5996666,
       contract: '191255088/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 134,
       debt: 8797.47,
-      client: 'Комлев Кирилл Николаевич'
+      client: 'Комлев Кирилл'
     },
     {
       id: 5919784,
       contract: '1908281825/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 129,
       debt: 38317.5,
-      client: 'Нюхлова Ксения Викторовна'
+      client: 'Нюхлова Ксения'
     },
     {
       id: 6016080,
       contract: '181196876/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 129,
       debt: 10578,
-      client: 'Ткачук Юлия Викторовна'
+      client: 'Ткачук Юлия'
     },
     {
       id: 6177254,
       contract: '190561028/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 18384,
-      client: 'Урбах Александр Викторович'
+      client: 'Урбах Александр'
     },
     {
       id: 6035999,
       contract: '170845492/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 11711.25,
-      client: 'Шестакова Елена Сергеевна'
+      client: 'Шестакова Елена'
     },
     {
       id: 6172402,
       contract: '191312211/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 97,
       debt: 21699.9,
-      client: 'Жук Светлана Игоревна'
+      client: 'Жук Светлана'
     },
     {
       id: 6036536,
       contract: '1810264990/16',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 52050,
-      client: 'Романова Надежда Андреевна'
+      client: 'Романова Надежда'
     },
     {
       id: 6285183,
       contract: '1712362840/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 70,
       debt: 8152.6,
-      client: 'Валиев Айдар Рустамович'
+      client: 'Валиев Айдар'
     },
     {
       id: 6322419,
       contract: '191102867/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 23814.72,
-      client: 'Климков Алексей Олегович'
+      client: 'Климков Алексей'
     },
     {
       id: 6217323,
       contract: '160766443/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 86,
       debt: 8787.48,
-      client: 'Пушкарев Агдрей Александрович'
+      client: 'Пушкарев Агдрей'
     },
     {
       id: 5573622,
       contract: '190660312/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 22196,
-      client: 'Антонов Алексей Васильевич'
+      client: 'Антонов Алексей'
     },
     {
       id: 6414637,
       contract: '180779486/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 6760.66,
-      client: 'Калашова Натела Юрьевна'
+      client: 'Калашова Натела'
     },
     {
       id: 6001121,
       contract: '181020487/15',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 32238,
-      client: 'Потапов Аркадий Анатольевич'
+      client: 'Потапов Аркадий'
     },
     {
       id: 6354394,
       contract: '200245740/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 52,
       debt: 7393.36,
-      client: 'Толочко Мария Александровна'
+      client: 'Толочко Мария'
     },
     {
       id: 6072343,
       contract: '191012759/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 20539.05,
-      client: 'Тетов Александр Сергеевич'
+      client: 'Тетов Александр'
     },
     {
       id: 5356559,
       contract: '1810137513/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 6385.9,
-      client: 'Сорокин Игорь Михайлович'
+      client: 'Сорокин Игорь'
     },
     {
       id: 5925595,
       contract: '1810324555/16',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 100,
       debt: 40536,
-      client: 'Симон Александра Александровна'
+      client: 'Симон Александра'
     },
     {
       id: 6343780,
       contract: '191033981/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 23694.84,
-      client: 'Токарев Александр Викторович'
+      client: 'Токарев Александр'
     },
     {
       id: 5996719,
       contract: '181139900/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 72,
       debt: 29497.5,
-      client: 'Михайлова Галина Владимировна'
+      client: 'Михайлова Галина'
     },
     {
       id: 5297269,
       contract: '161038363/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 87,
       debt: 12460,
-      client: 'Родина Альмира Рашидовна'
+      client: 'Родина Альмира'
     },
     {
       id: 5765120,
       contract: '1904276844/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 19200,
-      client: 'Деменев Алексей Владимирович'
+      client: 'Деменев Алексей'
     },
     {
       id: 5897651,
       contract: '1904361176/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 32437.5,
-      client: 'Дюскин Евгений Константинович'
+      client: 'Дюскин Евгений'
     },
     {
       id: 6040273,
       contract: '190125021/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 39037.5,
-      client: 'Соловод Максим Евгеньевич'
+      client: 'Соловод Максим'
     },
     {
       id: 6175551,
       contract: '1912223913/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 9192,
-      client: 'Галкин Дмитрий Александрович'
+      client: 'Галкин Дмитрий'
     },
     {
       id: 6248339,
       contract: '191142620/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 100,
       debt: 15012,
-      client: 'Бреенков Дмитрий Андреевич'
+      client: 'Бреенков Дмитрий'
     },
     {
       id: 6222775,
       contract: '1904258788/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 20713.68,
-      client: 'Щепеткина Алена Анатольевна'
+      client: 'Щепеткина Алена'
     },
     {
       id: 6233459,
       contract: '1912112887/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 20348.66,
-      client: 'Крылов Владимир Львович'
+      client: 'Крылов Владимир'
     },
     {
       id: 6272477,
       contract: '200181054/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 9288.24,
-      client: 'Лямина Оксана Сернеевна'
+      client: 'Лямина Оксана'
     },
     {
       id: 6151098,
       contract: '1811121410/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 35257.5,
-      client: 'Варнавский Эдуард Николаевич'
+      client: 'Варнавский Эдуард'
     },
     {
       id: 6230587,
       contract: '1907202930/13',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 82,
       debt: 16236.2,
-      client: 'Дашкевич Дмитрий Александрович'
+      client: 'Дашкевич Дмитрий'
     },
     {
       id: 6055336,
       contract: '191350567/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 13563,
-      client: 'Рукосуев Артём Сергеевич'
+      client: 'Рукосуев Артём'
     },
     {
       id: 6460721,
       contract: '170576989/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 6367.2,
-      client: 'Буниатян Саргис Ашотович'
+      client: 'Буниатян Саргис'
     },
     {
       id: 6540758,
       contract: '200424567/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 11419.84,
-      client: 'Маслов Василий Сергеевич'
+      client: 'Маслов Василий'
     },
     {
       id: 6456919,
       contract: '200333013/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 49,
       debt: 6426.82,
-      client: 'Аникина Татьяна Михайловна'
+      client: 'Аникина Татьяна'
     },
     {
       id: 5473046,
       contract: '190855180/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 132,
       debt: 6794.8,
-      client: 'Урамбаева Зульфия Амангалиевна'
+      client: 'Урамбаева Зульфия'
     },
     {
       id: 5812960,
       contract: '1905192860/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 90,
       debt: 25047,
-      client: 'Брысина Надежда Николаевна'
+      client: 'Брысина Надежда'
     },
     {
       id: 5461278,
       contract: '1803315666/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 31060,
-      client: 'Артемьева Татьяна Вадимовна'
+      client: 'Артемьева Татьяна'
     },
     {
       id: 6373606,
       contract: '1905356481/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 13516.68,
-      client: 'Халтурин Яков Андреевич'
+      client: 'Халтурин Яков'
     },
     {
       id: 6145318,
       contract: '1908228523/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 83,
       debt: 8286,
-      client: 'Кузнецов Евгений Алексеевич'
+      client: 'Кузнецов Евгений'
     },
     {
       id: 6249331,
       contract: '1912168826/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 83,
       debt: 17002.71,
-      client: 'Костюков Вячеслав Александрович'
+      client: 'Костюков Вячеслав'
     },
     {
       id: 5718214,
       contract: '190863685/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 26106,
-      client: 'Федосенко Наталья Александровна'
+      client: 'Федосенко Наталья'
     },
     {
       id: 6482824,
       contract: '180363346/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 9324.32,
-      client: 'Кузнецов Михаил Юрьевич'
+      client: 'Кузнецов Михаил'
     },
     {
       id: 6151086,
       contract: '1611176094/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 9402,
-      client: 'Куадже Фатима Сафирбиевна'
+      client: 'Куадже Фатима'
     },
     {
       id: 6041826,
       contract: '181208658/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 124,
       debt: 38880,
-      client: 'Смирнов Игорь Александрович'
+      client: 'Смирнов Игорь'
     },
     {
       id: 6291683,
       contract: '190834128/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 69,
       debt: 8110.42,
-      client: 'Ильина Анна Анатольевна'
+      client: 'Ильина Анна'
     },
     {
       id: 5944260,
       contract: '191190374/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 125,
       debt: 20100,
-      client: 'Апаницина Светлана Николаевна'
+      client: 'Апаницина Светлана'
     },
     {
       id: 6103094,
       contract: '191297345/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 112,
       debt: 23180.4,
-      client: 'Лебедева Екатерина Сергеевна'
+      client: 'Лебедева Екатерина'
     },
     {
       id: 5730094,
       contract: '1812231083/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 30000,
-      client: 'Бурина Анастасия Борисовна'
+      client: 'Бурина Анастасия'
     },
     {
       id: 5913677,
       contract: '1901299416/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 34278.75,
-      client: 'Ахметзянов Линар Дамирович'
+      client: 'Ахметзянов Линар'
     },
     {
       id: 5797393,
       contract: '1708292668/30',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 48400,
-      client: 'Дегтярёв Дмитрий Васильевич'
+      client: 'Дегтярёв Дмитрий'
     },
     {
       id: 5761198,
       contract: '1906370481/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 45,
       debt: 22700,
-      client: 'Кузнецова Елена Александровна'
+      client: 'Кузнецова Елена'
     },
     {
       id: 6060685,
       contract: '1906254820/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 38250,
-      client: 'Ильютенко Наталья Сергеевна'
+      client: 'Ильютенко Наталья'
     },
     {
       id: 6304310,
       contract: '1906246015/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 90,
       debt: 6027.6,
-      client: 'Ахматгалиев Рузан Русланович'
+      client: 'Ахматгалиев Рузан'
     },
     {
       id: 6529163,
       contract: '1905138407/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 7251.01,
-      client: 'Гаджиева Сабина Октаевна'
+      client: 'Гаджиева Сабина'
     },
     {
       id: 6308760,
       contract: '191168012/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 29782.35,
-      client: 'Агрономов Виктор Викторович'
+      client: 'Агрономов Виктор'
     },
     {
       id: 6419624,
       contract: '190963988/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 13337.32,
-      client: 'Бондаренко Татьяна Анатольевна'
+      client: 'Бондаренко Татьяна'
     },
     {
       id: 5920940,
       contract: '1703260297/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 119,
       debt: 18371.25,
-      client: 'Фомин Виктор Александрович'
+      client: 'Фомин Виктор'
     },
     {
       id: 6214245,
       contract: '191100765/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 17572.82,
-      client: 'Трескина Татьяна Сергеевна'
+      client: 'Трескина Татьяна'
     },
     {
       id: 6044084,
       contract: '190531854/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 109,
       debt: 9433.97,
-      client: 'Успанова Жанна Канибаевна'
+      client: 'Успанова Жанна'
     },
     {
       id: 6234560,
       contract: '140621491/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 82,
       debt: 43295.44,
-      client: 'Грабивчук Павел Андреевич'
+      client: 'Грабивчук Павел'
     },
     {
       id: 5576353,
       contract: '1811237279/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 35600,
-      client: 'Кондра Надежда Александровна'
+      client: 'Кондра Надежда'
     },
     {
       id: 6062602,
       contract: '1912107449/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 10011,
-      client: 'Сухарь Дмитрий Владимирович'
+      client: 'Сухарь Дмитрий'
     },
     {
       id: 5891324,
       contract: '191166239/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 9070,
-      client: 'Вдовин Андрей Валерьевич'
+      client: 'Вдовин Андрей'
     },
     {
       id: 6394889,
       contract: '1912100369/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 6487.2,
-      client: 'Теплых Андрей Михайлович'
+      client: 'Теплых Андрей'
     },
     {
       id: 6081707,
       contract: '1812253786/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 37777.5,
-      client: 'Гырман Оксана Владимировна'
+      client: 'Гырман Оксана'
     },
     {
       id: 6177330,
       contract: '1912132441/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 9168,
-      client: 'Халикова Светлана Вячеславовна'
+      client: 'Халикова Светлана'
     },
     {
       id: 6343356,
       contract: '200242084/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 76,
       debt: 9457.48,
-      client: 'Волчок Константин Иванович'
+      client: 'Волчок Константин'
     },
     {
       id: 6099207,
       contract: '190993863/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 20050.8,
-      client: 'Тарасова Яна Ярославовна'
+      client: 'Тарасова Яна'
     },
     {
       id: 6138506,
       contract: '190644289/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 104,
       debt: 9528,
-      client: 'Головлев Александр Сергеевич'
+      client: 'Головлев Александр'
     },
     {
       id: 6119345,
       contract: '180339873/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 68,
       debt: 23542.2,
-      client: 'Галюк Максим Геннадьевич'
+      client: 'Галюк Максим'
     },
     {
       id: 6308407,
       contract: '1904221872/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 17869.15,
-      client: 'Устинова Наталья Сергеевна'
+      client: 'Устинова Наталья'
     },
     {
       id: 6234261,
       contract: '1906202386/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 45,
       debt: 25184.07,
-      client: 'Кадыров Рамиль Ринатович'
+      client: 'Кадыров Рамиль'
     },
     {
       id: 6024677,
       contract: '191282367/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 10536,
-      client: 'Парфёнова Ирина Николаевна'
+      client: 'Парфёнова Ирина'
     },
     {
       id: 6082902,
       contract: '1907450222/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 116,
       debt: 22822.8,
-      client: 'Михайлов Александр Владимирович'
+      client: 'Михайлов Александр'
     },
     {
       id: 5890064,
       contract: '1908168317/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 24667.5,
-      client: 'Начинкина Юлия Андреевна'
+      client: 'Начинкина Юлия'
     },
     {
       id: 6151317,
       contract: '1912220261/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 21859.65,
-      client: 'Стыпалковский Вадим Дмитреиивч'
+      client: 'Стыпалковский Вадим'
     },
     {
       id: 6386636,
       contract: '1811200360/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 13859.17,
-      client: 'Колеватова Наталья Валентиновна'
+      client: 'Колеватова Наталья'
     },
     {
       id: 6180264,
       contract: '1701236102/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 105,
       debt: 27510,
-      client: 'Пивняк Дмитрий Владимирович'
+      client: 'Пивняк Дмитрий'
     },
     {
       id: 6403054,
       contract: '1812188707/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 14635.6,
-      client: 'Безденежных Александр Владимирович'
+      client: 'Безденежных Александр'
     },
     {
       id: 6002957,
       contract: '191130150/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 40297.5,
-      client: 'Савенков Антон Сергеевич'
+      client: 'Савенков Антон'
     },
     {
       id: 6306569,
       contract: '200140751/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 45,
       debt: 25268.55,
-      client: 'Морозова Маргарита Алексеевна'
+      client: 'Морозова Маргарита'
     },
     {
       id: 6230346,
       contract: '180834715/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 82,
       debt: 17318.34,
-      client: 'Короткова Анна Васильевна'
+      client: 'Короткова Анна'
     },
     {
       id: 6008602,
       contract: '191259974/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 116,
       debt: 12492.6,
-      client: 'Алиева Венера Фазулчановна'
+      client: 'Алиева Венера'
     },
     {
       id: 6035516,
       contract: '191309813/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 126,
       debt: 10452,
-      client: 'Плохотнюк Дмитрий Александрович'
+      client: 'Плохотнюк Дмитрий'
     },
     {
       id: 6185571,
       contract: '1806124186/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 44248.32,
-      client: 'Катранжи Светлана Федоровна'
+      client: 'Катранжи Светлана'
     },
     {
       id: 5906610,
       contract: '1901172496/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 19453.48,
-      client: 'Кручинин Алексей Юрьевич'
+      client: 'Кручинин Алексей'
     },
     {
       id: 6305341,
       contract: '1904197564/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 29782.35,
-      client: 'Голишникова Наталия Владимировна'
+      client: 'Голишникова Наталия'
     },
     {
       id: 6221330,
       contract: '200125313/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 21186.88,
-      client: 'Липова Юлия Анатольевна'
+      client: 'Липова Юлия'
     },
     {
       id: 6306009,
       contract: '191111930/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 19854.9,
-      client: 'Алёшина Юлия Александровна'
+      client: 'Алёшина Юлия'
     },
     {
       id: 6048962,
       contract: '1905375677/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 73,
       debt: 17936.1,
-      client: 'Клишин Денис Валерьевич'
+      client: 'Клишин Денис'
     },
     {
       id: 6165558,
       contract: '1908121457/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 33,
       debt: 23227.5,
-      client: 'Даниленко Ольга Александровна'
+      client: 'Даниленко Ольга'
     },
     {
       id: 6208599,
       contract: '200137093/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 88,
       debt: 20849.44,
-      client: 'Бедрий Денис Александрович'
+      client: 'Бедрий Денис'
     },
     {
       id: 6311464,
       contract: '1810313299/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 11849.92,
-      client: 'Малышев Александр Александрович'
+      client: 'Малышев Александр'
     },
     {
       id: 5383264,
       contract: '171142215/31',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 30600,
-      client: 'Балаховская Ирина Борисовна'
+      client: 'Балаховская Ирина'
     },
     {
       id: 6246975,
       contract: '161046873/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 31997.01,
-      client: 'Ефимова Ирина Ярославовна'
+      client: 'Ефимова Ирина'
     },
     {
       id: 6470324,
       contract: '1906251570/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 18585.79,
-      client: 'Михайлов Сергей Юрьевич'
+      client: 'Михайлов Сергей'
     },
     {
       id: 6196533,
       contract: '160858838/34',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 91,
       debt: 13498.48,
-      client: 'Ястребова Светлана Александровна'
+      client: 'Ястребова Светлана'
     },
     {
       id: 5998787,
       contract: '191046721/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 7881.71,
-      client: 'Шауч Наталья Александровна'
+      client: 'Шауч Наталья'
     },
     {
       id: 6121798,
       contract: '190412961/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 109,
       debt: 34083,
-      client: 'Ездина Елена Борисовна'
+      client: 'Ездина Елена'
     },
     {
       id: 6207501,
       contract: '190450924/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 89,
       debt: 21617.7,
-      client: 'Попова Татьяна Ашотовна'
+      client: 'Попова Татьяна'
     },
     {
       id: 6047953,
       contract: '1907271095/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 26356.8,
-      client: 'Гречухин Вячеслав Юрьевич'
+      client: 'Гречухин Вячеслав'
     },
     {
       id: 6418711,
       contract: '1905194317/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 6718.48,
-      client: 'Русанов Олег Игоревич'
+      client: 'Русанов Олег'
     },
     {
       id: 6191631,
       contract: '200148484/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 6795.64,
-      client: 'Горшков Олег Владимирович'
+      client: 'Горшков Олег'
     },
     {
       id: 6002472,
       contract: '1810109693/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 19880.1,
-      client: 'Нестерова Наталья Александровна'
+      client: 'Нестерова Наталья'
     },
     {
       id: 6306238,
       contract: '1905322376/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 14144.16,
-      client: 'Ягафарова Руфина Ринатовн'
+      client: 'Ягафарова Руфина'
     },
     {
       id: 6365328,
       contract: '180265456/21',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 49,
       debt: 9083.77,
-      client: 'Булатов Ион Николаевич'
+      client: 'Булатов Ион'
     },
     {
       id: 6223794,
       contract: '191006514/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 95,
       debt: 13151.6,
-      client: 'Горбунов Александр Николаевич'
+      client: 'Горбунов Александр'
     },
     {
       id: 5431976,
       contract: '190582086/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 22563,
-      client: 'Якушев Станислав Владимирович'
+      client: 'Якушев Станислав'
     },
     {
       id: 5891694,
       contract: '1904113244/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 122,
       debt: 14886,
-      client: 'Заркуа Ираклий Джемалович'
+      client: 'Заркуа Ираклий'
     },
     {
       id: 6269532,
       contract: '180326610/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 74,
       debt: 12482.72,
-      client: 'Умарова Нелли Анатольевна'
+      client: 'Умарова Нелли'
     },
     {
       id: 6028360,
       contract: '1906220920/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 33195,
-      client: 'Судакова Диана Викторовна'
+      client: 'Судакова Диана'
     },
     {
       id: 6297054,
       contract: '1806140925/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 68,
       debt: 8068.24,
-      client: 'Глушков Алексей Иванович'
+      client: 'Глушков Алексей'
     },
     {
       id: 6136856,
       contract: '1807143680/15',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 47850,
-      client: 'Огородников Павел Андреевич'
+      client: 'Огородников Павел'
     },
     {
       id: 5917501,
       contract: '191052691/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 19922.6,
-      client: 'Батенкова Инна Владимировна'
+      client: 'Батенкова Инна'
     },
     {
       id: 6258688,
       contract: '191263208/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 76,
       debt: 8405.68,
-      client: 'Ордин Владимир Ардальонович'
+      client: 'Ордин Владимир'
     },
     {
       id: 6143220,
       contract: '1603153872/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 67,
       debt: 2213.95,
-      client: 'Устюгова Мария Николаевна'
+      client: 'Устюгова Мария'
     },
     {
       id: 6168622,
       contract: '1906141048/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 73,
       debt: 22637.75,
-      client: 'Морозова Елена Альбертовна'
+      client: 'Морозова Елена'
     },
     {
       id: 6120996,
       contract: '1903145759/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 36517.5,
-      client: 'Козлов Евгений Викторович'
+      client: 'Козлов Евгений'
     },
     {
       id: 6439019,
       contract: '191126346/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 9824.96,
-      client: 'Валикаев Артур Рифович'
+      client: 'Валикаев Артур'
     },
     {
       id: 6298319,
       contract: '191019846/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 68,
       debt: 14049.76,
-      client: 'Леонтьева Анастасия Сергеевна'
+      client: 'Леонтьева Анастасия'
     },
     {
       id: 6201756,
       contract: '160863597/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 90,
       debt: 8956.2,
-      client: 'Тупоногов Алексей Владимирович'
+      client: 'Тупоногов Алексей'
     },
     {
       id: 6042158,
       contract: '191324337/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 124,
       debt: 16736,
-      client: 'Алдакушева Зинаида Георгиевна'
+      client: 'Алдакушева Зинаида'
     },
     {
       id: 6397545,
       contract: '200228441/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 19056.41,
-      client: 'Митрофанова Галина Геннадьевна'
+      client: 'Митрофанова Галина'
     },
     {
       id: 6124243,
       contract: '1809196798/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 43874.4,
-      client: 'Золотарев Игорь Владимирович'
+      client: 'Золотарев Игорь'
     },
     {
       id: 6477721,
       contract: '1908259000/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 45,
       debt: 12516.65,
-      client: 'Вальков Николай Петрович'
+      client: 'Вальков Николай'
     },
     {
       id: 6147612,
       contract: '200130159/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 82,
       debt: 12366,
-      client: 'Петрук Валерия Григорьевна'
+      client: 'Петрук Валерия'
     },
     {
       id: 5803010,
       contract: '1904358862/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 48600,
-      client: 'Постнова Нина Ивановна'
+      client: 'Постнова Нина'
     },
     {
       id: 6177378,
       contract: '200142634/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 13788,
-      client: 'Момотов Дмитрий Сергеевич'
+      client: 'Момотов Дмитрий'
     },
     {
       id: 6243662,
       contract: '200167172/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 90,
       debt: 6417.6,
-      client: 'Нурматова Олеся Валерьевна'
+      client: 'Нурматова Олеся'
     },
     {
       id: 6214219,
       contract: '1808114573/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 87,
       debt: 13245.36,
-      client: 'Машкович Руслан Владикович'
+      client: 'Машкович Руслан'
     },
     {
       id: 6044997,
       contract: '191250421/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 11908.3,
-      client: 'Карпова Дина Владимировна'
+      client: 'Карпова Дина'
     },
     {
       id: 6216978,
       contract: '1705100059/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 87,
       debt: 19867.17,
-      client: 'Косяков Олег Иванович'
+      client: 'Косяков Олег'
     },
     {
       id: 6221039,
       contract: '1010403269/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 85,
       debt: 20866.15,
-      client: 'Куянова Татьяна Алексеевна'
+      client: 'Куянова Татьяна'
     },
     {
       id: 6103350,
       contract: '1912181616/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 9864,
-      client: 'Мальцева Светлана Александровна'
+      client: 'Мальцева Светлана'
     },
     {
       id: 6164634,
       contract: '1906338964/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 67,
       debt: 5719.5,
-      client: 'Щукина Наталья Александровна'
+      client: 'Щукина Наталья'
     },
     {
       id: 5704212,
       contract: '180169966/13',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 33600,
-      client: 'Майков Павел Владимирович'
+      client: 'Майков Павел'
     },
     {
       id: 6229178,
       contract: '190667857/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 49,
       debt: 18962.62,
-      client: 'Саунина Анна Радиковна'
+      client: 'Саунина Анна'
     },
     {
       id: 6134001,
       contract: '191241622/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 83,
       debt: 31087.5,
-      client: 'Жуков Александр Вячеславович'
+      client: 'Жуков Александр'
     },
     {
       id: 6193218,
       contract: '191034822/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 92,
       debt: 9040.56,
-      client: 'Письменный Игорь Владимирович'
+      client: 'Письменный Игорь'
     },
     {
       id: 5582872,
       contract: '1908146709/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 25650,
-      client: 'Головко Владимир Степанович'
+      client: 'Головко Владимир'
     },
     {
       id: 6119497,
       contract: '1906348123/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 100,
       debt: 22500,
-      client: 'Морозова Анастасия Сергеевна'
+      client: 'Морозова Анастасия'
     },
     {
       id: 6353918,
       contract: '200230948/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 9288.24,
-      client: 'Галимуллин Михаил Зиннурович'
+      client: 'Галимуллин Михаил'
     },
     {
       id: 5493711,
       contract: '1905385333/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 100,
       debt: 8680.8,
-      client: 'Балицкая Елена Андреевна'
+      client: 'Балицкая Елена'
     },
     {
       id: 6386539,
       contract: '160772925/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 7055.92,
-      client: 'Сметанов Александр Анатольевич'
+      client: 'Сметанов Александр'
     },
     {
       id: 6209652,
       contract: '181217282/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 11654.18,
-      client: 'Бушмелев Александр Сергеевич'
+      client: 'Бушмелев Александр'
     },
     {
       id: 5929500,
       contract: '190286793/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 25440,
-      client: 'Иванов Петр Петрович'
+      client: 'Иванов Петр'
     },
     {
       id: 6490170,
       contract: '170651211/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 33,
       debt: 6151.94,
-      client: 'Соколов Олег Владимирович'
+      client: 'Соколов Олег'
     },
     {
       id: 6352188,
       contract: '200244971/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 53,
       debt: 11153.84,
-      client: 'Байдина Танслу Нурмухамедовна'
+      client: 'Байдина Танслу'
     },
     {
       id: 5966604,
       contract: '191006653/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 53,
       debt: 35270,
-      client: 'Морозов Константин Юрьевич'
+      client: 'Морозов Константин'
     },
     {
       id: 6213986,
       contract: '200156726/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 87,
       debt: 13245.36,
-      client: 'Савченко Елена Владимировна'
+      client: 'Савченко Елена'
     },
     {
       id: 6282941,
       contract: '1705212683/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 71,
       debt: 10243.83,
-      client: 'Пичугина Анна Викторовна'
+      client: 'Пичугина Анна'
     },
     {
       id: 5936385,
       contract: '191051097/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 34970.3,
-      client: 'Сиднев Александр Владимирович'
+      client: 'Сиднев Александр'
     },
     {
       id: 5969779,
       contract: '181242110/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 25035,
-      client: 'Шалимова Лариса Александровна'
+      client: 'Шалимова Лариса'
     },
     {
       id: 5975353,
       contract: '191050539/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 35160,
-      client: 'Молодцов Александр Владимирович'
+      client: 'Молодцов Александр'
     },
     {
       id: 6296642,
       contract: '181131444/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 68,
       debt: 12103.04,
-      client: 'Елизова Екатерина Олеговна'
+      client: 'Елизова Екатерина'
     },
     {
       id: 6333456,
       contract: '1810363340/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 18176.41,
-      client: 'Пашко Анастасия Леонидовна'
+      client: 'Пашко Анастасия'
     },
     {
       id: 6038745,
       contract: '191189522/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 17268.75,
-      client: 'Андреев Артур Владимирович'
+      client: 'Андреев Артур'
     },
     {
       id: 6253008,
       contract: '200143423/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 24197.16,
-      client: 'Виноградова Татьяна Валерьевна'
+      client: 'Виноградова Татьяна'
     },
     {
       id: 6092589,
       contract: '1907383424/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 115,
       debt: 9990,
-      client: 'Яничкина Елена Николаевна'
+      client: 'Яничкина Елена'
     },
     {
       id: 5927800,
       contract: '191183543/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 16669.49,
-      client: 'Иванов Сергей Юрьевич'
+      client: 'Иванов Сергей'
     },
     {
       id: 6226511,
       contract: '191052917/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 83,
       debt: 42418.95,
-      client: 'Тихонов Андрей Леонидович'
+      client: 'Тихонов Андрей'
     },
     {
       id: 5385661,
       contract: '1804288390/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 11224.4,
-      client: 'Боженкова Раиса Ивановна'
+      client: 'Боженкова Раиса'
     },
     {
       id: 6233020,
       contract: '1704232756/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 8658.76,
-      client: 'Антропова Татьяна Анатольева'
+      client: 'Антропова Татьяна'
     },
     {
       id: 6309990,
       contract: '1908232963/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 22711.92,
-      client: 'Чальников Сергей Викторович'
+      client: 'Чальников Сергей'
     },
     {
       id: 6135909,
       contract: '190835141/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 19857.75,
-      client: 'Щукин Михаил Михайлович'
+      client: 'Щукин Михаил'
     },
     {
       id: 5897090,
       contract: '1906272393/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 10190,
-      client: 'Сафиулин Олег Сергеевич'
+      client: 'Сафиулин Олег'
     },
     {
       id: 6158445,
       contract: '191194106/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 14904,
-      client: 'Ниценко Наталья Анатольевна'
+      client: 'Ниценко Наталья'
     },
     {
       id: 6434417,
       contract: '1711276610/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 32960.36,
-      client: 'Парсаданова Юлия Николаевна'
+      client: 'Парсаданова Юлия'
     },
     {
       id: 6101893,
       contract: '170746747/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 113,
       debt: 37147.5,
-      client: 'Султанбеков Шамиль Саидович'
+      client: 'Султанбеков Шамиль'
     },
     {
       id: 6146044,
       contract: '191162502/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 73,
       debt: 29557.5,
-      client: 'Карпушкин Виталий Андреевич'
+      client: 'Карпушкин Виталий'
     },
     {
       id: 6328433,
       contract: '191259572/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 17397.89,
-      client: 'Новожилов Константин Борисович'
+      client: 'Новожилов Константин'
     },
     {
       id: 5987576,
       contract: '1904101504/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 116,
       debt: 9672,
-      client: 'Беляева Надежда Владимировна'
+      client: 'Беляева Надежда'
     },
     {
       id: 6106881,
       contract: '190897925/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 112,
       debt: 46607.4,
-      client: 'Кузьмин Ефим Алексеевич'
+      client: 'Кузьмин Ефим'
     },
     {
       id: 6246366,
       contract: '190222721/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 40491.72,
-      client: 'Енчинова Вера Алексеевна'
+      client: 'Енчинова Вера'
     },
     {
       id: 6201961,
       contract: '1912127131/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 75,
       debt: 22218.21,
-      client: 'Максимов Андрей Сергеевич'
+      client: 'Максимов Андрей'
     },
     {
       id: 6340398,
       contract: '200182291/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 14216.76,
-      client: 'Кривошей Сергей Юрьевич'
+      client: 'Кривошей Сергей'
     },
     {
       id: 5924121,
       contract: '191182036/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 129,
       debt: 15327,
-      client: 'Гаврюшкина Татьяна Михаиловна'
+      client: 'Гаврюшкина Татьяна'
     },
     {
       id: 6323870,
       contract: '1810363885/24',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 83,
       debt: 33240.24,
-      client: 'Шаповалов Александр Иванович'
+      client: 'Шаповалов Александр'
     },
     {
       id: 6248409,
       contract: '1703169980/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 97,
       debt: 6429.08,
-      client: 'Челедин Евгений Викторович'
+      client: 'Челедин Евгений'
     },
     {
       id: 6353803,
       contract: '200182546/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 53,
       debt: 11153.84,
-      client: 'Костин Сергей Валерьевич'
+      client: 'Костин Сергей'
     },
     {
       id: 6043153,
       contract: '191326242/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 124,
       debt: 10368,
-      client: 'Чиньков Никита Евгеньевич'
+      client: 'Чиньков Никита'
     },
     {
       id: 6493237,
       contract: '1907243829/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 6111.94,
-      client: 'Анисимов Дмитрий Владимирович'
+      client: 'Анисимов Дмитрий'
     },
     {
       id: 5700689,
       contract: '1907291335/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 10440,
-      client: 'Жуков Алексей Андреевич'
+      client: 'Жуков Алексей'
     },
     {
       id: 6212627,
       contract: '200146808/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 87,
       debt: 8829.66,
-      client: 'Федорин Виктор Денисович'
+      client: 'Федорин Виктор'
     },
     {
       id: 6040383,
       contract: '191319888/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 10410,
-      client: 'Цулукидзе Гульнара Баталбеевна'
+      client: 'Цулукидзе Гульнара'
     },
     {
       id: 6118650,
       contract: '1912192146/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 68,
       debt: 11484,
-      client: 'Салимов Ильназ Ильдарович'
+      client: 'Салимов Ильназ'
     },
     {
       id: 6136943,
       contract: '200125803/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 9570,
-      client: 'Харламова Татьяна Михайловна'
+      client: 'Харламова Татьяна'
     },
     {
       id: 6416248,
       contract: '200232055/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 12676.7,
-      client: 'Мишурин Александр Сергеевич'
+      client: 'Мишурин Александр'
     },
     {
       id: 6357508,
       contract: '1907357753/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 52,
       debt: 26801.84,
-      client: 'Донгак Орлан Борисович'
+      client: 'Донгак Орлан'
     },
     {
       id: 6249501,
       contract: '191050344/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 11735.84,
-      client: 'Фролов Григорий Сергеевич'
+      client: 'Фролов Григорий'
     },
     {
       id: 6043978,
       contract: '1701218130/30',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 18691.65,
-      client: 'Кузнецов Виктор Владимирович'
+      client: 'Кузнецов Виктор'
     },
     {
       id: 6119503,
       contract: '1912211961/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 9738,
-      client: 'Хохлов Александр Алексеевич'
+      client: 'Хохлов Александр'
     },
     {
       id: 6422882,
       contract: '200260484/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 15956.84,
-      client: 'Ульянов Юрий Владимирович'
+      client: 'Ульянов Юрий'
     },
     {
       id: 6142888,
       contract: '1811230542/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 79,
       debt: 16248,
-      client: 'Лесникова Зоя Ивановна'
+      client: 'Лесникова Зоя'
     },
     {
       id: 6478073,
       contract: '1901294384/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 6238.48,
-      client: 'Староверов Анатолий Федорович'
+      client: 'Староверов Анатолий'
     },
     {
       id: 6435723,
       contract: '1904173003/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 6615.92,
-      client: 'Адьянов Богдан Сергеевич'
+      client: 'Адьянов Богдан'
     },
     {
       id: 6401371,
       contract: '200262954/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 10331.2,
-      client: 'Фомичева Любовь Михайловна'
+      client: 'Фомичева Любовь'
     },
     {
       id: 5829653,
       contract: '191122342/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 8640,
-      client: 'Бывшева Евгения Алексеевна'
+      client: 'Бывшева Евгения'
     },
     {
       id: 5569950,
       contract: '1807190862/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 27600,
-      client: 'Ветеркова Алена Павловна'
+      client: 'Ветеркова Алена'
     },
     {
       id: 6011160,
       contract: '1908246857/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 32,
       debt: 13674.85,
-      client: 'Панцулая Нино Рабоевна'
+      client: 'Панцулая Нино'
     },
     {
       id: 6279840,
       contract: '191030158/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 78,
       debt: 41251.76,
-      client: 'Горбунов Евгений Олегович'
+      client: 'Горбунов Евгений'
     },
     {
       id: 6295436,
       contract: '200225993/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 68,
       debt: 8068.24,
-      client: 'Карбовничая Альвина Александровна'
+      client: 'Карбовничая Альвина'
     },
     {
       id: 5967126,
       contract: '1810341718/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 120,
       debt: 8400,
-      client: 'Руев Владимир Иванович'
+      client: 'Руев Владимир'
     },
     {
       id: 6286648,
       contract: '191119386/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 70,
       debt: 8152.6,
-      client: 'Аминев Айнур Уелданович'
+      client: 'Аминев Айнур'
     },
     {
       id: 6119298,
       contract: '191257767/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 109,
       debt: 22640.85,
-      client: 'Сирко Любомир Владимирович'
+      client: 'Сирко Любомир'
     },
     {
       id: 6155571,
       contract: '190970246/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 16235,
-      client: 'Нафиков Айдар Абдуллаевич'
+      client: 'Нафиков Айдар'
     },
     {
       id: 6307349,
       contract: '1810304195/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 29782.35,
-      client: 'Егиазаров Алексей Борисович'
+      client: 'Егиазаров Алексей'
     },
     {
       id: 6400034,
       contract: '190999780/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 13012.4,
-      client: 'Соколов Сергей Викторович'
+      client: 'Соколов Сергей'
     },
     {
       id: 6353799,
       contract: '200245524/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 74,
       debt: 5611.36,
-      client: 'Новгородцев Олег Анатольевич'
+      client: 'Новгородцев Олег'
     },
     {
       id: 5294732,
       contract: '1901140657/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 9010,
-      client: 'Булгаров Сергей Вадимович'
+      client: 'Булгаров Сергей'
     },
     {
       id: 6395557,
       contract: '1811183221/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 52,
       debt: 6953.36,
-      client: 'Тулегенова Юлия Юрьевна'
+      client: 'Тулегенова Юлия'
     },
     {
       id: 6388773,
       contract: '200258149/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 7059.52,
-      client: 'Айтуганов Айват Русланович'
+      client: 'Айтуганов Айват'
     },
     {
       id: 6382633,
       contract: '200255877/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 45,
       debt: 10647.6,
-      client: 'Кулагин Сергеи Николаевич'
+      client: 'Кулагин Сергеи'
     },
     {
       id: 5502087,
       contract: '1908142672/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 83,
       debt: 6062.47,
-      client: 'Диденко Наталья Александровна'
+      client: 'Диденко Наталья'
     },
     {
       id: 6187945,
       contract: '1709161536/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 93,
       debt: 13625.04,
-      client: 'Гордин Сергей Евгеньевич'
+      client: 'Гордин Сергей'
     },
     {
       id: 6185623,
       contract: '1904228195/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 73,
       debt: 39397.16,
-      client: 'Неретин Юрий Владимирович'
+      client: 'Неретин Юрий'
     },
     {
       id: 6432497,
       contract: '1904213196/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 33,
       debt: 32960.36,
-      client: 'Казаков Дмитрий Константинович'
+      client: 'Казаков Дмитрий'
     },
     {
       id: 6205454,
       contract: '190594100/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 67,
       debt: 28465.11,
-      client: 'Степанова Валентина Геннадьевна'
+      client: 'Степанова Валентина'
     },
     {
       id: 6466643,
       contract: '1704104405/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 6318.48,
-      client: 'Гуськов Игорь Евгеньевич'
+      client: 'Гуськов Игорь'
     },
     {
       id: 6050632,
       contract: '1703317119/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 9903,
-      client: 'Леонович Игорь Сергеевич'
+      client: 'Леонович Игорь'
     },
     {
       id: 6059513,
       contract: '191015695/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 10242,
-      client: 'Янкуржиев Марат Биймамбетович'
+      client: 'Янкуржиев Марат'
     },
     {
       id: 6151503,
       contract: '191012215/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 11752.5,
-      client: 'Можаев Константин Владимирович'
+      client: 'Можаев Константин'
     },
     {
       id: 6301513,
       contract: '200148825/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 87,
       debt: 8029.66,
-      client: 'Зайцева Елена Сергеевна'
+      client: 'Зайцева Елена'
     },
     {
       id: 6310879,
       contract: '1010243002/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 9874.72,
-      client: 'Вавилов Максим Павлович'
+      client: 'Вавилов Максим'
     },
     {
       id: 6321401,
       contract: '191070164/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 28282.35,
-      client: 'Чернявская Валентина Викторовна'
+      client: 'Чернявская Валентина'
     },
     {
       id: 6308404,
       contract: '190954633/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 65,
       debt: 17869.15,
-      client: 'Усманов Радомир Равильевич'
+      client: 'Усманов Радомир'
     },
     {
       id: 6001895,
       contract: '191257320/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 10746,
-      client: 'Харин Вячеслав Викторович'
+      client: 'Харин Вячеслав'
     },
     {
       id: 6025313,
       contract: '1612104617/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 13170,
-      client: 'Агаркова Екатерина Владимировна'
+      client: 'Агаркова Екатерина'
     },
     {
       id: 6112463,
       contract: '1712280894/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 91,
       debt: 28452.6,
-      client: 'Каплий Мария Леонидовна'
+      client: 'Каплий Мария'
     },
     {
       id: 5989864,
       contract: '1607108639/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 10390,
-      client: 'Фомин Андрей Федорович'
+      client: 'Фомин Андрей'
     },
     {
       id: 6055745,
       contract: '1904165216/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 12802.5,
-      client: 'Петров Кирилл Александрович'
+      client: 'Петров Кирилл'
     },
     {
       id: 6484645,
       contract: '200346548/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 32,
       debt: 4642.48,
-      client: 'Богданова Наталья Владимировна'
+      client: 'Богданова Наталья'
     },
     {
       id: 6303043,
       contract: '200228728/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 67,
       debt: 19965.82,
-      client: 'Ивлиев Дмитрий Викторович'
+      client: 'Ивлиев Дмитрий'
     },
     {
       id: 6271591,
       contract: '191035429/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 74,
       debt: 8321.32,
-      client: 'Бабич Валерия Юрьевна'
+      client: 'Бабич Валерия'
     },
     {
       id: 6322451,
       contract: '1912221149/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 23669.72,
-      client: 'Олимов Дмитрий Николаевич'
+      client: 'Олимов Дмитрий'
     },
     {
       id: 6422703,
       contract: '181131440/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 12597.6,
-      client: 'Ламунина Алена Андреевна'
+      client: 'Ламунина Алена'
     },
     {
       id: 6139124,
       contract: '1812406987/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 104,
       debt: 7146,
-      client: 'Чернявский Никита Андреевич'
+      client: 'Чернявский Никита'
     },
     {
       id: 5828464,
       contract: '1708241011/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 121,
       debt: 9640,
-      client: 'Сагалаков Денис Петрович'
+      client: 'Сагалаков Денис'
     },
     {
       id: 6044530,
       contract: '191151186/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 124,
       debt: 15617.1,
-      client: 'Попович Екатерина Руслановна'
+      client: 'Попович Екатерина'
     },
     {
       id: 6295559,
       contract: '1709151660/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 65,
       debt: 7941.7,
-      client: 'Дзюба Александр Юрьевич'
+      client: 'Дзюба Александр'
     },
     {
       id: 5737376,
       contract: '1810373253/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 17475,
-      client: 'Тропина Анастасия Александровна'
+      client: 'Тропина Анастасия'
     },
     {
       id: 6169117,
       contract: '1803212851/18',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 97,
       debt: 42245.55,
-      client: 'Просвирина Наталья Николаевна'
+      client: 'Просвирина Наталья'
     },
     {
       id: 5609517,
       contract: '190350274/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 76,
       debt: 17700,
-      client: 'Медведева Алёна Владимировна'
+      client: 'Медведева Алёна'
     },
     {
       id: 6311637,
       contract: '1707202586/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 14976.04,
-      client: 'Гафиятуллин Руслан Зуфарович'
+      client: 'Гафиятуллин Руслан'
     },
     {
       id: 6407147,
       contract: '1808193448/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 5135.6,
-      client: 'Пронин Дмитрий Олегович'
+      client: 'Пронин Дмитрий'
     },
     {
       id: 6046999,
       contract: '191020610/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 24054.45,
-      client: 'Уткина Тамара Владимировна'
+      client: 'Уткина Тамара'
     },
     {
       id: 5611336,
       contract: '190954158/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 132,
       debt: 8080,
-      client: 'Струкова Алена Геннадьевна'
+      client: 'Струкова Алена'
     },
     {
       id: 6024608,
       contract: '191181892/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 21706.2,
-      client: 'Зыков Максим Олегович'
+      client: 'Зыков Максим'
     },
     {
       id: 6359661,
       contract: '200247628/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 72,
       debt: 5548.08,
-      client: 'Агафонов Игорь Сергеевич'
+      client: 'Агафонов Игорь'
     },
     {
       id: 6432022,
       contract: '190507679/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 6591.94,
-      client: 'Тленов Ризабек Амангельдыевич'
+      client: 'Тленов Ризабек'
     },
     {
       id: 6438209,
       contract: '1707301567/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 32749.44,
-      client: 'Бутько Инна Васильевна'
+      client: 'Бутько Инна'
     },
     {
       id: 6260915,
       contract: '200138459/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 76,
       debt: 7355.16,
-      client: 'Михайлова Наталья Рудольфовна'
+      client: 'Михайлова Наталья'
     },
     {
       id: 6437831,
       contract: '191049405/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 19562.08,
-      client: 'Захаревич Ольга Викторовна'
+      client: 'Захаревич Ольга'
     },
     {
       id: 5866571,
       contract: '191155711/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 82,
       debt: 15772,
-      client: 'Голубева Ольга Анатольевна'
+      client: 'Голубева Ольга'
     },
     {
       id: 5947041,
       contract: '191171640/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 70,
       debt: 18060.6,
-      client: 'Резник Сергей Александрович'
+      client: 'Резник Сергей'
     },
     {
       id: 6104603,
       contract: '1912184199/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 10601.39,
-      client: 'Рыхлов Дмитрий Сергеевич'
+      client: 'Рыхлов Дмитрий'
     },
     {
       id: 5960837,
       contract: '190937690/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 37057.5,
-      client: 'Захаров Вячеслав Афанасьевич'
+      client: 'Захаров Вячеслав'
     },
     {
       id: 6124181,
       contract: '1801129370/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 32,
       debt: 19441.8,
-      client: 'Сазонова Наталья Борисовна'
+      client: 'Сазонова Наталья'
     },
     {
       id: 6217686,
       contract: '1808196055/16',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 86,
       debt: 32514.88,
-      client: 'Васильева Елена Евгеньевна'
+      client: 'Васильева Елена'
     },
     {
       id: 6100707,
       contract: '1712158308/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 35010,
-      client: 'Королев Александр Александрович'
+      client: 'Королев Александр'
     },
     {
       id: 5862732,
       contract: '1701142514/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 129,
       debt: 10240,
-      client: 'Филимонов Владислав Михайлович'
+      client: 'Филимонов Владислав'
     },
     {
       id: 6432250,
       contract: '200237351/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 23072.12,
-      client: 'Рыбальчук Диана Викторовна'
+      client: 'Рыбальчук Диана'
     },
     {
       id: 6103449,
       contract: '191181779/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 100,
       debt: 15400,
-      client: 'Федоричева Алина Александровна'
+      client: 'Федоричева Алина'
     },
     {
       id: 6421946,
       contract: '200145394/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 13437.32,
-      client: 'Жураковский Алексей Михайлович'
+      client: 'Жураковский Алексей'
     },
     {
       id: 6043035,
       contract: '1905181909/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 19666.4,
-      client: 'Некрасова Елена Александровна'
+      client: 'Некрасова Елена'
     },
     {
       id: 6169338,
       contract: '1912171102/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 97,
       debt: 10388.25,
-      client: 'Шульгина Екатерина Владимировна'
+      client: 'Шульгина Екатерина'
     },
     {
       id: 6372917,
       contract: '1010540095/13',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 48,
       debt: 18965.04,
-      client: 'Семенов Семен Валерьевич'
+      client: 'Семенов Семен'
     },
     {
       id: 6079235,
       contract: '1912137477/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 117,
       debt: 10074,
-      client: 'Коломейцева Людмила Борисовна'
+      client: 'Коломейцева Людмила'
     },
     {
       id: 6303364,
       contract: '191220296/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 20031.34,
-      client: 'Романов Никита Юрьевич'
+      client: 'Романов Никита'
     },
     {
       id: 6339002,
       contract: '200148316/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 21687.4,
-      client: 'Зуев Алексей Андреевич'
+      client: 'Зуев Алексей'
     },
     {
       id: 6200695,
       contract: '1905308455/16',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 90,
       debt: 14554.5,
-      client: 'Темижев Зураб Муратович'
+      client: 'Темижев Зураб'
     },
     {
       id: 6158968,
       contract: '190569591/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 100,
       debt: 17316,
-      client: 'Казьмин Игорь Евгеньевич'
+      client: 'Казьмин Игорь'
     },
     {
       id: 6418099,
       contract: '191180778/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 37,
       debt: 16057.03,
-      client: 'Калинников Василий Викторович'
+      client: 'Калинников Василий'
     },
     {
       id: 6080826,
       contract: '191193990/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 117,
       debt: 23422.05,
-      client: 'Фроликова Наталья Викторовна'
+      client: 'Фроликова Наталья'
     },
     {
       id: 6041405,
       contract: '190775670/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 124,
       debt: 15552,
-      client: 'Бежунаров Алексей Владимирович'
+      client: 'Бежунаров Алексей'
     },
     {
       id: 6246472,
       contract: '190486533/21',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 79,
       debt: 10665.67,
-      client: 'Петрова Оксана Игоревна'
+      client: 'Петрова Оксана'
     },
     {
       id: 6323988,
       contract: '200235747/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 6569.38,
-      client: 'Васильева Юлия Васильевна'
+      client: 'Васильева Юлия'
     },
     {
       id: 6141373,
       contract: '1612129536/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 104,
       debt: 35730,
-      client: 'Машарипов Бахадыр Янгибаевич'
+      client: 'Машарипов Бахадыр'
     },
     {
       id: 6042189,
       contract: '160246417/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 124,
       debt: 10368,
-      client: 'Рязанцев Александр Викторович'
+      client: 'Рязанцев Александр'
     },
     {
       id: 6387554,
       contract: '200257693/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 10584.32,
-      client: 'Высоцкий Денис Аркадьевич'
+      client: 'Высоцкий Денис'
     },
     {
       id: 6223978,
       contract: '1708270108/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 8788.9,
-      client: 'Рушкина Яна Ринатовна'
+      client: 'Рушкина Яна'
     },
     {
       id: 6122630,
       contract: '180756237/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 17210.4,
-      client: 'Назарова Алина Акрамовна'
+      client: 'Назарова Алина'
     },
     {
       id: 6282377,
       contract: '1810328699/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 71,
       debt: 10243.83,
-      client: 'Шнайдер Юлия Александровна'
+      client: 'Шнайдер Юлия'
     },
     {
       id: 6119199,
       contract: '1912212049/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 9738,
-      client: 'Попова Валентина Викторовна'
+      client: 'Попова Валентина'
     },
     {
       id: 6173987,
       contract: '200141266/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 9192,
-      client: 'Ноздрин Евгений Иванович'
+      client: 'Ноздрин Евгений'
     },
     {
       id: 6124012,
       contract: '191002815/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 37460,
-      client: 'Макарова Ольга Семеновна'
+      client: 'Макарова Ольга'
     },
     {
       id: 6151238,
       contract: '180431704/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 14103,
-      client: 'Дубровина Елена Владимировна'
+      client: 'Дубровина Елена'
     },
     {
       id: 6108688,
       contract: '191217331/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 23647.68,
-      client: 'Гуляева Татьяна Владимировна'
+      client: 'Гуляева Татьяна'
     },
     {
       id: 6184804,
       contract: '200145853/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 115,
       debt: 8006.25,
-      client: 'Юсупов Ильгиз Ренатович'
+      client: 'Юсупов Ильгиз'
     },
     {
       id: 6342935,
       contract: '170935836/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 56,
       debt: 17865.64,
-      client: 'Кабанков Александр Геннадьевич'
+      client: 'Кабанков Александр'
     },
     {
       id: 6198136,
       contract: '191263979/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 91,
       debt: 13498.48,
-      client: 'Степанова Валентина Васильевна'
+      client: 'Степанова Валентина'
     },
     {
       id: 6057700,
       contract: '1906229026/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 100,
       debt: 20925,
-      client: 'Хамуков Кантемир Юрьевич'
+      client: 'Хамуков Кантемир'
     },
     {
       id: 6176238,
       contract: '1806165194/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 22980,
-      client: 'Пугачева Вера Николаевна'
+      client: 'Пугачева Вера'
     },
     {
       id: 6064833,
       contract: '180235692/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 34425,
-      client: 'Кузнецов Федор Геннадьевич'
+      client: 'Кузнецов Федор'
     },
     {
       id: 6105089,
       contract: '191170319/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 112,
       debt: 9864,
-      client: 'Ломов Михаил Алексеевич'
+      client: 'Ломов Михаил'
     },
     {
       id: 6105213,
       contract: '191348687/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 22194,
-      client: 'Бекасова Ксения Сергеевна'
+      client: 'Бекасова Ксения'
     },
     {
       id: 6264076,
       contract: '200177508/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 6307.44,
-      client: 'Жуков Иван Георгиевич'
+      client: 'Жуков Иван'
     },
     {
       id: 6396936,
       contract: '200235159/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 23387.17,
-      client: 'Воробьева Мария Сергеевна'
+      client: 'Воробьева Мария'
     },
     {
       id: 6266516,
       contract: '191195150/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 75,
       debt: 6273,
-      client: 'Казаков Андрей Андреевич'
+      client: 'Казаков Андрей'
     },
     {
       id: 6151434,
       contract: '1010251799/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 14103,
-      client: 'Нуртдинова Татьяна Сергеевна'
+      client: 'Нуртдинова Татьяна'
     },
     {
       id: 6003034,
       contract: '171094934/35',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 18805.5,
-      client: 'Газизов Руслан Исламетдинович'
+      client: 'Газизов Руслан'
     },
     {
       id: 6137239,
       contract: '191052340/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 65,
       debt: 7568,
-      client: 'Быков Евгений Сергеевич'
+      client: 'Быков Евгений'
     },
     {
       id: 6134418,
       contract: '151160730/25',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 47850,
-      client: 'Мурадян Эдуард Сергеевич'
+      client: 'Мурадян Эдуард'
     },
     {
       id: 6004293,
       contract: '151227457/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 53520,
-      client: 'Калинин Максим Сергеевич'
+      client: 'Калинин Максим'
     },
     {
       id: 6379042,
       contract: '1804283138/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 9875,
-      client: 'Сизякин Андрей Анатольевич'
+      client: 'Сизякин Андрей'
     },
     {
       id: 6081010,
       contract: '1907195117/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 117,
       debt: 34251.6,
-      client: 'Дыгова Светлана Юрьевна'
+      client: 'Дыгова Светлана'
     },
     {
       id: 5887488,
       contract: '1901186520/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 36427.5,
-      client: 'Волкова Евгения Валерьевна'
+      client: 'Волкова Евгения'
     },
     {
       id: 6398328,
       contract: '1903263671/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 45,
       debt: 6698.1,
-      client: 'Иванов Сергей Михайлович'
+      client: 'Иванов Сергей'
     },
     {
       id: 6036734,
       contract: '1908105673/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 37215,
-      client: 'Кузьмина Олеся Игоревна'
+      client: 'Кузьмина Олеся'
     },
     {
       id: 5900434,
       contract: '191172608/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 75,
       debt: 15980,
-      client: 'Кошкарёва Анастасия Сергеевна'
+      client: 'Кошкарёва Анастасия'
     },
     {
       id: 6266531,
       contract: '1906193429/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 75,
       debt: 8363.5,
-      client: 'Еремееев Родион Николаевич'
+      client: 'Еремееев Родион'
     },
     {
       id: 5954964,
       contract: '191194705/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 65,
       debt: 11862.9,
-      client: 'Демидов Александр Михайлович'
+      client: 'Демидов Александр'
     },
     {
       id: 6035820,
       contract: '191184282/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 39037.5,
-      client: 'Логинов Сергей Олегович'
+      client: 'Логинов Сергей'
     },
     {
       id: 6267580,
       contract: '1810366197/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 74,
       debt: 17475.66,
-      client: 'Андреев Иван Алексеевич'
+      client: 'Андреев Иван'
     },
     {
       id: 6421179,
       contract: '1905279801/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 5039.04,
-      client: 'Султанова Нина Тимофеевна'
+      client: 'Султанова Нина'
     },
     {
       id: 5954589,
       contract: '1811164509/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 30315,
-      client: 'Кольцова Анна Петровна'
+      client: 'Кольцова Анна'
     },
     {
       id: 6102420,
       contract: '1603112090/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 90,
       debt: 42920,
-      client: 'Калинская Оксана Александровна'
+      client: 'Калинская Оксана'
     },
     {
       id: 5584369,
       contract: '1810327528/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 7765,
-      client: 'Галкина Елена Вячеславовна'
+      client: 'Галкина Елена'
     },
     {
       id: 6006101,
       contract: '1906124020/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 132,
       debt: 47632.8,
-      client: 'Родионов Александр Алексеевич'
+      client: 'Родионов Александр'
     },
     {
       id: 6097170,
       contract: '1812301833/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 92,
       debt: 32497.5,
-      client: 'Вишневский Владимир Викторович'
+      client: 'Вишневский Владимир'
     },
     {
       id: 5512434,
       contract: '1908178718/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 6987.9,
-      client: 'Хаев Роберт Лазаревич'
+      client: 'Хаев Роберт'
     },
     {
       id: 6435381,
       contract: '191070104/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 9888.24,
-      client: 'Митрофанова Анна Викторовна'
+      client: 'Митрофанова Анна'
     },
     {
       id: 6063636,
       contract: '1803322294/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 120,
       debt: 37485,
-      client: 'Сидорова Оксана Николаевна'
+      client: 'Сидорова Оксана'
     },
     {
       id: 5564447,
       contract: '1806171317/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 19100,
-      client: 'Васильева Вероника Юрьевна'
+      client: 'Васильева Вероника'
     },
     {
       id: 6274703,
       contract: '200145903/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 89,
       debt: 8314.02,
-      client: 'Мигунова Анна Юрьевна'
+      client: 'Мигунова Анна'
     },
     {
       id: 6200085,
       contract: '1707175366/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 9004.16,
-      client: 'Рязанов Виктор Петрович'
+      client: 'Рязанов Виктор'
     },
     {
       id: 6000598,
       contract: '1904182169/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 8059.5,
-      client: 'Созарыкова Фатима Анзоровна'
+      client: 'Созарыкова Фатима'
     },
     {
       id: 6130715,
       contract: '191223357/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 97,
       debt: 31777.5,
-      client: 'Беленькая Алина Александровна'
+      client: 'Беленькая Алина'
     },
     {
       id: 6244176,
       contract: '1908190536/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 15998.9,
-      client: 'Москалёв Максим Сергеевич'
+      client: 'Москалёв Максим'
     },
     {
       id: 6436260,
       contract: '200324001/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 13184.21,
-      client: 'Сульдина Дарья Анатольевна'
+      client: 'Сульдина Дарья'
     },
     {
       id: 6248522,
       contract: '200170817/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 78,
       debt: 12735.84,
-      client: 'Бардакова Елена Сергеевна'
+      client: 'Бардакова Елена'
     },
     {
       id: 6195672,
       contract: '191185717/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 6666.82,
-      client: 'Рыкова Кристина Викторовна'
+      client: 'Рыкова Кристина'
     },
     {
       id: 6086833,
       contract: '1712179201/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 116,
       debt: 15048,
-      client: 'Ромащенко Екатерина Юрьевна'
+      client: 'Ромащенко Екатерина'
     },
     {
       id: 6121670,
       contract: '1912215967/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 9738,
-      client: 'Андресян Сергей Генадиевич'
+      client: 'Андресян Сергей'
     },
     {
       id: 5873545,
       contract: '1612207183/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 116,
       debt: 35551.95,
-      client: 'Клычева Кристина Андреевна'
+      client: 'Клычева Кристина'
     },
     {
       id: 6218627,
       contract: '1805109701/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 100,
       debt: 15432,
-      client: 'Паздникова Валерия Игоревна'
+      client: 'Паздникова Валерия'
     },
     {
       id: 6172547,
       contract: '190932323/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 97,
       debt: 13851,
-      client: 'Кугута Кристина Алексеевна'
+      client: 'Кугута Кристина'
     },
     {
       id: 6474855,
       contract: '181035940/24',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 18816.15,
-      client: 'Зятчин Сергей Валериевич'
+      client: 'Зятчин Сергей'
     },
     {
       id: 5516714,
       contract: '190452114/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 123,
       debt: 34200,
-      client: 'Яшин Андрей Олегович'
+      client: 'Яшин Андрей'
     },
     {
       id: 6442989,
       contract: '200326787/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 52,
       debt: 9830.56,
-      client: 'Кухмистрова Галина Ивановна'
+      client: 'Кухмистрова Галина'
     },
     {
       id: 6437989,
       contract: '191110353/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 13055.84,
-      client: 'Кузнецов Павел Дмитриевич'
+      client: 'Кузнецов Павел'
     },
     {
       id: 6445100,
       contract: '200170683/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 12979.17,
-      client: 'Садохин Максим Константинович'
+      client: 'Садохин Максим'
     },
     {
       id: 6234753,
       contract: '1907199944/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 15153.24,
-      client: 'Петренко Евгений Владимирович'
+      client: 'Петренко Евгений'
     },
     {
       id: 6417499,
       contract: '1702100884/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 13521.69,
-      client: 'Скворцов Валериан Валерианович'
+      client: 'Скворцов Валериан'
     },
     {
       id: 6173631,
       contract: '1904272344/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 76,
       debt: 39960,
-      client: 'Шишкин Станислав Александрович'
+      client: 'Шишкин Станислав'
     },
     {
       id: 6188991,
       contract: '200147489/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 93,
       debt: 13625.04,
-      client: 'Мишина Ольга Сергеевна'
+      client: 'Мишина Ольга'
     },
     {
       id: 6233436,
       contract: '1904198141/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 22513.76,
-      client: 'Алиев Арслан Рустамович'
+      client: 'Алиев Арслан'
     },
     {
       id: 6379790,
       contract: '200254877/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 52,
       debt: 10730.56,
-      client: 'Шальнов Вадим Владимирович'
+      client: 'Шальнов Вадим'
     },
     {
       id: 6203382,
       contract: '1901271586/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 67,
       debt: 34338.27,
-      client: 'Пацей Никита Владимирович'
+      client: 'Пацей Никита'
     },
     {
       id: 6366280,
       contract: '1803291650/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 49,
       debt: 36335.08,
-      client: 'Садреева Альбина Камилевна'
+      client: 'Садреева Альбина'
     },
     {
       id: 6200499,
       contract: '180978053/14',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 18019.52,
-      client: 'Кашин Сергей Александрович'
+      client: 'Кашин Сергей'
     },
     {
       id: 6145158,
       contract: '1912136500/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 18189,
-      client: 'Безбанова Галина Геннадьевна'
+      client: 'Безбанова Галина'
     },
     {
       id: 6188960,
       contract: '1912186235/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 91,
       debt: 8638.38,
-      client: 'Соколов Константин Юрьевич'
+      client: 'Соколов Константин'
     },
     {
       id: 6385459,
       contract: '200155131/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 12348.08,
-      client: 'Базаров Михаил Евгеньевич'
+      client: 'Базаров Михаил'
     },
     {
       id: 6248079,
       contract: '200170658/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 8532.22,
-      client: 'Авраменко Иван Викторович'
+      client: 'Авраменко Иван'
     },
     {
       id: 5847184,
       contract: '1809149148/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 53,
       debt: 31473.53,
-      client: 'Сермакова Инга Аскаровна'
+      client: 'Сермакова Инга'
     },
     {
       id: 6403281,
       contract: '180944302/15',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 8609.2,
-      client: 'Угринович Николай Алексеевич'
+      client: 'Угринович Николай'
     },
     {
       id: 6037068,
       contract: '1805256140/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 125,
       debt: 37476,
-      client: 'Пащенко Алексей Юрьевич'
+      client: 'Пащенко Алексей'
     },
     {
       id: 6319730,
       contract: '1904231037/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 16937.7,
-      client: 'Саломатина Тамара Ивановна'
+      client: 'Саломатина Тамара'
     },
     {
       id: 6416468,
       contract: '200269193/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 6760.66,
-      client: 'Харитонов Владимир Сергеевич'
+      client: 'Харитонов Владимир'
     },
     {
       id: 6079904,
       contract: '1901267858/21',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 26275.6,
-      client: 'Емельянова Александра Владимировна'
+      client: 'Емельянова Александра'
     },
     {
       id: 6122234,
       contract: '1912216978/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 9696,
-      client: 'Баканов Алексей Борисович'
+      client: 'Баканов Алексей'
     },
     {
       id: 6245651,
       contract: '191001657/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 6399.56,
-      client: 'Петров Андрей Александрович'
+      client: 'Петров Андрей'
     },
     {
       id: 5966494,
       contract: '191023946/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 38790,
-      client: 'Ульянова Надежда Алексеевна'
+      client: 'Ульянова Надежда'
     },
     {
       id: 6311402,
       contract: '160571182/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 29624.16,
-      client: 'Холмирзоев Фаррух Махмарахимович'
+      client: 'Холмирзоев Фаррух'
     },
     {
       id: 6205756,
       contract: '1802350796/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 49,
       debt: 34335.08,
-      client: 'Геккиева Радмила Ильясовна'
+      client: 'Геккиева Радмила'
     },
     {
       id: 5753844,
       contract: '1905337280/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 73,
       debt: 21073.36,
-      client: 'Салабаш Анастасия Владимировна'
+      client: 'Салабаш Анастасия'
     },
     {
       id: 6352442,
       contract: '200245062/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 74,
       debt: 7481.32,
-      client: 'Руденко Анна Анатольевна'
+      client: 'Руденко Анна'
     },
     {
       id: 6500069,
       contract: '1912203298/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 4572.16,
-      client: 'Бухвалов Сергей Владимирович'
+      client: 'Бухвалов Сергей'
     },
     {
       id: 5827161,
       contract: '1802120656/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 124,
       debt: 47828,
-      client: 'Григорьева Елена Леонидовна'
+      client: 'Григорьева Елена'
     },
     {
       id: 6107210,
       contract: '1907214283/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 112,
       debt: 9864,
-      client: 'Гобеджашвили Давид Сергеевич'
+      client: 'Гобеджашвили Давид'
     },
     {
       id: 6322913,
       contract: '1908113649/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 74,
       debt: 7761.32,
-      client: 'Нагорнов Алексей Андреевич'
+      client: 'Нагорнов Алексей'
     },
     {
       id: 5582739,
       contract: '190919852/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 71,
       debt: 5759.6,
-      client: 'Симоненко Анастасия Сергеевна'
+      client: 'Симоненко Анастасия'
     },
     {
       id: 6339497,
       contract: '1010281310/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 56,
       debt: 13233.92,
-      client: 'Денисова Маргарита Николаевна'
+      client: 'Денисова Маргарита'
     },
     {
       id: 6246636,
       contract: '200127466/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 24531.12,
-      client: 'Балюра Юлия Сергеевна'
+      client: 'Балюра Юлия'
     },
     {
       id: 6103676,
       contract: '190881919/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 36990,
-      client: 'Казарина Анна Анатольевна'
+      client: 'Казарина Анна'
     },
     {
       id: 6191175,
       contract: '200148324/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 20547.72,
-      client: 'Куликов Андрей Борисович'
+      client: 'Куликов Андрей'
     },
     {
       id: 6015401,
       contract: '1806172767/15',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 26861.75,
-      client: 'Маслов Михаил Валерьевич'
+      client: 'Маслов Михаил'
     },
     {
       id: 5917513,
       contract: '1509136369/13',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 87,
       debt: 40166,
-      client: 'Курылишина Екатерина Александровна'
+      client: 'Курылишина Екатерина'
     },
     {
       id: 6213544,
       contract: '200156564/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 86,
       debt: 8787.48,
-      client: 'Скрыпникова Татьяна Владимировна'
+      client: 'Скрыпникова Татьяна'
     },
     {
       id: 6198832,
       contract: '191310610/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 9346.65,
-      client: 'Слонимский Егор Михайлович'
+      client: 'Слонимский Егор'
     },
     {
       id: 6005998,
       contract: '181121708/28',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 40140,
-      client: 'Панжен Дмитрий Андреевич'
+      client: 'Панжен Дмитрий'
     },
     {
       id: 6174971,
       contract: '190952447/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 116,
       debt: 6924,
-      client: 'Коршунов Роман Сергеевич'
+      client: 'Коршунов Роман'
     },
     {
       id: 5921657,
       contract: '1810100107/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 129,
       debt: 38317.5,
-      client: 'Овчинников Николай Андреевич'
+      client: 'Овчинников Николай'
     },
     {
       id: 6437856,
       contract: '200228296/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 13099.84,
-      client: 'Осыщенко Денис Сергеевич'
+      client: 'Осыщенко Денис'
     },
     {
       id: 6200752,
       contract: '191087012/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 90,
       debt: 8956.2,
-      client: 'Шашурин Илья Александрович'
+      client: 'Шашурин Илья'
     },
     {
       id: 5340549,
       contract: '1906147513/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 109,
       debt: 7584.2,
-      client: 'Еплеева Анастасия Григорьевна'
+      client: 'Еплеева Анастасия'
     },
     {
       id: 6001852,
       contract: '191257319/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 16119,
-      client: 'Плотников Владимир Юрьевич'
+      client: 'Плотников Владимир'
     },
     {
       id: 6014429,
       contract: '191262243/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 88,
       debt: 16992,
-      client: 'Красикова Мария Георгиевна'
+      client: 'Красикова Мария'
     },
     {
       id: 5316836,
       contract: '151164046/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 5758.74,
-      client: 'Бенедюк Михаил Степанович'
+      client: 'Бенедюк Михаил'
     },
     {
       id: 5931320,
       contract: '191184965/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 13071,
-      client: 'Изотов Алексей Николаевич'
+      client: 'Изотов Алексей'
     },
     {
       id: 6055229,
       contract: '191350356/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 3180.14,
-      client: 'Глотов Алексей Дмитриевич'
+      client: 'Глотов Алексей'
     },
     {
       id: 6092260,
       contract: '1804287693/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 17268.4,
-      client: 'Пантелеева Мария Вячеславовна'
+      client: 'Пантелеева Мария'
     },
     {
       id: 6025055,
       contract: '190464332/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 10536,
-      client: 'Шумейко Николай Николаевич'
+      client: 'Шумейко Николай'
     },
     {
       id: 6214460,
       contract: '200138689/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 87,
       debt: 8829.66,
-      client: 'Дручинин Михаил Юрьевич'
+      client: 'Дручинин Михаил'
     },
     {
       id: 6082916,
       contract: '191191893/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 116,
       debt: 28340.4,
-      client: 'Полянская Анна Андреевна'
+      client: 'Полянская Анна'
     },
     {
       id: 6051035,
       contract: '180786911/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 100,
       debt: 9002,
-      client: 'Анюхин Илья Николаевич'
+      client: 'Анюхин Илья'
     },
     {
       id: 6124872,
       contract: '1811160044/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 24563.62,
-      client: 'Альжев Вениамин Витальевич'
+      client: 'Альжев Вениамин'
     },
     {
       id: 6255802,
       contract: '191057065/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 67,
       debt: 38331.64,
-      client: 'Джиоев Давид Ахсарович'
+      client: 'Джиоев Давид'
     },
     {
       id: 5966348,
       contract: '191212223/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 9840,
-      client: 'Идукова Анастасия Николаевна'
+      client: 'Идукова Анастасия'
     },
     {
       id: 6106876,
       contract: '190660271/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 132,
       debt: 8666,
-      client: 'Корнеева Анастасия Владимировна'
+      client: 'Корнеева Анастасия'
     },
     {
       id: 6210186,
       contract: '200155310/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 88,
       debt: 8871.84,
-      client: 'Соколов Вячеслав Николаевич'
+      client: 'Соколов Вячеслав'
     },
     {
       id: 5861793,
       contract: '191085134/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 9827.18,
-      client: 'Печетова Людмила Романовна'
+      client: 'Печетова Людмила'
     },
     {
       id: 6000639,
       contract: '190268150/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 42984,
-      client: 'Белоус Людмила Петровна'
+      client: 'Белоус Людмила'
     },
     {
       id: 6171480,
       contract: '1912119085/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 53,
       debt: 16432.9,
-      client: 'Чебашев Антон Борисович'
+      client: 'Чебашев Антон'
     },
     {
       id: 6015584,
       contract: '170138545/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 121,
       debt: 22005.4,
-      client: 'Чеснова Ольга Евгеньевна'
+      client: 'Чеснова Ольга'
     },
     {
       id: 5912093,
       contract: '191177362/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 26865,
-      client: 'Павленко Наргиз Сабировна'
+      client: 'Павленко Наргиз'
     },
     {
       id: 6005128,
       contract: '1907142854/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 44421.6,
-      client: 'Наумова Наталья Леонидовна'
+      client: 'Наумова Наталья'
     },
     {
       id: 5845428,
       contract: '191146484/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 48,
       debt: 10142.4,
-      client: 'Королева Алена Владимировна'
+      client: 'Королева Алена'
     },
     {
       id: 6275706,
       contract: '200125354/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 73,
       debt: 6209.72,
-      client: 'Плехов Евгений Александрович'
+      client: 'Плехов Евгений'
     },
     {
       id: 5949881,
       contract: '1708163589/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 104,
       debt: 45840,
-      client: 'Андреева Анастасия Андреевна'
+      client: 'Андреева Анастасия'
     },
     {
       id: 5520422,
       contract: '190433384/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 25516,
-      client: 'Мигненко Сергей Юрьевич'
+      client: 'Мигненко Сергей'
     },
     {
       id: 6272970,
       contract: '1010080075/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 73,
       debt: 19663.87,
-      client: 'Дудник Ольга Николаевна'
+      client: 'Дудник Ольга'
     },
     {
       id: 5873739,
       contract: '1907266824/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 117,
       debt: 48350,
-      client: 'Егоркин Александр Сергеевич'
+      client: 'Егоркин Александр'
     },
     {
       id: 6100500,
       contract: '1901223334/16',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 113,
       debt: 30213.3,
-      client: 'Сорокин Дмитрий Николаевич'
+      client: 'Сорокин Дмитрий'
     },
     {
       id: 6437106,
       contract: '200232368/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 32,
       debt: 7006,
-      client: 'Шабалина Карина Витальевна'
+      client: 'Шабалина Карина'
     },
     {
       id: 6087030,
       contract: '181181691/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 116,
       debt: 50160,
-      client: 'Левченко Инна Павловна'
+      client: 'Левченко Инна'
     },
     {
       id: 6127092,
       contract: '191158210/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 30285,
-      client: 'Гусев Вячеслав Андреевич'
+      client: 'Гусев Вячеслав'
     },
     {
       id: 6254243,
       contract: '1912220742/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 8292.22,
-      client: 'Жигалин Дмитрий Иванович'
+      client: 'Жигалин Дмитрий'
     },
     {
       id: 6120769,
       contract: '191095837/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 129,
       debt: 14667,
-      client: 'Александров Артур Олегович'
+      client: 'Александров Артур'
     },
     {
       id: 6391760,
       contract: '200259311/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 10589.92,
-      client: 'Новиков Виталий Викторович'
+      client: 'Новиков Виталий'
     },
     {
       id: 6021031,
       contract: '1904270341/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 48729,
-      client: 'Баева Людмила Валерьевна'
+      client: 'Баева Людмила'
     },
     {
       id: 6001824,
       contract: '1903111174/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 133,
       debt: 28432.05,
-      client: 'Дружинин Алексей Викторович'
+      client: 'Дружинин Алексей'
     },
     {
       id: 6340559,
       contract: '200129257/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 56,
       debt: 21741.68,
-      client: 'Напеденин Павел Юрьевич'
+      client: 'Напеденин Павел'
     },
     {
       id: 6108914,
       contract: '190416396/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 76,
       debt: 29970,
-      client: 'Ан Наталья Николаевна'
+      client: 'Ан Наталья'
     },
     {
       id: 6175550,
       contract: '170972503/32',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 9192,
-      client: 'Лысанова Екатерина Сергеевна'
+      client: 'Лысанова Екатерина'
     },
     {
       id: 6177400,
       contract: '190471069/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 16775.4,
-      client: 'Дмитриева Маргарита Викторовна'
+      client: 'Дмитриева Маргарита'
     },
     {
       id: 6023233,
       contract: '1908174880/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 37666.2,
-      client: 'Рыков Игорь Михайлович'
+      client: 'Рыков Игорь'
     },
     {
       id: 5325375,
       contract: '1901231419/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 15841.8,
-      client: 'Романов Дмитрий Евгеньевич'
+      client: 'Романов Дмитрий'
     },
     {
       id: 6139582,
       contract: '200126824/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 104,
       debt: 9528,
-      client: 'Молова Рузанна Александровна'
+      client: 'Молова Рузанна'
     },
     {
       id: 6099767,
       contract: '1810253986/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 113,
       debt: 26003.25,
-      client: 'Толчеев Сергей Вячеславович'
+      client: 'Толчеев Сергей'
     },
     {
       id: 6460334,
       contract: '200321629/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 17492.37,
-      client: 'Чеботков Александр Иванович'
+      client: 'Чеботков Александр'
     },
     {
       id: 6087520,
       contract: '1712186870/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 14818.5,
-      client: 'Винокурова Дарья Александровна'
+      client: 'Винокурова Дарья'
     },
     {
       id: 6208176,
       contract: '190760366/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 69,
       debt: 16221.53,
-      client: 'Шилов Дмитрий Юрьевич'
+      client: 'Шилов Дмитрий'
     },
     {
       id: 6248364,
       contract: '200170790/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 8532.22,
-      client: 'Богрянцева Надежда Валерьевна'
+      client: 'Богрянцева Надежда'
     },
     {
       id: 6057138,
       contract: '1802335353/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 121,
       debt: 23556.6,
-      client: 'Фадеев Максим Сергеевич'
+      client: 'Фадеев Максим'
     },
     {
       id: 6292652,
       contract: '1712301438/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 90,
       debt: 8156.2,
-      client: 'Басистый Владимир Юрьевич'
+      client: 'Басистый Владимир'
     },
     {
       id: 6135246,
       contract: '200125155/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 105,
       debt: 9570,
-      client: 'Самушева Альбина Владимировна'
+      client: 'Самушева Альбина'
     },
     {
       id: 6294761,
       contract: '191000079/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 68,
       debt: 16137.16,
-      client: 'Айдаков Лев Геннадьевич'
+      client: 'Айдаков Лев'
     },
     {
       id: 6063292,
       contract: '171184559/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 15300,
-      client: 'Васильев Анатолий Романович'
+      client: 'Васильев Анатолий'
     },
     {
       id: 6197822,
       contract: '1807191154/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 91,
       debt: 8998.38,
-      client: 'Давлянова Лилия Гайсаровна'
+      client: 'Давлянова Лилия'
     },
     {
       id: 5989830,
       contract: '181169251/14',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 20647,
-      client: 'Шевченко Екатерина Владимировна'
+      client: 'Шевченко Екатерина'
     },
     {
       id: 6309868,
       contract: '190496783/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 7899.52,
-      client: 'Щербакова Юлия Петровна'
+      client: 'Щербакова Юлия'
     },
     {
       id: 6230084,
       contract: '1807126068/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 83,
       debt: 32629.77,
-      client: 'Липатов Вадим Андреевич'
+      client: 'Липатов Вадим'
     },
     {
       id: 6087934,
       contract: '191027600/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 67,
       debt: 28597.5,
-      client: 'Романова Надежда Гаврильевна'
+      client: 'Романова Надежда'
     },
     {
       id: 6209984,
       contract: '191055151/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 48,
       debt: 25081.44,
-      client: 'Зверев Антон Сергеевич'
+      client: 'Зверев Антон'
     },
     {
       id: 6432526,
       contract: '1912103249/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 33,
       debt: 24720.27,
-      client: 'Пермякова Галина Владимировна'
+      client: 'Пермякова Галина'
     },
     {
       id: 6057544,
       contract: '1807189349/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 24930,
-      client: 'Гусейнов Эмиль Мехман оглы'
+      client: 'Гусейнов Эмиль'
     },
     {
       id: 6084218,
       contract: '1912146540/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 116,
       debt: 10032,
-      client: 'Кириллов Максим Аркадьевич'
+      client: 'Кириллов Максим'
     },
     {
       id: 6382902,
       contract: '200151587/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 45,
       debt: 7098.1,
-      client: 'Девянин Виталий Андреевич'
+      client: 'Девянин Виталий'
     },
     {
       id: 6531639,
       contract: '200373274/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 37,
       debt: 4350.68,
-      client: 'Жигмановский Андрей Константинович'
+      client: 'Жигмановский Андрей'
     },
     {
       id: 6120669,
       contract: '1906359324/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 9738,
-      client: 'Согоян Нарек Варданович'
+      client: 'Согоян Нарек'
     },
     {
       id: 6420651,
       contract: '1509108927/17',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 12597.6,
-      client: 'Бородынкин Евгений Александрович'
+      client: 'Бородынкин Евгений'
     },
     {
       id: 6105269,
       contract: '191034525/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 9904,
-      client: 'Скачков Иван Александрович'
+      client: 'Скачков Иван'
     },
     {
       id: 6307328,
       contract: '190560936/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 14891.5,
-      client: 'Калинин Олег Борисович'
+      client: 'Калинин Олег'
     },
     {
       id: 6245834,
       contract: '200143513/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 79,
       debt: 19197.89,
-      client: 'Хомколова Кристина Дмитриевна'
+      client: 'Хомколова Кристина'
     },
     {
       id: 6085987,
       contract: '1912149084/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 18384,
-      client: 'Бикишева Гульзида Ишмурзовна'
+      client: 'Бикишева Гульзида'
     },
     {
       id: 6029530,
       contract: '1905388397/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 105,
       debt: 32249,
-      client: 'Акбулатов Самат Олегович'
+      client: 'Акбулатов Самат'
     },
     {
       id: 6311736,
       contract: '191249855/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 19388,
-      client: 'Ромашин Сергей Викторович'
+      client: 'Ромашин Сергей'
     },
     {
       id: 5507498,
       contract: '1907231613/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 125,
       debt: 25777,
-      client: 'Прибылова Екатерина Евгеньевна'
+      client: 'Прибылова Екатерина'
     },
     {
       id: 6402169,
       contract: '191053319/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 25827.6,
-      client: 'Кондакова Дарья Олеговна'
+      client: 'Кондакова Дарья'
     },
     {
       id: 6118607,
       contract: '191105288/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 27266.4,
-      client: 'Комарницкий Валентин Сергеевич'
+      client: 'Комарницкий Валентин'
     },
     {
       id: 6212670,
       contract: '170178263/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 87,
       debt: 13245.36,
-      client: 'Алешина Нина Степановна'
+      client: 'Алешина Нина'
     },
     {
       id: 5907425,
       contract: '190479734/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 15225.6,
-      client: 'Платонов Роман Александрович'
+      client: 'Платонов Роман'
     },
     {
       id: 6222560,
       contract: '1907422346/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 37,
       debt: 23853.03,
-      client: 'Беляевская Юлия Николаевна'
+      client: 'Беляевская Юлия'
     },
     {
       id: 6246703,
       contract: '191174976/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 79,
       debt: 28797.23,
-      client: 'Иванова Марина Ивановна'
+      client: 'Иванова Марина'
     },
     {
       id: 6061890,
       contract: '1810381098/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 120,
       debt: 23970,
-      client: 'Родевич Богдан Олегович'
+      client: 'Родевич Богдан'
     },
     {
       id: 6001528,
       contract: '160997662/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 26865,
-      client: 'Иванова Елена Александровна'
+      client: 'Иванова Елена'
     },
     {
       id: 6440437,
       contract: '1705201549/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 9824.96,
-      client: 'Чижикова Анастасия Юрьевна'
+      client: 'Чижикова Анастасия'
     },
     {
       id: 6154206,
       contract: '190537447/13',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 35257.5,
-      client: 'Литвинцева-юскевич Наталья Петровна'
+      client: 'Литвинцева-юскевич Наталья'
     },
     {
       id: 5582547,
       contract: '1907431584/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 108,
       debt: 25500,
-      client: 'Бадин Андрей Викторович'
+      client: 'Бадин Андрей'
     },
     {
       id: 6125339,
       contract: '1912221811/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 14544,
-      client: 'Цынцарь Дмитрий Всеволодович'
+      client: 'Цынцарь Дмитрий'
     },
     {
       id: 6020985,
       contract: '151094906/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 22389,
-      client: 'Сон Вячеслав Гидыевич'
+      client: 'Сон Вячеслав'
     },
     {
       id: 6402603,
       contract: '200172584/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 24966.8,
-      client: 'Футорной Виталий Павлович'
+      client: 'Футорной Виталий'
     },
     {
       id: 6088984,
       contract: '191263085/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 32532.5,
-      client: 'Токарев Николай Владимирович'
+      client: 'Токарев Николай'
     },
     {
       id: 6535053,
       contract: '200420961/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 4314.12,
-      client: 'Булдырева Наталья Александровна'
+      client: 'Булдырева Наталья'
     },
     {
       id: 6007207,
       contract: '1905168049/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 132,
       debt: 10704,
-      client: 'Мартынов Владимир Владимирович'
+      client: 'Мартынов Владимир'
     },
     {
       id: 6291892,
       contract: '191180958/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 69,
       debt: 8110.42,
-      client: 'Шагиров Алибек Саржанович'
+      client: 'Шагиров Алибек'
     },
     {
       id: 6404458,
       contract: '1812181254/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 12052.8,
-      client: 'Ичева Елена Алексеевна'
+      client: 'Ичева Елена'
     },
     {
       id: 6369656,
       contract: '1907243965/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 48,
       debt: 7224.64,
-      client: 'Богославская Наталья Александровна'
+      client: 'Богославская Наталья'
     },
     {
       id: 6397624,
       contract: '1903217777/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 34647.72,
-      client: 'Моисеенко Андрей Павлович'
+      client: 'Моисеенко Андрей'
     },
     {
       id: 6263387,
       contract: '1810107344/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 75,
       debt: 28227.75,
-      client: 'Ильина Светлана Александровна'
+      client: 'Ильина Светлана'
     },
     {
       id: 6418036,
       contract: '200269963/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 37,
       debt: 10141.36,
-      client: 'Силуянова Анастасия Викторовна'
+      client: 'Силуянова Анастасия'
     },
     {
       id: 6196443,
       contract: '1801125169/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 8998.38,
-      client: 'Боровик Григорий Николаевич'
+      client: 'Боровик Григорий'
     },
     {
       id: 6305917,
       contract: '191220567/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 26804.05,
-      client: 'Фриауф Алихан Баширович'
+      client: 'Фриауф Алихан'
     },
     {
       id: 6208246,
       contract: '190122649/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 89,
       debt: 6685.96,
-      client: 'Филиппов Денис Юрьевич'
+      client: 'Филиппов Денис'
     },
     {
       id: 6345972,
       contract: '1901186970/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 9223.45,
-      client: 'Никифорова Александра Сергеевна'
+      client: 'Никифорова Александра'
     },
     {
       id: 6403073,
       contract: '1810289537/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 13774.8,
-      client: 'Смехнов Константин Александрович'
+      client: 'Смехнов Константин'
     },
     {
       id: 6384689,
       contract: '190271611/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 17640.24,
-      client: 'Чооду Хаяна Мергеновна'
+      client: 'Чооду Хаяна'
     },
     {
       id: 6018109,
       contract: '170668587/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 24510,
-      client: 'Колесникова Светлана Викторовна'
+      client: 'Колесникова Светлана'
     },
     {
       id: 6134720,
       contract: '1907163463/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 47850,
-      client: 'Пацуков Артем Сергеевич'
+      client: 'Пацуков Артем'
     },
     {
       id: 6061831,
       contract: '170474503/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 15300,
-      client: 'Волкова Виктория Евгеньевна'
+      client: 'Волкова Виктория'
     },
     {
       id: 6316979,
       contract: '180854210/19',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 27376.6,
-      client: 'Катанаева Мария Евгеньевна'
+      client: 'Катанаева Мария'
     },
     {
       id: 6263540,
       contract: '1912217095/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 75,
       debt: 12546,
-      client: 'Митин Олег Николаевич'
+      client: 'Митин Олег'
     },
     {
       id: 6258285,
       contract: '191255532/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 97,
       debt: 8451.46,
-      client: 'Кругликова Анастасия Андреевна'
+      client: 'Кругликова Анастасия'
     },
     {
       id: 6079597,
       contract: '1904263940/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 117,
       debt: 22666.5,
-      client: 'Борина Екатерина Алексеевна'
+      client: 'Борина Екатерина'
     },
     {
       id: 5929986,
       contract: '190886122/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 20860.8,
-      client: 'Аксененко Лариса Павловна'
+      client: 'Аксененко Лариса'
     },
     {
       id: 6432473,
       contract: '1907150755/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 32960.36,
-      client: 'Минлибаев Роман Сахибгареевич'
+      client: 'Минлибаев Роман'
     },
     {
       id: 6354606,
       contract: '200245784/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 73,
       debt: 11159.44,
-      client: 'Дворецкая Елена Вячеславовна'
+      client: 'Дворецкая Елена'
     },
     {
       id: 6076095,
       contract: '1708128051/31',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 129,
       debt: 38017.5,
-      client: 'Сурначёва Виолетта Юлаевна'
+      client: 'Сурначёва Виолетта'
     },
     {
       id: 6021437,
       contract: '1903238354/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 52680,
-      client: 'Потапова Елена Александровна'
+      client: 'Потапова Елена'
     },
     {
       id: 6061386,
       contract: '1912105133/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 15300,
-      client: 'Игнаточкин Артем Андреевич'
+      client: 'Игнаточкин Артем'
     },
     {
       id: 6171817,
       contract: '190647828/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 97,
       debt: 13851,
-      client: 'Кочнев Алексей Геннадьевич'
+      client: 'Кочнев Алексей'
     },
     {
       id: 6063413,
       contract: '1907168302/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 120,
       debt: 38250,
-      client: 'Скуратов Николай Алексеевич'
+      client: 'Скуратов Николай'
     },
     {
       id: 6181530,
       contract: '200144441/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 3702.42,
-      client: 'Мичурина Галия Альбертовна'
+      client: 'Мичурина Галия'
     },
     {
       id: 6363162,
       contract: '200244880/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 6087.2,
-      client: 'Солдуп Аясмаа Анай-ооловна'
+      client: 'Солдуп Аясмаа'
     },
     {
       id: 5842406,
       contract: '150525036/20',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 129,
       debt: 10080,
-      client: 'Чеканов Юрий Васильевич'
+      client: 'Чеканов Юрий'
     },
     {
       id: 6002816,
       contract: '191257711/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 133,
       debt: 10446,
-      client: 'Корогод Ксения Алексеевна'
+      client: 'Корогод Ксения'
     },
     {
       id: 6297280,
       contract: '191077252/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 69,
       debt: 8070.42,
-      client: 'Ишмекеев Виктор Михайлович'
+      client: 'Ишмекеев Виктор'
     },
     {
       id: 6066845,
       contract: '191354895/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 104,
       debt: 10634.4,
-      client: 'Филимонов Евгений Игоревич'
+      client: 'Филимонов Евгений'
     },
     {
       id: 6166739,
       contract: '1805121186/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 74,
       debt: 29677.5,
-      client: 'Лушкина Татьяна Ивановна'
+      client: 'Лушкина Татьяна'
     },
     {
       id: 6314707,
       contract: '1912164828/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 6371.56,
-      client: 'Студенцов Сергей Александрович'
+      client: 'Студенцов Сергей'
     },
     {
       id: 6326304,
       contract: '191128883/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 70,
       debt: 7752.6,
-      client: 'Демидова Ольга Андреевна'
+      client: 'Демидова Ольга'
     },
     {
       id: 6004552,
       contract: '191255347/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 10536,
-      client: 'Ортаат Динара Аясовна'
+      client: 'Ортаат Динара'
     },
     {
       id: 6302670,
       contract: '200181431/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 11913.2,
-      client: 'Маслова Марина Александровна'
+      client: 'Маслова Марина'
     },
     {
       id: 6239055,
       contract: '1802112180/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 86,
       debt: 15098.52,
-      client: 'Раевский Вячеслав Витальевич'
+      client: 'Раевский Вячеслав'
     },
     {
       id: 6136404,
       contract: '1906235840/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 49,
       debt: 7298,
-      client: 'Баринов Александр Владимирович'
+      client: 'Баринов Александр'
     },
     {
       id: 6184452,
       contract: '190900463/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 94,
       debt: 9108,
-      client: 'Гасевская Дарья Эдуардовна'
+      client: 'Гасевская Дарья'
     },
     {
       id: 6083691,
       contract: '191028606/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 21183,
-      client: 'Клименко Маргарита Юрьевна'
+      client: 'Клименко Маргарита'
     },
     {
       id: 5772885,
       contract: '151031959/18',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 14500,
-      client: 'Ромашкина Ирина Александровна'
+      client: 'Ромашкина Ирина'
     },
     {
       id: 6227661,
       contract: '150960721/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 83,
       debt: 8700.94,
-      client: 'Бондаренко Игорь Геннадьевич'
+      client: 'Бондаренко Игорь'
     },
     {
       id: 6213335,
       contract: '191067190/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 87,
       debt: 25606.71,
-      client: 'Салькова Анастасия Анатольевна'
+      client: 'Салькова Анастасия'
     },
     {
       id: 6432440,
       contract: '191002838/13',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 33,
       debt: 25544.18,
-      client: 'Храмов Михаил Александрович'
+      client: 'Храмов Михаил'
     },
     {
       id: 6232177,
       contract: '160442903/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 82,
       debt: 12988.96,
-      client: 'Воробьева Татьяна Юрьевна'
+      client: 'Воробьева Татьяна'
     },
     {
       id: 6103114,
       contract: '191192962/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 112,
       debt: 28112.4,
-      client: 'Бойко Иван Сергеевич'
+      client: 'Бойко Иван'
     },
     {
       id: 6042321,
       contract: '190251890/18',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 124,
       debt: 46656,
-      client: 'Полякова Зинаида Викторовна'
+      client: 'Полякова Зинаида'
     },
     {
       id: 6243583,
       contract: '191050124/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 20022.5,
-      client: 'Никитина Оксана Александровна'
+      client: 'Никитина Оксана'
     },
     {
       id: 6352919,
       contract: '1810273255/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 17358.33,
-      client: 'Чистохина Анна Юрьевна'
+      client: 'Чистохина Анна'
     },
     {
       id: 6215555,
       contract: '200157329/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 78,
       debt: 7945.96,
-      client: 'Юрганова Елена Сергеевна'
+      client: 'Юрганова Елена'
     },
     {
       id: 6323295,
       contract: '200163128/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 25359.86,
-      client: 'Голубева Наталья Андреевна'
+      client: 'Голубева Наталья'
     },
     {
       id: 6388058,
       contract: '1809134940/14',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 16758.36,
-      client: 'Алиева Дарья Олеговна'
+      client: 'Алиева Дарья'
     },
     {
       id: 6153832,
       contract: '190982423/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 17393.7,
-      client: 'Мажаровская Анна Владимировна'
+      client: 'Мажаровская Анна'
     },
     {
       id: 6236452,
       contract: '190630471/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 78,
       debt: 12135.84,
-      client: 'Шарипов Радик Кираматуллович'
+      client: 'Шарипов Радик'
     },
     {
       id: 6179103,
       contract: '200143373/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 71,
       debt: 15556.9,
-      client: 'Баюшкина Ирина Николаевна'
+      client: 'Баюшкина Ирина'
     },
     {
       id: 6538948,
       contract: '200423437/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 8564.96,
-      client: 'Салаватов Дамир Анварович'
+      client: 'Салаватов Дамир'
     },
     {
       id: 6415810,
       contract: '1907389591/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 5070.68,
-      client: 'Ивасюк Анастасия Павловна'
+      client: 'Ивасюк Анастасия'
     },
     {
       id: 6102369,
       contract: '191251248/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 113,
       debt: 18573.75,
-      client: 'Кузьмиченко Сергей Владимирович'
+      client: 'Кузьмиченко Сергей'
     },
     {
       id: 5787046,
       contract: '191054397/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 129,
       debt: 19200,
-      client: 'Никитин Геннадий Владимирович'
+      client: 'Никитин Геннадий'
     },
     {
       id: 6213707,
       contract: '191234629/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 23140.54,
-      client: 'Неумержитский Алексей Анатольевич'
+      client: 'Неумержитский Алексей'
     },
     {
       id: 5788912,
       contract: '191055142/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 8800,
-      client: 'Опарин Алексей Владимирович'
+      client: 'Опарин Алексей'
     },
     {
       id: 5734046,
       contract: '1808162493/13',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 14501,
-      client: 'Янченко Елена Никитична'
+      client: 'Янченко Елена'
     },
     {
       id: 5511798,
       contract: '1805299084/14',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 125,
       debt: 34400,
-      client: 'Рощупкин Антон Алиевич'
+      client: 'Рощупкин Антон'
     },
     {
       id: 6179030,
       contract: '170238671/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 95,
       debt: 9150,
-      client: 'Гусева Анна Сергеевна'
+      client: 'Гусева Анна'
     },
     {
       id: 6107822,
       contract: '1904340050/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 36990,
-      client: 'Григорьев Денис Викторович'
+      client: 'Григорьев Денис'
     },
     {
       id: 6037140,
       contract: '1908177688/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 35654.25,
-      client: 'Болотский Валентин Владимирович'
+      client: 'Болотский Валентин'
     },
     {
       id: 6079328,
       contract: '1812204131/37',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 117,
       debt: 50370,
-      client: 'Мкртычян Оксана Вячеславовна'
+      client: 'Мкртычян Оксана'
     },
     {
       id: 5379855,
       contract: '1905383836/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 112,
       debt: 20004,
-      client: 'Бахтина Юлия Александровна'
+      client: 'Бахтина Юлия'
     },
     {
       id: 6352078,
       contract: '191286986/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 53,
       debt: 11153.84,
-      client: 'Селезнев Николай Алексеевич'
+      client: 'Селезнев Николай'
     },
     {
       id: 6172208,
       contract: '1905104295/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 97,
       debt: 25624.35,
-      client: 'Каменнык Станислав Игоревич'
+      client: 'Каменнык Станислав'
     },
     {
       id: 5792008,
       contract: '190736821/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 68,
       debt: 34513.92,
-      client: 'Апкин Артур Альбертович'
+      client: 'Апкин Артур'
     },
     {
       id: 6083519,
       contract: '1906238330/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 70,
       debt: 29107.5,
-      client: 'Зорин Роман Сергеевич'
+      client: 'Зорин Роман'
     },
     {
       id: 6018943,
       contract: '1906356871/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 129,
       debt: 7933.5,
-      client: 'Жиленков Максим Юрьевич'
+      client: 'Жиленков Максим'
     },
     {
       id: 6059298,
       contract: '191324383/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 9042,
-      client: 'Мельникова Светлана Николаевна'
+      client: 'Мельникова Светлана'
     },
     {
       id: 6034857,
       contract: '191308680/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 86,
       debt: 12339.92,
-      client: 'Сухоцкая Ольга Григорьевна'
+      client: 'Сухоцкая Ольга'
     },
     {
       id: 5938969,
       contract: '191188203/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 120,
       debt: 14766,
-      client: 'Садыков Артур Мансурович'
+      client: 'Садыков Артур'
     },
     {
       id: 6065394,
       contract: '170648876/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 116,
       debt: 10032,
-      client: 'Мельникова Алена Сергеевна'
+      client: 'Мельникова Алена'
     },
     {
       id: 6117373,
       contract: '191158740/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 73,
       debt: 11859,
-      client: 'Греков Виктор Александрович'
+      client: 'Греков Виктор'
     },
     {
       id: 5879381,
       contract: '1907433513/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 129,
       debt: 34809.2,
-      client: 'Дёмина Марина Евгениевна'
+      client: 'Дёмина Марина'
     },
     {
       id: 6100234,
       contract: '1905280202/16',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 113,
       debt: 42843.45,
-      client: 'Юрина Ольга Сергеевна'
+      client: 'Юрина Ольга'
     },
     {
       id: 6155255,
       contract: '190158466/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 100,
       debt: 35100,
-      client: 'Елистратов Виталий Александрович'
+      client: 'Елистратов Виталий'
     },
     {
       id: 6225914,
       contract: '1905404065/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 85,
       debt: 22738.8,
-      client: 'Ногуманов Марат Тальгатович'
+      client: 'Ногуманов Марат'
     },
     {
       id: 6199104,
       contract: '191276341/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 11248.43,
-      client: 'Покотило Роман Викторович'
+      client: 'Покотило Роман'
     },
     {
       id: 5944720,
       contract: '1905328878/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 19649.04,
-      client: 'Васильев Сергей Евгеньевич'
+      client: 'Васильев Сергей'
     },
     {
       id: 6035076,
       contract: '1712184369/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 105,
       debt: 26709,
-      client: 'Петрова Алена Ивановна'
+      client: 'Петрова Алена'
     },
     {
       id: 5540306,
       contract: '1907440457/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 97,
       debt: 10764.6,
-      client: 'Макарова Алина Николаевна'
+      client: 'Макарова Алина'
     },
     {
       id: 6402690,
       contract: '1901299265/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 26688.4,
-      client: 'Мирзоян Гарик Ашотович'
+      client: 'Мирзоян Гарик'
     },
     {
       id: 6082079,
       contract: '190864994/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 8337.5,
-      client: 'Карнацкая Татьяна Николаевна'
+      client: 'Карнацкая Татьяна'
     },
     {
       id: 6308419,
       contract: '1912210149/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 67,
       debt: 5959.88,
-      client: 'Федотов Сергей Александрович'
+      client: 'Федотов Сергей'
     },
     {
       id: 5433915,
       contract: '190653256/21',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 91,
       debt: 5950,
-      client: 'Потапов Владимир Михайлович'
+      client: 'Потапов Владимир'
     },
     {
       id: 6023914,
       contract: '190999819/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 39510,
-      client: 'Смирнов Валерий Александрович'
+      client: 'Смирнов Валерий'
     },
     {
       id: 6284370,
       contract: '190882906/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 72,
       debt: 12296.16,
-      client: 'Моргун Мария Вадимовна'
+      client: 'Моргун Мария'
     },
     {
       id: 6158152,
       contract: '190727548/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 100,
       debt: 35100,
-      client: 'Черемухина Татьяна Александровна'
+      client: 'Черемухина Татьяна'
     },
     {
       id: 6055964,
       contract: '191180126/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 23556.6,
-      client: 'Антонов Алексей Дмитриевич'
+      client: 'Антонов Алексей'
     },
     {
       id: 6278437,
       contract: '190183125/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 72,
       debt: 16174.64,
-      client: 'Гаевская Евгения Александровна'
+      client: 'Гаевская Евгения'
     },
     {
       id: 6233443,
       contract: '191105581/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 19932.56,
-      client: 'Одегова Наталия Александровна'
+      client: 'Одегова Наталия'
     },
     {
       id: 6215171,
       contract: '1805194254/22',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 67,
       debt: 18399.08,
-      client: 'Еранова Анна Александровна'
+      client: 'Еранова Анна'
     },
     {
       id: 6202213,
       contract: '200152343/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 91,
       debt: 6719.24,
-      client: 'Ширыгин Сергей Владимирович'
+      client: 'Ширыгин Сергей'
     },
     {
       id: 5921836,
       contract: '151254445/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 90,
       debt: 42900,
-      client: 'Росенко Елена Викторовна'
+      client: 'Росенко Елена'
     },
     {
       id: 6071408,
       contract: '1803247365/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 132,
       debt: 10144,
-      client: 'Шеховцов Виктор Борисович'
+      client: 'Шеховцов Виктор'
     },
     {
       id: 6105203,
       contract: '191178725/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 27372.6,
-      client: 'Шариков Артем Васильевич'
+      client: 'Шариков Артем'
     },
     {
       id: 5849449,
       contract: '1908163347/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 45,
       debt: 7470,
-      client: 'Барышников Иван Михайлович'
+      client: 'Барышников Иван'
     },
     {
       id: 6079349,
       contract: '190930208/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 117,
       debt: 18133.2,
-      client: 'Галиуллин Руслан Халитович'
+      client: 'Галиуллин Руслан'
     },
     {
       id: 6202387,
       contract: '1812374432/23',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 90,
       debt: 42543.3,
-      client: 'Демидова Елизавета Олеговна'
+      client: 'Демидова Елизавета'
     },
     {
       id: 6158926,
       contract: '191346622/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 100,
       debt: 21762,
-      client: 'Грустович Павел Викторович'
+      client: 'Грустович Павел'
     },
     {
       id: 6330264,
       contract: '190936986/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 45,
       debt: 25134.93,
-      client: 'Сердюков Иван Анатольевич'
+      client: 'Сердюков Иван'
     },
     {
       id: 6141312,
       contract: '191115836/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 104,
       debt: 11910,
-      client: 'Дементьев Виталий Сергеевич'
+      client: 'Дементьев Виталий'
     },
     {
       id: 6124561,
       contract: '191038400/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 108,
       debt: 20119.2,
-      client: 'Федотов Максим Николаевич'
+      client: 'Федотов Максим'
     },
     {
       id: 6174074,
       contract: '190584748/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 75,
       debt: 7950,
-      client: 'Золотова Мария Игоревна'
+      client: 'Золотова Мария'
     },
     {
       id: 6396963,
       contract: '160528666/19',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 19922.48,
-      client: 'Борисов Илья Владимирович'
+      client: 'Борисов Илья'
     },
     {
       id: 6134762,
       contract: '190922219/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 7935,
-      client: 'Смирнов Роман Анатольевич'
+      client: 'Смирнов Роман'
     },
     {
       id: 6140796,
       contract: '1903207621/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 104,
       debt: 9528,
-      client: 'Дубровин Дмитрий Иванович'
+      client: 'Дубровин Дмитрий'
     },
     {
       id: 6309525,
       contract: '1812346464/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 64,
       debt: 9874.72,
-      client: 'Габитов Радмир Русланович'
+      client: 'Габитов Радмир'
     },
     {
       id: 6432979,
       contract: '191091234/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 33,
       debt: 14832.03,
-      client: 'Сорокина Марина Викторовна'
+      client: 'Сорокина Марина'
     },
     {
       id: 6422912,
       contract: '200272201/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 13437.32,
-      client: 'Разик Дмитрий Владимирович'
+      client: 'Разик Дмитрий'
     },
     {
       id: 5486696,
       contract: '160929241/14',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 78,
       debt: 10982.2,
-      client: 'Никифоров Артём Сергеевич'
+      client: 'Никифоров Артём'
     },
     {
       id: 5416137,
       contract: '1907403057/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 90,
       debt: 4536,
-      client: 'Макаров Александр Геннадиевич'
+      client: 'Макаров Александр'
     },
     {
       id: 5850201,
       contract: '1906200705/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 116,
       debt: 14400,
-      client: 'Сотников Александр Владимирович'
+      client: 'Сотников Александр'
     },
     {
       id: 6084629,
       contract: '1912147254/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 11502.3,
-      client: 'Ельчанинов Леонид Викторович'
+      client: 'Ельчанинов Леонид'
     },
     {
       id: 6231558,
       contract: '191177058/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 8658.76,
-      client: 'Винокуров Михаил Михайлович'
+      client: 'Винокуров Михаил'
     },
     {
       id: 6139115,
       contract: '1912145053/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 104,
       debt: 9528,
-      client: 'Сосновская Анна Сергеевна'
+      client: 'Сосновская Анна'
     },
     {
       id: 6179472,
       contract: '1806154540/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 74,
       debt: 7908,
-      client: 'Соколовская Мария Викторовна'
+      client: 'Соколовская Мария'
     },
     {
       id: 6127785,
       contract: '1806199995/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 108,
       debt: 32239.2,
-      client: 'Кулякин Роман Александрович'
+      client: 'Кулякин Роман'
     },
     {
       id: 6023251,
       contract: '1812198000/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 29237.4,
-      client: 'Садыкова Айгуль Рашитовна'
+      client: 'Садыкова Айгуль'
     },
     {
       id: 6263970,
       contract: '181173673/13',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 75,
       debt: 14846,
-      client: 'Аглиуллин Рустам Салаватович'
+      client: 'Аглиуллин Рустам'
     },
     {
       id: 6341555,
       contract: '191246341/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 67,
       debt: 14224.7,
-      client: 'Жмыхов Алексей Николаевич'
+      client: 'Жмыхов Алексей'
     },
     {
       id: 6154737,
       contract: '191253924/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 18587.7,
-      client: 'Брындин Алексей Сергеевич'
+      client: 'Брындин Алексей'
     },
     {
       id: 6103229,
       contract: '190921641/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 112,
       debt: 18001.8,
-      client: 'Нарышкин Константин Александрович'
+      client: 'Нарышкин Константин'
     },
     {
       id: 6505772,
       contract: '1904102621/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 6047.2,
-      client: 'Сарбаев Павел Юрьевич'
+      client: 'Сарбаев Павел'
     },
     {
       id: 6151097,
       contract: '1812330617/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 16453.5,
-      client: 'Аммосова Мария Ивановна'
+      client: 'Аммосова Мария'
     },
     {
       id: 6107466,
       contract: '1908281991/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 24660,
-      client: 'Селяметова Теселля Зубеировна'
+      client: 'Селяметова Теселля'
     },
     {
       id: 6154981,
       contract: '200133272/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 14103,
-      client: 'Канашкина Оксана Николаевна'
+      client: 'Канашкина Оксана'
     },
     {
       id: 6016460,
       contract: '191263133/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 13107.36,
-      client: 'Трегуб Алексей Валерьевич'
+      client: 'Трегуб Алексей'
     },
     {
       id: 6344591,
       contract: '1810261154/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 5679.56,
-      client: 'Дмитриев Сергей Михайлович'
+      client: 'Дмитриев Сергей'
     },
     {
       id: 5869749,
       contract: '1906117958/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 30366.76,
-      client: 'Дмитриев Борис Игоревич'
+      client: 'Дмитриев Борис'
     },
     {
       id: 6176092,
       contract: '200142094/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 56,
       debt: 10848,
-      client: 'Рыковская Лилия Алексеевна'
+      client: 'Рыковская Лилия'
     },
     {
       id: 5889572,
       contract: '1907377719/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 24956.05,
-      client: 'Кондратьев Илья Юрьевич'
+      client: 'Кондратьев Илья'
     },
     {
       id: 5887720,
       contract: '1810282939/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 114,
       debt: 14388,
-      client: 'Воробьева Марина Николаевна'
+      client: 'Воробьева Марина'
     },
     {
       id: 6442740,
       contract: '1907225820/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 9781.36,
-      client: 'Упругина Галина Сергеевна'
+      client: 'Упругина Галина'
     },
     {
       id: 6141011,
       contract: '1908192626/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 16917.2,
-      client: 'Смирнов Дмитрий Николаевич'
+      client: 'Смирнов Дмитрий'
     },
     {
       id: 6084371,
       contract: '1803287160/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 116,
       debt: 20064,
-      client: 'Шайдуллин Эмиль Ирекович'
+      client: 'Шайдуллин Эмиль'
     },
     {
       id: 6324815,
       contract: '200171175/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 70,
       debt: 26165.9,
-      client: 'Шемец Лариса Викторовна'
+      client: 'Шемец Лариса'
     },
     {
       id: 6216899,
       contract: '1812380863/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 87,
       debt: 16115.13,
-      client: 'Охремчук Константин Евгеньевич'
+      client: 'Охремчук Константин'
     },
     {
       id: 6436516,
       contract: '191199763/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 15436.44,
-      client: 'Шакиров Нияз Наилевич'
+      client: 'Шакиров Нияз'
     },
     {
       id: 6273452,
       contract: '191246886/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 73,
       debt: 18835.81,
-      client: 'Катаева Юлия Анатольевна'
+      client: 'Катаева Юлия'
     },
     {
       id: 6212934,
       contract: '1010077054/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 87,
       debt: 30022.41,
-      client: 'Степанов Михаил Геннадьевич'
+      client: 'Степанов Михаил'
     },
     {
       id: 6201882,
       contract: '1908282025/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 90,
       debt: 32243.4,
-      client: 'Авзалов Анатолий Сергеевич'
+      client: 'Авзалов Анатолий'
     },
     {
       id: 6402304,
       contract: '191007955/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 32436.8,
-      client: 'Шебырев Алексей Анатольевич'
+      client: 'Шебырев Алексей'
     },
     {
       id: 5414241,
       contract: '1701214259/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 90,
       debt: 3981.6,
-      client: 'Васенев Станислав Викторович'
+      client: 'Васенев Станислав'
     },
     {
       id: 6401360,
       contract: '200262848/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 40,
       debt: 6887.2,
-      client: 'Куликова Наталья Владимировна'
+      client: 'Куликова Наталья'
     },
     {
       id: 5811564,
       contract: '191090284/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 52,
       debt: 10140,
-      client: 'Перевалов Александр Алексеевич'
+      client: 'Перевалов Александр'
     },
     {
       id: 6319490,
       contract: '1907288233/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 23814.72,
-      client: 'Леонова Елена Олеговна'
+      client: 'Леонова Елена'
     },
     {
       id: 6245272,
       contract: '200169442/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 79,
       debt: 8532.22,
-      client: 'Яшкова Надежда Вячеславовна'
+      client: 'Яшкова Надежда'
     },
     {
       id: 6205893,
       contract: '1806249877/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 104,
       debt: 15657.28,
-      client: 'Сырат Айсана Александровна'
+      client: 'Сырат Айсана'
     },
     {
       id: 6439876,
       contract: '200325562/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 32,
       debt: 13099.84,
-      client: 'Писарьков Денис Владимирович'
+      client: 'Писарьков Денис'
     },
     {
       id: 6422273,
       contract: '1907173177/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 13437.32,
-      client: 'Рудакова Марина Вениаминовна'
+      client: 'Рудакова Марина'
     },
     {
       id: 6342430,
       contract: '180479289/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 56,
       debt: 7562.08,
-      client: 'Черёмушкин Никита Олегович'
+      client: 'Черёмушкин Никита'
     },
     {
       id: 5947252,
       contract: '180626139/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 21225.75,
-      client: 'Гиро Мария Владимировна'
+      client: 'Гиро Мария'
     },
     {
       id: 6196682,
       contract: '1009583192/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 25391.05,
-      client: 'Попова Виктория Ивановна'
+      client: 'Попова Виктория'
     },
     {
       id: 6199846,
       contract: '191117202/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 9820.72,
-      client: 'Бигаева Мадина Хадрисовна'
+      client: 'Бигаева Мадина'
     },
     {
       id: 6204121,
       contract: '1904310938/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 90,
       debt: 23958.6,
-      client: 'Соколов Владимир Александррвич'
+      client: 'Соколов Владимир'
     },
     {
       id: 6088985,
       contract: '1912155071/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 95,
       debt: 22875,
-      client: 'Пенькова Инара Сайхановна'
+      client: 'Пенькова Инара'
     },
     {
       id: 6175584,
       contract: '150125763/19',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 45960,
-      client: 'Пинчук Александр Сергеевич'
+      client: 'Пинчук Александр'
     },
     {
       id: 5891069,
       contract: '191158983/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 12740,
-      client: 'Ким Марина Манкымовна'
+      client: 'Ким Марина'
     },
     {
       id: 6106561,
       contract: '191160176/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 32797.8,
-      client: 'Алешин Сергей Владимирович'
+      client: 'Алешин Сергей'
     },
     {
       id: 5980275,
       contract: '1907342951/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 75,
       debt: 12018,
-      client: 'Карнеев Руслан Рубинович'
+      client: 'Карнеев Руслан'
     },
     {
       id: 6443477,
       contract: '200327084/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 32,
       debt: 9764.96,
-      client: 'Брагин Владимир Владимирович'
+      client: 'Брагин Владимир'
     },
     {
       id: 6189172,
       contract: '200147563/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 71,
       debt: 7796.96,
-      client: 'Микулик Мунира Айратовна'
+      client: 'Микулик Мунира'
     },
     {
       id: 5643569,
       contract: '1901116159/14',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 40950,
-      client: 'Шайхетдинова Ольга Сергеевна'
+      client: 'Шайхетдинова Ольга'
     },
     {
       id: 6176984,
       contract: '190590996/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 96,
       debt: 9192,
-      client: 'Соколова Светлана Николаевна'
+      client: 'Соколова Светлана'
     },
     {
       id: 6234733,
       contract: '191191149/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 82,
       debt: 32471.58,
-      client: 'Назаров Максим Игоревич'
+      client: 'Назаров Максим'
     },
     {
       id: 6452367,
       contract: '1912209382/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 32,
       debt: 13663.48,
-      client: 'Гусев Степан Владимирович'
+      client: 'Гусев Степан'
     },
     {
       id: 6432544,
       contract: '191177710/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 24720.27,
-      client: 'Лавров Андрей Александрович'
+      client: 'Лавров Андрей'
     },
     {
       id: 6363524,
       contract: '191015843/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 8322.85,
-      client: 'Алиев Мурад Тарлан оглы'
+      client: 'Алиев Мурад'
     },
     {
       id: 5763203,
       contract: '1706188794/20',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 45,
       debt: 30280,
-      client: 'Макарова Светлана Михайловна'
+      client: 'Макарова Светлана'
     },
     {
       id: 6463981,
       contract: '180591586/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 37,
       debt: 6360.66,
-      client: 'Алексеева Алина Анатольевна'
+      client: 'Алексеева Алина'
     },
     {
       id: 6295127,
       contract: '170443074/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 68,
       debt: 8068.24,
-      client: 'Губин Виктор Сергеевич'
+      client: 'Губин Виктор'
     },
     {
       id: 6456824,
       contract: '200224837/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 23460.36,
-      client: 'Петров Сергей Александрович'
+      client: 'Петров Сергей'
     },
     {
       id: 6384712,
       contract: '1905197116/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 5292.16,
-      client: 'Кузневич Юлия Васильевна'
+      client: 'Кузневич Юлия'
     },
     {
       id: 6135882,
       contract: '191302519/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 9570,
-      client: 'Голубчиков Эдуард Анатольевич'
+      client: 'Голубчиков Эдуард'
     },
     {
       id: 6013039,
       contract: '1905298591/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 6376,
-      client: 'Унанова Татьяна Размиковна'
+      client: 'Унанова Татьяна'
     },
     {
       id: 5972697,
       contract: '191228954/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 78,
       debt: 12921.6,
-      client: 'Матвеева Диана Рафаиловна'
+      client: 'Матвеева Диана'
     },
     {
       id: 6178408,
       contract: '1905407099/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 17831.55,
-      client: 'Афонин Иван Юрьевич'
+      client: 'Афонин Иван'
     },
     {
       id: 6036591,
       contract: '191101345/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 39037.5,
-      client: 'Баранников Алексей Геннадьевич'
+      client: 'Баранников Алексей'
     },
     {
       id: 6228847,
       contract: '200127068/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 17437.67,
-      client: 'Сластенова Галина Владимировна'
+      client: 'Сластенова Галина'
     },
     {
       id: 6027952,
       contract: '1906241268/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 87,
       debt: 20935,
-      client: 'Рудаков Алексей Петрович'
+      client: 'Рудаков Алексей'
     },
     {
       id: 6353655,
       contract: '191105309/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 53,
       debt: 7435.54,
-      client: 'Акишкина Валерия Маратовна'
+      client: 'Акишкина Валерия'
     },
     {
       id: 6158178,
       contract: '200134753/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 100,
       debt: 14040,
-      client: 'Марцевой Алексей Олегович'
+      client: 'Марцевой Алексей'
     },
     {
       id: 5590804,
       contract: '190925621/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 125,
       debt: 9500,
-      client: 'Минина Анжелла Сергеевна'
+      client: 'Минина Анжелла'
     },
     {
       id: 6264828,
       contract: '190945977/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 75,
       debt: 27391.25,
-      client: 'Стахов Павел Павлович'
+      client: 'Стахов Павел'
     },
     {
       id: 6167549,
       contract: '1802181601/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 83,
       debt: 14562.45,
-      client: 'Абрамова Елена Валерьевна'
+      client: 'Абрамова Елена'
     },
     {
       id: 6231027,
       contract: '1905370769/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 82,
       debt: 8658.76,
-      client: 'Пистол Ольга Юрьевна'
+      client: 'Пистол Ольга'
     },
     {
       id: 6319111,
       contract: '1805312175/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 65,
       debt: 29332.35,
-      client: 'Климуков Никита Владимирович'
+      client: 'Климуков Никита'
     },
     {
       id: 5934164,
       contract: '1907281029/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 124,
       debt: 20176,
-      client: 'Кирсанов Кирилл Александрович'
+      client: 'Кирсанов Кирилл'
     },
     {
       id: 6154235,
       contract: '160540570/56',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 40400,
-      client: 'Сгонов Дмитрий Михайлович'
+      client: 'Сгонов Дмитрий'
     },
     {
       id: 6083830,
       contract: '170567627/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 116,
       debt: 22572,
-      client: 'Кулебякина Наталия Владимировна'
+      client: 'Кулебякина Наталия'
     },
     {
       id: 5796856,
       contract: '1906179426/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 117,
       debt: 21252,
-      client: 'Улановский Вячеслав Валерьевич'
+      client: 'Улановский Вячеслав'
     },
     {
       id: 6020944,
       contract: '1801213013/18',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 92,
       debt: 31102.5,
-      client: 'Макаренко Сергей Владимирович'
+      client: 'Макаренко Сергей'
     },
     {
       id: 6423916,
       contract: '1801361376/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 5017.24,
-      client: 'Мартынов Вячеслав Александрович'
+      client: 'Мартынов Вячеслав'
     },
     {
       id: 5953300,
       contract: '1707190742/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 83,
       debt: 18643.5,
-      client: 'Бутакова Анастасия Вакилевна'
+      client: 'Бутакова Анастасия'
     },
     {
       id: 6199547,
       contract: '191171929/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 20696.82,
-      client: 'Кузовкина Мария Федоровна'
+      client: 'Кузовкина Мария'
     },
     {
       id: 6061776,
       contract: '190978967/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 120,
       debt: 24480,
-      client: 'Зайцев Андрей Александрович'
+      client: 'Зайцев Андрей'
     },
     {
       id: 6439022,
       contract: '190482767/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 32,
       debt: 24562.08,
-      client: 'Кузьмин Николай Иванович'
+      client: 'Кузьмин Николай'
     },
     {
       id: 6310446,
       contract: '200149013/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 64,
       debt: 29624.16,
-      client: 'Цуцков Артём Игоревич'
+      client: 'Цуцков Артём'
     },
     {
       id: 6151272,
       contract: '1704213854/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 101,
       debt: 9402,
-      client: 'Волкова Юлия Павловна'
+      client: 'Волкова Юлия'
     },
     {
       id: 6216550,
       contract: '1612122530/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 8134.4,
-      client: 'Казакова Марина Владимировна'
+      client: 'Казакова Марина'
     },
     {
       id: 6195873,
       contract: '1904267724/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 13498.48,
-      client: 'Тарасова Маргарита Олеговна'
+      client: 'Тарасова Маргарита'
     },
     {
       id: 5613464,
       contract: '190796448/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 90,
       debt: 19158,
-      client: 'Мадей Валентина Владимировна'
+      client: 'Мадей Валентина'
     },
     {
       id: 6202367,
       contract: '191095375/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 65,
       debt: 35487.94,
-      client: 'Воронич Людмила Анатольевна'
+      client: 'Воронич Людмила'
     },
     {
       id: 6142039,
       contract: '190944401/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 100,
       debt: 8860,
-      client: 'Кольгофер Галина Дмитриевна'
+      client: 'Кольгофер Галина'
     },
     {
       id: 6250991,
       contract: '200171947/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 95,
       debt: 6395.8,
-      client: 'Колов Иван Александрович'
+      client: 'Колов Иван'
     },
     {
       id: 6024407,
       contract: '1904120277/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 128,
       debt: 18701.4,
-      client: 'Кошкин Александр Борисович'
+      client: 'Кошкин Александр'
     },
     {
       id: 5628470,
       contract: '190985016/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 12280.11,
-      client: 'Тебенёв Владислав Викторович'
+      client: 'Тебенёв Владислав'
     },
     {
       id: 6220640,
       contract: '200158984/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 65,
       debt: 11313.2,
-      client: 'Волынец Тихон Анатольевич'
+      client: 'Волынец Тихон'
     },
     {
       id: 6034836,
       contract: '191180308/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 82,
       debt: 8248,
-      client: 'Попова Алина Ивановна'
+      client: 'Попова Алина'
     },
     {
       id: 6293023,
       contract: '160854142/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 69,
       debt: 18248.79,
-      client: 'Жигалов Александр Евгеньевич'
+      client: 'Жигалов Александр'
     },
     {
       id: 6416210,
       contract: '1908277905/10',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 11831.34,
-      client: 'Кудряшова Светлана Вячеславовна'
+      client: 'Кудряшова Светлана'
     },
     {
       id: 5948328,
       contract: '191109424/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 124,
       debt: 29003,
-      client: 'Нимко Оксана Петровна'
+      client: 'Нимко Оксана'
     },
     {
       id: 6273172,
       contract: '191310367/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 73,
       debt: 30427.19,
-      client: 'Колмогорова Елизавета Олеговна'
+      client: 'Колмогорова Елизавета'
     },
     {
       id: 6421149,
       contract: '1912171574/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 24355.12,
-      client: 'Валиков Александр Владимирович'
+      client: 'Валиков Александр'
     },
     {
       id: 6296103,
       contract: '191096693/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 68,
       debt: 14119.76,
-      client: 'Джумагулов Фаиль Шахимерданович'
+      client: 'Джумагулов Фаиль'
     },
     {
       id: 6048704,
       contract: '191337009/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 9714,
-      client: 'Реджепов Ринат Есенгалиевич'
+      client: 'Реджепов Ринат'
     },
     {
       id: 6440413,
       contract: '1809124720/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 32,
       debt: 18830.96,
-      client: 'Брындин Александр Александрович'
+      client: 'Брындин Александр'
     },
     {
       id: 6218115,
       contract: '191038014/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 86,
       debt: 26942.22,
-      client: 'Плеханова Лейла Маликовна'
+      client: 'Плеханова Лейла'
     },
     {
       id: 6245173,
       contract: '190903467/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 79,
       debt: 6399.56,
-      client: 'Зелепукин Никита Олегович'
+      client: 'Зелепукин Никита'
     },
     {
       id: 6285462,
       contract: '1801233982/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 70,
       debt: 19159.1,
-      client: 'Табаков Сергей Викторович'
+      client: 'Табаков Сергей'
     },
     {
       id: 5291624,
       contract: '1906364158/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 71,
       debt: 3000,
-      client: 'Самошкин Евгений Алексеевич'
+      client: 'Самошкин Евгений'
     },
     {
       id: 6362376,
       contract: '200248613/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 49,
       debt: 10900.72,
-      client: 'Киреева Анастасия Валерьевна'
+      client: 'Киреева Анастасия'
     },
     {
       id: 5916250,
       contract: '1710290078/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 132,
       debt: 15576,
-      client: 'Бражник Елена Леонидовна'
+      client: 'Бражник Елена'
     },
     {
       id: 6017911,
       contract: '1907352202/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 129,
       debt: 39667.5,
-      client: 'Фаррахова Лилия Камилевна'
+      client: 'Фаррахова Лилия'
     },
     {
       id: 6205022,
       contract: '1905151302/11',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 68,
       debt: 9585.64,
-      client: 'Авраменко Алена Викторовна'
+      client: 'Авраменко Алена'
     },
     {
       id: 6277023,
       contract: '1905266353/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 72,
       debt: 18945.44,
-      client: 'Каракозова Кристина Игоревна'
+      client: 'Каракозова Кристина'
     },
     {
       id: 6055101,
       contract: '191249319/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 121,
       debt: 36615.15,
-      client: 'Матрашев Вадим Иванович'
+      client: 'Матрашев Вадим'
     },
     {
       id: 6078144,
       contract: '1608132038/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 10074,
-      client: 'Семикопенко Николай Виктрович'
+      client: 'Семикопенко Николай'
     },
     {
       id: 6214702,
       contract: '1803227155/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 87,
       debt: 8829.66,
-      client: 'Скляренко Ильмира Сагитовна'
+      client: 'Скляренко Ильмира'
     },
     {
       id: 6282210,
       contract: '200220484/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 76,
       debt: 16412.12,
-      client: 'Малышев Станислав Владимирович'
+      client: 'Малышев Станислав'
     },
     {
       id: 6079935,
       contract: '190174372/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 117,
       debt: 30222,
-      client: 'Иванова Виктория Эдуардовна'
+      client: 'Иванова Виктория'
     },
     {
       id: 6038599,
       contract: '191316959/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 10410,
-      client: 'Абдулаева Алёна Олеговна'
+      client: 'Абдулаева Алёна'
     },
     {
       id: 6288949,
       contract: '200157839/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 70,
       debt: 23439.6,
-      client: 'Куликов Андрей Николаевич'
+      client: 'Куликов Андрей'
     },
     {
       id: 6404190,
       contract: '1905292701/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 37,
       debt: 23853.03,
-      client: 'Едигарева Марина Борисовна'
+      client: 'Едигарева Марина'
     },
     {
       id: 6219640,
       contract: '1904103948/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 85,
       debt: 8785.3,
-      client: 'Загребина Наталья Александровна'
+      client: 'Загребина Наталья'
     },
     {
       id: 6118643,
       contract: '190707663/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 109,
       debt: 9738,
-      client: 'Крафт Елена Арнольдовна'
+      client: 'Крафт Елена'
     },
     {
       id: 5344443,
       contract: '1906287596/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 3086,
-      client: 'Нестеренко Вадим Юрьевич'
+      client: 'Нестеренко Вадим'
     },
     {
       id: 6245739,
       contract: '200169580/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 8532.22,
-      client: 'Алейникова Елена Евгеньевна'
+      client: 'Алейникова Елена'
     },
     {
       id: 6385883,
       contract: '1009572971/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 44,
       debt: 23814.28,
-      client: 'Бровко Мария Николаевна'
+      client: 'Бровко Мария'
     },
     {
       id: 6383651,
       contract: '191245232/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 45,
       debt: 8872.85,
-      client: 'Маркин Роман Алексеевич'
+      client: 'Маркин Роман'
     },
     {
       id: 6043172,
       contract: '181031508/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 124,
       debt: 38880,
-      client: 'Агаркова Анастасия Максимовна'
+      client: 'Агаркова Анастасия'
     },
     {
       id: 6151045,
       contract: '171143623/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 9402,
-      client: 'Иванова Эльвира Фаритовна'
+      client: 'Иванова Эльвира'
     },
     {
       id: 5978636,
       contract: '1703249848/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 100,
       debt: 9032,
-      client: 'Макарова Татьяна Викторовна'
+      client: 'Макарова Татьяна'
     },
     {
       id: 6298866,
       contract: '1808168475/14',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 67,
       debt: 30098.73,
-      client: 'Халяпина Светлана Витальевна'
+      client: 'Халяпина Светлана'
     },
     {
       id: 6351206,
       contract: '1807136725/12',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 65,
       debt: 5596.6,
-      client: 'Заболотский Евгений Анатольевич'
+      client: 'Заболотский Евгений'
     },
     {
       id: 6036700,
       contract: '191251356/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 20820,
-      client: 'Захаров Алексей Николаевич'
+      client: 'Захаров Алексей'
     },
     {
       id: 6064701,
       contract: '191029934/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 21066.4,
-      client: 'Чернягина Нина Геннадьевна'
+      client: 'Чернягина Нина'
     },
     {
       id: 6437351,
       contract: '1904309799/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 48,
       debt: 16462.08,
-      client: 'Ситяев Евгений Викторович'
+      client: 'Ситяев Евгений'
     },
     {
       id: 5961837,
       contract: '1908136897/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 33,
       debt: 31180,
-      client: 'Савичев Андрей Олегович'
+      client: 'Савичев Андрей'
     },
     {
       id: 5932890,
       contract: '1704163286/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 108,
       debt: 21512.4,
-      client: 'Бородина Екатерина Александровна'
+      client: 'Бородина Екатерина'
     },
     {
       id: 5913636,
       contract: '190969228/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 24141.6,
-      client: 'Сухорукова Надежда Павловна'
+      client: 'Сухорукова Надежда'
     },
     {
       id: 6253589,
       contract: '1810369585/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 90,
       debt: 8476.2,
-      client: 'Ляпусова Наталья Сергеевна'
+      client: 'Ляпусова Наталья'
     },
     {
       id: 6422106,
       contract: '1908187948/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 8398.28,
-      client: 'Юсупов Александр Жавдатович'
+      client: 'Юсупов Александр'
     },
     {
       id: 6077332,
       contract: '1912133875/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 11081.4,
-      client: 'Модина Юлия Вячеславовна'
+      client: 'Модина Юлия'
     },
     {
       id: 6040912,
       contract: '191153157/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 124,
       debt: 38880,
-      client: 'Кудинов Данил Анатольевич'
+      client: 'Кудинов Данил'
     },
     {
       id: 6054346,
       contract: '1906127304/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 121,
       debt: 51210,
-      client: 'Лактюшин Константин Александрович'
+      client: 'Лактюшин Константин'
     },
     {
       id: 6083403,
       contract: '1908133880/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 116,
       debt: 32102.4,
-      client: 'Умадыкова Наталья Юрьевна'
+      client: 'Умадыкова Наталья'
     },
     {
       id: 6245952,
       contract: '191250451/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 79,
       debt: 9170.56,
-      client: 'Преснякова Яна Игоревна'
+      client: 'Преснякова Яна'
     },
     {
       id: 6397112,
       contract: '1010310316/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 41,
       debt: 15591.31,
-      client: 'Ушаев Руслан Исаевич'
+      client: 'Ушаев Руслан'
     },
     {
       id: 5968902,
       contract: '1906277880/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 120,
       debt: 24600,
-      client: 'Контарук Андрей Николаевич'
+      client: 'Контарук Андрей'
     },
     {
       id: 6119999,
       contract: '1812401198/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 9738,
-      client: 'Пудовочкина Елена Вячеславовна'
+      client: 'Пудовочкина Елена'
     },
     {
       id: 6386843,
       contract: '190628533/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 44,
       debt: 20286.32,
-      client: 'Рябов Сергей Сергеевич'
+      client: 'Рябов Сергей'
     },
     {
       id: 6174488,
       contract: '1906283510/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 96,
       debt: 9192,
-      client: 'Алексеев Алексей Андреевич'
+      client: 'Алексеев Алексей'
     },
     {
       id: 5887292,
       contract: '191164466/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 18140,
-      client: 'Лебедев Иван Евгеньевич'
+      client: 'Лебедев Иван'
     },
     {
       id: 6137951,
       contract: '200126203/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 104,
       debt: 9528,
-      client: 'Фадеев Алексей Сергеевич'
+      client: 'Фадеев Алексей'
     },
     {
       id: 5722894,
       contract: '1703280360/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 24182,
-      client: 'Дунаева Вероника Александровна'
+      client: 'Дунаева Вероника'
     },
     {
       id: 6380943,
       contract: '191000632/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 45,
       debt: 5323.8,
-      client: 'Фроленков Павел Русланович'
+      client: 'Фроленков Павел'
     },
     {
       id: 5824958,
       contract: '1904255090/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 117,
       debt: 20296,
-      client: 'Синяков Виталий Викторович'
+      client: 'Синяков Виталий'
     },
     {
       id: 6016006,
       contract: '1903114594/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 15264,
-      client: 'Берсенев Виталий Николаевич'
+      client: 'Берсенев Виталий'
     },
     {
       id: 5629368,
       contract: '180580728/14',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 87,
       debt: 18649.76,
-      client: 'Самойлов Дмитрий Анатольевич'
+      client: 'Самойлов Дмитрий'
     },
     {
       id: 6246104,
       contract: '191243519/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 79,
       debt: 12799.12,
-      client: 'Хоменко Тамара Терентьевна'
+      client: 'Хоменко Тамара'
     },
     {
       id: 5973676,
       contract: '1906284261/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 76,
       debt: 14600,
-      client: 'Игумнова Дарья Дмитриевна'
+      client: 'Игумнова Дарья'
     },
     {
       id: 6057982,
       contract: '190332851/7',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 121,
       debt: 40968,
-      client: 'Спирин Юрий Александрович'
+      client: 'Спирин Юрий'
     },
     {
       id: 5742192,
       contract: '190957567/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 124,
       debt: 29920,
-      client: 'Савинов Дмитрий Андреевич'
+      client: 'Савинов Дмитрий'
     },
     {
       id: 6269713,
       contract: '200125978/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 65,
       debt: 21683.2,
-      client: 'Бубнова Александра Андреевна'
+      client: 'Бубнова Александра'
     },
     {
       id: 6083479,
       contract: '1810328049/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 116,
       debt: 24076.8,
-      client: 'Давыдова Дарья Алексеевна'
+      client: 'Давыдова Дарья'
     },
     {
       id: 6044457,
       contract: '170171397/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 124,
       debt: 24624,
-      client: 'Алехин Дмитрий Андреевич'
+      client: 'Алехин Дмитрий'
     },
     {
       id: 5675305,
       contract: '1907184917/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 85,
       debt: 16074,
-      client: 'Скаба Анна Сергеевна'
+      client: 'Скаба Анна'
     },
     {
       id: 6021622,
       contract: '190985118/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 128,
       debt: 13170,
-      client: 'Леонтьев Федор Александрович'
+      client: 'Леонтьев Федор'
     },
     {
       id: 6485168,
       contract: '191137814/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 37,
       debt: 6200.66,
-      client: 'Кодинцев Александр Петрович'
+      client: 'Кодинцев Александр'
     },
     {
       id: 6311149,
       contract: '191010224/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 37,
       debt: 13525.96,
-      client: 'Бондаренко Игорь Олегович'
+      client: 'Бондаренко Игорь'
     },
     {
       id: 6302403,
       contract: '170825794/8',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 41,
       debt: 16345.7,
-      client: 'Янчевский Евгений Юрьевич'
+      client: 'Янчевский Евгений'
     },
     {
       id: 6316210,
       contract: '180759165/34',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 78,
       debt: 29588.82,
-      client: 'Даянов Динар Аликович'
+      client: 'Даянов Динар'
     },
     {
       id: 6142124,
       contract: '191168245/3',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 101,
       debt: 18804,
-      client: 'Иллензеер Александр Эдуардович'
+      client: 'Иллензеер Александр'
     },
     {
       id: 6105285,
       contract: '1804226215/6',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 112,
       debt: 36990,
-      client: 'Горбенко Елена Александровна'
+      client: 'Горбенко Елена'
     },
     {
       id: 6035892,
       contract: '180670004/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 125,
       debt: 10410,
-      client: 'Муравьева Алина Валерьевна'
+      client: 'Муравьева Алина'
     },
     {
       id: 6369683,
       contract: '1804138426/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 48,
       debt: 7224.64,
-      client: 'Устюшкина Ольга Игоревна'
+      client: 'Устюшкина Ольга'
     },
     {
       id: 5892009,
       contract: '1908196253/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 105,
       debt: 41082.4,
-      client: 'Сироткин Сергей Александрович'
+      client: 'Сироткин Сергей'
     },
     {
       id: 6196162,
       contract: '1703180962/9',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 91,
       debt: 12373,
-      client: 'Горчаков Андрей Викторович'
+      client: 'Горчаков Андрей'
     },
     {
       id: 6419018,
       contract: '191256735/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 6678.48,
-      client: 'Зуева Вера Александровна'
+      client: 'Зуева Вера'
     },
     {
       id: 6403321,
       contract: '171123638/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 40,
       debt: 15496.4,
-      client: 'Кожаев Максим Николаевич'
+      client: 'Кожаев Максим'
     },
     {
       id: 5642507,
       contract: '180321447/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 74,
       debt: 12123.5,
-      client: 'Сентюжанова Наталья Викторовна'
+      client: 'Сентюжанова Наталья'
     },
     {
       id: 6117512,
       contract: '1812389789/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 109,
       debt: 9738,
-      client: 'Горяева Наталья Анатольевна'
+      client: 'Горяева Наталья'
     },
     {
       id: 6341778,
       contract: '1904131811/4',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 56,
       debt: 13233.92,
-      client: 'Зверев Александр Сергеевич'
+      client: 'Зверев Александр'
     },
     {
       id: 6357021,
       contract: '1612122143/17',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 52,
       debt: 13863.2,
-      client: 'Снетков Иосиф Андреевич'
+      client: 'Снетков Иосиф'
     },
     {
       id: 6387875,
       contract: '1707207642/14',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 36,
       debt: 3031.56,
-      client: 'Сальников Николай Иванович'
+      client: 'Сальников Николай'
     },
     {
       id: 6422458,
       contract: '200127541/5',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 36,
       debt: 13296.56,
-      client: 'Мартьянова Елизавета Альбертовна'
+      client: 'Мартьянова Елизавета'
     },
     {
       id: 6298147,
       contract: '1912231319/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 67,
       debt: 18058.97,
-      client: 'Баликин Алексей Михайлович'
+      client: 'Баликин Алексей'
     },
     {
       id: 6440323,
       contract: '200325769/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 32,
       debt: 6549.76,
-      client: 'Пятков Артем Андреевич'
+      client: 'Пятков Артем'
     },
     {
       id: 6029033,
       contract: '1810417132/2',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 63,
-      newGroupName: 'Хард Я13',
+      newGroupName: 'Хардец Ф13',
       delay: 86,
       debt: 17454.9,
-      client: 'Кучеренко Владимир Анатольевич'
+      client: 'Кучеренко Владимир'
     },
     {
       id: 6237454,
       contract: '200166091/1',
       groupId: 56,
-      groupName: 'Хард Я11',
+      groupName: 'Хардец Ф11',
       newGroupId: 47,
-      newGroupName: 'Хард Я12',
+      newGroupName: 'Хардец Ф12',
       delay: 97,
       debt: 7570.27,
-      client: 'Крестовских Артем Евгеньевич'
+      client: 'Крестовских Артем'
     }
   ]
 }

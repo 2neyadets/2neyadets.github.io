@@ -68,7 +68,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я37'
+            portfolios: 'Хардец Ф37'
           },
           schedule: [
             {
@@ -222,7 +222,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я63'
+            portfolios: 'Хардец Ф63'
           },
           schedule: [
             {
@@ -377,7 +377,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я52'
+            portfolios: 'Хардец Ф52'
           },
           schedule: [
             {
@@ -531,7 +531,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я50'
+            portfolios: 'Хардец Ф50'
           },
           schedule: [
             {
@@ -679,13 +679,13 @@ export const getOneTimesheet = async (payload) => {
           type: 'TwoOverTwo',
           employee: {
             id: 227,
-            fullName: 'Бурлаков Илья',
+            fullName: 'Батлфилд Овервотч',
             department: {
               id: 163,
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я75'
+            portfolios: 'Хардец Ф49'
           },
           schedule: [
             {
@@ -840,7 +840,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я22'
+            portfolios: 'Хардец Ф22'
           },
           schedule: [
             {
@@ -994,7 +994,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я45'
+            portfolios: 'Хардец Ф45'
           },
           schedule: [
             {
@@ -1148,7 +1148,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я19'
+            portfolios: 'Хардец Ф19'
           },
           schedule: [
             {
@@ -1302,7 +1302,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я78'
+            portfolios: 'Хардец Ф78'
           },
           schedule: [
             {
@@ -1456,7 +1456,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я2'
+            portfolios: 'Хардец Ф2'
           },
           schedule: [
             {
@@ -1611,7 +1611,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я65'
+            portfolios: 'Хардец Ф65'
           },
           schedule: [
             {
@@ -1766,7 +1766,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я5'
+            portfolios: 'Хардец Ф5'
           },
           schedule: [
             {
@@ -1921,7 +1921,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я11'
+            portfolios: 'Хардец Ф11'
           },
           schedule: [
             {
@@ -2076,7 +2076,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я76'
+            portfolios: 'Хардец Ф76'
           },
           schedule: [
             {
@@ -2230,7 +2230,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я46'
+            portfolios: 'Хардец Ф46'
           },
           schedule: [
             {
@@ -2385,7 +2385,7 @@ export const getOneTimesheet = async (payload) => {
               name: 'Отдел взыскания'
             },
             position: 'Специалист отдела взыскания',
-            portfolios: 'Хард Я14'
+            portfolios: 'Хардец Ф14'
           },
           schedule: [
             {

@@ -34,18 +34,18 @@ export const userRatingsHard = async () => {
     data: {
       employee: {
         id: 141,
-        fullName: 'Александров Руслан Николаевич',
+        fullName: 'Синцов Александр',
         groups: [
           {
             id: 98,
-            name: 'Хард Я36'
+            name: 'Хардец Ф36'
           }
         ]
       },
       groups: [
         {
           id: 110,
-          name: 'Хард Я48',
+          name: 'Хардец Ф48',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -83,7 +83,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 104,
-          name: 'Хард Я42',
+          name: 'Хардец Ф42',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -121,7 +121,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 142,
-          name: 'Хард Я65',
+          name: 'Хардец Ф65',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -159,7 +159,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 56,
-          name: 'Хард Я11',
+          name: 'Хардец Ф11',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -197,7 +197,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 34,
-          name: 'Хард Я22',
+          name: 'Хардец Ф22',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -235,7 +235,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 93,
-          name: 'Хард Я32',
+          name: 'Хардец Ф32',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -273,7 +273,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 58,
-          name: 'Хард Я2',
+          name: 'Хардец Ф2',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -311,7 +311,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 51,
-          name: 'Хард Я14',
+          name: 'Хардец Ф14',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -349,7 +349,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 44,
-          name: 'Хард Я21',
+          name: 'Хардец Ф21',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -387,7 +387,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 141,
-          name: 'Хард Я64',
+          name: 'Хардец Ф64',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -425,7 +425,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 86,
-          name: 'Хард Я26',
+          name: 'Хардец Ф26',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -463,7 +463,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 157,
-          name: 'Хард Я79',
+          name: 'Хардец Ф79',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -501,7 +501,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 125,
-          name: 'Хард Я56',
+          name: 'Хардец Ф56',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -539,7 +539,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 132,
-          name: 'Хард Я61',
+          name: 'Хардец Ф61',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -577,7 +577,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 50,
-          name: 'Хард Я17',
+          name: 'Хардец Ф17',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -615,7 +615,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 113,
-          name: 'Хард Я51',
+          name: 'Хардец Ф51',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -653,7 +653,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 107,
-          name: 'Хард Я45',
+          name: 'Хардец Ф45',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -691,7 +691,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 145,
-          name: 'Хард Я68',
+          name: 'Хардец Ф68',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -729,7 +729,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 152,
-          name: 'Хард Я75',
+          name: 'Хардец Ф75',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -767,7 +767,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 112,
-          name: 'Хард Я50',
+          name: 'Хардец Ф50',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -805,7 +805,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 90,
-          name: 'Хард Я29',
+          name: 'Хардец Ф29',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -843,7 +843,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 43,
-          name: 'Хард Я16',
+          name: 'Хардец Ф16',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -881,7 +881,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 156,
-          name: 'Хард Я78',
+          name: 'Хардец Ф78',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -919,7 +919,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 97,
-          name: 'Хард Я35',
+          name: 'Хардец Ф35',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -957,7 +957,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 124,
-          name: 'Хард Я55',
+          name: 'Хардец Ф55',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -995,7 +995,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 29,
-          name: 'Хард Я5',
+          name: 'Хардец Ф5',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1033,7 +1033,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 31,
-          name: 'Хард Я8',
+          name: 'Хардец Ф8',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1071,7 +1071,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 140,
-          name: 'Хард Я63',
+          name: 'Хардец Ф63',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1109,7 +1109,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 130,
-          name: 'Хард Я59',
+          name: 'Хардец Ф59',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1147,7 +1147,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 98,
-          name: 'Хард Я36',
+          name: 'Хардец Ф36',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1185,7 +1185,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 99,
-          name: 'Хард Я37',
+          name: 'Хардец Ф37',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1223,7 +1223,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 92,
-          name: 'Хард Я31',
+          name: 'Хардец Ф31',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1261,7 +1261,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 154,
-          name: 'Хард Я76',
+          name: 'Хардец Ф76',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1299,7 +1299,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 35,
-          name: 'Хард Я15',
+          name: 'Хардец Ф15',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1337,7 +1337,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 131,
-          name: 'Хард Я60',
+          name: 'Хардец Ф60',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1375,7 +1375,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 114,
-          name: 'Хард Я52',
+          name: 'Хардец Ф52',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1413,7 +1413,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 105,
-          name: 'Хард Я43',
+          name: 'Хардец Ф43',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1451,7 +1451,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 111,
-          name: 'Хард Я49',
+          name: 'Хардец Ф49',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1489,7 +1489,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 108,
-          name: 'Хард Я46',
+          name: 'Хардец Ф46',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1527,7 +1527,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 102,
-          name: 'Хард Я40',
+          name: 'Хардец Ф40',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1565,7 +1565,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 88,
-          name: 'Хард Я28',
+          name: 'Хардец Ф28',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1603,7 +1603,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 100,
-          name: 'Хард Я38',
+          name: 'Хардец Ф38',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1641,7 +1641,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 12,
-          name: 'Хард Я7',
+          name: 'Хардец Ф7',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1679,7 +1679,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 37,
-          name: 'Хард Я19',
+          name: 'Хардец Ф19',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1717,7 +1717,7 @@ export const userRatingsHard = async () => {
         },
         {
           id: 21,
-          name: 'Хард Я18',
+          name: 'Хардец Ф18',
           indicators: {
             daily: {
               [yesterdayStr]: {
@@ -1756,15 +1756,15 @@ export const userRatingsHard = async () => {
       ],
       leaders: {
         day: {
-          group: 'Хард Я55',
+          group: 'Хардец Ф55',
           amount: 33981.08
         },
         month: {
-          group: 'Хард Я26',
+          group: 'Хардец Ф26',
           amount: 306316.73
         },
         quarter: {
-          group: 'Хард Я26',
+          group: 'Хардец Ф26',
           amount: 1015552.5
         }
       }

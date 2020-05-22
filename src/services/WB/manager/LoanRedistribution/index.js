@@ -201,6 +201,10 @@ export default {
         this.loading.toFormMethod = true
         setTimeout(async () => {
           const res = await api.crm.getGroupsLoans(this.fillObjBeforeSend())
+          res.forEach(item => {
+            item.groupName = this.filters.donorGroupsArrayOfObjects[0].label
+            item.newGroupName = this.filters.recipientGroupsArrayOfObjects[0].label
+          })
           this.loading.toFormMethod = false
           if (res) {
             this.dataForTable = res
