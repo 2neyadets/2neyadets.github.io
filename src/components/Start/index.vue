@@ -3,7 +3,7 @@
     ref="startBlock"
     :style="`height: ${$q.screen.height - 50}px;`"
   )
-    q-card.shadow-12(style="text-align: justify" :class="$q.screen.gt.lg ? 'mx-for-project-card' : ''")
+    q-card.shadow-12(style="text-align: justify" :class="$q.screen.gt.lg && $q.screen.height > 800 ? 'mx-for-project-card' : ''")
       q-card-section.q-pa-xs-xs.q-pa-md-sm.q-py-lg-md.q-px-lg-lg
         p(v-html="$t('start.text.hello')")
       q-card-section.q-px-xs-sm.q-px-md-sm.q-px-lg-lg.q-pb-xs-sm.q-pb-md-sm.q-pb-lg-md.q-pt-none.md-opacity
