@@ -6,6 +6,7 @@
           type="a"
           href="https://rozetki-shop.ru/"
           target="_blank"
+          rel="noopener"
           :label="$t('rozetki.text.btns.rozetki')"
           :color="$app.layout.activeColor"
           :textColor="$app.layout.activeTextColor"

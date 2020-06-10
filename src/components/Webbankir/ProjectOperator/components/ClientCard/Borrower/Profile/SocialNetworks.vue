@@ -3,7 +3,7 @@
     .socials
       q-list.socials__list.no-border.flex.items-center.q-pa-none
         q-item.socials__item.q-pa-none(v-for="social in socials" :key="social.value")
-          a.socials__link(:href="social.link" :title="social.value" target="_blank")
+          a.socials__link(:href="social.link" :title="social.value" target="_blank" rel="noopener")
             svg.socials__icon(width="25" height="25")
               image(:href="social.path")
     q-btn(
